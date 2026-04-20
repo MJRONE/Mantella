@@ -130,5 +130,39 @@
             "role": "assistant",
             "content": "Serana: You know, if that ghost wants in on the fire, it could just possess Lydia's hoard\u2014plenty of cold gold to cuddle up to. But fine, let's stoke these flames and call it a night before the chill bites harder than my fangs. Frea: The All-Maker's mists hold for now, and the clouds thicken like a shroud over Solstheim. Rest by the fire, all of you\u2014I'll ward the edges until the whispers fade with the embers."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Frozen Tide Refuge.) (Characters nearby (from nearest to furthest): Serana, Lydia)"
+        },
+        {
+            "role": "assistant",
+            "content": "Frea: The night deepens to 1 AM here in Frozen Tide Refuge, with those thick clouds weaving tighter overhead like the All-Maker's shroud\u2014keeps the chill close, but it wards us from prying eyes. Serana and Lydia huddle nearest by the fire's embers; I can sense their warmth cutting through the frost."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Frozen Tide Refuge.) (Characters nearby (from nearest to furthest): Serana, Lydia)"
+        },
+        {
+            "role": "assistant",
+            "content": "Frea: The night deepens to 1 AM here in Frozen Tide Refuge, with those thick clouds weaving tighter overhead like the All-Maker's shroud\u2014keeps the chill close, but it wards us from prying eyes. Serana and Lydia huddle nearest by the fire's embers; I can sense their warmth cutting through the frost."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Frozen Tide Refuge.) (Characters nearby (from nearest to furthest): Serana, ghost)"
+        },
+        {
+            "role": "assistant",
+            "content": "Frea: The All-Maker's shroud tightens with these clouds, my friends, holding the night close at this late hour\u20141 AM by the stars we can't see. Serana, that ghost's chill lingers near you like Miraak's old whispers from Solstheim; keep your wits sharp by the embers before we all turn to frost. Lydia: Aye, thane, this Frozen Tide Refuge bites harder under these thick clouds than a draugr's grip at midnight's end. I'll stand watch with my greatsword ready for that sneaky ghost or Serana's shadows creeping too close\u2014Dibella's light will see us through till dawn, hoarding our strength for what's next."
+        },
+        {
+            "role": "assistant",
+            "content": "Frea: By the All-Maker's breath, these stars peek through scattered clouds like Solstheim's rare clear nights, painting the sky in purple whispers at this deep 1 AM hour\u2014but that shaggy beast with tusks by the cabin stirs the snow like an ancient spirit; we must tread careful, lest it charge through our refuge's fragile peace in this frozen wild. Lydia: Thane, this weathered cabin clings to the hillside under that starry chill, snow blanketing everything from the bushes to the rocks\u2014Dibella's light favors Nords in such isolation, but that massive tusked brute out there's no friend; I'll ready my greatsword to split its head if it eyes our haven wrong, hoarding our safety through the night."
+        }
     ]
 ]

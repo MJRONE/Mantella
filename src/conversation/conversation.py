@@ -94,6 +94,13 @@ class Conversation:
         self.__pending_injection_timer: Thread | None = None
         self.__injection_debounce_seconds: float = 0.3
 
+        # Radiant player-speech injection state: when the player speaks mid-radiant, we
+        # transcribe in the background and inject the transcription as an event into the
+        # next radiant user message (similar to how late vision descriptions are handled).
+        self.__radiant_stt_lock: Lock = Lock()
+        self.__radiant_stt_thread: Thread | None = None
+        self.__radiant_waiting_for_player_transcription: bool = False
+
     @property
     def has_already_ended(self) -> bool:
         return self.__has_already_ended
@@ -156,13 +163,35 @@ class Conversation:
 
         # interrupt response if player has spoken
         if self.__stt and self.__stt.has_player_spoken:
+            # During a radiant (NPC-to-NPC) conversation there is no player character in
+            # the context, so the regular KEY_REQUESTTYPE_TTS -> player_input path exits
+            # as a no-op. Instead, transcribe the player speech in the background and
+            # inject it into the conversation as an event (same pattern as late vision).
+            # The radiant dialogue then naturally continues, with the NPCs reacting to
+            # what the player said.
+            if isinstance(self.__conversation_type, radiant):
+                self.__handle_radiant_player_speech()
+                return comm_consts.KEY_REPLYTYPE_NPCTALK, None
             self.__stop_generation()
             self.__sentences.clear()
             self.__is_player_interrupting = True
             return comm_consts.KEY_REQUESTTYPE_TTS, None
-        
+
+        # While we're waiting for the player's radiant transcription to come back, don't
+        # start a new NPC sentence; just tell the game "nothing to play right now" and
+        # let it poll us again. As soon as the transcription is injected into
+        # __pending_injection_events, the normal auto-user-message path below will pick
+        # it up and kick off the NPC response.
+        if self.__radiant_waiting_for_player_transcription:
+            return comm_consts.KEY_REPLYTYPE_NPCTALK, None
+
         # restart mic listening as soon as NPC's first sentence is processed
-        if self.__mic_input and self.__allow_interruption and not self.__mic_ptt and not self.__stt.is_listening and self.__allow_mic_input and not isinstance(self.__conversation_type, radiant):
+        # For radiant conversations we only enable the mic if the user explicitly opted
+        # in via `radiant_player_interrupt`, so false positives don't constantly interrupt
+        # background NPC-to-NPC banter.
+        radiant_mic_allowed = (not isinstance(self.__conversation_type, radiant)
+                               or getattr(self.__context.config, 'radiant_player_interrupt', False))
+        if self.__mic_input and self.__allow_interruption and not self.__mic_ptt and not self.__stt.is_listening and self.__allow_mic_input and radiant_mic_allowed:
             mic_prompt = self.__get_mic_prompt()
             self.__stt.start_listening(mic_prompt)
         
@@ -185,6 +214,9 @@ class Conversation:
             # before immediately sending the next voiceline, give the player the chance to interrupt
             while time.time() - self.last_sentence_start_time < self.last_sentence_audio_length:
                 if self.__stt and self.__stt.has_player_spoken:
+                    if isinstance(self.__conversation_type, radiant):
+                        self.__handle_radiant_player_speech()
+                        return comm_consts.KEY_REPLYTYPE_NPCTALK, None
                     self.__stop_generation()
                     self.__sentences.clear()
                     self.__is_player_interrupting = True
@@ -209,6 +241,13 @@ class Conversation:
                 if isinstance(self.__conversation_type, radiant):
                     self.__trigger_periodic_vision_if_due()
 
+                # Capture what update_game_events is about to consume so we can dedupe
+                # radiant-log entries against it (the two sources overlap because every
+                # event appended during `update_context` is mirrored into both lists).
+                events_already_being_consumed: set[str] = set()
+                if isinstance(self.__conversation_type, radiant):
+                    events_already_being_consumed = set(self.__context.get_context_ingame_events())
+
                 #If not ended, ask the conversation type for an automatic user message. If there is None, signal the game that the player must provide it 
                 new_user_message = self.__conversation_type.get_user_message(self.__context, self.__messages)
                 if new_user_message:
@@ -219,7 +258,7 @@ class Conversation:
                         radiant_extras: list[str] = self.__drain_pending_injection_events()
                         radiant_log_events = self.__context.get_radiant_event_log()
                         if radiant_log_events:
-                            existing = set(radiant_extras)
+                            existing = set(radiant_extras) | events_already_being_consumed
                             for event in radiant_log_events:
                                 if event and event not in existing:
                                     radiant_extras.append(event)
@@ -587,6 +626,61 @@ class Conversation:
             pending = list(self.__pending_injection_events)
             self.__pending_injection_events.clear()
         return pending
+
+    def __handle_radiant_player_speech(self):
+        """Player started speaking during a radiant (NPC-to-NPC) conversation.
+
+        We cancel the current NPC sentence stream (so the NPCs don't keep monologuing
+        over the player's voice) and kick off a background thread that waits for the
+        STT transcription to complete. When it does, the transcribed line is pushed
+        into the pending-injection queue, exactly like a late vision description.
+        The radiant conversation then naturally resumes and the NPCs react to what
+        the player said.
+
+        Only one transcription thread is active at a time; while we're waiting for
+        it, the main continue_conversation loop short-circuits to
+        ``KEY_REPLYTYPE_NPCTALK, None`` (see `continue_conversation`).
+        """
+        with self.__radiant_stt_lock:
+            if self.__radiant_waiting_for_player_transcription:
+                return  # already handling this speech event
+            self.__radiant_waiting_for_player_transcription = True
+            self.__stop_generation()
+            self.__sentences.clear()
+            logger.log(24, "[RADIANT] Player speech detected -> capturing transcription in background (radiant conversation continues)")
+            self.__radiant_stt_thread = Thread(target=self.__capture_player_transcription_for_radiant, daemon=True)
+            self.__radiant_stt_thread.start()
+
+    def __capture_player_transcription_for_radiant(self):
+        """Background worker: waits for the STT transcription and queues it as an event.
+
+        Runs once per detected player-speech event. ``get_latest_transcription(0)``
+        blocks until the VAD decides the player has finished speaking and Whisper/
+        Moonshine returns a transcription. The final line is inserted into the
+        radiant pending-injection queue so the next radiant user message contains
+        something like::
+
+            *The player says:* "hello Lydia, how are you?"
+        """
+        try:
+            if not self.__stt:
+                return
+            text = self.__stt.get_latest_transcription(silence_timeout=0)
+            if not text or not text.strip():
+                logger.log(23, "[RADIANT] Player speech yielded empty transcription, nothing to inject")
+                return
+            text = text.strip()
+            event_line = f"*The player says:* \"{text}\""
+            with self.__pending_injection_lock:
+                if event_line not in self.__pending_injection_events:
+                    self.__pending_injection_events.append(event_line)
+            logger.log(24, f"[RADIANT] Player said: \"{text}\" -> queued for next radiant user message")
+        except Exception as e:
+            logger.warning(f"[RADIANT] Failed to capture player transcription: {e}")
+        finally:
+            with self.__radiant_stt_lock:
+                self.__radiant_waiting_for_player_transcription = False
+                self.__radiant_stt_thread = None
 
     @utils.time_it
     def retrieve_sentence_from_queue(self) -> Sentence | None:

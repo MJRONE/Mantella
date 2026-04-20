@@ -18,5 +18,45 @@
             "role": "assistant",
             "content": "Serana: Ah, finally out of that frozen crypt\u2014feels like escaping a bad threesome where nobody climaxes. This refuge looks cozier, though these clouds are thicker than Lydia's skull. MJR, darling, let's make a fire before the chill reminds me of eternity's boredom. Lydia: Aye, the den's shadows cling like those bandit whores, but Dibella's light guided us true to this haven. No more cursed whispers for now\u2014I'll keep watch while you lot squabble. The overcast sky suits Nords; no elven sun to weaken our steel. Frea: The All-Maker's winds brought us here safely, away from Miraak's grip tightening like a lover's desperate hold. Frozen Tide Refuge feels like Solstheim's edge\u2014harsh, but warded. Rest easy; the night's hush speaks of temporary peace under these heavy clouds."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Frozen Tide Refuge.) (Characters nearby (from nearest to furthest): Serana, Lydia)"
+        },
+        {
+            "role": "assistant",
+            "content": "Frea: The night deepens to 1 AM here in Frozen Tide Refuge, with those thick clouds weaving tighter overhead like the All-Maker's shroud\u2014keeps the chill close, but it wards us from prying eyes. Serana and Lydia huddle nearest by the fire's embers; I can sense their warmth cutting through the frost."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Frozen Tide Refuge.) (Characters nearby (from nearest to furthest): Serana, Lydia)"
+        },
+        {
+            "role": "assistant",
+            "content": "Frea: The night deepens to 1 AM here in Frozen Tide Refuge, with those thick clouds weaving tighter overhead like the All-Maker's shroud\u2014keeps the chill close, but it wards us from prying eyes. Serana and Lydia huddle nearest by the fire's embers; I can sense their warmth cutting through the frost."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Frozen Tide Refuge.) (Characters nearby (from nearest to furthest): Lydia, Frea)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You know, ghost, lurking in the shadows of this frozen refuge at 1 AM under these thick, brooding clouds feels like crashing a funeral where everyone's already dead\u2014fitting for a pale Nord like you. What's your unfinished business, haunting us while Lydia and Frea huddle by the embers like they're guarding the last warm spot in Oblivion?"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Frozen Tide Refuge.) (Characters nearby (from nearest to furthest): Lydia, Frea)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You know, ghost, lurking in the shadows of this frozen refuge at 1 AM under these thick, brooding clouds feels like crashing a funeral where everyone's already dead\u2014fitting for a pale Nord like you. What's your unfinished business, haunting us while Lydia and Frea huddle by the embers like they're guarding the last warm spot in Oblivion?"
+        }
     ]
 ]

@@ -236,21 +236,31 @@ class GameStateManager:
     @utils.time_it
     def end_conversation(self, input_json: dict[str, Any]) -> dict[str, Any]:
         if(self.__talk):
-            # Before ending, stash any still-unused radiant events from this conversation's
-            # context so the next radiant conversation can still see them.
+            # Before ending, stash any still-unused events from this conversation's
+            # context so the next radiant conversation can still see them. We pull from
+            # BOTH sources because some events only live in ``__ingame_events`` until
+            # they are consumed by the next user message (e.g. weather/time/location/
+            # combat/trust deltas recorded during a PC-to-NPC chat that ends before
+            # the next turn).
             try:
-                remaining_radiant_events = self.__talk.context.get_radiant_event_log()
-                if remaining_radiant_events:
-                    existing = set(self.__pending_radiant_events)
-                    for event in remaining_radiant_events:
+                carry_sources: list[tuple[str, list[str]]] = [
+                    ("radiant_log", self.__talk.context.get_radiant_event_log()),
+                    ("ingame", self.__talk.context.get_context_ingame_events()),
+                ]
+                existing = set(self.__pending_radiant_events)
+                carried_count = 0
+                for _origin, events in carry_sources:
+                    for event in events:
                         if event and event not in existing:
                             self.__pending_radiant_events.append(event)
                             existing.add(event)
-                    # Cap the pending queue to avoid unbounded growth between conversations.
-                    max_events = self.__config.max_count_events
-                    if max_events > 0 and len(self.__pending_radiant_events) > max_events * 2:
-                        self.__pending_radiant_events = self.__pending_radiant_events[-max_events * 2:]
-                    logger.log(23, f"[RADIANT EVENTS] Carried {len(remaining_radiant_events)} events from ended conversation into pending queue (total pending: {len(self.__pending_radiant_events)})")
+                            carried_count += 1
+                # Cap the pending queue to avoid unbounded growth between conversations.
+                max_events = self.__config.max_count_events
+                if max_events > 0 and len(self.__pending_radiant_events) > max_events * 2:
+                    self.__pending_radiant_events = self.__pending_radiant_events[-max_events * 2:]
+                if carried_count:
+                    logger.log(23, f"[RADIANT EVENTS] Carried {carried_count} events from ended conversation into pending queue (total pending: {len(self.__pending_radiant_events)})")
             except Exception as e:
                 logger.debug(f"[RADIANT EVENTS] Failed to carry events forward on end: {e}")
 

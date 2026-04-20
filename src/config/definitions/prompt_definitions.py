@@ -1,6 +1,6 @@
 
 from regex import Regex
-from src.config.types.config_value import ConfigValue
+from src.config.types.config_value import ConfigValue, ConfigValueTag
 from src.config.types.config_value_int import ConfigValueInt
 from src.config.types.config_value_string import ConfigValueString
 from src.config.types.config_value_bool import ConfigValueBool
@@ -330,6 +330,17 @@ Please summarize the conversation into a single paragraph in {language}."""
                                             If the EndConversation action is enabled for radiant conversation,
                                             the LLM may choose to end the conversation earlier if it naturally concludes."""
         return ConfigValueInt("radiant_max_turns", "Radiant Max Turns", radiant_max_turns_description, 2, 2, 999)
+
+    @staticmethod
+    def get_radiant_player_interrupt_config_value() -> ConfigValue:
+        description = """If enabled, the player can speak into a running radiant (NPC-to-NPC) conversation.
+                         The spoken line is transcribed in the background and injected as an event
+                         (e.g. *The player says: "..."*) into the next radiant user message, so the NPCs
+                         naturally react to the player and the radiant conversation continues.
+                         Requires `Allow Interruption` to be enabled and a microphone input mode (not text input).
+                         Disable this if background noise or in-game speech accidentally injects garbage into
+                         your radiant conversations."""
+        return ConfigValueBool("radiant_player_interrupt", "Radiant Player Interrupt", description, True, tags=[ConfigValueTag.advanced])
     
     @staticmethod
     def get_function_llm_prompt_config_value() -> ConfigValue:

@@ -170,6 +170,20 @@ class Context:
 
         logger.info(f"[RADIANT EVENTS] Added {len(new_unique_events)} events (total in log: {len(self.__radiant_event_log)})")
 
+    def __record_event(self, event_text: str):
+        """Append an event to the active conversation's ``__ingame_events`` list AND
+        mirror it into the persistent radiant event log.
+
+        The radiant log persists across conversations (see ``GameStateManager``)
+        so NPC-to-NPC conversations can discuss the full world state even when
+        the events originally arrived during a player-led conversation. The log
+        has its own dedup / cap rules (see ``add_to_radiant_event_log``).
+        """
+        if not event_text:
+            return
+        self.__ingame_events.append(event_text)
+        self.add_to_radiant_event_log([event_text])
+
     @utils.time_it
     def add_or_update_characters(self, new_list_of_npcs: list[Character], message_count: int) -> list[Character]:
         removed_npcs = []
@@ -196,7 +210,7 @@ class Context:
     @utils.time_it
     def __remove_character(self, npc: Character, message_count: int):
         self.__npcs_in_conversation.remove_character(npc, message_count)
-        self.__ingame_events.append(f"{npc.name} has left the conversation.")
+        self.__record_event(f"{npc.name} has left the conversation.")
         self.__have_actors_changed = True
 
     @utils.time_it
@@ -221,10 +235,10 @@ class Context:
                     self.__location: str = "Skyrim"
             if self.__prev_location is None:
                 self.__prev_location = self.__location
-                self.__ingame_events.append(f"The location is now {self.__location}.")
+                self.__record_event(f"The location is now {self.__location}.")
             elif self.__location != self.__prev_location:
                 self.__prev_location = self.__location
-                self.__ingame_events.append(f"The location is now {location}.")
+                self.__record_event(f"The location is now {location}.")
         
         if in_game_time is not None:
             self.__ingame_time = in_game_time
@@ -237,13 +251,13 @@ class Context:
             if (current_time != self.__prev_game_time) and (self.__prev_game_time != None):
                 self.__prev_game_time = current_time
                 if self.__hourly_time:
-                    self.__ingame_events.append(f"The time is {current_time[0]} {current_time[1]}.")
+                    self.__record_event(f"The time is {current_time[0]} {current_time[1]}.")
                 else:
-                    self.__ingame_events.append(f"The conversation now takes place {current_time[1]}.")
+                    self.__record_event(f"The conversation now takes place {current_time[1]}.")
 
         if weather != self.__weather and weather is not None:
             if self.__weather != "":
-                self.__ingame_events.append(weather)
+                self.__record_event(weather)
             self.__weather = weather
 
         # Update nearby NPCs in the Characters manager (only when game sends new data)
@@ -256,7 +270,7 @@ class Context:
             self.set_vision_hints(
                 str(self.get_custom_context_value(communication_constants.KEY_CONTEXT_CUSTOMVALUES_VISION_HINTSNAMEARRAY)), 
                 str(self.get_custom_context_value(communication_constants.KEY_CONTEXT_CUSTOMVALUES_VISION_HINTSDISTANCEARRAY)))
-            self.__ingame_events.append(self.__vision_hints)
+            self.__record_event(self.__vision_hints)
         elif npcs_nearby:
             # Sort by distance and list names (nearest to furthest)
             sorted_npcs = sorted(npcs_nearby, key=lambda x: float(x.get('distance', 0)))
@@ -264,14 +278,14 @@ class Context:
             # Only add event if the set of nearby NPCs has changed (not just order)
             if nearby_names and set(nearby_names) != set(self.__prev_nearby_npc_names):
                 self.__vision_hints = "Characters nearby (from nearest to furthest): " + ", ".join(nearby_names)
-                self.__ingame_events.append(self.__vision_hints)
+                self.__record_event(self.__vision_hints)
                 self.__prev_nearby_npc_names = nearby_names
 
         if custom_ingame_events:
+            # Custom events still flow into the active conversation's event list and
+            # are mirrored into the radiant log (with dedup) so they persist across
+            # conversations.
             self.__ingame_events.extend(custom_ingame_events)
-            # Also mirror into the persistent radiant event log so NPC-to-NPC conversations
-            # can pick up events that accumulated while no radiant conversation was active
-            # or in between radiant turns.
             self.add_to_radiant_event_log(custom_ingame_events)
 
         if config_settings:
@@ -284,9 +298,9 @@ class Context:
         if current_stats.is_in_combat != npc.is_in_combat:
             name = 'The player' if npc.is_player_character else npc.name
             if npc.is_in_combat:
-                self.__ingame_events.append(f"{name} is now in combat!")
+                self.__record_event(f"{name} is now in combat!")
             else:
-                self.__ingame_events.append(f"{name} is no longer in combat.")
+                self.__record_event(f"{name} is no longer in combat.")
         #update custom  values
         try:
             if (current_stats.get_custom_character_value("mantella_actor_pos_x") is not None and
@@ -309,13 +323,13 @@ class Context:
             if current_stats.is_enemy != npc.is_enemy:
                 if npc.is_enemy: 
                     # TODO: review if pronouns can be replaced with "they"
-                    self.__ingame_events.append(f"{npc.name} is attacking {player_name}. This is either because {npc.personal_pronoun_subject} is an enemy or {player_name} has attacked {npc.personal_pronoun_object} first.")
+                    self.__record_event(f"{npc.name} is attacking {player_name}. This is either because {npc.personal_pronoun_subject} is an enemy or {player_name} has attacked {npc.personal_pronoun_object} first.")
                 else:
-                    self.__ingame_events.append(f"{npc.name} is no longer attacking {player_name}.")
+                    self.__record_event(f"{npc.name} is no longer attacking {player_name}.")
             #Relationship rank
             if current_stats.relationship_rank != npc.relationship_rank:
                 trust = self.__get_trust(npc)
-                self.__ingame_events.append(f"{player_name} is now {trust} to {npc.name}.")
+                self.__record_event(f"{player_name} is now {trust} to {npc.name}.")
     
     @staticmethod
     def format_listing(listing: list[str]) -> str:
