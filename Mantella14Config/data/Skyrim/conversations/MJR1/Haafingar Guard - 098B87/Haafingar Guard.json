@@ -1,0 +1,26 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "**MJR casted the spell / consumed Chilling Touch**"
+        },
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): MJR takes in the scene, their eyes adjusting to the dim glow of the night. Above, the sky is a vast, velvety expanse of stars, their light piercing through pockets of inky blackness. Below, a complex of earthy structures rises from the ground, their rustic charm accentuated by flickering lanterns and the warm amber glow of a firelight. To the left, a rounded building with a conical roof looms quietly, its wooden frame softened by mossy patches. Adjacent to it, a larger structure sprawls across the frame, its slanted roof lined with weathered slabs, and a lit window casting a gentle flare. Between these buildings, a sheltered area with sturdy wooden beams offers seating beneath a thatched canopy, its firebank glowing nickel-orange in the center, surrounded by a sturdy stone base. The air hums with the scent of smoke and damp earth, as the ground beneath MJR\u2019s boots feels cool and rough\u2014scattered stones and tufts of hardy grass breaking through the packed earth. Far off to the right, frost-kissed trees loom like silent sentinels, their branches heavy with icy glimmers that mirror the starlight above. Along the bottom edge of the frame, a curious row of vivid icons\u2014one resembling a flame, another a shield\u2014peeks into view, as though the world itself is subtly shaped by unseen hands.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Shor's bones, that chill from the Thane's spell is biting deeper than a frostbite spider's fangs."
+        }
+    ]
+]

@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(Late visual context as seen by MJR (the player): The scene depicts a dimly lit, underwater environment with a dark blue hue. The scene is viewed from behind a character, or \"first-person perspective,\" as indicated by the taskbar at the bottom of the scene. In the foreground, there are several large rocks and boulders scattered throughout the area. A large turtle-like creature is visible on the left side of the scene, featuring a blue and green body that appears to be made of a glowing material.)"
+        },
+        {
+            "role": "user",
+            "content": "(MJR fired an arrow.) (MJR unequipped Daedric Arrow) (MJR dropped Daedric Arrow) (MJR hit Ayumi with Daedric Wrath) (MJR equipped Daedric Arrow) (Visual context as seen by MJR (the player) at the start of the conversation: The scene depicts a dimly lit, underwater environment with a dark blue hue. The scene is viewed from behind a character, or \"first-person perspective,\" as indicated by the taskbar at the bottom of the scene. In the foreground, there are several large rocks and boulders scattered throughout the area. A large turtle-like creature is visible on the left side of the scene, featuring a blue and green body that appears to be made of a glowing material.)"
+        },
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: So, Ayumi, how do you feel about these glowing jellyfish cunts floating around like they own the place?"
+        }
+    ]
+]

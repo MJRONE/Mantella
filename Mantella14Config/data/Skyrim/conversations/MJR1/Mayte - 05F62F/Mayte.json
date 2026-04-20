@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The scene depicts a character standing inside a dimly lit room with stone walls and flooring. The character is positioned on a stone pathway, facing a wall with a large pillar to their right. The atmosphere is dark and mysterious, with the only visible light source emanating from behind the player, casting faint shadows on the ground. There appears to be another character or object in the distance, but it is not clearly discernible due to the poor lighting conditions.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Mayte: (Diane shivers slightly in the chill night air, pulling her tattered robes tighter around her thin frame as she eyes the flickering torchlight casting eerie shadows on the damp dungeon walls."
+        }
+    ]
+]

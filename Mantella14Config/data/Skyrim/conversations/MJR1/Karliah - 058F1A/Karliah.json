@@ -1,0 +1,320 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: eternal night"
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): From MJR's vantage point, the scene unfolds in a dimly lit cavern with rough, arched stone walls curving overhead, casting deep shadows that swallow much of the space. Flickers of light from unseen sources illuminate scattered wooden crates and barrels stacked haphazardly along the edges, some toppled and spilling their contents into the damp floor. In the center, a makeshift shelter of stretched hides and poles forms a low tent, its entrance partially open. Several figures occupy the area: a tall woman with long, flowing blonde hair stands prominently near the tent, her body bare except for fur-trimmed boots on her feet and a cloak draped loosely over one shoulder. Her skin gleams faintly in the low light, and she appears poised, almost watchful. Nearby, two smaller figures with shorter, reddish hair huddle close to her, their forms similarly unclothed save for simple wrappings around their legs, their postures suggesting caution or curiosity as they clutch thin staffs or poles. The air seems thick with the scent of earth and smoke, and the ground is uneven, littered with small rocks and puddles reflecting the sparse illumination.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Eternal night suits us shadows, doesn't it? Look at this damp hole we're holed up in—crates toppled like drunk Nords, that tent sagging like it's seen better orgies. And those three over there, blonde giantess in boots and a cloak, her little redhead pets clutching sticks like they're warding off the dark. Bet they're wondering if we're here to join the party or crash it at 4 AM."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Karliah: This flagon's as ragged as the drunks propping up the bar—smells like stale mead and regret at this unholy hour. You slink in here like you own the shadows, bloodsucker, but Riften's underbelly ain't your Volkihar crypt. What's a fang like you doing whispering with a Nightingale at four bells? Serana: Oh, honey, I slink where the fun hides, and this dive's got more bite than my daddy's court—look at those slumped fools nursing their mugs, probably dreaming of skooma highs and elf ass."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Karliah: Aye, shadows like us thrive in dives like this Ratway hole—4 AM and the whole Flagon reeks of stale ale and desperate schemes. That blonde strumpet by the tent, half-naked in boots like she's auditioning for Dibella's brothel, and her ginger whelps with those twig staffs..."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: By Talos, this Nightingale Hall reeks of elf piss and stolen trinkets—feels like we're knee-deep in Thalmor shadow games already."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): MJR peers into the dimly lit cavern, the rough stone walls glistening with moisture under faint torchlight flickering from unseen sources. Shadowy alcoves line the space, with jagged rock formations protruding from the floor and ceiling, creating an oppressive, enclosed atmosphere. Directly ahead, a woman with long blonde hair cascading over her shoulders catches the eye; she's reclining against the stone, her posture relaxed yet alert. Her upper body is partially exposed, clad in dark, form-fitting straps that accentuate her figure, with intricate black tattoos winding along her arms. A small, ornate cup rests near her hand on the uneven ground, steam faintly rising from it. The air feels heavy, carrying a sense of mystery and tension in the enclosed space.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Noon sun's blasting outside, but down here it's still that damp cave chill. What's the plan, gray-skin? We hiding from those bandit whores chasing MJR, or you finally gonna spill how to gut that traitor Mercer?"
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Karliah: Aye, the midday glare up top's no match for these shadows—Nightingale Hall swallows light like Nocturnal gulps a thief's soul. Feels right, though, don't it? Like we're ghosts in the guts of Skyrim."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Karliah: Hiding? From a pack of cum-hungry bandit sluts? Please, housecarl—those tattooed whores couldn't track a drunk argonian through mead. Mercer's the real snake; I've got his journal's secrets itching in my quiver."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Ghosts? Hah, more like rotting elf haunts—pass me that steaming brew before I swing this Ebony blade at the shadows just to feel alive. Noon outside means those bandit sluts are probably crawling out their holes, thirsty for MJR's cock. We gonna fortify this pit or what?"
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Nightingale"
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Karliah: Fortify? This hall's already a fortress of forgotten oaths—Nightingale stone wards off worse than bandit cunts. Here, slobber that tea; it's got a pinch of moon-sugar to keep your Nord fire lit without burning the whole damn place down."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Tea? Hah, shove your elf piss—I'll take mead or MJR's cock over that warm dribble. These torch shadows dancing on the walls got me twitchy;"
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): MJR stands at the foot of a dimly lit cavern, the rough-hewn stone walls closing in around him with jagged protrusions and uneven surfaces glistening faintly in the low light. A wooden staircase stretches upward before him, its weathered planks supported by sturdy beams that vanish into the shadows above. To the side, a small flickering flame from a mounted torch casts warm, dancing glows across nearby stone ledges and stacked wooden platforms, illuminating patches of mossy rock and scattered debris. The air feels heavy and enclosed, with the faint echo of dripping water somewhere in the distance.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: looks like Nocturnal's already whispering bandit traps in the cracks. Spill it, Dunmer: how deep does this hall's guts go before we hit the real Nightingales?"
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Karliah: Elf piss? This tea's brewed from Nightshade and stolen Imperial spices—better than the rat-gut swill in your Whiterun taverns. Look at this place, though: those creaking bridges over the black water, torch flames dancing like Nocturnal's mocking grin. Midday sun's a myth down here; we're in her eternal midnight."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Karliah: Twitchy? Those torch flames licking the moss like eager tongues, huh? Staircase up there's our way to the heart—dripping echoes or not, let's climb before noon heat turns this pit into a sweat-slicked tomb for your precious Thane."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Karliah: Deep as Nocturnal's grudges, housecarl—this staircase spirals down to the heart where the Trinity's echoes linger. That door ahead? Guards the inner sanctum; one wrong step and it's arrows in your ample tits, not bandit cum."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Brynjolf: Bloody hell, this Dwemer shitehole's got more traps than a Thalmor orgy—steam vents hissin' like they're about to blow their load, and that centurion nearly turned us into slag."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): From MJR's viewpoint, the scene unfolds in a vast, dimly lit underwater expanse, where ancient, curving stone structures rise like forgotten ruins from the murky depths. The architecture features intricate, organic arches and ledges coated in a slick layer of sediment and faint bioluminescent algae that pulses with soft cyan glows. Shafts of faint, ethereal light filter down from above, piercing the teal-hued water and casting rippling shadows across jagged protrusions and eroded pillars. In the distance, larger shadowy forms loom—possibly more submerged edifices—while the foreground reveals a protruding ledge with subtle engravings and clusters of dangling, vine-like growths swaying gently in the current. The overall atmosphere is one of eerie isolation, with bubbles occasionally rising and the water's surface far overhead, hinting at immense pressure and unexplored mysteries all around.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Brynjolf: Noon outside or not, down here it's eternal pissin' twilight. You reckon Mercer's lurkin' deeper in this rustbucket, Karliah, or just left it booby-trapped for suckers like us? Karliah: Mercer's too much of a slimy prick to get his hands dirty in the muck himself, Brynjolf—he'd send his dogs first, like those Falmer skulkers we just gutted."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Brynjolf: Look at that sorry sod sprawled out like a gutted fish—Falmer got 'im good, probably thought he was stealthy till they peeled his eyes off. Karliah, reckon this barred pile o' rust leads deeper, or just more Dwemer bollocks waitin' to spring? Karliah: Deeper, always deeper into their cursed depths. That corpse? A warning from Nocturnal herself—greed leads to rot."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Brynjolf: Aye, fair point— that backstabbing elf bastard's always playin' puppet master, pullin' strings from his cozy palace while we wade through this gloomin' piss. These glowin' weeds and that weird orange shimmer up top... makes me think Nocturnal's got a hand in it, or maybe just another cursed Dwemer trick to drown the lot of us. Karliah: Nocturnal's shadows don't glow like that;"
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Brynjolf: Shor's balls, this sodden crypt's turned into a bloody aquarium—glowing weeds and bubbles risin' like ghosts takin' a leak, all at high noon. Feels like we're swimmin' through the guts of Oblivion itself, chasin' Mercer's arse. Karliah: Noon light don't pierce this far, Brynjolf; it's Nocturnal's veil keepin' us in the dark, where thieves like us belong."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): From MJR's perspective, the scene unfolds in a dimly lit, enclosed corridor with rough, weathered walls that blend dark wooden panels and metallic reinforcements, casting long shadows under faint overhead lighting. A narrow staircase descends to the right, its steps worn and slightly uneven, leading into deeper darkness below. Standing prominently in the foreground, slightly to the left, is a striking elven woman with long, flowing platinum blonde hair cascading down her back. She has delicate, pointed ears adorned with pink ribbons tied into cat-like ears on top, and her expression is stern, with sharp red eyes and pale skin. She's dressed in a form-fitting black bodysuit that exposes much of her midriff and curves, accented by crisscrossing straps, arm bracers, and thigh-high elements, giving her a fierce, battle-ready appearance. In her right hand, she grips a sleek, dark gauntlet or weapon holstered at her side, her posture alert and poised as if scanning the surroundings. The air feels tense, with subtle steam or haze lingering in the cooler, industrial atmosphere.**"
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Brynjolf: This massive rust-bucket door's mockin' us, Karliah—looks like the kinda shite Mercer'd seal his secrets behind, all etched with dwarf scribbles to make thieves like us scratch our arses in confusion. Karliah: Those etchings ain't just pretty, you thick-skulled Nord; they're runes hidin' the real lock—Mercer's twisted the whole damn place, but I can pick the shadow from the glow if we don't blunder in like drunk Skooma fiends."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Brynjolf: Shite, what's this now? Some platinum-haired elf tart in a skimpy getup lurkin' by the stairs, lookin' like she's ready to claw our balls off—Thalmor spy, you reckon, Karliah, or just another of Mercer's twisted pets waitin' to ambush us in this metal-veined hellhole? Karliah: Not Thalmor, too feral in the eyes—red as fresh blood, those cat-ear ribbons screamin' some Daedric fetish bollocks. Noon haze creepin' in from cracks above, but down here it's all shadow and steam;"
+        },
+        {
+            "role": "user",
+            "content": "Please wrap up the current topic between the NPCs in a natural way. Nobody is leaving, so there is no need for formal goodbyes."
+        },
+        {
+            "role": "assistant",
+            "content": "Karliah: Aye, Mercer's ego scribbled those runes himself—thinks he's half-Dwemer or some shite. Pry it open with that bow o' yours, or we'll be starin' at this rusty bollocks till moonrise. Brynjolf: Nocturnal spare us, lass; if it's trapped, I'll shove his lyin' arse through the gears myself. come and get it Bloody hell, whatever her deal is, she's blockin' that rusty staircase like a jealous harpy—reckon we circle 'round the steam vents and flank her before she turns those red peepers our way. Karliah: Flankin' it is, then; Mercer's traps wait for no one, and that elf bitch looks like she could scratch your face off for fun—let's slip past this noon-gloomed shite and crack his secrets before the shadows swallow us whole."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Karliah: Bloody Dwemer ghosts in these pipes, glowing like some Daedric whore's wet dream at high noon. We've carved through enough Falmer shit to fill a cistern—think Mercer's booby-trapped his arse all the way to that central chamber?"
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): MJR stands in a dimly lit cavern, surrounded by jagged rock walls that curve overhead like the ribs of some ancient beast. Thick, rusted pipes—orange-brown and weathered—snake through the space, twisting up from the uneven floor and vanishing into crevices high above, their surfaces etched with age and faint traces of moisture. Clusters of pale blue crystals protrude from the stone, emitting a soft, ethereal glow that casts flickering shadows across the ground. Nearby, patches of white, crystalline formations sparkle faintly, partially obscured by shadows, while a small, warm light source—perhaps a handheld lantern or glowing ember—illuminates a narrow path ahead, revealing more of the labyrinthine tunnels branching off into darkness. The air feels heavy, with the distant drip of water echoing from unseen depths.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Brynjolf: Aye, lass, and with this cursed blue haze makin' my balls tingle like I've been swimmin' in skooma-laced piss. That centurion nearly turned us into mincemeat back there;"
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Brynjolf: Aye, that slimy bastard Mercer's probably laced every twistin' pipe and glowin' crystal in this shithole with enough surprises to make a dragon shit itself. Look at these rusted veins snakin' overhead—feels like we're crawlin' through the guts of some long-dead machine god. Noon light barely tricklin' in from cracks above, makin' the blue bastards pulse like they're alive. We push deeper, lass, or you reckon we scout for more of that Falmer filth hidin' in the shadows?"
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Karliah: Nearly minced, my arse—you were flailin' like a drunk Breton in a Thalmor orgy, dodgin' that steam-spittin' bastard. These pipes oozein' rust and glowin' crystals? Feels like Nocturnal's pissin' on us for fun, leadin' straight to Mercer's rotten heart in this noon-shrouded shithole. Brynjolf: Ha, fair hit, but I saw you nockin' arrows faster than a Riften whore drops her skirts."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Karliah: Scout first, you red-haired oaf—those pulsing blue crystals are screamin' like Nocturnal's tits in a thunderstorm at noon, and I ain't dyin' in Mercer's rusty gut-trap without spillin' his secrets first. Remember how he sold us out on the Eyes of the Falmer? Fucker'll pay for framin' me, mark my words."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Karliah: Faster than you could palm a septim from a mark's purse, you sly Nord fox—now these drippin' crystals mock us with their blue glow, like Mercer's lies lightin' the way to his betrayin' guts. Noon haze seepin' through cracks, makin' the whole cavern pulse like a thief's guilty heart;"
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): As MJR surveys the dimly lit cavern, the scene unfolds in a network of jagged rock walls etched with faint, ancient carvings, stretching upward into shadows. Thick, terracotta-colored conduits—wide and cylindrical, adorned with intricate geometric patterns—crisscross the ceiling like veins of some forgotten machinery, their surfaces weathered and cracked, casting long, eerie silhouettes downward. A soft, flickering glow emanates from a small campfire smoldering on the uneven stone floor, its flames licking at scattered dry twigs and illuminating nearby patches of dusty earth and scattered pebbles. Nearby, a figure in rugged, fur-lined armor huddles by the fire, their back partially turned, gloved hands extended toward the warmth, with a backpack or satchel slumped against the rock beside them. To the sides, sturdy stone pillars rise from the ground, partially supporting what looks like a weathered wooden barrier or doorframe in the distance, all bathed in a hazy, blue-tinged ambiance that hints at hidden depths beyond the immediate glow.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Karliah: we press on, or you wanna piss about huntin' shadows forever? Brynjolf: Shadows or no, lass, I've sweated through worse than this glowin' sewer in Riften's Ratway—Mercer's hidin' his Skeleton Key secrets in the heart of it, I wager."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Brynjolf: Eyes of the Falmer, eh? That backstabbing prick hoarded 'em like a dragon with a virgin's hoard, leavin' us Nightingales to rot while he fatted his purse in Riften's gutters. These green-glowin' veins on the walls ahead? Smellin' like mercer's alchemy gone wrong—trap-city, lass, but fuck if we don't press on through this noon-baked tomb."
+        },
+        {
+            "role": "user",
+            "content": "Please wrap up the current topic between the NPCs in a natural way. Nobody is leaving, so there is no need for formal goodbyes."
+        },
+        {
+            "role": "assistant",
+            "content": "Brynjolf: ... and if we're divin' into this blue-veined hellhole at noon, with that haze filterin' down like piss through a sieve, we'd best watch for more than Mercer's tricks—oi, what's that flicker ahead? Some fur-clad bastard huddlin' by a campfire like he's roastin' rat's arse over the flames, back turned under them red conduits twistin' like Dwarven ballsacks. Think it's a trap, or just another poor sod Mercer's lured to his doom? That there campfire's flickerin' like a whore's wink in the blue haze, lass—spot that fur-clad bastard huddlin' by it? Looks like one of Mercer's sellswords, waitin' to gut us in this noon-baked labyrinth. Skeleton Key's callin', but if we charge blind, it'll be our bloody backs on the spit. Karliah: Sellsword's arse, that's no Dwemer drone; Brynjolf: Aye, we'll carve through his lies like a hot blade through Argonian ass—Eyes or no, Mercer's endgame crumbles tonight in this steamin' blue-lit hell. No more dallyin', lass; lead on with that bow of yours, and let's gut the bastard proper. Karliah: Damn right, you silver-tongued thief—his Skeleton Key fever's blinded him worse than a Falmer in sunlight."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): As MJR stands in the dimly lit forest clearing, the scene unfolds under a shroud of twilight gloom. Towering trees loom on all sides, their gnarled branches twisting like skeletal fingers against the murky sky, with patches of fog clinging low to the uneven, leaf-strewn ground. In the immediate foreground, a striking woman with pale skin and long, flowing white hair catches the eye—she has subtle cat-like ears twitching atop her head, adding an otherworldly allure. She's dressed in a provocative ensemble of black leather straps that crisscross her torso, barely covering her ample curves, paired with sheer thigh-high stockings that hug her legs. She poses confidently, one hand raised to her head in a playful gesture, her expression a mix of sultry invitation and mischief, as if beckoning closer amid the shadows. Faint labels hover nearby, suggesting \"Sub Exit\" to one side and \"Lab Exit\" to the other, like subtle signs marking hidden paths through the woods. The air feels thick with mystery, every rustle in the underbrush hinting at unseen watchers.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Fuckin' hells, this rain's turnin' Kynesgrove into a mud-shitter's paradise at one in the mornin'. Nords like me thrive on snow and blood, not this elf-spit drizzle soakin' my tits through this Pharaoh's bra. You shadow-lurkin' Dunmer witch, you lovin' this gloomy shite or what? Reminds me of those Dwemer hellholes we crawled outta, chasin' Mercer's traitorous ass."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: By Dibella's swollen teats, who's that furry-titted whore prancin' about in the gloom like she's auditionin' for a Khajiit brothel? Look at them cat ears twitchin'—probably one o' them skittish Suthay-raht sluts the bandits send to lure in my Thane with her leather-strapped ass on display. Rain's pissin' down harder, makin' this Kynesgrove mudhole even slimier at this forsaken hour. Karliah: Easy, housecarl—those ears scream Khajiit trickster, not some common bandit bait."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Karliah: This drizzle's a thief's wet dream, Lydia—muffles footsteps better than Nocturnal's whisper. But aye, beats those steam-choked Dwemer tombs where Mercer left us chokin' on rust and lies. Hells, what's that skulkin' in the fog up ahead? Some pale-skinned cat-ears harlot in leather straps, posin' like she's Dibella's own temptress."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Trickster my ass—look at that moon-sugar addicted furball's straps barely holdin' in them jigglin' udders, rain slickin' her like a greased orc cock. She's beggin' for a greatsword through the gut if she's one o' them cum-guzzlin' bandit cunts after my Thane. Kynesgrove's no place for Khajiit whores peddlin' their tails in the dead o' night;"
+        }
+    ]
+]

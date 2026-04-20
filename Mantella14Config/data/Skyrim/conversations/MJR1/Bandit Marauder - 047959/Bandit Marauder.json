@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(Late visual context as seen by MJR (the player): The scene is a dark, dimly lit area with stone walls, stairs and large flat stones. In the center of the scene, there is a staircase leading upwards to an unseen destination. The stairs are made of stone and have a worn appearance. A faint light can be seen at the top in the distance. To the right of the stairs is a large, wooden box or crate. It is sitting on a platform made of wooden planks.)"
+        },
+        {
+            "role": "user",
+            "content": "(Visual context as seen by MJR (the player) at the start of the conversation: The scene is a dark, dimly lit area with stone walls, stairs and large flat stones. In the center of the scene, there is a staircase leading upwards to an unseen destination. The stairs are made of stone and have a worn appearance. A faint light can be seen at the top in the distance. To the right of the stairs is a large, wooden box or crate. It is sitting on a platform made of wooden planks.)"
+        },
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Bandit Marauder: Well, well... look what the skeever dragged in."
+        }
+    ]
+]

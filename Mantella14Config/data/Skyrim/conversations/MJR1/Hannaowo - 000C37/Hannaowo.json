@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "**MJR dropped Daedric Arrow** **MJR unequipped Daedric Arrow** **MJR equipped Daedric Arrow** **Hannaowo casted the spell Absorb Stamina** **Hannaowo casted the spell Absorb Stamina** **MJR fired an arrow.** **MJR dropped Daedric Arrow** **MJR hit Lucilla with Daedric Wrath** **MJR unequipped Daedric Arrow** **MJR equipped Daedric Arrow**"
+        },
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        }
+    ]
+]

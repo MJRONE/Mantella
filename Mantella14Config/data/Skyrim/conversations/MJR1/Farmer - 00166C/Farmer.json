@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): **Scene Overview:** As MJR surveys the environment, the scene unfolds as a nocturnal forest setting. Towering evergreen trees dominate the mid-ground, their silhouettes stark against the deep, star-speckled sky. The ground is a mix of low vegetation—thick grasses and shrubs—with a clearing path or open space visible ahead, illuminated faintly by the ambient glow of the celestial bodies above. In the underbrush near the foreground, a small, indistinct figure or object catches the eye, its details obscured by the shadows. The air feels still, with the darkness of the forest contrasting against the distant, shimmering stars and any subtle light sources lingering on the horizon. This serene yet enigmatic landscape holds quiet tension, as if MJR is observing a moment of stillness before movement. *For NPCs to discuss:* The scene’s elements—towering trees, starlit sky, and the mysterious figure in the grass—could spark conversations about the area’s natural beauty, the trail’s destination, or the small creature’s purpose (e.g., a wild animal, a sign of wildlife, or a hidden entity).**"
+        },
+        {
+            "role": "assistant",
+            "content": "Gaius Maro: Fucking stars out tonight, like the Divines are pissing light all over this damn forest."
+        }
+    ]
+]

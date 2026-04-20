@@ -1,0 +1,24 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The scene depicts a dimly lit room, possibly old or ancient, with an ornate wooden bookshelf. The design of the wall to the left and the shape of the ceiling at the top of the scene are designed in a less-modern style. The bottom of the scene features an active taskbar with app icons. The app icons are as follows: File Explorer, Mozilla Firefox, Microsoft Edge, Opera GX, Discord, DS4Windows, Control Panel, NVIDIA GeForce Overlay, Epic Games Launcher, Google Chrome, Microsoft Store, Settings, and Microsoft Outlook. Two icons appear to be minimized applications at the end of the taskbar that are difficult to identify.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: The fuck you starin' at my thane's books for, ya Imperial cheese-wheel licker? Those are sacred Dibellan texts, not for your prying guard eyes. Whiterun Guard: Keep your tits wrapped, housecarl. I'm just verifying the Jarl's inventory."
+        },
+        {
+            "role": "user",
+            "content": "Please wrap up the current topic between the NPCs in a natural way. Nobody is leaving, so there is no need for formal goodbyes."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: By the tits of Dibella, this place reeks of Thalmor perfume and elf treachery. That altar\u2019s got more scheming piled on it than the High Queen\u2019s bed. Whiterun Guard: Keep your voice down, housecarl. If the Jarl hears you accusing his court of harboring Dominion spies again, he\u2019ll have you scrubbing the dungeons bare-handed."
+        }
+    ]
+]

@@ -1,0 +1,12 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "bandit: Well fuck me sideways, if it ain\u2019t a walking flesh buffet in heels. What\u2019s a pretty little slit like you doin\u2019 in a shithole like this? Ayumi: You talk like a man who\u2019s never had a woman shut him up with her thighs. Maybe I\u2019m here to raid... or maybe I\u2019m lookin\u2019 for someone desperate enough to bend me over a crate. bandit: Hah! Ain\u2019t no room for subtlety with you, is there? But I like it. I\u2019ve split more throats than I\u2019ve spread legs, but fuck if I don\u2019t think about tradin\u2019 steel for silk some nights. Ayumi: Sounds like you\u2019re just tired of bein\u2019 the one on your knees when the Jarl\u2019s men ride through. Banditry\u2019s a rough trade\u2014maybe it\u2019s time you found a real profession. Like pleasin\u2019 Dibella\u2019s chosen."
+        }
+    ]
+]

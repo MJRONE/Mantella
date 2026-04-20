@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Fuckin' hells, this rain's pissin' down like Dibella herself is weepin' over all the elf scum ruinin' Skyrim. You call this a shack?"
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): MJR stands inside a dimly lit wooden shanty, its walls and ceiling constructed from rough-hewn timber beams that arch overhead, giving the space a rustic, makeshift feel. The air seems thick and shadowed, with faint blue-green hues suggesting an environment deep underwater or in a submerged cavern. Directly ahead on the right wall, a large, mounted trophy catches the eye—a formidable crab-like creature with a glossy, iridescent carapace, its pincers splayed wide and legs rigidly posed, affixed to a wooden plaque labeled \"Crabber's Shanty.\" To the left, a sturdy workbench occupies the space, cluttered with scattered tools: a hammer, some metal implements, and the partially disassembled remains of another similar crab creature, its segmented body cracked open amid wires and mechanical bits, as if mid-repair or study. The floor is uneven planked wood, and faint structural supports crisscross the room, emphasizing the shanty's cozy yet precarious construction.**"
+        }
+    ]
+]

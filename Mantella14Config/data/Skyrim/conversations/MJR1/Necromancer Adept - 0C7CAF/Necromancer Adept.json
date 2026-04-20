@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(MJR equipped Daedric Arrow) (Necromancer Adept has entered combat with Serana) (Necromancer Adept unequipped Dwarven Dagger) (Necromancer Adept equipped Dwarven Dagger)"
+        },
+        {
+            "role": "user",
+            "content": "(MJR equipped Daedric Arrow) (Necromancer Adept has entered combat with Serana) (Necromancer Adept unequipped Dwarven Dagger) (Necromancer Adept equipped Dwarven Dagger)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Oh look, the dead want to play!"
+        }
+    ]
+]

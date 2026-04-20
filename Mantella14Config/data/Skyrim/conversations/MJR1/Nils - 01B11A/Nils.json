@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The scene depicts a dimly lit, rustic wooden room with a table at its center. The table is adorned with various items, including what appears to be two green apples and a carrot attached to its greens on a chopping board, a slice of bread, a small glass bottle containing a yellow liquid, and a larger green ceramic jug or vase possibly containing liquid. To the left of the table, there is a wicker basket or container resting on the floor, toward the left edge of the table to the left, there is a small table surface with bottles containing a red and a green liquid, and a large, old wooden window is visible on the wall to its right. In the background, the walls are constructed from dark-stained wooden planks. At the bottom of the scene, a taskbar is visible on the screen showing the desktop of a computer, suggesting that this image is a screenshot taken from a video. The overall atmosphere of the scene is one of simplicity and rusticity, evoking a sense of a rural or countryside setting. The presence of food items on the table implies that someone may have recently prepared a meal here.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You know, Nils, I once locked a guy in a chest like that one\u2014told him it was foreplay. Turns out he preferred the splintery death over my kind of fun. What's a old Nord like you hiding in there at this unholy hour? Stormcloak secrets or just some moldy chaurus pie?"
+        }
+    ]
+]

@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The scene shows a dimly lit, cave-like environment with rough, rocky walls and a low ceiling. The atmosphere is dark and mysterious. There are some objects visible in the distance, including what appears to be a table or altar with various items on it and some large pots or containers. In the foreground, there are several large rocks and boulders scattered around, creating a sense of ruggedness and age. The overall lighting is dim, with only a few sources of illumination coming from candles or torches placed throughout the area. There is a hooded figure. There may be a second person standing behind the hooded figure, facing away from the player. Many details about the people cannot be determined due to the lighting conditions and the player's viewing angle. The scene suggests that this is a sacred or ritualistic space, given the presence of the altar and the mysterious objects surrounding it. The dim lighting adds to the sense of reverence and mysticism, creating an otherworldly ambiance. Overall, the scene presents a haunting and enigmatic setting that invites exploration and interpretation.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Oh look, a creepy fucking altar\u2014never saw that coming in Skyrim. Bet it\u2019s some virgin-bleeding, goat-fucking ritual to summon Molag Bal\u2019s weekend fling. Careful, Shemir, last time I checked an altar, I woke up undead and my dad became a fascist."
+        }
+    ]
+]

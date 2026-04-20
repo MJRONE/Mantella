@@ -1,0 +1,24 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The scene shows MJR's (player's) perspective within a dimly lit, expansive room with a high ceiling. The walls and ceiling are constructed from stone, featuring decorative elements such as intricate carvings and a large chandelier suspended from above, which hangs over an open space. In this setting, several wooden tables and chairs are scattered throughout the area. One table near the center of the room appears to be cluttered with various items, including what seems to be food and drink on the table closest to MJR. A red patterned rug adds a splash of color to the otherwise muted tones of the environment on the left. On the left side of the scene, a person can be seen standing with their back to MJR, engaged in an activity that is not clearly discernible due to the distance and lighting conditions. Their attire suggests they might be dressed in attire suitable for a medieval or fantasy setting. Overall, the atmosphere of the scene is one of quiet contemplation, with the soft glow of candles and the chandelier casting warm shadows across the room. The presence of the individual in the background adds a sense of depth and potential narrative to the otherwise serene environment.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Frabbi: Gods, this place reeks of spilled mead and bad decisions. Just like my marriage. Serana: Oh honey, at least you chose yours. Mine was arranged by a Daedric Prince and a sarcophagus."
+        },
+        {
+            "role": "user",
+            "content": "Please wrap up the current topic between the NPCs in a natural way. Nobody is leaving, so there is no need for formal goodbyes."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You know what this place needs? Fewer depressing stone walls and more... well, anything fun. Maybe a torture rack?"
+        }
+    ]
+]

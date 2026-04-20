@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: By Dibella's heaving tits, look at that sky—auroras dancing like some elf whore's fever dream over Solitude's fancy walls. One in the morning and this place still reeks of Imperial surrender, all cobblestones and shadows hiding Thalmor spies."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): As MJR stands at the base of the winding cobblestone path, the scene unfolds under a vast, ink-black sky streaked with shimmering aurora lights in hues of green and purple, like ethereal veils dancing overhead. Towering stone walls rise ahead, ancient and weathered, draped in tangled vines and creeping foliage that clings to the masonry. The structure looms large, its multiple arched windows aglow with warm, flickering orange light from within, casting faint beams that pierce the encroaching darkness. The path beneath MJR's feet is uneven, paved with irregular gray stones slick with evening dew, flanked by dense clusters of ferns and low shrubs that brush against the legs. It leads directly to a grand, shadowed archway entrance at the heart of the facade—two heavy wooden doors stand slightly ajar, revealing hints of deeper illumination beyond, while the surrounding battlements and side towers fade into the gloom, silent and imposing. The air feels still, carrying a faint chill from the encroaching night.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: You the maid scrubbing these halls, lass?"
+        }
+    ]
+]

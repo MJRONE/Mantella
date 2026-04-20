@@ -1,0 +1,28 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Oi, you sniveling old mop-head, Sifnar—spit it out, what's this Captain yapping about murders in the palace shadows?"
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): As MJR stands in the dimly lit stone corridor, the flickering torchlight casts long shadows along the rough-hewn walls, revealing faint cracks and mossy patches where the mortar has worn away. Ahead, a rugged man with a thick beard and weathered face turns slightly to glance over his shoulder, his dark cloak draped over broad shoulders, edged in worn leather. He speaks in a low, urgent tone: \"I believe the killer is in Werneth. There's time for you to warn them.\" The words hang in the air, attributed to Captain Janel Gale, while a nearby arched doorway offers an obvious path to exit the chamber. The atmosphere feels tense, with the distant echo of dripping water underscoring the gravity of the moment.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: At this witching hour, with the auroras dancing like Dibella's tits in the frost, I ain't letting no psycho butcher sneak up on my thane while you're scrubbing floors like a gutless elf. Sifnar Ironkettle: Eh, miss... just whispers 'round the hearths, that's all. Some mad cunt's been carving up folks in the snow outside, leavin' 'em like gutted horkers for the ravens."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: That sniveling captain's got the right of it—found the butcher's bloody amulet, eh? At this frozen arse-end of night in the palace guts, I'll cleave the bastard's head off myself if he eyes my thane wrong, you mead-mopping worm. Sifnar Ironkettle: Aye, m'lady, the amulet's a queer thing, etched with bones and such... makes a poor servant like me shiver in these drafty halls."
+        }
+    ]
+]

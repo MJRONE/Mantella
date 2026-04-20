@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Fuckin' late night in this Talos hole, eh? Stone walls drippin' with Dibella's holy sweat, but I swear these shadows got Forsworn cunts lurkin' like Thalmor whores waitin' to shank a true Nord."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): MJR stands in a dimly lit, ancient stone chamber with rough-hewn walls of weathered gray rock, arched doorways, and flickering torchlight casting long shadows across the uneven floor. Narrow stone stairs descend into deeper darkness ahead, flanked by heavy wooden doors marked with faded runes. To one side, a sturdy iron gate bears the inscription \"Markarth City Guard,\" while an exit sign points toward a dimly glowing passage beyond. In the foreground, a striking red-haired woman with sharp features and intricate tattoos swirling across her bare shoulders and arms stands poised, her toned, exposed midriff and legs clad only in minimal dark straps that leave little to the imagination. She grips a curved blade in one hand, her expression alert and commanding. Nearby, another woman with long blonde hair, similarly attired in scant, form-fitting wraps that accentuate her curves, lingers close, her posture relaxed yet watchful. A faint silhouette of a broader figure—possibly male, clad in shadowed armor—hovers at the edge of the torchlight, partially obscured by the architecture. The air feels thick with the scent of damp stone and smoldering embers, tension hanging in the confined space.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: You guards pullin' double shifts keepin' the elf-lovers out?"
+        }
+    ]
+]

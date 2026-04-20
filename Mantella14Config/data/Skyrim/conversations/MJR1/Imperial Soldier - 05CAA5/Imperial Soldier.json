@@ -1,0 +1,12 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Imperial Soldier: Bloody hell, this Whistling Mine's a frozen shithole at seven in the morning—look at those damn footprints leading in, probably some skeeving bandit cunts or worse."
+        }
+    ]
+]

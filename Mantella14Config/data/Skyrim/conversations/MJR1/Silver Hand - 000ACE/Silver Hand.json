@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "**Silver Hand hit Lydia with Clash of Heroes** **Ivy punched Lydia**"
+        },
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: You Silver Hand bitches think a fancy spell and some weak punch'll drop me?"
+        }
+    ]
+]

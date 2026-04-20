@@ -1,0 +1,36 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Fuck this endless piss-rain, Ajira—it's like Dibella's weeping over all the dry cunts in Skyrim who can't handle a little wet fun. Huddled by this fire in Stonehollow at eleven, and I'm half-tempted to strip down and let the drops tease my tits just to spite the clouds."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): MJR stands in a dimly lit, snow-dusted courtyard at night, the air thick with chill and the faint glow of flickering torches mounted on weathered stone walls. Before him looms a sturdy wooden building with a sloped roof, its eaves heavy with frost, and warm firelight spilling from narrow windows and an open doorway, casting long shadows across the packed snow. To the right, a cluster of barrels and crates huddles against the structure, partially covered in a light blanket of white. In the foreground, MJR's own armored form is crouched low, clad in rugged leather and metal plates reinforced with fur trim—gauntlets gripping a round wooden shield emblazoned with a simple emblem, one knee pressed into the cold ground. His right hand holds a small, glowing orange orb or ember, perhaps a magical focus or ritual item, raised slightly as if in offering or contemplation. The shield rests propped against his thigh, and the intricate buckles and straps of his gear catch glints of firelight, revealing scuffs and signs of recent travel. Overhead, a starry sky peeks through scattered clouds, with the moon's pale crescent hanging low.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: barbaric"
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Ajira: This one agrees, Serana—rain like tears from Kyne's sad eyes, soaking through steel plates till fur clings like a bad lover. But look at MJR there, crouched in the snow with that glowing trinket, all focused like he's summoning Dibella's wet dreams herself. What's he up to in this frosty courtyard, you think? Plotting to warm us up by the fire inside?"
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Look at this dreary-ass courtyard in Stonehollow, Ajira—snow dusting everything like powdered dragon cum, and MJR's out there crouched with that glowing orb like he's about to summon a fuck-toy demon or some shit. Rain's turning it all to slush at eleven, but fuck if it doesn't make me crave a hot bloodbath to warm up."
+        }
+    ]
+]

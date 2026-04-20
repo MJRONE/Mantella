@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(Late visual context as seen by MJR (the player): MJR stands amidst a vast, snow-swept expanse in the high mountains, where jagged peaks rise sharply against a brooding, overcast sky heavy with clouds. The ground before him is a rugged mix of deep snowdrifts and exposed gray rock, sloping downward into a wide, frozen valley. Wisps of steam or mist curl faintly from cracks in the distant cliffs, hinting at hidden geothermal warmth beneath the ice.)"
+        },
+        {
+            "role": "user",
+            "content": "(Visual context as seen by MJR (the player) at the start of the conversation: MJR stands amidst a vast, snow-swept expanse in the high mountains, where jagged peaks rise sharply against a brooding, overcast sky heavy with clouds. The ground before him is a rugged mix of deep snowdrifts and exposed gray rock, sloping downward into a wide, frozen valley. Wisps of steam or mist curl faintly from cracks in the distant cliffs, hinting at hidden geothermal warmth beneath the ice.)"
+        },
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Ha! Look at this frozen shithole. Perfect place for you to freeze your tits off, vamp. Maybe your nipples'll shatter like icicles when I ram my sword up your undead cunt. hunter: Easy there, housecarl. No need to wreck good huntin\u2019 grounds with your lover\u2019s spat. Seen fresh elk tracks toward them steam vents\u2014means meat\u2019s close if ya shut yer trap long enough to track it. Lydia: Fuck your elk, poacher."
+        }
+    ]
+]

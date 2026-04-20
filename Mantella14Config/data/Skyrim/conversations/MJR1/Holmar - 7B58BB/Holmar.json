@@ -1,0 +1,30 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Holmar: Fuckin' hell, Elmera, this midnight chill's bitin' harder than a skeever in heat. Stars out like Dibella's own jewels, but I'm freezin' my balls off by this damn torch."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): In the dimly lit expanse of a starry night sky stretching overhead, MJR stands on what appears to be a wooden deck overlooking a vast, dark sea. Gentle waves lap against the structure below, and a faint mist clings to the air, carrying the salty tang of the ocean. Nearby, ornate railings curve along the edge, and scattered crates and lanterns provide subtle illumination, casting long shadows. A figure named Livia is mentioned in passing conversation, having requested a meeting at the isle of Wyranth—she's expected to arrive shortly. Visible options for interaction include speaking to Livia at the decks of Solitude, suggesting nearby areas or pathways leading there. Overlaid in MJR's view are status indicators: a guest list, general stats panel, and system information, all framed against the horizon where the silhouette of an approaching isle begins to emerge from the gloom.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Holmar: You high elves got some fire in those fancy boots, or what? Elmera: Oh, shove it, you fur-brained ox."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Look at that blood moon hanging like a bloated tick over the sea—makes me thirsty for something warm and pulsing, not this frozen piss of a night at four bells."
+        }
+    ]
+]

@@ -1,0 +1,30 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Look at that sky, Yatul—clear as a virgin's conscience on a night like this. Bet it's the gods' way of saying the Orcs finally scrubbed the blood off these walls after your last family squabble."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): MJR stands in a dimly lit, snow-swept clearing at night, the air thick with cold and shadows. Directly ahead, jagged snow-capped mountains rise against a starry sky, their peaks piercing the darkness like frozen sentinels. Dense clusters of evergreen trees, dusted with fresh powder, frame the view on both sides, their branches heavy and bowing under the weight of the snow. The ground beneath MJR's feet is a crisp blanket of white, uneven with drifts and scattered rocks half-buried in the frost. In the foreground, MJR's own reflection is faintly visible—bald head with pointed ears, skin pale and ethereal in the low light, clad in rugged, fur-lined attire that blends with the wintry surroundings. A subtle green glow emanates from nearby foliage, hinting at something otherworldly amidst the natural chill. The scene feels isolated and watchful, with no immediate signs of movement or life beyond the whisper of wind through the pines.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Yatul: Hah, virgin? You'd know about stains, bloodsucker, with those pale tits glowing like moonlit milk under the stars."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): In the current scene, MJR stands on a vast, snow-blanketed slope under a crisp night sky. A large, reddish moon hangs low on the horizon, casting an eerie, warm glow across the frozen landscape, while faint stars sparkle overhead and wispy green auroras dance subtly in the northern expanse. Nearby, snow-dusted pine trees rise from the drifts, their branches heavy with frost, framing jagged rock formations that jut out from the hillside like ancient sentinels. The ground is a smooth expanse of powder, marked by fresh ski tracks weaving down the gentle incline, and a single ski pole leans planted in the snow just ahead, its shadow stretching long in the moonlight. The air feels still and biting, with distant ridges fading into the dark, evoking a sense of isolated wilderness.**"
+        }
+    ]
+]

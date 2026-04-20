@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "**MJR fired an arrow.** **MJR dropped Daedric Arrow** **MJR unequipped Daedric Arrow** **MJR equipped Daedric Arrow**"
+        },
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The scene depicts a nighttime battle in a rocky, rugged terrain. The sky is dark and filled with stars, with a hint of the Northern Lights visible on the left side. In the foreground, a large, dark creature with a long tail and sharp claws is seen attacking or being attacked by several smaller humanoid figures. The creature appears to be injured, as it is covered in blood and has a large wound on its back. It is facing away from the viewer, towards the other figures near the middle of the scene. Several other humanoid figures are scattered throughout the scene, some of whom appear to be dead or dying. One figure lies on the ground in the middle distance, while another stands on the right side of the scene, possibly watching the battle unfold. A few more figures are visible in the distance, near the center of the scene. A text overlay at the top of the scene reads, \"Take over Fort Sungard by defeating the enemy (5% Remaining).\" This suggests that the player is engaged in a mission to capture a fort or stronghold from an opposing force. At the bottom of the scene, a taskbar is visible, displaying various icons and symbols.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Oh, look at that scaly fucker swinging his sword like he's compensating for a shriveled Nord prick\u2014bet he's one of those Imperial lapdogs Hrolfdir pissed off back in Markarth."
+        }
+    ]
+]

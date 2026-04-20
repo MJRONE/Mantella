@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "**MJR unequipped Daedric Arrow** **gargoyle hit Silver Hand with Absorb Health** **MJR dropped Daedric Arrow** **MJR hit Silver Hand with Daedric Wrath** **MJR equipped Daedric Arrow**"
+        },
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The scene depicts a first-person perspective of a character holding a bow and arrow, with the focus on their hand grasping the weapon. The character is wearing a dark-colored sleeve or glove on their hand, and the bow features a red circle around the arrow rest. In the background, there are rocky formations and what appears to be snow falling from the sky. A fiery blaze is visible on the right side of the scene and some faint red lights appear in front of the character, suggesting some form of magic or energy emanating from it. The overall atmosphere of the scene is dark and ominous, with the presence of fire and snow creating a sense of tension. MJR (the player) sees a dark and rocky terrain with snow falling from the sky with a large fire burning on the right side of the scene. The character is holding a bow and arrow, and there appears to be some sort of magical energy emanating from the arrow. There is also a faint light in the distance that may be a character or object. The scene is set at night or in a dimly lit environment, adding to the overall sense of foreboding. **Discussion Points for NPCs:**"
+        },
+        {
+            "role": "assistant",
+            "content": "Silver Hand: Fuckin' gargoyle just sucked the life outta me like a cheap whore in Windhelm!"
+        }
+    ]
+]

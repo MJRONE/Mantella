@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(Late visual context as seen by MJR (the player): The scene is a screenshot from a first-person video game, with a dirt path leading to a wooden building in the distance. **Key Elements:** - **Pathway:** A dirt pathway stretches out before the viewer, flanked by grassy areas and trees on either side. - **Building:** In the distance stands a large wooden structure with a thatched roof, featuring what appears to be a sign or shield hanging on its front. - **Figures:** Two figures are visible in the scene;)"
+        },
+        {
+            "role": "user",
+            "content": "(Visual context as seen by MJR (the player) at the start of the conversation: The scene is a screenshot from a first-person video game, with a dirt path leading to a wooden building in the distance. **Key Elements:** - **Pathway:** A dirt pathway stretches out before the viewer, flanked by grassy areas and trees on either side. - **Building:** In the distance stands a large wooden structure with a thatched roof, featuring what appears to be a sign or shield hanging on its front. - **Figures:** Two figures are visible in the scene;)"
+        },
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        }
+    ]
+]

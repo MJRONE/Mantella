@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "**Kvenel the Tongue casted the spell Frost Damage** **MJR fired an arrow.** **MJR dropped Daedric Arrow** **MJR unequipped Daedric Arrow** **MJR equipped Daedric Arrow**"
+        },
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): MJR can see a large cave with a rocky floor illuminated by a light source in the distance. The cave is large, well-lit in parts and has a high ceiling. The walls are made of rough-hewn stone, and the ground is covered in a layer of dirt and debris with some vegetation in the foreground. The atmosphere is somewhat dark and foreboding, with the one light source in the distance casting shadows on the walls. Some ferns dot the foreground. The area is a complex arrangement of walls and carved structures. The stone walls are covered in dust and debris, giving them a weathered appearance. Some of the structures are stepped, with what appears to be a flat top to some and what may be another rock face beyond. There are specks of white in the air, and smoke or steam rising from the rock. There is some red liquid splattered on the ground that may be blood and some vegetation growing on the ground. There are no visible people or animals in the scene. However, there is a sense of mystery and intrigue, as if something might be lurking just out of sight. The overall mood is one of anticipation and curiosity.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Kvenel the Tongue: By Shor's beard!"
+        }
+    ]
+]

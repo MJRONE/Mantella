@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The scene is a dark and moody environment, with the player's view centered on a forest area. The ground appears to be wet and rocky, with some snow or ice visible in certain areas. In the distance, there are trees and other foliage that are partially obscured by the darkness. In the foreground, there is a red-lit object that appears to be some kind of weapon or tool, possibly a gun or crossbow. The object has a distinctive design, with a circular sight or scope at the front. To the right of the scene, there is a figure standing near a fire, which casts flickering shadows on the surrounding terrain. The figure is difficult to make out due to the distance and the darkness, but it appears to be humanoid in shape. In the distance, to the left of this figure, there is another figure. The overall atmosphere of the scene is one of tension and unease, with the dark colors and ominous lighting creating a sense of foreboding. The presence of the figures and the weapon suggests that the player may be in a dangerous or hostile environment. The taskbar at the bottom of the shot shows various icons, including a web browser, a chat window, and a launcher.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Delia: That eerie red glow in the distance..."
+        }
+    ]
+]

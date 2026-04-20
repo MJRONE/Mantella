@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Oh, look at this cozy little shithole—feels like the kind of place where ghosts fuck for warmth."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): MJR stands in a dimly lit, ancient stone chamber with weathered walls and arched doorways, the air thick with an otherworldly chill. Frost clings to the edges of the masonry, and through a jagged opening high above, a vibrant aurora dances across the night sky in swirling greens and purples. To the right, a heavy wooden door marked with faded runes stands slightly ajar, leading perhaps to deeper halls. Nearby, a broad stone archway frames a view of crumbling ruins outside. Scattered around the room are several figures: a tall, muscular man dressed in a simple tunic, arms crossed as he leans against a pillar, his expression stern and watchful. Beside him, a blonde woman with flowing hair kneels near the floor, her posture tense as she examines something unseen. Further off, a smaller figure in white robes huddles by a set of worn stone steps leading upward, while another scantily clad individual moves stealthily toward the shadows near the exit. The ground is uneven, littered with debris and patches of snow that have drifted in from outside, casting long shadows in the flickering light from unseen torches.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You squatting here to dodge the snow, old man, or just waiting for the Jarl to toss you a pity bone? Angrenor Once-Honored: Bah, this ain't no shithole—it's the Aretino place, and it's mine by right of friendship."
+        }
+    ]
+]

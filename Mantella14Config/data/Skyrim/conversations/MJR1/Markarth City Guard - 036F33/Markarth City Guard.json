@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The scene depicts a nighttime setting with a dark sky, illuminated by starlight and possibly moonlight. The environment is characterized by rocky terrain, featuring large boulders and stone structures that appear to be ancient ruins or abandoned buildings. The presence of trees and vegetation suggests a natural, outdoor setting. In the foreground, there is a transparent overlay displaying various menu options and text. The top section of the overlay includes three tabs: \"GUESTS,\" \"GENERAL STATS,\" and \"SYSTEM.\" The middle tab, \"GENERAL STATS,\" is currently selected, revealing a sub-menu with the title \"MOURNING NEVER COMES\" and a brief description stating, \"Alain Dufont is dead. I must now return to Markarth, and tell Muiri the deed is complete.\" Below this, there is an \"OBJECTIVES\" section listing several tasks, including \"Talk to Muiri,\" \"(Optional) Kill Nisine Shatter-Shield,\" \"Kill Alain Dufont,\" \"Talk to Muiri,\" and \"Speak with Astrid.\" At the bottom of the screen, a taskbar displays various icons representing different applications or functions. These icons are likely related to the player's computer or gaming platform.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Markarth City Guard: The fuck you doing out this late, vampire?"
+        }
+    ]
+]

@@ -1,0 +1,12 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Falkreath Guard: Gods, another quiet morning shift. At least the view ain't bad - watching the whores stumble out of the Dead Man's Drink after getting railed all night by drunken lumberjacks always gives me a chuckle. Falkreath Guard 2: Ha! Saw old Livna getting spit-roasted by a couple of those Riften mercenaries behind the graveyard last night. That bitch may be pushing fifty, but she still bends over like a damn novice at the Temple of Dibella. Falkreath Guard: Pfft, better than your sorry ass trying to flirt with that Imperial tax collector last week. Thought you were gonna suck his cock right there in the Jarl's hall until Siddgeir threatened to toss you in the stocks. Falkreath Guard 2: Oh fuck off, like you weren't eyeing him too."
+        }
+    ]
+]

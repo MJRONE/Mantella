@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): In the scene, there is a grassy hillside. In the distance, there are some rocky outcroppings or hills on either side of the frame. The sky above is a deep shade of blue and purple, with a multitude of stars visible. The stars are scattered across the sky, giving it a sense of depth and vastness. The overall atmosphere suggests a peaceful and serene environment, possibly during nighttime.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Fuck me, this starry shit's got me all poetic under Dibella's tits\u2014crouched here pissin' like a wild sabre cat, stars winkin' like they know I'm half-naked and hornier than a skeever in heat."
+        }
+    ]
+]

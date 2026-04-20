@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The scene depicts a female character standing in a dimly lit, stone-walled environment. The character is dressed in dark armor with red accents and appears to be posing for the viewer. As MJR (the player) observes this scene, they see a woman with long hair, wearing dark-colored armor that includes a breastplate, shoulder pads, gauntlets, greaves, and boots. Her attire features red accents and appears to be made of metal or leather. She stands on a stone path or floor, surrounded by large stones and wooden posts. In the background, there is an arched doorway leading to another area. In the context of NPCs discussing what they see in the current scene as seen by MJR (the player), they would likely describe the female character's appearance, her attire, and her surroundings. They might note the dark and ominous atmosphere of the scene, as well as the character's pose, which suggests she is ready for action or combat. The NPCs may also comment on the architecture of the environment, including the stone walls, arched doorway, and wooden posts. Overall, the NPCs would provide a detailed description of the scene, highlighting its key elements and features.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Bandit Chief: Well, well... looks like someone's been playing rough."
+        }
+    ]
+]

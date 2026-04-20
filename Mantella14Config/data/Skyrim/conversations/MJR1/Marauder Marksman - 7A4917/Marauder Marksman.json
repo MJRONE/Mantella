@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): As MJR, you find yourself enveloped in an oppressive darkness, like staring into an endless void. From the lower center of your view, ethereal white tendrils spiral upward and outward, twisting and branching like living veins of light or spectral smoke. They pulse faintly, casting subtle glows that illuminate faint cracks and edges in the surrounding blackness, suggesting hidden structures or walls just beyond the gloom. The energy seems to emanate from a central point below, coiling in intricate patterns that evoke both beauty and menace, with no clear source or end in sight. The air feels charged, almost humming with unseen power.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Look at this shithole cabin, you pointy-eared tree-rat—cozy as a Thalmor whore's boudoir with all these flea-bitten beds and that stupid wreath mocking Dibella's glory."
+        }
+    ]
+]
