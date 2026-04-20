@@ -36,7 +36,7 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Bet they promised you a knife and a night off from scrubbing tankards—exotic, right? But fuck that assassin crap;"
+            "content": "Serana: Bet they promised you a knife and a night off from scrubbing tankards\u2014exotic, right? But fuck that assassin crap;"
         },
         {
             "role": "user",
@@ -44,7 +44,7 @@
         },
         {
             "role": "assistant",
-            "content": "Hroki: Yeah, well, fuck those shadowy bastards—slipped a note under my door saying they'd make my family's yelling sound like a lullaby if I joined up. As if I'd trade scrubbing tankards for stabbing strangers. Speaking of which, what the hell are we doing creeping through this damp shithole of a cavern? You drag me out here for some vampire treasure hunt or just to get away from the inn's stench?"
+            "content": "Hroki: Yeah, well, fuck those shadowy bastards\u2014slipped a note under my door saying they'd make my family's yelling sound like a lullaby if I joined up. As if I'd trade scrubbing tankards for stabbing strangers. Speaking of which, what the hell are we doing creeping through this damp shithole of a cavern? You drag me out here for some vampire treasure hunt or just to get away from the inn's stench?"
         },
         {
             "role": "user",
@@ -52,7 +52,33 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Ha, classic Brotherhood bullshit—promising silence in a city where the only quiet comes from a fresh grave."
+            "content": "Serana: Ha, classic Brotherhood bullshit\u2014promising silence in a city where the only quiet comes from a fresh grave."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Silver-Blood Inn.) (Characters nearby (from nearest to furthest): Vorstag, Serana, Frea, Kleppr, Frabbi) (Lydia stood up from a(n) Chair)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: This inn's stone walls feel colder than a Skyrim winter at this hour. Serana, you and your nocturnal habits must love it here\u2014keeps the sun from burning that pale skin of yours."
+        },
+        {
+            "role": "assistant",
+            "content": "Hroki: The best drink here? At this hour, my father's got the firewhisky flowing strong\u2014cuts through the morning chill like a blade through butter. But if you're fancy, try the Honningbrew Mead; it's sweeter than a lover's whisper, straight from Whiterun. Hogni Red-Arm: Bah, drinks? Save your coin for real sustenance, outlander. But if you must wet your whistle, the Black-Briar Reserve ale hits like a hammer to the skull\u2014keeps the Forsworn dreams away in this cursed stone pit we call home. Lydia: My Thane, the mead here's fine for warming the belly before we face the road again, but nothing beats the taste of victory after cleaving bandit skulls. What's your poison this dawn?"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: These stone walls in the inn echo like the depths of a Dwemer ruin at this ungodly hour\u2014cold as the Reach's winds slipping through the cracks. My Thane, after that mead, we should sharpen our blades; those bandit sluts hunting you won't wait for dawn to strike. Hogni Red-Arm: Dawn? It's barely cracked the sky over this forsaken hole. That light filtering in makes the blood on my stall look even fresher\u2014reminds me why I stick to meat that fights back. Hroki, girl, fetch that outlander another round before he complains about the chill like some soft Imperial. Hroki: The morning light barely touches these old stones, makes everything feel twice as gloomy before the market stirs. Father's firewhisky will chase it off, but watch your step on that uneven floor\u2014tripped me twice already today. If those Forsworn whispers start up outside, we'll all be hiding behind the bar."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Aye, the torchlight flickers like wary eyes in this dim chamber\u2014best we linger by the warmth a bit longer, Thane, before those shadows outside turn to real trouble. Hroki: True enough, the morning's bite clings to these stones like moss; one more round and the gloom won't seem so pressing. Hogni Red-Arm: Enough chatter about the chill and the brews\u2014save your breath for haggling at the stall when the sun properly rises. This place holds its secrets close enough without us stirring them all at once."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this dimly lit stone chamber, the architecture evokes an ancient, weathered hall with high arched ceilings and thick walls of reddish-brown masonry, some sections cracked and shadowed by faint torchlight or ambient glow. A central figure stands facing away, a man with tousled brown hair visible at the nape of his neck, dressed in a rugged reddish-brown tunic with subtle purple edging along the collar and sleeves, cinched at the waist by a belt holding a leather pouch. His attire continues with loose tan trousers tucked into sturdy brown boots, suggesting a traveler or wanderer poised in quiet contemplation. To the right, a simple wooden table and pair of stools occupy the space, their surfaces rough-hewn and slightly askew, as if recently used for a modest meal or rest. The floor is uneven stone, dusted with faint debris, and a low archway or doorway frames the view ahead, leading into deeper shadows. Faint outlines of structural supports rise along the walls, blending seamlessly with the encroaching darkness, creating an atmosphere of quiet isolation within the enclosed space.)"
         }
     ]
 ]

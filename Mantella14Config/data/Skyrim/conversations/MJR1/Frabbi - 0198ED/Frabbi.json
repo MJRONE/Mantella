@@ -34,5 +34,15 @@
             "role": "assistant",
             "content": "Serana: Mourning Never Comes... even the quest names in this shithole reek of patriarchal oppression. Tell me, barkeep\u2014how do you Nords sleep at night knowing your jarls hoard Dibella's 'blessings' like skeeverhide while commoners starve for beauty? Frabbi: Oh, another woke vampire here to lecture me about politics while my idiot husband forgets to refill the mead barrels..."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Silver-Blood Inn.) (Characters nearby (from nearest to furthest): Frabbi, Lydia, Vorstag, Serana, Ulfgar)"
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene depicts a dimly lit, ancient stone chamber with rough-hewn walls of weathered gray rock interspersed with reddish brick accents and arched supports. Shadows cling to the corners, casting a warm, amber glow from unseen light sources that highlight the texture of the masonry. In the foreground, a simple wooden chair with a slatted back and seat sits slightly askew on the uneven stone floor, accompanied by another similar chair positioned nearby. To the right, a sturdy wooden dresser or cabinet stands against the wall, its surface cluttered with a woven basket and a small pot, while a larger basket rests on the floor beside it. The floor is composed of cracked stone slabs, scattered with faint debris, evoking a sense of aged neglect and quiet solitude.)"
+        }
     ]
 ]
