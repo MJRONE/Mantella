@@ -134,12 +134,16 @@ class radiant(conversation_type):
     
     @utils.time_it
     def get_user_message(self, context_for_conversation: Context, messages: message_thread) -> UserMessage | None:
-        # Message structure: [system] [start_prompt] [llm_1] [continue] [llm_2] ... [end_prompt] [llm_final]
-        # LLM responses so far = len(messages) // 2
+        # We count actual LLM responses (``AssistantMessage`` instances) rather than
+        # ``len(messages) // 2``. The latter also counts auxiliary UserMessages -
+        # seed-events messages, synthetic messages injected after an interrupting
+        # action, player-speech events, etc. - which would make radiant conversations
+        # end earlier than the configured ``radiant_max_turns``.
         max_turns = self._config.radiant_max_turns
-        llm_responses = len(messages) // 2
+        llm_responses = messages.count_assistant_messages()
 
         if llm_responses >= max_turns:
+            utils.get_logger().log(24, f"[RADIANT TURN] Turn budget reached ({llm_responses}/{max_turns}) - no new user message")
             return None
         elif llm_responses == 0:
             text = self.__user_start_prompt
@@ -147,10 +151,24 @@ class radiant(conversation_type):
             text = self.__user_end_prompt
         else:
             text = self.__user_continue_prompt
-        
+
+        utils.get_logger().log(24, f"[RADIANT TURN] Preparing NPC turn {llm_responses + 1}/{max_turns} (radiant_max_turns)")
+
         reply = UserMessage(context_for_conversation.config, text, "", True)
         reply.is_multi_npc_message = False # Don't flag these as multi-npc messages. Don't want a 'Player:' in front of the instruction messages
         return reply
     
     def should_end(self, context_for_conversation: Context, messages: message_thread) -> bool:
-        return len(messages) // 2 >= self._config.radiant_max_turns
+        # See note in get_user_message: use AssistantMessage count so user-side
+        # extras (events, player-speech events, synthetic prompts, seed events)
+        # never shorten the configured turn budget.
+        llm_responses = messages.count_assistant_messages()
+        max_turns = self._config.radiant_max_turns
+        should = llm_responses >= max_turns
+        utils.get_logger().log(
+            24 if should else 22,
+            f"[RADIANT SHOULD_END] AssistantMessages={llm_responses}, "
+            f"radiant_max_turns={max_turns}, total_messages={len(messages)}, "
+            f"should_end={should}"
+        )
+        return should

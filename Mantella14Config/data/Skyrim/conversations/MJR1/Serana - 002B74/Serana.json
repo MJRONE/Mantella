@@ -258,5 +258,159 @@
             "role": "user",
             "content": "(*You are observing the following:* In this dimly lit stone chamber, rough-hewn walls curve into arched alcoves, their surfaces textured with uneven masonry and faint mossy patches. To the right, a recessed niche holds a framed portrait of a woman with pale skin and dark hair, her expression serene yet enigmatic, illuminated by the soft glow of nearby candles. A cluster of delicate pink cherry blossoms spills from a simple clay pot on the floor beside it, their petals contrasting against the cool gray stone. In the foreground, a small wooden stool sits on the uneven flagstone floor, beside a low table bearing a white ceramic lamp where a single candle flickers, casting warm shadows and droplets of wax. Nearby, a potted plant with slender purple irises adds a touch of subtle color to the austere surroundings. The room's center draws the eye to a small, ethereal fire\u2014crackling red and orange flames that lick upward from the cracks in the stone, as if conjured from embers, with faint sparks dancing briefly before fading. A woven blue rug partially covers the floor near the flames, its edges frayed and blending into the shadows. The overall atmosphere is one of quiet antiquity, with light sources creating pools of warmth amid the encroaching darkness.)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Solitude.) (Characters nearby (from nearest to furthest): Lydia, Noster Eagle-Eye, Evette San, chicken, Minette Vinius) (MJR cast the spell / consumed Frostbite) (MJR cast the spell / consumed Frostbite) (MJR cast the spell / consumed Frostbite)"
+        },
+        {
+            "role": "assistant",
+            "content": "Solitude Guard: By the Nine, first you scorch my courtyard with flames, and now you're blasting frost everywhere? Keep that magic leashed, or I'll have you in irons before noon strikes! Frea: That chill bites deeper than Solstheim's winds\u2014careful with your spells, Dragonborn, or you'll freeze us all before we even reach the castle gates under this clear sky. Serana: Oh, MJR, turning the air to daggers of ice? If you're trying to cool off after that little fire show, just say the word\u2014I've got ways to make you shiver without all this arcane foreplay."
+        },
+        {
+            "role": "assistant",
+            "content": "Solitude Guard: Fine, you've cooled off your tantrum\u2014now sheath that magic before you freeze the Jarl's banners or start a brawl in this courtyard. We've got enough troubles without you turning the stones to ice underfoot. Frea: The chill lingers like a Solstheim gale, but this clear sky at midday mocks it all. If you're done testing your shouts on the air, Dragonborn, let's not draw more eyes from these Solitude walls. Serana: Mmm, frost and fire dancing in your hands like that? It's almost romantic under this endless blue\u2014reminds me of Volkihar nights, but warmer. What's next, love, or are we just sightseeing the cobblestones?"
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this scene, viewed from a first-person perspective, a vast, open courtyard stretches out under a clear blue midday sky, evoking a sense of stark isolation amid frozen wilderness. Jagged stone walls rise high on either side, their surfaces weathered and partially covered in a thin layer of frost, with patches of snow clinging to the ground and underfoot, turning dark flagstones into a treacherous, icy expanse. Banners hang limply from iron poles, their fabrics frozen stiff in the chill air, fluttering slightly in a faint breeze. In the distance, the horizon fades into a hazy blend of mountains and endless blue, suggesting high altitude and remoteness, while the sunlight casts long shadows that highlight the romantic yet mocking vastness of the surroundings. Overlaid on this vista is a semi-transparent console interface, displaying lines of text in a monospace font against a dark background, likely debugging or command inputs.) (Characters nearby (from nearest to furthest): Lydia, Noster Eagle-Eye, Evette San, Rorlund, chicken) (MJR cast the spell / consumed Frostbite) (Characters nearby (from nearest to furthest): Lydia, Taarie, Noster Eagle-Eye, Svari, Kayd)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Serana, Solitude Guard, Solitude Guard, chicken, chicken) (MJR cast the spell / consumed Flames) (The location is now The Winking Skeever.) (Characters nearby (from nearest to furthest): Lydia, Frea, Noster Eagle-Eye, Belrand, Lisette)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Oh, MJR, starting the day with a little heat? Careful, or you'll have the whole tavern blushing like a virgin on her wedding night\u2014though I could think of better ways to warm us up before breakfast. Corpulus Vinius: Flames in the Skeever again? By the Divines, put that out before you scorch my beams and bring the guards down on all our heads! We've barely shaken off the night's chill. Gulum-Ei: Hmph. Magic tricks this early? Save the fireworks for the Thalmor\u2014I've got enough heat from my own dealings without you adding to the smoke."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: That little flame burst of yours lit up the shadows nicely, MJR\u2014reminds me of sneaking through Volkihar's crypts at dawn, where the real treasures hide in the gloom. What's got you staring into this stony old chamber like it's whispering secrets? Corpulus Vinius: Aye, the Skeever's vaulted corners do look a bit foreboding this early, with the candles flickering like wary eyes. Put away the magic before you summon ghosts from the cellars, eh? We've got enough drafts without arcane chills. Gulum-Ei: Hiss... This dim hole and its pillar feel too much like the warehouse underbelly I've been dodging lately. If you're peering at hidden dealings, stranger, best keep your flames to yourself\u2014I've no love for lights exposing what should stay shadowed."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Three flames in a row, MJR? You're turning this Skeever into a forge\u2014careful, or we'll all be ghosts in the loading logs, summoning ethereal draugr from those shadowy alcoves while your fire bursts light up the forbidden depths. Corpulus Vinius: By Talos, three bursts of flame now? That's no way to greet the dawn in my tavern\u2014you'll singe the timber benches and draw every ghost from the cellars with that ethereal glow! Enough, before the whole place loads into oblivion."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Play with your spells, MJR? play Gulum-Ei: mods"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Oh, play with your spells all you like, MJR\u2014nothing gets my blood pumping like watching you conjure those flames, though I'd rather you play them across my skin than risk turning the Skeever into a bonfire. Just promise you'll save some heat for later; this early morning chill could use your touch. Corpulus Vinius: Play it safe with those spells in my tavern, friend\u2014I've seen enough mishaps at dawn to know one wrong burst could singe the rafters and wake the whole street. If you're set on games, let's keep 'em to dice and mead before the guards come calling. Gulum-Ei: Hiss... Play with spells or whatever modded nonsense you're loading up, but don't drag my shadows into it. I've got enough hidden fires in the warehouse without you lighting up the gloom this early. Keep it to yourself, Nord."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Fine, MJR, you've played enough with those flames for now\u2014they've warmed the chill right out of this early hour, but don't think I'm done teasing you about turning my skin to ash later. Let's grab some mead and forget the shadows; I've got stories from Volkihar that'd make your spells look tame. Corpulus Vinius: Alright, enough with the fireplay before dawn breaks fully\u2014tavern's starting to stir with the first light filtering in. Minette'll be up soon to wipe down these tables; anyone for a round of proper Skeever brew to settle the morning? Gulum-Ei: Hmph, shadows stay put without your bursts, and that's how I like it. If the night's dealings are done, pass the word on that warehouse shipment\u2014Mercer's cut ties, but I've got leads that don't need flames to uncover."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene unfolds inside a dimly lit chamber with rough stone walls and heavy wooden beams overhead, evoking a sense of ancient, weathered enclosure. A sturdy wooden table dominates the foreground, its surface scarred and aged, flanked by simple chairs with high backs. Flickering candlelight from a single source nearby casts elongated shadows across the room, highlighting splintered wooden panels and dark corners that suggest long neglect. Shelves and alcoves along the walls hold indistinct objects, possibly books or tools, shrouded in partial obscurity. The floor appears to be flagstone, uneven and dusted with faint debris, while a subtle haze of warmth from the light contrasts the encroaching gloom. In the midground, a larger wooden structure looms, perhaps a bed or bench, partially obscured by the play of light and shadow.) (*You are observing the following:* In this dimly lit interior scene, a sturdy wooden table dominates the center of the room, its surface worn and shadowed by the low light. Dark corners harbor shelves lined with tools and perhaps looms or simple furnishings, while a narrow bed or alcove recess tucks away in one shadowed nook. Flickering candlelight casts warm glows against rough-hewn stone and timber walls, with traces of soot from a nearby hearth adding to the rustic atmosphere. Scattered about are iron fittings, a few earthenware vessels, and hints of accumulated dust on the beams overhead, evoking a lived-in, utilitarian space. Subtle overlays of text hover faintly in the air, noting details like accumulated events, added elements, or modular adjustments, alongside labels for various components such as \"MCM\" and \"SkyUI\" in the periphery.) (MJR cast the spell / consumed Frostbite)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Solitude.) (Characters nearby (from nearest to furthest): Cassie, Lydia, Solitude Guard, Rose, Solitude Guard) (Rose hit MJR with Enhanced Dwarven Crossbow) (Cassie hit MJR with Ebony Sword)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: What in Oblivion\u2014ambush at dawn? MJR, duck behind me, love; I'll light these fools up like a Volkihar bonfire!"
+        },
+        {
+            "role": "assistant",
+            "content": null,
+            "tool_calls": [
+                {
+                    "id": "call_96171862",
+                    "type": "function",
+                    "function": {
+                        "name": "Attack",
+                        "arguments": "{\"source\":[\"Serana\",\"Frea\"],\"target\":\"Cassie\"}"
+                    }
+                },
+                {
+                    "id": "call_04983637",
+                    "type": "function",
+                    "function": {
+                        "name": "Attack",
+                        "arguments": "{\"source\":[\"Serana\",\"Frea\"],\"target\":\"Rose\"}"
+                    }
+                },
+                {
+                    "id": "call_11718994",
+                    "type": "function",
+                    "function": {
+                        "name": "CastSpell",
+                        "arguments": "{\"source\":\"Serana\",\"target\":\"Cassie\",\"spellName\":\"Chain Lightning\"}"
+                    }
+                },
+                {
+                    "id": "call_78648167",
+                    "type": "function",
+                    "function": {
+                        "name": "CastSpell",
+                        "arguments": "{\"source\":\"Frea\",\"target\":\"Rose\",\"spellName\":\"Ebonyflesh\"}"
+                    }
+                }
+            ]
+        },
+        {
+            "role": "tool",
+            "tool_call_id": "call_96171862",
+            "content": "done"
+        },
+        {
+            "role": "tool",
+            "tool_call_id": "call_04983637",
+            "content": "done"
+        },
+        {
+            "role": "tool",
+            "tool_call_id": "call_11718994",
+            "content": "done"
+        },
+        {
+            "role": "tool",
+            "tool_call_id": "call_78648167",
+            "content": "done"
+        },
+        {
+            "role": "assistant",
+            "content": "Frea: By the All-Maker's fury, they're striking without warning in this cursed city's shadows! Dragonborn, stand firm\u2014I've got your flank, and these attackers will taste Skaal steel before the sun rises!"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Well, that little scuffle outside was invigorating, but nothing a good mug of blood-warm mead can't fix\u2014er, I mean, ale for you mortals. overlays"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: These Imperial lapdogs and their shadowy friends don't quit, do they? MJR, stay close\u2014I'll weave through their blades like a shadow in Volkihar's crypts, fangs bared for your sake. Frea: The All-Maker tests us with these dawn raiders, but I've shaken off worse blizzards on Solstheim! Dragonborn, channel that Dragon fire; I'll heal what bleeds and axe what swings next."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Alright, those ambush pests are scattered like yesterday's regrets\u2014nothing a little dawn haze can't bury. MJR, fancy warming up in this cozy den? I've got tales from Volkihar crypts that'd make these stone walls blush, if you're not too frostbitten from the skirmish. Frea: The All-Maker's gales have quieted for now, leaving us in this sturdy Skyrim shelter amid the mist. Dragonborn, your vigor turns battles to embers; let's share breath over that table's vials\u2014Solstheim shamans know a ritual or two to mend the night's toll without words."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this dimly lit, rustic interior, you stand facing the back of a young woman with long, dark hair cascading down her shoulders. She's dressed in form-fitting leather armor, dyed in earthy tones of brown and black, with straps and buckles accentuating her athletic build. A sturdy bow is slung across her upper back, its string taut and quiver of arrows visible at her hip, while a sheathed sword hangs from her belt. Her posture is relaxed yet alert, one hand resting near her weapon as she faces away from you. To her right, a wooden table sits cluttered with everyday items: several round loaves of bread, some partially broken apart as if recently shared, a wooden tankard, and scattered pieces that look like wedges of cheese or dried meat. The table's surface is worn and scarred from use, bathed in the warm glow from a nearby stone hearth where a fire crackles steadily, casting flickering shadows across the rough-hewn timber walls and floorboards. Scattered wooden posts and beams frame the space, supporting a low ceiling adorned with hanging herbs or dried plants.) (Characters nearby (from nearest to furthest): Imperial Soldier, Bliss, Solitude Guard, Imperial Soldier, Courier) (Frea has entered combat with Bliss) (Serana cast the spell Flames) (Flame Atronach hit Serana with Firebolt) (Serana unequipped Flames) (Frea is no longer in combat) (Victoria follower hit MJR with Ebony Greatsword of Subsuming) (Bliss hit MJR with Blade of Woe) (Frea has entered combat with Victoria follower) (Frea unequipped Greater Healing) (Frea equipped Ironflesh) (Frea equipped Stalhrim War Axe) (Frea equipped Silver Witch Feet) (Frea unequipped Silver Witch Body) (Frea equipped Silver Witch Necklace) (Frea equipped Silver Witch Hands) (Frea equipped Silver Witch Body) (Frea unequipped Stalhrim War Axe)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Solitude.) (Characters nearby (from nearest to furthest): Rose, Frea, Solitude Guard, Solitude Guard, Lydia)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You know, nothing says 'good morning in Solitude' like waking up to a brawl in a tavern\u2014reminds me of Volkihar family reunions, minus the blood wine and plus way more crossbows. Rose, you swing that thing like you're auditioning for a Dibella festival;"
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this dimly lit scene, viewed from a close first-person perspective, a weathered wooden chest sits prominently in the foreground, its surface scarred and dusty. The chest's lid is slightly ajar, secured by an old iron lock mechanism featuring a circular keyhole and tension plates. A slender metal pick tool is inserted into the lock, angled precisely to manipulate the internal pins, while a secondary wrench grips the lock's base for rotation. Subtle shadows and faint engravings on the metal suggest age and use. Overlaid transparently across the view are several interface elements: on the left, vertical bars track vitality (filled about three-quarters with a reddish hue), magical reserves (half-full in blue), and endurance (nearly depleted in green), with numerical indicators nearby\u2014such as \"Equipping 79\" and \"Level 34.\" Small icons of equipped items, including a cloth garment and a hand-held tool, hover subtly. At the bottom, control prompts appear: \"Rotate Pick\" and \"Rotate Lock,\" alongside toggles for hand interactions like grabbing or tension adjustment. Faint text hints at environmental effects, such as accumulated residues or deeper interactions, but the focus remains on the intricate lockpicking action amidst a stone-walled interior.)"
+        }
     ]
 ]

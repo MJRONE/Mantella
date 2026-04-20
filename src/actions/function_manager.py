@@ -385,6 +385,21 @@ class FunctionManager:
         return False
 
     @staticmethod
+    def reset_duplicate_cache() -> None:
+        """Clear the last-tool-calls cache used for duplicate filtering.
+
+        Should be called whenever a conversation boundary is crossed (start or end)
+        so that tool calls from a previous conversation don't incorrectly filter out
+        identical-looking calls in a brand new conversation. Without this, e.g. the
+        `mantella_end_conversation` call that ended the previous conversation lives
+        in the cache forever and makes the output_manager loop forever on the very
+        first turn of the next conversation (filtered-as-duplicate -> empty
+        parsed_tools -> "Making second LLM call" -> LLM emits the same tool call ->
+        filtered again -> ...).
+        """
+        FunctionManager._last_tool_calls = []
+
+    @staticmethod
     def is_vision_action_active() -> bool:
         """Return True if the Vision action is loaded and enabled"""
         return 'mantella_npc_vision' in FunctionManager._actions

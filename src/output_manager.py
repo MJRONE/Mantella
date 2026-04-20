@@ -305,6 +305,14 @@ class ChatManager:
                 current_tools = tools  # Start with tools enabled
                 collected_tool_calls = []
                 tool_calls_added_this_turn = False  # Track if tool calls have been used in this iteration
+                # Safety counter for the tool-call retry loop: we only ever expect at most
+                # two iterations (first with tools, second without tools for a text-only
+                # response). Anything more means something pathological is happening
+                # (e.g. LLM keeps emitting the same tool call even with tools=None and
+                # the duplicate-filter keeps dropping them) and we must break out to
+                # avoid an infinite loop.
+                tool_call_iterations = 0
+                max_tool_call_iterations = 2
                 active_client = self._get_per_character_client(active_character) if not is_multi_npc else self.__client
 
                 while not has_text_response and retries < max_retries:
@@ -429,7 +437,20 @@ class ChatManager:
                             if settings.interrupting_action:
                                 logger.log(23, "Skipping second LLM call - waiting for action response from game")
                                 break
-                            
+
+                            tool_call_iterations += 1
+                            if tool_call_iterations >= max_tool_call_iterations:
+                                # We already retried once with current_tools=None and STILL got
+                                # only tool calls with no text. Break out instead of looping
+                                # forever; the NPC will simply not speak this turn (the
+                                # conversation loop can still advance via other paths).
+                                logger.warning(
+                                    "LLM returned only tool calls across "
+                                    f"{tool_call_iterations} attempts (including one with "
+                                    "tools disabled). Breaking out to avoid an infinite loop."
+                                )
+                                break
+
                             # LLM chose tools but no text - need to make second call
                             logger.log(23, f"Making second LLM call for text response...")
                             

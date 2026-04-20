@@ -8,5 +8,19 @@
             "role": "assistant",
             "content": "Octieve San: What in Oblivion are you doing out here at this hour, you old beggar?"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Winking Skeever.) (Characters nearby (from nearest to furthest): Serana, Lydia, Frea, Corpulus Vinius, Belrand)"
+        },
+        {
+            "role": "assistant",
+            "content": "Gulum-Ei: Hmph, this early morning chill in the Skeever's got nothing on the frost out by the docks. You nursing that mug all night, old man? Looks like the fire's barely keeping the ghosts away."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In the dimly lit stone chamber, ancient walls of weathered masonry rise around a central vault door etched with intricate Nordic runes, flanked by flickering braziers that cast warm, dancing shadows across scattered wooden shelves laden with dusty leather-bound tomes, glass vials of shimmering potions, and iron-bound scrolls. A low stone hearth crackles with a modest fire in the corner, illuminating a nearby workbench cluttered with alchemical tools, quills, and inkwells, while arched alcoves recede into the gloom, revealing hints of further shelves stocked with faded maps and peculiar artifacts, evoking the hush of a forgotten library or sanctum deep within a mountain hold.)"
+        }
     ]
 ]

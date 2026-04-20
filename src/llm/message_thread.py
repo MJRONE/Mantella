@@ -122,6 +122,16 @@ class message_thread():
             if isinstance(message, AssistantMessage):
                 return message
         return None
+
+    @utils.time_it
+    def count_assistant_messages(self) -> int:
+        """Return the number of ``AssistantMessage`` instances in the thread.
+
+        Useful for counting actual completed LLM turns, independent of how many
+        ``UserMessage`` entries (events, synthetic messages, seed events, etc.)
+        have been inserted along the way.
+        """
+        return sum(1 for m in self.__messages if isinstance(m, AssistantMessage))
     
     @utils.time_it
     def append_text_to_last_assistant_message(self, text_to_append: str):

@@ -59,8 +59,10 @@ class GameStateManager:
         # MJR: workaround state for the Papyrus-side bug where RequestContinueConversation()
         # on NPCTALK turns is called without updateInGameEvents=true, so _ingameEvents never
         # reaches Python during radiant (NPC-to-NPC) conversations. We periodically emit a
-        # no-op NPCACTION reply with requires_response=true to force Papyrus to flush its
-        # accumulated in-game events + context on the very next request.
+        # "dummy player call" (KEY_REQUESTTYPE_TTS reply with an empty transcription) to force
+        # Papyrus to run `sendRequestForPlayerInput("", updateContext=True)`, which in turn
+        # calls `BuildContext()` and flushes the accumulated in-game events + fresh context
+        # on the very next request.
         # The Papyrus `StartConversation` HTTP call already carries full context + events on
         # the very first request, so we intentionally initialise the timer to "now" on each
         # new conversation: the first force-refresh then fires `interval` seconds AFTER the
@@ -98,6 +100,10 @@ class GameStateManager:
         # first force-refresh fires `radiant_force_refresh_interval` seconds later, not
         # immediately (which would intercept the greeting sentence flow).
         self.__last_radiant_refresh_time = time.time()
+        # Clear the function-manager duplicate-filter cache so tool calls from a
+        # previously-ended conversation (e.g. `mantella_end_conversation`) don't
+        # incorrectly filter out identical calls on this new conversation's first turn.
+        FunctionManager.reset_duplicate_cache()
         self.__update_context(input_json)
         self.__try_preload_voice_model()
         self.__talk.start_conversation()
@@ -158,8 +164,10 @@ class GameStateManager:
         self.__update_context(input_json)
 
         # MJR: radiant-only workaround. If the Papyrus side hasn't flushed context/events
-        # recently, reply with a no-op NPCACTION (requires_response=true) to force it to
-        # flush on its next request. See __maybe_force_radiant_refresh for details.
+        # recently, reply with a "dummy player call" (KEY_REQUESTTYPE_TTS with an empty
+        # transcription) to force Papyrus to run sendRequestForPlayerInput with
+        # BuildContext(), which flushes context/events on the next request.
+        # See __maybe_force_radiant_refresh for details.
         force_refresh_reply = self.__maybe_force_radiant_refresh(input_json)
         if force_refresh_reply is not None:
             return force_refresh_reply
@@ -292,6 +300,11 @@ class GameStateManager:
             end_timestamp = input_json.get(comm_consts.KEY_ENDCONVERSATION_TIMESTAMP, None)
             self.__talk.end(end_timestamp)
             self.__talk = None
+            # Clear the function-manager duplicate-filter cache on conversation end so
+            # the next conversation starts with a clean slate. (Belt-and-braces with the
+            # reset in start_conversation - useful when the server is reloaded without
+            # a StartConversation ever arriving, e.g. the game crashed mid-conversation.)
+            FunctionManager.reset_duplicate_cache()
 
         logger.log(24, '\nConversations not starting when you select an NPC? See here:')
         logger.log(25, 'https://art-from-the-machine.github.io/Mantella/pages/issues_qna')
@@ -345,29 +358,39 @@ class GameStateManager:
         """Radiant-only workaround for a Papyrus-side quirk.
 
         MantellaConversation.psc only flushes its `_ingameEvents` array + fresh context
-        (weather, time, nearby actors) to Python when
-        `RequestContinueConversation(updateInGameEvents=true)` is called. On normal
-        NPCTALK turns it calls `RequestContinueConversation()` with the default
-        `updateInGameEvents=false`, so during a pure radiant (NPC-to-NPC) conversation -
-        where the player never speaks and no advanced action with `requires_response=true`
-        fires - events pile up in the game and never reach the LLM.
+        (weather, time, nearby actors) to Python when it calls
+        `sendRequestForPlayerInput(..., updateContext=True)` - which internally runs
+        `BuildContext()` - or when `RequestContinueConversation(updateInGameEvents=true)`
+        fires. On normal NPCTALK turns it calls `RequestContinueConversation()` with the
+        default `updateInGameEvents=false`, so during a pure radiant (NPC-to-NPC)
+        conversation - where the player never speaks - events pile up in the game and
+        never reach the LLM.
 
-        This helper returns a "no-op advanced-action, requires_response=true" NPCACTION
-        reply at a configurable interval. When Papyrus processes that reply, the NPCACTION
-        branch of `ContinueConversation()` calls
-        `RequestContinueConversation(updateInGameEvents=true)`, which finally flushes
-        `_ingameEvents` on the next HTTP request to Mantella.
+        This helper returns a "dummy player call" at a configurable interval: a
+        `KEY_REQUESTTYPE_TTS` reply with an empty transcription string. When Papyrus
+        processes that reply (`elseIf (nextAction == mConsts.KEY_REQUESTTYPE_TTS)`), it
+        calls `sendRequestForPlayerInput("", updateContext=True)`, which rebuilds the
+        context via `BuildContext()` and ships the accumulated `_ingameEvents` + fresh
+        location/weather/time/nearby-actors dictionary to Python in the very next
+        request. On the Python side this arrives as a normal `player_input` call with
+        `mantella_player_input=""`; `player_input` flushes the context via
+        `__update_context()` (this is the whole point), then `process_player_input("")`
+        returns a no-op because there is no player in the radiant conversation, and we
+        reply with an empty `KEY_REPLYTYPE_NPCTALK` so Papyrus simply loops back to
+        `RequestContinueConversation()` and the radiant dialogue continues as normal.
 
         Returns the reply dict if a refresh should be triggered now, otherwise `None`
         (i.e. let the normal conversation flow run).
 
-        Side effect (cost): Papyrus' flush block waits on an internal
-        `_waitingForActionResponse` flag that is only cleared when a real advanced action
-        fires `MarkActionResponseCompleted`. Our no-op action never does, so the *next*
-        force-refresh after the first will incur up to ~5 seconds of in-game wait. This
-        is why the default interval is 30 seconds - long enough that the ~5s gap sits
-        naturally at the end of an NPC monologue, short enough that events don't rot for
-        too long. Set `radiant_force_refresh_interval=0` in config.ini to disable.
+        Why this is better than the previous NPCACTION-based approach:
+          * `sendRequestForPlayerInput` does NOT set Papyrus' `_waitingForActionResponse`
+            flag, so there is NO ~5s in-game wait on any refresh (the action-path
+            workaround stalled up to 5s on every refresh after the first, because our
+            no-op action never called `MarkActionResponseCompleted`).
+          * It uses the exact same code path that a real player typing/mic input would,
+            which is battle-tested and always builds full context.
+          * It never accidentally dispatches a ModEvent into the game world.
+        Set `radiant_force_refresh_interval=0` in config.ini to disable.
         """
         if not self.__talk or not self.__talk.is_radiant:
             return None
@@ -387,30 +410,11 @@ class GameStateManager:
             return None
         self.__last_radiant_refresh_time = now
         logger.log(24, f"[RADIANT REFRESH] Asking Papyrus to flush accumulated in-game "
-                       f"events + context (elapsed={elapsed:.1f}s, interval={interval}s).")
-        # We use a single dummy advanced-action (identifier + arguments={}) rather than
-        # an empty actions array, because:
-        #   * Papyrus' ProcessNpcAction skips RaiseActionEvent entirely when the actions
-        #     array is empty - so sending [] is silently valid, but it's also the code
-        #     path that has been least exercised in testing.
-        #   * With a single advanced action (arguments present -> advanced ModEvent path),
-        #     Papyrus fires `MantellaConversation_Advanced_Actions_mantella_radiant_context_refresh`
-        #     - a ModEvent that no script subscribes to, so nothing in-game actually
-        #     happens. This is the identical "fire-and-forget" pattern that existing
-        #     advanced actions use, so it goes through well-tested code.
-        # Either way, `requires_response=true` is what actually triggers the subsequent
-        # RequestContinueConversation(updateInGameEvents=true) flush we want.
+                       f"events + context via dummy player call "
+                       f"(elapsed={elapsed:.1f}s, interval={interval}s).")
         return {
-            comm_consts.KEY_REPLYTYPE: comm_consts.KEY_REPLYTYPE_NPCACTION,
-            comm_consts.KEY_REPLYTYPE_NPCACTION: {
-                comm_consts.KEY_ACTOR_ACTIONS: [
-                    {
-                        'identifier': 'mantella_radiant_context_refresh',
-                        'arguments': {},
-                    }
-                ],
-                comm_consts.KEY_ACTOR_ACTIONS_REQUIRE_RESPONSE: True,
-            },
+            comm_consts.KEY_REPLYTYPE: comm_consts.KEY_REQUESTTYPE_TTS,
+            comm_consts.KEY_TRANSCRIBE: "",
         }
 
     @utils.time_it

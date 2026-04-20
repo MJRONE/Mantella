@@ -95,11 +95,22 @@ class Conversation:
         self.__injection_debounce_seconds: float = 0.3
 
         # Radiant player-speech injection state: when the player speaks mid-radiant, we
-        # transcribe in the background and inject the transcription as an event into the
-        # next radiant user message (similar to how late vision descriptions are handled).
+        # transcribe in the background and inject the transcription as an event line
+        # (`*The player says:* "..."`) into the next radiant user message - the same
+        # path used for late vision descriptions. This is the most reliable approach;
+        # an earlier attempt to promote the speech to the user message's main `text`
+        # field caused some speech events to be silently dropped, so we stay with the
+        # event-line approach and just nudge the LLM via a short prompt-suffix when
+        # speech is present (see `__radiant_pending_speech_for_prompt`).
         self.__radiant_stt_lock: Lock = Lock()
         self.__radiant_stt_thread: Thread | None = None
         self.__radiant_waiting_for_player_transcription: bool = False
+        # Set to True (under __pending_injection_lock) whenever a player-speech event
+        # has been queued but not yet consumed by a radiant user message. We use this
+        # to append a short, prominent suffix to the next user prompt asking the NPCs
+        # to acknowledge what the player said. The actual transcription stays inside
+        # the event-line block where it has always been delivered.
+        self.__radiant_pending_speech_for_prompt: bool = False
 
     @property
     def has_already_ended(self) -> bool:
@@ -249,6 +260,19 @@ class Conversation:
                 return comm_consts.KEY_REPLYTYPE_NPCTALK, None
             #Ask the conversation type here, if we should end the conversation
             if self.__conversation_type.should_end(self.__context, self.__messages):
+                # For radiant (NPC-to-NPC) conversations, skip the goodbye-voiceline
+                # dance and end immediately. The goodbye path keeps re-triggering
+                # should_end -> initiate_end_sequence on every subsequent
+                # continue_conversation call until Papyrus actually processes the
+                # ACTION_ENDCONVERSATION, which in radiant mode is unreliable
+                # (there is no player to hear the goodbye anyway). Returning
+                # ENDCONVERSATION directly tells Papyrus to call EndConversation()
+                # on the very next request and terminates the loop cleanly.
+                if isinstance(self.__conversation_type, radiant):
+                    logger.log(24, "[RADIANT] Turn budget reached -> ending radiant conversation immediately (no goodbye voiceline)")
+                    self.__stop_generation()
+                    self.__sentences.clear()
+                    return comm_consts.KEY_REPLYTYPE_ENDCONVERSATION, None
                 self.initiate_end_sequence()
                 return comm_consts.KEY_REPLYTYPE_NPCTALK, None
             else:
@@ -271,6 +295,25 @@ class Conversation:
 
                     # Merge radiant-specific queued events (late-vision + persistent radiant log)
                     if isinstance(self.__conversation_type, radiant):
+                        # The player's transcribed speech is delivered via the event-line
+                        # path (see __capture_player_transcription_for_radiant). It will
+                        # be drained into `radiant_extras` below and attached to this
+                        # user message as a `*The player says:* "..."` event. To make the
+                        # LLM react to it promptly (instead of glossing over a single
+                        # event line in a long block), we ALSO append a short suffix to
+                        # the prompt text whenever a speech event was queued since the
+                        # last turn. The suffix is intentionally short so the existing
+                        # continue/start/end-prompt instructions still apply.
+                        if self.__consume_radiant_pending_speech_flag():
+                            new_user_message.text = (
+                                (new_user_message.text or "").rstrip()
+                                + "\n\nThe player has just spoken to you - see the "
+                                  "*The player says:* event in the events block above. "
+                                  "Acknowledge what the player said and respond "
+                                  "directly to them before continuing the conversation."
+                            )
+                            logger.log(24, "[RADIANT] Player speech queued -> appended response-directly suffix to next turn prompt")
+
                         radiant_extras: list[str] = self.__drain_pending_injection_events()
                         radiant_log_events = self.__context.get_radiant_event_log()
                         if radiant_log_events:
@@ -643,6 +686,18 @@ class Conversation:
             self.__pending_injection_events.clear()
         return pending
 
+    def __consume_radiant_pending_speech_flag(self) -> bool:
+        """Pop the "player just spoke" flag so we only nudge the LLM once per speech.
+
+        Returns ``True`` if a player-speech event was queued since the last consume
+        (and we should therefore append a short response-directly suffix to the next
+        radiant user prompt), ``False`` otherwise.
+        """
+        with self.__pending_injection_lock:
+            had_speech = self.__radiant_pending_speech_for_prompt
+            self.__radiant_pending_speech_for_prompt = False
+        return had_speech
+
     def __handle_radiant_player_speech(self):
         """Player started speaking during a radiant (NPC-to-NPC) conversation.
 
@@ -690,7 +745,12 @@ class Conversation:
             with self.__pending_injection_lock:
                 if event_line not in self.__pending_injection_events:
                     self.__pending_injection_events.append(event_line)
-            logger.log(24, f"[RADIANT] Player said: \"{text}\" -> queued for next radiant user message")
+                # Set the flag so the next radiant user message also appends a short
+                # "respond directly to the player" suffix to its prompt text. This
+                # nudges the LLM to react to the speech promptly without overriding
+                # any of the existing events the user message will carry.
+                self.__radiant_pending_speech_for_prompt = True
+            logger.log(24, f"[RADIANT] Player said: \"{text}\" -> queued as event for next radiant user message")
         except Exception as e:
             logger.warning(f"[RADIANT] Failed to capture player transcription: {e}")
         finally:
@@ -786,6 +846,11 @@ class Conversation:
         """
         try:
             pending = self.__drain_pending_injection_events()
+            # Player-speech transcriptions are already inserted into
+            # __pending_injection_events (see __capture_player_transcription_for_radiant)
+            # so the drain above already includes them. Consume the prompt-suffix flag
+            # so it doesn't leak into the next conversation.
+            self.__consume_radiant_pending_speech_flag()
             ingame_events = self.__context.get_context_ingame_events()
             radiant_log = self.__context.get_radiant_event_log()
 
