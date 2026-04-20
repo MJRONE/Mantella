@@ -341,7 +341,21 @@ Please summarize the conversation into a single paragraph in {language}."""
                          Disable this if background noise or in-game speech accidentally injects garbage into
                          your radiant conversations."""
         return ConfigValueBool("radiant_player_interrupt", "Radiant Player Interrupt", description, True, tags=[ConfigValueTag.advanced])
-    
+
+    @staticmethod
+    def get_radiant_force_refresh_interval_config_value() -> ConfigValue:
+        description = """Seconds between forced in-game-event / context refreshes during a radiant (NPC-to-NPC) conversation.
+                         Workaround for a quirk in the Papyrus scripts: they only push accumulated in-game events
+                         (combat state, item pickups, weather changes, location changes, hits, spells cast, ...) to
+                         Mantella when the player speaks or when an advanced NPC action completes. In pure radiant
+                         conversations neither happens, so events silently pile up in the game and never reach the
+                         LLM. When this interval elapses, Mantella replies to the game with a no-op NPC action that
+                         requires a response, which forces Papyrus to flush the accumulated events on its next
+                         request. Side effect: the refreshing NPC turn is ~5 seconds slower than usual (Papyrus
+                         waits on its internal action-response flag). A value of 0 disables the workaround. Typical
+                         values: 20-60 seconds. Only used for radiant conversations."""
+        return ConfigValueInt("radiant_force_refresh_interval", "Radiant Force-Refresh Interval", description, 30, 0, 600, tags=[ConfigValueTag.advanced])
+
     @staticmethod
     def get_function_llm_prompt_config_value() -> ConfigValue:
         description = """The prompt sent to the separate function calling LLM when `Custom Function Model` is enabled.
