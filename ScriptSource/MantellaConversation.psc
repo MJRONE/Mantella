@@ -175,17 +175,13 @@ function ContinueConversation(string nextAction, int handle)
             _useNarrator = SKSE_HTTP.getBool(handle, mConsts.KEY_STARTCONVERSATION_USENARRATOR, false)
         endif
         ;Debug.Notification("Conversation started.")
-        ; MJR: always push accumulated in-game events + fresh context on NPC turns so that
-        ; radiant (NPC-to-NPC) conversations actually receive events. Without this, _ingameEvents
-        ; only flushes when the player speaks, which never happens in radiant.
-        RequestContinueConversation(updateInGameEvents=true)
+        RequestContinueConversation()
     elseIf(nextAction == mConsts.KEY_REPLYTYPE_NPCTALK)
         ; Debug.Trace((Utility.GetCurrentRealTime() - httpReceivedTime) + " seconds to realise NPC needs to respond", 2)
         int npcTalkHandle = SKSE_HTTP.getNestedDictionary(handle, mConsts.KEY_REPLYTYPE_NPCTALK)
         ; Debug.Trace((Utility.GetCurrentRealTime() - httpReceivedTime) + " seconds to get NPC talk handle", 2)
         ProcessNpcSpeak(npcTalkHandle)
-        ; MJR: see comment above - force event/context flush on every NPC turn.
-        RequestContinueConversation(updateInGameEvents=true)
+        RequestContinueConversation()
     elseIf(nextAction == mConsts.KEY_REPLYTYPE_PLAYERTALK)
         _does_accept_player_input = True
         If (repository.microphoneEnabled && !repository.useHotkeyToStartMic)

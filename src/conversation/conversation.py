@@ -120,6 +120,11 @@ class Conversation:
     @property
     def stt(self) -> Transcriber | None:
         return self.__stt
+
+    @property
+    def is_radiant(self) -> bool:
+        """True if the current conversation is a radiant (NPC-to-NPC) conversation."""
+        return isinstance(self.__conversation_type, radiant)
     
     @utils.time_it
     def add_or_update_character(self, new_character: list[Character]):
