@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Valdr: By the gods, you there! Please, I need help! Spriggans took my friends... I barely made it out alive. Lydia: Spriggans? Ha! Should\u2019ve brought a real hunter, not some milk-drinkers who cry over tree-fuckers. Valdr: Damn it, woman! Niels and Ari are dead in there! I don\u2019t give a skeever\u2019s ass about your Stormcloak bravado right now\u2014I need aid! Lydia: Ugh, fine. But if I have to step into that nasty cave, you better pray to Dibella those twig-bitches don\u2019t make me break a nail. MJR likes my hands smooth for when I\u2014 Valdr: Just... do you have a healing potion or not?! Lydia: Relax, twig-boy. MJR\u2019s got plenty. But remember\u2014if you slow us down, I\u2019ll feed your corpse to the next bear we find. Valdr: By Ysmir, you\u2019re insufferable. But if you help me kill those spriggans, I\u2019ll make sure you get first crack at looting their filthy roots. Lydia: Now that\u2019s what I like to hear. Maybe I\u2019ll take one of their heads as a trophy. MJR gets off watching me mount creatures on my greatsword. Valdr: Divines preserve me... just follow me in, and keep your perversions to yourself till we\u2019re done. Lydia: Oh please, like you\u2019ve never fucked a hagraven."
+        },
+        {
+            "role": "user",
+            "content": "Please wrap up the current topic between the NPCs in a natural way. Nobody is leaving, so there is no need for formal goodbyes."
+        },
+        {
+            "role": "assistant",
+            "content": "Valdr: Damn spriggans won\u2019t know what hit \u2018em. Let\u2019s move fast\u2014Ari deserves better than rotting in that cave. Lydia: About time we gut some nature-loving freaks. MJR better be watching when I cleave one in half\u2014nothing gets him hotter than blood on my tits. Valdr: ... I\u2019m just going to focus on killing things quietly now. Lydia: Smartest thing you\u2019ve said all day. Now shut up and bleed quietly if you get stabbed. MJR prefers me when I\u2019m not distracted by whining."
+        }
+    ]
+]

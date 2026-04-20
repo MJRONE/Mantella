@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Look at this shithole—feels like we're squatting in some Stormcloak's wet dream of a bunker, door creaking like it's begging to rat us out at three in the goddamn morning."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): As MJR looks out across the frozen expanse, the night sky above shimmers with vibrant auroras dancing in deep purples and blues, casting an ethereal glow over the snow-covered ground. Jagged pine trees stand sentinel in the distance, their branches heavy with frost, while a sturdy wooden bridge or walkway stretches partially into view, flanked by stacked logs and rough-hewn timber supports. Closer by, a blonde woman with long, flowing hair stands poised in the snow, her athletic form bare except for rugged boots laced up her calves; she's captured mid-motion, arms extended as if bracing for action, her skin illuminated by the celestial lights against the stark white drifts. The air feels crisp and otherworldly, with faint stars peeking through the auroral veil.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You think the Empire's got eyes on every barrel in Windhelm, or just the ones hiding their skooma stashes for after curfew? Imperial Soldier: Keep your fangs quiet, bloodsucker;"
+        }
+    ]
+]

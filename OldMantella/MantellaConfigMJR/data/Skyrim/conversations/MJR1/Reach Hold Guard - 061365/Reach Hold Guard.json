@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): From MJR's vantage point, the scene unfolds under a vast, ink-black night sky streaked with shimmering curtains of green aurora light dancing overhead, casting an ethereal glow across the landscape. Jagged rocks and boulders rise unevenly from the ground, forming a natural barrier to the left and right, while patches of dark green bushes and tall grasses sway gently in the foreground. A narrow dirt path snakes forward through the terrain, flanked by weathered wooden crates stacked haphazardly near the base of a sheer cliff face that looms ahead, its surface etched with shadowy crevices. At the heart of the view, a dimly lit opening gapes in the rock wall—perhaps the mouth of an old mine—framed by overhanging ledges and faint wisps of mist. MJR stands in the midst of it all, torch in hand, its flickering orange flame illuminating the immediate surroundings and throwing long shadows across the mossy stones and dewy foliage. The air feels crisp and still, with distant stars piercing the aurora's veil above.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Look at this sky, guard—aurora's dancing like Dibella's tits in a skooma haze, lighting up the river like it's begging for a midnight dip."
+        }
+    ]
+]

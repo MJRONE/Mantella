@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "**MJR casted the spell / consumed Chilling Touch** **Enyala casted the spell Bloodskal Red Glow**"
+        },
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The scene shows an unlit cobblestone pathway partially lit by a shaft of light primarily affecting the surrounding buildings. The view is focused on the pathway and the structure to the right, where the architectural details are somewhat obscured by the taskbar. The building on the left appears to have two levels, featuring lanterns and a red banner. The overall atmosphere suggests a transitional time of day, possibly early morning, due to the sun's position in the sky. MJR is likely standing at the edge of a courtyard or square, surrounded by adjacent buildings. The presence of a lit lantern near a staircase adjoining the cobblestone pathway implies that there may be characters around or that the area is expecting activity. The scene provides a glimpse into the player's surroundings, which could be useful for navigation or interaction.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Enyala: That chill from MJR's touch lingers like a draugr's breath in this damn courtyard\u2014feels wrong with the sun beating down already at this hour."
+        }
+    ]
+]

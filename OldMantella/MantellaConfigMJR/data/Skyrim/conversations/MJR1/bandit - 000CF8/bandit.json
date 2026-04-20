@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(Late visual context as seen by MJR (the player): The scene depicts a dimly lit, ruins environment with stone walls and flooring. The atmosphere is ominous, with a red glow emanating from the bottom left corner of the scene. **Key Elements:** - **Stone Walls and Flooring:** The walls are constructed from rough-hewn stones, while the floor appears to be made of large, flat slabs of rock. - **Red Glow:)"
+        },
+        {
+            "role": "user",
+            "content": "(MJR fired an arrow.) (MJR equipped Daedric Arrow) (MJR dropped Daedric Arrow) (Serana hit Bandit Marauder with Elven Mace of Lethargy) (MJR fired an arrow.) (MJR dropped Daedric Arrow) (MJR unequipped Daedric Arrow) (MJR equipped Daedric Arrow) (MJR hit Bandit Marauder with Daedric Wrath) (Bandit Marauder picked up Daedric Arrow) (Bandit Marauder dropped Daedric Arrow) (Visual context as seen by MJR (the player) at the start of the conversation: The scene depicts a dimly lit, ruins environment with stone walls and flooring. The atmosphere is ominous, with a red glow emanating from the bottom left corner of the scene. **Key Elements:** - **Stone Walls and Flooring:** The walls are constructed from rough-hewn stones, while the floor appears to be made of large, flat slabs of rock. - **Red Glow:)"
+        },
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        }
+    ]
+]

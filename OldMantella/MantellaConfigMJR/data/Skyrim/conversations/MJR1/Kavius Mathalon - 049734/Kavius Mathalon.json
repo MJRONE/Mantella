@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Look at this poor fucker face-down in the dirt—bet he slipped on his own blood while chasing ghosts at four in the goddamn morning. These ruins are like Dibella's wet dream gone sour, all stone cocks and flickering shadows, but I'm half-tempted to drag his ass up those stairs for a proper wake-up call with MJR."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): **Inside Scene:** You stand in a room carved from time itself, MJR. The air feels heavy, thick with the scent of damp stone and old wood. The floor beneath your boots is a patchwork of uneven slabs, cracked and worn, with tufts of grass sprouting stubbornly between the seams like nature reclaiming what was once deserted. High above, wooden beams stretch across the ceiling, their grain lined with age, some curling at the edges as if holding their breath. The walls, too, are ancient stone—rough-hewn and pitted, darker in places where the damp seems to seep from within. Two candelabras stand guard near a doorway framed by sturdy posts, their light flickering weakly. The flames cast jagged shadows on the stone, creating a sense of depth and unease. The doorway opens into another room, its edges lost to shadow, but faint rustlings or the creak of ancient wood seems to emanate from beyond. Scattered near the threshold are fragments of something forgotten—scattered stones, perhaps, or bones of creatures long gone, picked clean by scavengers. There’s a quiet tension here, MJR. As if the walls themselves are listening, and the light is not enough.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Kavius Mathalon: Save the succubus charm for the Dragonborn, bloodsucker. That corpse reeks of Forsworn rot—probably one of their shamans who thought invoking Hircine would save him from the draugr."
+        }
+    ]
+]

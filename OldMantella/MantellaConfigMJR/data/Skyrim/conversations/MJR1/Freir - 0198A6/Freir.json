@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): **Scene Description from MJR\u2019s Perspective:** The air is damp and still, clinging to the weight of the dim stone chamber. The walls, rough-hewn and stained with age, rise to meet a vaulted ceiling that seems to swallow what little light seeps in. The only illumination comes from a high, narrow window barred with iron grilles, casting jagged shadows like skeletal fingers across the cracked cobblestone floor below. To my left, the heavy wooden door hangs ajar, its rusted hinges creaking faintly\u2014a sound swallowed by the muffled silence. In the corner, a weathered oak barrel leans against the wall, its surface scarred by years of disuse. Nearby, a rough-hewn stone bench sits slumped, its wooden seat splintered at one end. An open ledger lies atop it, pages frayed and filled with looping script that hints at restless nights spent tracking unknown debts or favors. My boots crunch over loose stones as I approach a cluttered bench beside the barrel, where a rusted pickaxe rests alongside a scattered pile of weathered maps and a flickering candle. The candle\u2019s flame trembles, caught in the draft that shifts the smell of old woodsmoke and iron. The space feels abandoned, yet restless\u2014like the echoes of a traveler who vanished mid-journey, leaving behind tools and half-written plans. The barred window and paneled walls suggest a refuge, or a prison, depending on who\u2019s telling the story. Something lingers here, half-hidden in the shadows, and the room itself seems to hold its breath, waiting for a voice\u2014or footsteps\u2014to disturb its uneasy stillness.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Freir: By the Eight, this place reeks of heresy and neglect."
+        }
+    ]
+]

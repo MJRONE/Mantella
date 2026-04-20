@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The scene depicts a dark, rocky terrain with a person lying on the ground. The individual is dressed in a black outfit and appears to be unconscious or deceased, as they are not moving. In the foreground, a female figure is seen reaching down toward the person on the ground. She is wearing a black dress and has her hair pulled back. Her right hand is extended towards the individual, while her left hand holds what appears to be a sword or dagger at her side. In the background, two other individuals can be seen lying on the ground further up the slope. They appear to be similarly attired to the first person and also seem to be either unconscious or deceased. The overall atmosphere of the scene suggests that something violent or dangerous has occurred, leading to the presence of these individuals on the ground. The darkness of the environment adds to the sense of tension and foreboding.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: By Dibella's tits, look at those poor bastards strewn about like fresh kills in a slaughterhouse."
+        }
+    ]
+]

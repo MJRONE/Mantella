@@ -1,0 +1,4 @@
+P.A.M. provides information to other characters about their surroundings and objectives in Fallout4.
+
+P.A.M. assists the characters in their conversation without any miscommunication or errors.
+

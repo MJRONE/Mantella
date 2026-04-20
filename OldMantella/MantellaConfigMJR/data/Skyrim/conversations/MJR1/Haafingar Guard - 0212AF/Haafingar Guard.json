@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): From MJR's vantage point, the scene unfolds under a pitch-black night sky heavy with brooding clouds, casting an oppressive gloom over a dense forest of tall, shadowy pines that stretch into the distance on either side. A weathered stone bridge arches ahead, its surface cracked and moss-covered, spanning what appears to be a chasm or dry riverbed below. Perched menacingly atop the bridge's parapets are several imposing, horned silhouettes—hulking figures with elongated snouts, jagged horns curling skyward, and pairs of faint, glowing amber eyes that pierce the darkness like embers. These statuesque forms stand in a row, their detailed carvings suggesting snarling maws and clawed limbs frozen in eternal vigilance, as if guarding the path beyond. The ground leading up to the bridge is a rugged trail of dirt and scattered rocks, flanked by low stone barriers, with wisps of fog curling faintly in the still air. No movement stirs, but the air feels thick with an unspoken tension, the only light emanating from those eerie, watchful eyes.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Haafingar Guard: Shor's bones, this clear sky's a rare gift at this witching hour—makes the dragon heads on the bridge glow like they're about to breathe fire on any Thalmor scum slinking through."
+        }
+    ]
+]

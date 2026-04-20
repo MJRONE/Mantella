@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "**MJR fired an arrow.** **MJR dropped Daedric Arrow** **MJR unequipped Daedric Arrow**"
+        },
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The scene depicts a first-person perspective of a character's hands holding a weapon, with the focus on the right hand grasping the hilt and the left hand supporting it. The weapon features a red circle around the hilt, indicating its significance or function. In the background, a stone structure is visible, comprising large rocks and boulders that form a cave-like environment. The ground appears to be covered in bloodstains, suggesting recent violence or conflict. A figure lies on the ground, possibly injured, adding to the tense atmosphere. The overall setting suggests a dark and ominous tone, with the character's actions implying they are engaged in combat or preparing for one. The details in the scene provide context for NPCs to discuss the events unfolding in this environment.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Well, fuck me sideways, that draugr bitch went down harder than a skooma addict at an Imperial orgy\u2014blood everywhere, and MJR's arrow sealed the deal like a virgin's first thrust."
+        }
+    ]
+]

@@ -133,6 +133,8 @@ class MantellaConfigValueDefinitionsNew:
         vision_category.add_config_value(VisionDefinitions.get_vision_custom_token_count_config_value())
         vision_category.add_config_value(VisionDefinitions.get_vision_llm_params_config_value())
         vision_category.add_config_value(VisionDefinitions.get_use_game_screenshots_config_value())
+        vision_category.add_config_value(VisionDefinitions.get_vision_timeout_config_value())
+        vision_category.add_config_value(VisionDefinitions.get_periodic_vision_interval_config_value())
         result.add_base_group(vision_category)
 
         actions_category = ConfigValueGroup("Actions", "Actions", "Settings for in-game actions.", on_value_change_callback)

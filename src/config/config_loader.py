@@ -371,6 +371,8 @@ LLM parameter list must be valid JSON""")
             self.resize_method = self.__definitions.get_string_value("resize_method")
             self.capture_offset = json.loads(self.__definitions.get_string_value("capture_offset"))
             self.use_game_screenshots = self.__definitions.get_bool_value("use_game_screenshots")
+            self.vision_timeout = self.__definitions.get_int_value("vision_timeout")
+            self.periodic_vision_interval = self.__definitions.get_int_value("periodic_vision_interval")
 
             # Custom Vision Model
             self.custom_vision_model = self.__definitions.get_bool_value("custom_vision_model")

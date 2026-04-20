@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "**MJR equipped Daedric Arrow** **Vika unequipped nolight armor** **Vika has entered combat with Lydia** **Vika equipped Demonatrix Heels White** **Vika equipped Demonatrix Cuirass White** **Vika equipped Demonatrix Gloves White** **Vika equipped Mace of Molag Bal Enchantment** **Vika equipped Mace of Molag Bal** **Farkas has entered combat with Nadja** **Vika equipped Northern Iron War Axe** **Vika has entered combat with MJR** **MJR dropped Daedric Arrow** **Vika equipped Demonatrix Piercings White** **Vika equipped Demonatrix Cuirass White** **MJR unequipped Daedric Arrow** **MJR fired an arrow.** **Vika has entered combat with Lydia** **Vika unequipped Demonatrix Cuirass White** **MJR casted the spell / consumed Unrelenting Force - Fus**"
+        },
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The chamber stretches out in uneasy silence, its walls pressing in close like the gnarled roots of some ancient, petrified beast. Stone bricks form the ceiling and walls in uneven layers, the surfaces marred by bulging moss and stretched lichen that cling like scars to flesh. A sickly amber glow bathes the space, seeping from cracks between the bricks—or maybe from the candles flickering lazily on the uneven stone shelves high above. The floor is a patchwork of cracked rubble and exposed roots, as if the earth itself refused to be tamed by whoever built this place. In one corner, a rusted chain drags across the stones, leading to something hidden beneath a jagged archway door that’s half-buried in debris. To the left, a humanoid figure stands rigidly, their posture sharp and defensive, the silver-black armor lining their form with jagged edges that catch the dim light. On the right, another figure stands still, their lean frame clad in supple leather, a bow slung across their back with arrow shafts glinting faintly. Neither seems to move—a breath held too long. The air feels thick, charged with something unspoken, as though the walls themselves are listening.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Vika: Fuckin' hell, Farkas, this cairn's got more draugr crawlin' out than whores in a Solitude brothel—look at that bitch Lydia swingin' wild over there, and MJR's chuckin' arrows like he's got a death wish!"
+        }
+    ]
+]

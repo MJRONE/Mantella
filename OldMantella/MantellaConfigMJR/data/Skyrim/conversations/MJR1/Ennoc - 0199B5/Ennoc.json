@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Look at that sky, Ennoc—aurora dancing like Dibella's tits in heat. Makes a girl wonder if the gods are putting on a show to distract from all the Forsworn bullshit creeping closer."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): As MJR stands amidst the rugged wilderness, the night sky stretches vast and alive above, dominated by swirling ribbons of ethereal green and purple aurora that dance like veils across the darkness. Stars pierce through scattered wisps of cloud, twinkling faintly against the deep indigo expanse, while jagged silhouettes of craggy peaks rise in the distance, their outlines sharp and foreboding under the celestial glow. The ground beneath your feet is uneven, strewn with loose stones and patches of sparse, hardy earth, dotted here and there with low clusters of vibrant green bushes that rustle softly in the chill breeze. A few embers or faint reddish glows flicker from crevices in the rocks nearby, casting subtle warmth against the cool shadows. In the midst of this scene, you—a tall figure clad in a simple light tunic, sturdy trousers, and leather boots, with long dark hair framing your face and a belt laden with pouches and sheaths—occupy the foreground, poised as if ready for whatever the night might bring. The air feels crisp and remote, the only sounds imagined as the whisper of wind through the stones and foliage.**"
+        }
+    ]
+]

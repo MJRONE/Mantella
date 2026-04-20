@@ -1,4 +1,6 @@
 from enum import Enum
+import logging
+import traceback
 from threading import Thread, Lock
 import time
 from typing import Any
@@ -77,6 +79,20 @@ class Conversation:
         self.last_sentence_start_time = time.time()
         self.__end_conversation_keywords = utils.parse_keywords(context_for_conversation.config.end_conversation_keyword)
         self.__awaiting_action_result: bool = False
+
+        # Radiant (NPC-to-NPC) conversation state: vision capture + event injection.
+        # These fields are only actively used when __conversation_type is `radiant`.
+        self.__vision_requested_for_current_conversation: bool = False
+        self.__last_vision_trigger_time: float = 0.0  # when we last fired a vision capture
+        self.__last_vision_used_time: float = 0.0    # when we last consumed a vision result
+        self.__allow_vision_injection: bool = False  # gate to block vision injection during initial greeting
+        self.__periodic_vision_interval: float = float(getattr(context_for_conversation.config, 'periodic_vision_interval', 0) or 0)
+
+        # Debounce to collapse near-simultaneous event/vision injections into a single LLM call
+        self.__pending_injection_lock: Lock = Lock()
+        self.__pending_injection_events: list[str] = []
+        self.__pending_injection_timer: Thread | None = None
+        self.__injection_debounce_seconds: float = 0.3
 
     @property
     def has_already_ended(self) -> bool:
@@ -188,10 +204,36 @@ class Conversation:
                 self.initiate_end_sequence()
                 return comm_consts.KEY_REPLYTYPE_NPCTALK, None
             else:
+                # In radiant conversations, trigger a periodic vision capture (async) and merge
+                # any queued radiant events / late-vision descriptions into the auto user message
+                if isinstance(self.__conversation_type, radiant):
+                    self.__trigger_periodic_vision_if_due()
+
                 #If not ended, ask the conversation type for an automatic user message. If there is None, signal the game that the player must provide it 
                 new_user_message = self.__conversation_type.get_user_message(self.__context, self.__messages)
                 if new_user_message:
                     new_user_message = self.update_game_events(new_user_message)
+
+                    # Merge radiant-specific queued events (late-vision + persistent radiant log)
+                    if isinstance(self.__conversation_type, radiant):
+                        radiant_extras: list[str] = self.__drain_pending_injection_events()
+                        radiant_log_events = self.__context.get_radiant_event_log()
+                        if radiant_log_events:
+                            existing = set(radiant_extras)
+                            for event in radiant_log_events:
+                                if event and event not in existing:
+                                    radiant_extras.append(event)
+                                    existing.add(event)
+                            self.__context.clear_radiant_event_log()
+                        if radiant_extras:
+                            max_events = self.__context.config.max_count_events
+                            if max_events > 0 and len(radiant_extras) > max_events:
+                                radiant_extras = radiant_extras[-max_events:]
+                            new_user_message.add_event(radiant_extras)
+                            logger.log(24, f"[RADIANT EVENTS] Injected {len(radiant_extras)} events/vision into next radiant user message:")
+                            for idx, evt in enumerate(radiant_extras, 1):
+                                logger.log(24, f"    [{idx}] {evt}")
+
                     self.__messages.add_message(new_user_message)
                     self.__start_generating_npc_sentences()
                     return comm_consts.KEY_REPLYTYPE_NPCTALK, None
@@ -326,20 +368,109 @@ class Conversation:
         if not self.__has_already_ended:
             self.__stop_generation()
             self.__sentences.clear()
-            
-            if not self.__context.npcs_in_conversation.contains_player_character():
+
+            is_now_radiant = not self.__context.npcs_in_conversation.contains_player_character()
+
+            if is_now_radiant:
                 self.__conversation_type = radiant(self.__context.config)
+                # Reset radiant vision / injection state for the new radiant conversation
+                self.__vision_requested_for_current_conversation = False
+                self.__last_vision_trigger_time = 0.0
+                self.__last_vision_used_time = 0.0
+                self.__allow_vision_injection = False
+                # Clear any stale late-vision callback from a previous conversation
+                self.__clear_late_vision_callback()
             elif self.__context.npcs_in_conversation.active_character_count() >= 3:
                 self.__conversation_type = multi_npc(self.__context.config)
+                self.__clear_late_vision_callback()
             else:
                 self.__conversation_type = pc_to_npc(self.__context.config)
+                self.__clear_late_vision_callback()
 
             new_prompt = self.__conversation_type.generate_prompt(self.__context)        
             if len(self.__messages) == 0:
                 self.__messages: message_thread = message_thread(self.__context.config, new_prompt)
+
+                # For a brand-new radiant conversation, inject all accumulated radiant events
+                # (events that happened while no radiant conversation was running, plus any
+                # pending regular events) as a single seed event message before the start prompt.
+                if is_now_radiant:
+                    self.__seed_radiant_conversation_with_events_and_vision()
             else:
                 self.__conversation_type.adjust_existing_message_thread(new_prompt, self.__messages)
                 self.__messages.reload_message_thread(new_prompt, self.__llm_client.is_too_long, self.TOKEN_LIMIT_RELOAD_MESSAGES)
+
+    def __clear_late_vision_callback(self):
+        """Detach any previously-registered late-vision callback from the image client."""
+        image_client = getattr(self.__llm_client, '_image_client', None)
+        if image_client and hasattr(image_client, 'set_late_vision_callback'):
+            try:
+                image_client.set_late_vision_callback(None)
+            except Exception:
+                pass
+
+    def __seed_radiant_conversation_with_events_and_vision(self):
+        """Prime a freshly-started radiant conversation with any queued events and register
+        a late-vision callback so the vision description will arrive asynchronously.
+        """
+        # Pull all accumulated events from the radiant log (plus any pending regular events
+        # that haven't been consumed yet) and seed them as the first user message so the
+        # NPCs have meaningful context to start talking about.
+        all_radiant_events = self.__context.get_radiant_event_log()
+
+        recent_regular_events = self.__context.get_context_ingame_events()
+        if recent_regular_events:
+            existing = set(all_radiant_events)
+            for event in recent_regular_events:
+                if event and event not in existing:
+                    all_radiant_events.append(event)
+                    existing.add(event)
+
+        # Apply the global max_count_events cap so we never overwhelm the prompt
+        max_events = self.__context.config.max_count_events
+        if max_events > 0 and len(all_radiant_events) > max_events:
+            all_radiant_events = all_radiant_events[-max_events:]
+
+        if all_radiant_events:
+            seed_message = UserMessage(self.__context.config, "", "", False)
+            seed_message.add_event(all_radiant_events)
+            self.__messages.add_message(seed_message)
+            logger.log(24, f"[RADIANT EVENTS] STARTUP - Seeded radiant conversation with {len(all_radiant_events)} events: {all_radiant_events}")
+        else:
+            logger.log(23, "[RADIANT EVENTS] STARTUP - No pending events to seed into conversation")
+
+        # Clear both sources now that the events have been applied
+        self.__context.clear_radiant_event_log()
+        self.__context.clear_context_ingame_events()
+
+        # Vision setup: register the late-vision callback AND fire an initial capture
+        # right away so the first vision description arrives during / shortly after
+        # the opening NPC line. Without this, vision would only be triggered
+        # `periodic_vision_interval` seconds into the conversation, which is often
+        # longer than the whole radiant conversation lasts.
+        image_client = getattr(self.__llm_client, '_image_client', None)
+        if (self.__context.config.vision_enabled and
+                image_client and
+                hasattr(image_client, 'set_late_vision_callback') and
+                hasattr(image_client, 'get_vision_description_with_timeout')):
+            self.__vision_requested_for_current_conversation = True
+            image_client.set_late_vision_callback(self.inject_late_vision_description)
+            logger.log(24, "[RADIANT VISION] STARTUP - Late-vision callback registered, triggering initial vision capture...")
+            try:
+                # Fire-and-forget: returns None immediately; result is delivered via
+                # inject_late_vision_description() as soon as the vision LLM responds.
+                image_client.get_vision_description_with_timeout(timeout_seconds=0)
+                self.__last_vision_trigger_time = time.time()
+                logger.log(24, "[RADIANT VISION] STARTUP - Initial vision capture dispatched (background)")
+            except Exception as e:
+                logger.warning(f"[RADIANT VISION] STARTUP - Failed to dispatch initial vision capture: {e}")
+                self.__last_vision_trigger_time = 0.0
+        else:
+            if not self.__context.config.vision_enabled:
+                logger.log(23, "[RADIANT VISION] STARTUP - Vision disabled in config, skipping radiant vision setup")
+            elif not image_client:
+                logger.log(23, "[RADIANT VISION] STARTUP - No image client available, skipping radiant vision setup")
+            self.__last_vision_trigger_time = 0.0
 
     @utils.time_it
     def update_game_events(self, message: UserMessage) -> UserMessage:
@@ -391,6 +522,71 @@ class Conversation:
         self.__start_generating_npc_sentences(allow_tool_use=False)
         
         return True
+
+    @utils.time_it
+    def inject_late_vision_description(self, vision_text: str) -> bool:
+        """Callback invoked by the image client when an async vision description arrives.
+
+        Returns True if the description was accepted (will be injected on the next user-
+        message tick), False if it was discarded (conversation ended or not radiant).
+        """
+        if self.has_already_ended:
+            return False
+        if not isinstance(self.__conversation_type, radiant):
+            return False
+        if not vision_text or not vision_text.strip():
+            return False
+
+        trimmed = vision_text.strip()
+        event_line = f"*You are observing the following:* {trimmed}"
+        with self.__pending_injection_lock:
+            # Dedupe against any queued events
+            if event_line in self.__pending_injection_events:
+                logger.log(23, "[RADIANT VISION] Duplicate vision description discarded")
+                return True
+            self.__pending_injection_events.append(event_line)
+        self.__last_vision_used_time = time.time()
+        # Log the full description text at a user-visible level for debugging.
+        logger.log(24, f"[RADIANT VISION] Vision description received and queued for injection:\n    {trimmed}")
+        return True
+
+    def __trigger_periodic_vision_if_due(self):
+        """For ongoing radiant conversations, fire a background vision capture if the
+        configured interval has elapsed since the last capture."""
+        if not isinstance(self.__conversation_type, radiant):
+            return
+        if not self.__context.config.vision_enabled:
+            return
+        if self.__periodic_vision_interval <= 0:
+            return
+
+        image_client = getattr(self.__llm_client, '_image_client', None)
+        if not image_client or not hasattr(image_client, 'get_vision_description_with_timeout'):
+            return
+
+        now = time.time()
+        if now - self.__last_vision_trigger_time < self.__periodic_vision_interval:
+            return
+
+        self.__last_vision_trigger_time = now
+        # Ensure the callback is registered (it may have been cleared by a prior conversation)
+        if hasattr(image_client, 'set_late_vision_callback'):
+            try:
+                image_client.set_late_vision_callback(self.inject_late_vision_description)
+            except Exception:
+                pass
+        try:
+            image_client.get_vision_description_with_timeout(timeout_seconds=0)
+            logger.log(24, f"[RADIANT VISION] Periodic vision capture dispatched (interval={self.__periodic_vision_interval:.0f}s)")
+        except Exception as e:
+            logger.warning(f"[RADIANT VISION] Failed to trigger periodic vision: {e}")
+
+    def __drain_pending_injection_events(self) -> list[str]:
+        """Pop all pending injection events (late-vision descriptions + any queued events)."""
+        with self.__pending_injection_lock:
+            pending = list(self.__pending_injection_events)
+            self.__pending_injection_events.clear()
+        return pending
 
     @utils.time_it
     def retrieve_sentence_from_queue(self) -> Sentence | None:
@@ -457,6 +653,9 @@ class Conversation:
         self.__has_already_ended = True
         self.__stop_generation()
         self.__sentences.clear()
+        # Detach any radiant late-vision callback so in-flight vision requests don't inject
+        # into a future unrelated conversation.
+        self.__clear_late_vision_callback()
         self.__save_conversation(is_reload=False, end_timestamp=end_timestamp)
     
     @utils.time_it

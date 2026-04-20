@@ -1,0 +1,28 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Frea: This storm's a bitch, isn't it? Thick as Miraak's cursed fog, burying everything in white—reminds me of those blizzards back home where I'd stalk prey through the drifts, my blood boiling hot enough to melt the snow off my tits while I pinned some fool warrior down and rode him till he broke."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): MJR stands at the edge of a rugged, snow-swept mountain path, gazing into a narrow, shadowy ravine flanked by towering granite cliffs dusted with fresh powder. Bare, twisted branches of evergreens jut from the rocks on the right, their needles heavy with ice, while patches of resilient green underbrush cling to the lower slopes amid scattered boulders. The sky above is overcast and dim, casting long shadows across the frozen ground, where faint footprints trail into the distance toward a cluster of jagged peaks piercing the horizon. A chill wind seems to stir the air, with distant wisps of mist or falling snow blurring the far edges of the valley.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Ghost Guardian: Aye, snow like this hides more than beasts—ghosts too, whispering from the barrows. Grew up haunting the old tombs myself, a Nord wraith in the making, dagger always ready to strike from the shadows."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Frea: Look at those footprints snaking into the ravine—fresh as a virgin's blush, but reeking of Miraak's thralls, stumbling blind through the powder like the cum-soaked puppets they are."
+        }
+    ]
+]

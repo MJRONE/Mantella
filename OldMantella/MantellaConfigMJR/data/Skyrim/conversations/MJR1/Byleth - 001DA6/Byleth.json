@@ -1,0 +1,24 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The scene depicts a serene and enchanting winter landscape. The sky is ablaze with the ethereal glow of the aurora borealis, casting a mesmerizing display of green and blue hues across the heavens. They will see snow-covered trees covered with frost, as they stretch the sky like sentinels, their branches heavy with the weight of fresh powder. The ground beneath is blanketed in a thick layer of snow, creating a pristine expanse of white that stretches out to the horizon. A visible taskbar along the bottom shows various icons, like a browser and media player icons. The overall atmosphere is one of stillness and quiet contemplation, as if nature itself is holding its breath in anticipation of something magical. There are no visible characters or objects in the scene, only the natural beauty of the winter wonderland.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: That aurora's dancing like it's got secrets to spill. Greens and blues bleeding into the snow\u2014makes this frozen hell feel almost alive at four in the morning."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Byleth: Secrets or not, that light cuts through the dark like a blade."
+        }
+    ]
+]

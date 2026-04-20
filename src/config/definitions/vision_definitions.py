@@ -89,3 +89,15 @@ class VisionDefinitions:
                         Enable this setting to improve screenshot capture reliability. Otherwise please ensure your game window is visible on screen when running and is not blocked by other windows.
                         If enabled, please ensure you configure screenshot capture settings in the Mantella Pip-Boy settings window."""
         return ConfigValueBool("use_game_screenshots", "Use Game Screenshots", description, False, tags=[ConfigValueTag.advanced])
+
+    @staticmethod
+    def get_vision_timeout_config_value() -> ConfigValue:
+        description = """Maximum time (in seconds) to wait for a vision description before continuing a radiant conversation without it.
+                        Set to 0 to run vision fully in the background and inject the description only when it arrives (recommended)."""
+        return ConfigValueInt("vision_timeout", "Vision Timeout (seconds)", description, 0, 0, 60, tags=[ConfigValueTag.advanced])
+
+    @staticmethod
+    def get_periodic_vision_interval_config_value() -> ConfigValue:
+        description = """How often (in seconds) to capture a new vision description during a radiant (NPC-to-NPC) conversation.
+                        Set to 0 to disable periodic vision updates and only capture vision at the start of a radiant conversation."""
+        return ConfigValueInt("periodic_vision_interval", "Periodic Vision Interval (seconds)", description, 20, 0, 600, tags=[ConfigValueTag.advanced])

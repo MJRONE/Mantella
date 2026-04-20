@@ -1,6 +1,10 @@
 import src.utils as utils
 from openai.types.chat import ChatCompletionMessageParam
 import unicodedata
+import threading
+import time
+import traceback
+from typing import Callable, Optional
 from src.config.config_loader import ConfigLoader
 from src.image.image_manager import ImageManager
 from src.llm.client_base import ClientBase
@@ -60,6 +64,11 @@ class ImageClient(ClientBase):
                                                 config.capture_offset,
                                                 config.use_game_screenshots,
                                                 config.game_path)
+
+        # Callback invoked when an asynchronous vision description finishes after the
+        # requesting conversation has already moved on (used for radiant NPC-to-NPC
+        # conversations where vision should never block the LLM response).
+        self._late_vision_callback: Optional[Callable[[str], bool]] = None
     
     @utils.time_it
     def add_image_to_messages(self, openai_messages: list[ChatCompletionMessageParam], vision_hints: str) -> list[ChatCompletionMessageParam]:
@@ -125,3 +134,100 @@ class ImageClient(ClientBase):
                     })
 
         return openai_messages
+
+    @utils.time_it
+    def get_vision_description_with_timeout(self, vision_hints: str = "", timeout_seconds: Optional[float] = None) -> Optional[str]:
+        """Capture a screenshot and request a text vision description from the vision LLM.
+
+        Unlike ``add_image_to_messages``, this method returns a plain text description
+        that can be injected as an in-game event. It is intended for radiant (NPC-to-NPC)
+        conversations where vision should never block the normal NPC response.
+
+        Args:
+            vision_hints: Additional context hints for the vision model.
+            timeout_seconds: Maximum time to wait for the vision response.
+                - ``None``: use ``config.vision_timeout``
+                - ``0``: fire and forget (returns ``None`` immediately; the callback registered
+                  via :meth:`set_late_vision_callback` is invoked when the description is ready)
+
+        Returns:
+            The vision description text, or ``None`` if the request timed out or failed.
+        """
+        if timeout_seconds is None:
+            try:
+                timeout_seconds = float(self.__config.vision_timeout)
+            except Exception:
+                timeout_seconds = 0.0
+
+        if not self.__image_manager:
+            logger.log(23, "Image manager not available for vision description")
+            return None
+
+        image = self.__image_manager.get_image()
+        if image is None:
+            logger.warning("[RADIANT VISION] No image captured from game window for vision description (window may not be focused/found)")
+            return None
+
+        logger.log(23, f"[RADIANT VISION] Image captured ({self.__detail} detail), sending to vision LLM...")
+
+        result_container = {'description': None, 'completed': False}
+
+        def _run_vision_request():
+            start_time = time.time()
+            try:
+                if len(vision_hints) > 0:
+                    vision_prompt = f"{self.__vision_prompt}\n{vision_hints}"
+                else:
+                    vision_prompt = self.__vision_prompt
+
+                image_msg_instance = ImageMessage(self.__config, image, vision_prompt, self.__detail, True)
+                image_transcription = self.request_call(image_msg_instance)
+
+                elapsed = time.time() - start_time
+                if image_transcription:
+                    last_punctuation = max(image_transcription.rfind(p) for p in self.__end_of_sentence_chars)
+                    filtered_transcription = image_transcription if last_punctuation == -1 else image_transcription[:last_punctuation + 1]
+                    result_container['description'] = filtered_transcription
+
+                    logger.log(24, f"[RADIANT VISION] Vision LLM responded in {elapsed:.1f}s ({len(filtered_transcription)} chars):\n    {filtered_transcription}")
+
+                    callback = self._late_vision_callback
+                    if callback:
+                        try:
+                            callback(filtered_transcription)
+                        except Exception as cb_err:
+                            logger.error(f"[RADIANT VISION] Late vision callback failed: {cb_err}")
+                    else:
+                        logger.log(23, "[RADIANT VISION] No late-vision callback registered; description discarded")
+                else:
+                    logger.warning(f"[RADIANT VISION] Vision model returned empty response after {elapsed:.1f}s")
+            except Exception as e:
+                logger.error(f"[RADIANT VISION] Vision description request failed: {e}")
+                logger.debug(traceback.format_exc())
+            finally:
+                result_container['completed'] = True
+
+        vision_thread = threading.Thread(target=_run_vision_request, daemon=True, name="RadiantVisionRequest")
+        vision_thread.start()
+
+        if timeout_seconds is None or timeout_seconds <= 0:
+            # Fire-and-forget: do not block the caller. Description (if any) is delivered
+            # through the late vision callback registered via set_late_vision_callback.
+            return None
+
+        start_time = time.time()
+        while not result_container['completed'] and (time.time() - start_time) < timeout_seconds:
+            time.sleep(0.1)
+
+        if not result_container['completed']:
+            logger.debug(f"[RADIANT VISION] Vision description timed out after {timeout_seconds:.1f}s (will fall back to late callback)")
+            return None
+
+        return result_container['description']
+
+    def set_late_vision_callback(self, callback: Optional[Callable[[str], bool]]) -> None:
+        """Register (or clear) a callback invoked when an async vision description arrives.
+
+        Pass ``None`` to clear the callback (e.g. when a radiant conversation ends).
+        """
+        self._late_vision_callback = callback

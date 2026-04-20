@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): From MJR's perspective, the scene unfolds at night under a starry sky, with a crackling bonfire casting warm orange glows and flickering shadows across the ground. Nearby stands a sturdy wooden post supporting a weathered signboard that sways gently, perhaps marking some roadside establishment. Beyond it, rough stone walls rise unevenly, dotted with wooden beams and remnants of what might be an old outpost or village edge, partially shrouded in darkness. The earth beneath is a mix of packed dirt and sparse patches of grass, illuminated sporadically by the fire's light, while embers drift upward into the cool air. In the immediate foreground, gloved hands grip the hilt of a sheathed sword, its black leather scabbard and ornate guard visible, suggesting readiness amid the quiet surroundings.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Eimar: Gods, this dawn's sky is clearer than a fresh barrel of our honey mead—makes the whole valley look like Dibella herself painted it."
+        }
+    ]
+]

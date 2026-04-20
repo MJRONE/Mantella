@@ -1,0 +1,43 @@
+# Tested on Python 3.11; also works on Python 3.13 with the relaxed pins below.
+# If you are on Python 3.11 you can re-pin to exact versions if desired; on
+# Python 3.13 the original pinned versions (pandas 1.5.3, numpy 1.25.0, etc.)
+# have no wheels available and cannot build from source, so the lower bounds
+# here were chosen as the oldest releases that ship Python 3.13 wheels.
+setuptools>=70,<82
+pandas>=2.2.0
+tiktoken>=0.8.0
+httpx>=0.27.2
+openai>=2.8.0
+aiohttp>=3.10.0
+faster-whisper>=1.1.0
+requests>=2.31.0
+pyaudio>=0.2.14
+soundfile>=0.12.1
+numpy>=2.0.0
+charset-normalizer>=3.2.0
+fastapi>=0.110.2
+huggingface_hub>=0.25
+gradio>=4.44.0
+pywin32>=308; platform_system == "Windows"
+mss>=9.0.1
+opencv-python-headless>=4.10.0.84
+sounddevice>=0.5.1
+regex
+silero-vad-lite
+playsound
+# Moonshine (optional speech-to-text). Disabled because its setup.py relies on
+# pkg_resources which has been dropped from recent setuptools, and because it
+# is not required when using Whisper as the STT service. The src code already
+# imports it inside a try/except ModuleNotFoundError, so leaving it uninstalled
+# is safe.
+# git+https://github.com/usefulsensors/moonshine.git@2f6282347950c8d711bd7319287babb87ec5a92d#subdirectory=moonshine-onnx
+opentelemetry-api>=1.27.0
+opentelemetry-sdk>=1.27.0
+opentelemetry-exporter-otlp-proto-grpc>=1.27.0
+opentelemetry-exporter-otlp-proto-http>=1.27.0
+opentelemetry-instrumentation-requests>=0.48b0
+opentelemetry-instrumentation-logging>=0.48b0
+# onnxruntime is imported at the top of main.py but was missing from the old
+# pins (it used to be a transitive dep of moonshine). Install explicitly so
+# main.py import doesn't fail on a clean environment.
+onnxruntime>=1.19.0

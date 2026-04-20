@@ -35,6 +35,7 @@ class Context:
         self.__ingame_time: int = 12
         self.__game_days: float = 1.0  # Full game timestamp (days.fraction)
         self.__ingame_events: list[str] = []
+        self.__radiant_event_log: list[str] = []  # Persistent log for radiant (NPC-to-NPC) conversations
         self.__vision_hints: str = ''
         self.__have_actors_changed: bool = False
         self.__game: GameEnum = config.game
@@ -137,6 +138,38 @@ class Context:
     def clear_context_ingame_events(self):
         self.__ingame_events.clear()
 
+    def get_radiant_event_log(self) -> list[str]:
+        """Get a copy of all events accumulated for radiant (NPC-to-NPC) conversations."""
+        return self.__radiant_event_log.copy()
+
+    @utils.time_it
+    def clear_radiant_event_log(self):
+        """Clear the radiant event log after its contents have been consumed."""
+        event_count = len(self.__radiant_event_log)
+        if event_count > 0:
+            logger.debug(f"[RADIANT EVENTS] Clearing {event_count} used events from log")
+        self.__radiant_event_log.clear()
+
+    @utils.time_it
+    def add_to_radiant_event_log(self, events: list[str]):
+        """Add events to the persistent radiant log (with deduplication and max_count_events cap)."""
+        if not events:
+            return
+
+        existing_events_set = set(self.__radiant_event_log)
+        new_unique_events = [event for event in events if event and event not in existing_events_set]
+
+        if not new_unique_events:
+            return
+
+        self.__radiant_event_log.extend(new_unique_events)
+
+        max_events = self.__config.max_count_events
+        if max_events > 0 and len(self.__radiant_event_log) > max_events:
+            self.__radiant_event_log = self.__radiant_event_log[-max_events:]
+
+        logger.info(f"[RADIANT EVENTS] Added {len(new_unique_events)} events (total in log: {len(self.__radiant_event_log)})")
+
     @utils.time_it
     def add_or_update_characters(self, new_list_of_npcs: list[Character], message_count: int) -> list[Character]:
         removed_npcs = []
@@ -236,6 +269,10 @@ class Context:
 
         if custom_ingame_events:
             self.__ingame_events.extend(custom_ingame_events)
+            # Also mirror into the persistent radiant event log so NPC-to-NPC conversations
+            # can pick up events that accumulated while no radiant conversation was active
+            # or in between radiant turns.
+            self.add_to_radiant_event_log(custom_ingame_events)
 
         if config_settings:
             self.__config_settings = config_settings

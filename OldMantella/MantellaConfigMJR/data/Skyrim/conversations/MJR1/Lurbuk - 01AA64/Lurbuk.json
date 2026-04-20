@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The scene depicts a dimly lit, rustic interior with stone flooring and wooden walls. The atmosphere is dark, with the only light source emanating from a fire on right side of the frame. In the foreground, a large wooden pillar dominates the center of the scene, while another structure is partially visible to its left. The background features a stone floor and additional wooden structures, including what appears to be a doorway or entrance on the right side of the scene. A figure, likely a player character, stands in the distance on the right side of the scene. They are dressed in a white-haired wig, a revealing black and white outfit, and light colored boots. Their back is turned towards the camera, and they seem to be engaged in weapon training, possibly with a sword. The overall ambiance of the scene suggests that it is set within a medieval or fantasy environment, possibly a tavern or inn given the presence of the fire and the character's attire. The level of detail and realism in the scene implies that it may be a screenshot from a video game or a rendered image created for entertainment purposes.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Lurbuk: Ah, another weary traveler braving the swamps of Hjaalmarch!"
+        }
+    ]
+]

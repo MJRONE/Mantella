@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Ugh, this tavern reeks of cheap ale and Imperial cowardice. Narri, how do you tolerate serving these milk-drinkers day after day? At least in Whiterun, we have real Nords with spines. Narri: good ol\u2019 days. dutiful submission, Lydia: You\u2019re about to find out how bandits feel when I\u2019m done with them. Narri: Bring it, housecarl. Dibella loves a show."
+        },
+        {
+            "role": "user",
+            "content": "Please wrap up the current topic between the NPCs in a natural way. Nobody is leaving, so there is no need for formal goodbyes."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Hmph. Just remember, Narri, when the Stormcloaks finally purge Falkreath of weak-blooded influence, I expect you to serve me first. Dibella demands hierarchy after all. Narri: If you say so, Lydia. Though I doubt even your beloved goddess could make you less insufferable after a few drinks. More mead? Lydia: Don\u2019t tempt me. MJR\u2019s already got me wound tight enough\u2014rather take it out on bandits than your lousy wine."
+        }
+    ]
+]

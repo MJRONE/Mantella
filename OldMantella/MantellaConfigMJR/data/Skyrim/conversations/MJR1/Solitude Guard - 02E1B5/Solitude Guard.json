@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): MJR stands in a dimly lit stone chamber, the air thick with shadows and a faint, ethereal blue glow permeating the space. Rough-hewn stone walls rise on either side, framed by tall, arched doorways that lead into deeper darkness. The floor beneath is paved with uneven, square flagstones, worn smooth by time or passage. In the center of the room, a slender female figure in tattered, flowing garments hovers or stands poised, her form partially obscured by the gloom, with long limbs and a ethereal silhouette suggesting movement or unrest. To the right, a narrow window or alcove emits a warm, flickering yellow light, casting subtle highlights on the surrounding stones and hinting at some hidden source beyond. Scattered debris, like crumpled cloth or faint outlines of objects, litters the floor near the figure, while the overall scene feels ancient and foreboding, as if echoing with unspoken secrets.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Look at this spooky bitch floating around like she's auditioning for a Volkihar blood orgy—bet she's got more secrets than the Thalmor's ass stash of skooma bribes."
+        }
+    ]
+]

@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): In the current scene, MJR stands in a dimly lit stone chamber with rough-hewn walls and sturdy wooden beams arching overhead, casting long shadows across the uneven flagstone floor. Flickering candlelight illuminates a nearby wooden table cluttered with a few scattered items—a red cloth or book partially draped over the edge, and small flames dancing from brass holders. Before him looms a stern-faced man in weathered brown leather armor, his stance alert and commanding, one hand resting on the hilt of a sheathed sword at his belt. The air feels heavy with the scent of aged wood and wax, and faint wisps of smoke curl upward from the candles, revealing subtle details etched into the surrounding masonry, like faded runes or cracks from years of wear.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You know, Gularzob, it's 2 AM in this shithole longhouse, and that skull on your table looks like it died begging for Malacath's mercy—kinda like how my ex-father's ego is gonna shatter when I shove this Dwarven mace up his ass."
+        }
+    ]
+]

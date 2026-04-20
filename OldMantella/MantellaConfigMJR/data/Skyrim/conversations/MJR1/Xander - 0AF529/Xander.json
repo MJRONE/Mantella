@@ -1,0 +1,40 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): MJR stands in a dimly lit stone chamber with rough-hewn walls and an arched ceiling, the air heavy with the scent of flickering candle wax and aged wood. A round wooden table dominates the center, its surface scattered with a wooden board bearing a wedge of pale cheese, a few ripe red apples, and a ornate brass candelabrum holding lit tapers that cast warm, dancing shadows. Nearby goblets of dark metal sit empty, and a richly patterned rug in deep reds and golds covers part of the flagstone floor beneath. High-backed wooden chairs with carved accents flank the table, one of them occupied by a woman with long, fair hair cascading over her shoulders. She lounges casually in her seat, one leg draped over the armrest, dressed in simple yet fitted attire that hints at comfort in this enclosed space. Shelves line the walls, holding a few glass bottles and small trinkets, while a narrow window with iron framing allows faint moonlight to filter in from outside. In the corner, a sturdy wooden bed frame looms, partially draped with linens, adding to the intimate, secluded feel of the room.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Xander: This inn's got that Solitude stink about it—polished stone and Imperial coin, but the ale's still watery as the harbor slop. You look like you've seen some real scrapes out there, lass; that greatsword ain't for showin' off to merchants. Lydia: Aye, and it's tasted more Thalmor blood than you've seen fine threads in your life, you prissy Cyrodiil dandy."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Aye, and you've got the reek of some salt-crusted Imperial dandy who thinks a fancy cloak hides his pirate stink—spill it, mustache, what the fuck are you eyeing up in this shithole tavern at midday? That cheese on the table looks like it's been gnawed by skeever rats, and the only scrapes I've seen worth a damn are the ones I carved into Forsworn hides for my Thane."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Xander: Prissy? Oh, that's rich coming from a Nord broad swinging steel like it's a lover's quarrel. I've danced with cutlasses sharper than your tongue, lass—sank my own ship to the ghosts for less lip than this. Lydia: Your ship's a watery grave 'cause you couldn't sail straight, you Imperial fop. I've gutted better men than you for less, and this place reeks of Solitude's soft underbelly—midday sun barely piercing these walls, and already the ale's turning to piss."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Xander: Pirate? Oh, darling, that's a crude word for a man of refined tastes like mine—call me a seafarer with a taste for adventure, like captaining the Argent Raptor 'til that cursed iceberg in the Sea of Ghosts turned her to splinters."
+        }
+    ]
+]

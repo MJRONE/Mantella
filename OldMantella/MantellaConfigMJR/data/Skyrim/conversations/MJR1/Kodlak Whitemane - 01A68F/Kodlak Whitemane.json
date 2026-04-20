@@ -1,0 +1,38 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Kodlak Whitemane: Late hour for wandering these halls, Vilkas. You hear that whelp out there? Asking for lessons in the greatsword like it's mead at a feast. Think the lad's got the fire for it?"
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): In the dimly lit training hall, a floating panel flickers above the steely-eyed instructor kneeling in the center, her dark robes adorned with alchemical glyphs. The screen pulses with shifting runes, displaying a \"Level Progress\" bar arcing from left to right, accompanied by a note reading \"+20\" and a partially obscured phrase starting with \"TWO-HANDED INCREASED.\" Below, a colossal stone tablet inscribed with glowing text lists \"Two-Handed 57,\" flanked by a progress counter \"Trained This Level: 5/5\" and a cost tally—gems ****1760***. The numbers, etched in molten script, have the instructor muttering about the exorbitant ****** \"levered to train mastered strength.\" The panel’s cursor hovers near an option to \"Learn\" or \"Reset,\" casting an eerie blue glow on the alien text. Across the chamber, a weathered column, carved with forgotten sigils, stands sentinel over scattered scrolls—one scribbled with \"Master: 3/5,\" suggesting the cost of near-completion. The scene hums with the tension of infinite progression, the air thick with the scent of ozone and ambition.**"
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Vilkas: Aye, Kodlak, that whelp's got more swing in his arms than half the whelps we've turned out. Saw him eyeing my greatsword earlier—like he thinks it's a toy for pummeling trolls. Fire? Maybe."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The scene reveals a grand, dimly-lit interior with high, vaulted ceilings supported by thick wooden beams, their surfaces adorned with intricate carvings. Stone pillars rise from the uneven, gray floor, some featuring carved motifs matching the beams above. A patterned rug—dark with light geometric borders—stretches along one side, leading toward a raised platform with steps, flanked by decorative columns wrapped in red fabric. Ornate wooden doors stand shut near the back, above which hang elaborate tapestries and carved wooden medallions. Windows with latticed glass filter in faint light, while stone walls near the bottom are lined with what appears to be stacked firewood or masonry. The air feels heavy with the scent of aged wood and smoke, and the faint glow of torches casts long shadows across the space, hinting at a place designed for gatherings or ceremonies.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Kodlak Whitemane: Aye, the night's dragging on like a troll's shadow, Aela."
+        }
+    ]
+]

@@ -1,30 +1,59 @@
-# python 3.11
-setuptools<82
-pandas==1.5.3
-tiktoken==0.4.0
-httpx==0.27.2
-openai==2.8.0
-aiohttp==3.8.4
-faster-whisper==1.0.3
-requests==2.31.0
-pyaudio==0.2.13
-soundfile==0.12.1
-numpy==1.25.0
-charset-normalizer==3.2.0
-fastapi==0.110.2
-huggingface_hub<0.25
-gradio==4.28.3
-pywin32==306; platform_system == "Windows"
-mss==9.0.1
-opencv-python-headless==4.10.0.84
-sounddevice==0.5.1
+# Unpinned requirements for MantellaMJR (new version).
+# A copy of the original pinned list (as shipped with the new version) is kept
+# in `requirements.pinned.txt` for reference.
+#
+# Rationale for removing pins:
+#   * The original pins target Python 3.11 and do not have wheels on Python 3.13.
+#   * Most of the packages below are already installed from OldMantella with
+#     newer versions that work fine for both Mantella instances.
+#   * Without pins, `pip install -r requirements.txt` leaves already-installed
+#     packages untouched (its default upgrade strategy is `only-if-needed`),
+#     so this file won't downgrade your OldMantella environment.
+#
+# If you ever end up in a fresh environment, feel free to reintroduce the pins
+# from `requirements.pinned.txt`.
+
+setuptools
+pandas
+tiktoken
+httpx
+openai
+aiohttp
+faster-whisper
+requests
+pyaudio
+soundfile
+numpy
+charset-normalizer
+fastapi
+huggingface_hub
+gradio
+pywin32; platform_system == "Windows"
+mss
+opencv-python-headless
+sounddevice
 regex
 silero-vad-lite
-playsound
-git+https://github.com/usefulsensors/moonshine.git@2f6282347950c8d711bd7319287babb87ec5a92d#subdirectory=moonshine-onnx
-opentelemetry-api==1.27.0
-opentelemetry-sdk==1.27.0
-opentelemetry-exporter-otlp-proto-grpc==1.27.0
-opentelemetry.exporter.otlp.proto.http==1.27.0
-opentelemetry-instrumentation-requests==0.48b0
-opentelemetry-instrumentation-logging==0.48b0
+# playsound 1.3.0 has a broken setup.py (OSError: could not get source code) on
+# Python 3.13, so pin to 1.2.2 (last pure-Python release). Only used as a
+# fallback when winsound is unavailable, so this can also be safely omitted
+# on Windows if it causes trouble.
+playsound==1.2.2
+# Moonshine (optional speech-to-text). Disabled because its setup.py relies on
+# pkg_resources, which has been dropped from recent setuptools, and because it
+# is not required when using Whisper as the STT service. The src code already
+# imports it inside a try/except ModuleNotFoundError, so leaving it uninstalled
+# is safe.
+# git+https://github.com/usefulsensors/moonshine.git@2f6282347950c8d711bd7319287babb87ec5a92d#subdirectory=moonshine-onnx
+
+# OpenTelemetry stack (new in this Mantella version, not in OldMantella).
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp-proto-grpc
+opentelemetry-exporter-otlp-proto-http
+opentelemetry-instrumentation-requests
+opentelemetry-instrumentation-logging
+
+# onnxruntime is imported at the top of main.py. Usually already installed as
+# a transitive dependency, but listed here explicitly for fresh environments.
+onnxruntime

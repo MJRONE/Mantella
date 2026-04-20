@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Whiterun Guard: Fuckin' stars out tonight, clear as a virgin's conscience. Makes patrollin' this shithole village easier—spot a bandit slinkin' in from a mile off."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): The player, MJR, is currently adjusting the view through the in-game menu. This reveals a scene where the player character, whose precise identity remains unclear but is likely the in-game sibling, is walking through a dark area. The scene unfolds in a trail that goes through woods or possibly a path lining a river for a short distance. A bright lantern carried by the character provides light. This bright light gently falls on the trail and some plants and shrubs near the path. The sky above is a deep, dark blue, filled with many bright stars there does seem to be a hint of the Milky Way. The area surrounding the path features several other elements towards the top of the screen: Mountains covered in a layer of snow. An outer water body, likely a river, visible to one side of the path. Tall grasses line the sides of the trail, swaying subtly in the breeze. The overall ambiance of this specific scene is difficult to distinguish from nighttime in the game.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Whiterun Guard: You see that smoke risin' from ol' Erik's farm? Smells like he's burnin' more than just his supper again."
+        }
+    ]
+]

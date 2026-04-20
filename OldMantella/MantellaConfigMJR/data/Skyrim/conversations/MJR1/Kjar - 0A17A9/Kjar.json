@@ -1,0 +1,12 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): MJR stands amid a vast, snow-swept expanse under a mesmerizing night sky dominated by swirling ribbons of aurora borealis, their ethereal greens and blues dancing across the darkness like living veils. Jagged mountains rise sharply in the distance, their peaks shrouded in shadow and dusted with fresh powder. Closer by, a cluster of tall pine trees stands sentinel, their branches heavy with snow and needles glistening faintly in the auroral glow. Icicles hang like crystalline daggers from rocky outcrops and ledges nearby, catching the light in sharp, frozen edges. The ground is a seamless blanket of deep snow, undisturbed except for subtle drifts shaped by the wind, enveloping everything in a profound, chilling silence.**"
+        }
+    ]
+]

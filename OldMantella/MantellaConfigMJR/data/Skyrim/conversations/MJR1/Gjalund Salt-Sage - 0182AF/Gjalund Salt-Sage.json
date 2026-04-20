@@ -1,0 +1,28 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You know, captain, sailing the Sea of Ghosts at dawn like this? It's like Dibella herself decided to paint the sky with her blush after a night of too much sujamma and bad decisions—beautiful, but I bet you've seen rougher mornings than this frozen harbor. Gjalund Salt-Sage: Aye, lass, and I've puked over the rails from worse hangovers than whatever goddess-whore's whimsy you're spoutin'."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): As MJR stands on the weathered wooden platform overlooking the misty fjord, the scene unfolds in the fading light of dusk. The sky above is a deepening canvas of bruised purples and soft pinks, streaked with wispy clouds that hint at the chill of the coming night. Jagged, snow-capped mountains rise sharply in the distance, their peaks piercing the horizon like ancient sentinels, blanketed in a fresh layer of white that glimmers faintly under the twilight glow. Closer by, the structure around you feels rugged and timeworn—a sturdy bridge of dark stone arches spans a narrow chasm, its surface etched with frost and supported by thick wooden beams that creak softly in the breeze. Rusty iron rails line the edges, flanked by stacks of weathered crates and barrels lashed with ropes, some marked with faded symbols of trade or warning. To one side, a longship rests against a makeshift dock, its hull scarred by salt and storms, with tall oars extended like the ribs of some forgotten beast, secured by heavy chains.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Gjalund Salt-Sage: What brings a pale beauty like you to my docks at this hour?"
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Captain, that sunset's bleeding over the fjord like a fresh kill after a Volkihar feast—Dibella's way of saying Skyrim's richer with a little red in the sky, don't you think? Bet your Maiden's itching to shove off before the ghosts start whispering deals. Gjalund Salt-Sage: Ghosts? Aye, and worse've haunted these docks since the war—Thalmor pricks sniffing cargo like starved hounds."
+        }
+    ]
+]

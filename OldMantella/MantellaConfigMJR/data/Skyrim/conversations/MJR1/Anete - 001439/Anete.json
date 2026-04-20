@@ -1,0 +1,26 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "**Denise hit MJR with Ebony Blade** **Anete hit MJR with Steel Battleaxe** **Denise dropped Dwarven Arrow** **Denise picked up Dwarven Arrow** **Denise casted the spell Ebony Blade Enchantment**"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): MJR is looking at a snow-covered forest scene with a man in the distance. The man is wearing a brown shirt and dark pants, and he is holding something in his right hand. The surrounding trees are covered in snow, and the sky is blue with some clouds. MJR is observing a scene where a man appears to be preparing to shoot or throw something. The man's posture and the object in his hand suggest that he is engaged in an activity that requires focus and concentration.**"
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): In the foreground, MJR (the player) has something strapped to their back. They are holding what appears to be the handle of a weapon, possibly a rifle. In the background, there are trees covered in a thick layer of snow. The sky is clear and blue with a few wispy clouds, and the sun is shining through the trees, creating a warm glow over the scene. There is also snow-covered ground and a wooden railing.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Denise: Gods, this fucking snow gets everywhere. Even my tits are frozen solid."
+        }
+    ]
+]

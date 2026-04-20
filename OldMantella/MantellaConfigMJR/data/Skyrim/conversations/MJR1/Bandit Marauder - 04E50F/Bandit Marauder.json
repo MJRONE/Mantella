@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(Late visual context as seen by MJR (the player): The scene features the character MJR holding a weapon, hereafter referred to as MJR. In the scene, MJR is seen gripping a long, black object with a red circle at its end, which appears to be emitting a colorful glow. MJR is holding this object with both of their hands. A woman stands in front of MJR holding a weapon. The surroundings of the scene are dark and forested at night, with trees and foliage visible in the background.)"
+        },
+        {
+            "role": "user",
+            "content": "(MJR fired an arrow.) (MJR unequipped Daedric Arrow) (MJR hit Bandit Marauder with Daedric Wrath) (MJR dropped Daedric Arrow) (MJR equipped Daedric Arrow) (Visual context as seen by MJR (the player) at the start of the conversation: The scene features the character MJR holding a weapon, hereafter referred to as MJR. In the scene, MJR is seen gripping a long, black object with a red circle at its end, which appears to be emitting a colorful glow. MJR is holding this object with both of their hands. A woman stands in front of MJR holding a weapon. The surroundings of the scene are dark and forested at night, with trees and foliage visible in the background.)"
+        },
+        {
+            "role": "user",
+            "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
+        }
+    ]
+]

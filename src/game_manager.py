@@ -51,6 +51,10 @@ class GameStateManager:
         self.__should_reload: bool = False
         self.__chat_manager.clear_per_character_client_cache()
         self.__random_selector = RandomLLMSelector()
+        # Events accumulated while no conversation was active (or during a PC-to-NPC
+        # conversation). These are forwarded to the context of the next radiant
+        # (NPC-to-NPC) conversation so NPCs can talk about things that happened earlier.
+        self.__pending_radiant_events: list[str] = []
 
 
     @utils.time_it
@@ -69,6 +73,13 @@ class GameStateManager:
         
         conversation_client = self._build_random_conversation_client() or self.__client
         context_for_conversation = Context(world_id, self.__config, conversation_client, self.__rememberer, self.__language_info)
+        # Seed the new context's radiant event log with any events that accumulated while
+        # no (or a different) conversation was active so radiant conversations can pick
+        # them up and discuss them.
+        if self.__pending_radiant_events:
+            context_for_conversation.add_to_radiant_event_log(self.__pending_radiant_events)
+            logger.log(23, f"[RADIANT EVENTS] Forwarded {len(self.__pending_radiant_events)} pending events to new conversation's radiant log")
+            self.__pending_radiant_events.clear()
         self.__talk = Conversation(context_for_conversation, self.__chat_manager, self.__rememberer, conversation_client, self.__stt, self.__mic_input, self.__mic_ptt, self.__game)
         self.__update_context(input_json)
         self.__try_preload_voice_model()
@@ -225,6 +236,24 @@ class GameStateManager:
     @utils.time_it
     def end_conversation(self, input_json: dict[str, Any]) -> dict[str, Any]:
         if(self.__talk):
+            # Before ending, stash any still-unused radiant events from this conversation's
+            # context so the next radiant conversation can still see them.
+            try:
+                remaining_radiant_events = self.__talk.context.get_radiant_event_log()
+                if remaining_radiant_events:
+                    existing = set(self.__pending_radiant_events)
+                    for event in remaining_radiant_events:
+                        if event and event not in existing:
+                            self.__pending_radiant_events.append(event)
+                            existing.add(event)
+                    # Cap the pending queue to avoid unbounded growth between conversations.
+                    max_events = self.__config.max_count_events
+                    if max_events > 0 and len(self.__pending_radiant_events) > max_events * 2:
+                        self.__pending_radiant_events = self.__pending_radiant_events[-max_events * 2:]
+                    logger.log(23, f"[RADIANT EVENTS] Carried {len(remaining_radiant_events)} events from ended conversation into pending queue (total pending: {len(self.__pending_radiant_events)})")
+            except Exception as e:
+                logger.debug(f"[RADIANT EVENTS] Failed to carry events forward on end: {e}")
+
             # Extract end timestamp from game client
             end_timestamp = input_json.get(comm_consts.KEY_ENDCONVERSATION_TIMESTAMP, None)
             self.__talk.end(end_timestamp)
