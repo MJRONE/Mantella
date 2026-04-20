@@ -111,6 +111,13 @@ class Conversation:
         # to acknowledge what the player said. The actual transcription stays inside
         # the event-line block where it has always been delivered.
         self.__radiant_pending_speech_for_prompt: bool = False
+        # Set to True whenever the player speaks in radiant mode so the GameStateManager
+        # can fire its "dummy player call" refresh on the very NEXT round-trip
+        # instead of waiting up to radiant_force_refresh_interval seconds. This
+        # ensures game-side events that happened while the player was talking land
+        # in the same LLM turn that responds to the speech. Consumed via
+        # ``consume_force_radiant_refresh_request``.
+        self.__radiant_force_refresh_requested: bool = False
 
     @property
     def has_already_ended(self) -> bool:
@@ -644,8 +651,10 @@ class Conversation:
                 return True
             self.__pending_injection_events.append(event_line)
         self.__last_vision_used_time = time.time()
-        # Log the full description text at a user-visible level for debugging.
-        logger.log(24, f"[RADIANT VISION] Vision description received and queued for injection:\n    {trimmed}")
+        # Deliberately terse - the full description text was already logged by
+        # image_client.get_vision_description_with_timeout when the vision LLM
+        # responded. Repeating it here was just noise in the log.
+        logger.log(23, f"[RADIANT VISION] Vision description queued for injection ({len(trimmed)} chars)")
         return True
 
     def __trigger_periodic_vision_if_due(self):
@@ -686,6 +695,19 @@ class Conversation:
             self.__pending_injection_events.clear()
         return pending
 
+    def consume_force_radiant_refresh_request(self) -> bool:
+        """Pop the "radiant force-refresh requested" flag set by player speech.
+
+        Called by ``GameStateManager.__maybe_force_radiant_refresh`` so that a
+        forced context/events refresh fires on the very next Papyrus round-trip
+        after the player has spoken, bypassing the normal
+        ``radiant_force_refresh_interval`` cooldown.
+        """
+        with self.__pending_injection_lock:
+            forced = self.__radiant_force_refresh_requested
+            self.__radiant_force_refresh_requested = False
+        return forced
+
     def __consume_radiant_pending_speech_flag(self) -> bool:
         """Pop the "player just spoke" flag so we only nudge the LLM once per speech.
 
@@ -716,11 +738,23 @@ class Conversation:
             if self.__radiant_waiting_for_player_transcription:
                 return  # already handling this speech event
             self.__radiant_waiting_for_player_transcription = True
-            self.__stop_generation()
-            self.__sentences.clear()
+            # Spawn the STT reader BEFORE blocking on __stop_generation. The reader
+            # uses an independent lock/event on the STT side, and starting it first
+            # lets it pick up an already-finalised transcription while the LLM
+            # generation thread is still winding down. This noticeably reduces the
+            # gap between "player stopped speaking" and "player line in the event
+            # queue" in radiant mode.
             logger.log(24, "[RADIANT] Player speech detected -> capturing transcription in background (radiant conversation continues)")
             self.__radiant_stt_thread = Thread(target=self.__capture_player_transcription_for_radiant, daemon=True)
             self.__radiant_stt_thread.start()
+            # Also request an immediate force-refresh from the game side so that any
+            # Papyrus-accumulated events (combat, location, weather, nearby NPCs)
+            # that happened while the player was talking are flushed in the SAME
+            # LLM turn that responds to the speech - rather than arriving some
+            # radiant_force_refresh_interval seconds later.
+            self.__radiant_force_refresh_requested = True
+            self.__stop_generation()
+            self.__sentences.clear()
 
     def __capture_player_transcription_for_radiant(self):
         """Background worker: waits for the STT transcription and queues it as an event.

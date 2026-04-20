@@ -412,5 +412,35 @@
             "role": "user",
             "content": "(*You are observing the following:* In this dimly lit scene, viewed from a close first-person perspective, a weathered wooden chest sits prominently in the foreground, its surface scarred and dusty. The chest's lid is slightly ajar, secured by an old iron lock mechanism featuring a circular keyhole and tension plates. A slender metal pick tool is inserted into the lock, angled precisely to manipulate the internal pins, while a secondary wrench grips the lock's base for rotation. Subtle shadows and faint engravings on the metal suggest age and use. Overlaid transparently across the view are several interface elements: on the left, vertical bars track vitality (filled about three-quarters with a reddish hue), magical reserves (half-full in blue), and endurance (nearly depleted in green), with numerical indicators nearby\u2014such as \"Equipping 79\" and \"Level 34.\" Small icons of equipped items, including a cloth garment and a hand-held tool, hover subtly. At the bottom, control prompts appear: \"Rotate Pick\" and \"Rotate Lock,\" alongside toggles for hand interactions like grabbing or tension adjustment. Faint text hints at environmental effects, such as accumulated residues or deeper interactions, but the focus remains on the intricate lockpicking action amidst a stone-walled interior.)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Solitude.) (Characters nearby (from nearest to furthest): Solitude Guard, Solitude Guard, Courier, Solitude Guard, chicken) (Lydia equipped Ebony Greatsword)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Oh, MJR, starting the morning with a little fire show? Careful, love, or you'll melt those guards' helmets before they even wake up\u2014though I'd pay to see that, especially if it leads to some post-dawn warming in my arms, away from this chilly Nord nonsense. Frea: That flame dances like the All-Maker's own spark in the dark\u2014reminds me of the hearth fires back in Skaal Village, where we'd gather before the storms hit Solstheim."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Jo-who? not being good sounds like the perfect excuse for me to show you what Frea: The words stumble like a warrior in Solstheim's fog, Dragonborn\u2014do you mean one of the old Skaal songs, or perhaps the job of watching these endless guards and chickens? If it's not suiting you well, speak clearer; the All-Maker doesn't favor half-spoken riddles under this cliffside dawn."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Too much meat, MJR? Sounds like you've been feasting like a true Volkihar lord\u2014careful, or I might have to drain a little excess to keep you lean and ready for more... intimate hungers under this misty archway. Frea: Ah, the heavy belly from overindulgence in the hunt's bounty\u2014I've known such after Solstheim feasts where the All-Maker's gifts pile high with venison and roots."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Chocolate? Oh, MJR, I'd savor it if it meant licking it off your skin in a Volkihar crypt\u2014sweet as forbidden blood, though my fangs prefer something warmer. And thank you? Darling, eternity's dull without you; I'd follow you through Oblivion for that thank-you kiss under these stars. Frea: Chocolate's a stranger's treat to a Skaal like me, Dragonborn\u2014I've tasted rare imports from distant traders, bitter like Solstheim's winds, but it warms the blood after a hunt. Your thanks honors the All-Maker; I'm here to stand with you against Miraak's shadows, axe ready and body willing. Lydia: Chocolate? Aye, my Thane, if it's not some Imperial fancy\u2014give me mead or roasted boar any day, but if you offer, I'll take a bite for Dibella's sake. And no thanks needed; I'm your housecarl, sworn to carry your burdens and share your bed till the end\u2014glad to be at your side in this Nord dawn."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Flames and frost in quick succession, MJR? You're turning this courtyard into a Volkihar welcome party\u2014next you'll summon that gargoyle of yours, and I'll have to decide if I want to ride it or you first under these glowing windows. Careful with the arrows, love; Daedric tips could pierce right through to my heart... or other eager spots. Frea: The fire bursts forth like the All-Maker's wrath on a Solstheim gale, Dragonborn, warming this stone alcove while your frost bites back the dawn chill\u2014reminds me of shaman rites where we'd balance heat and ice to honor the spirits. That Daedric arrow gleams wicked; if bandits lurk in these shadows, let it fly true. Lydia: By Dibella, my Thane, those spells crackle like thunder in a clear sky\u2014flames to chase the morning mist, frost to harden your aim with that deadly arrow. Stand firm; if foes creep from these walls, my greatsword will guard you while you loose hell on 'em."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: That gargoyle of yours rising from the ether like a nightmare lover\u2014deliciously terrifying, MJR; makes a girl wonder if it'll guard our flanks or join the fun later. But enough sparks and summons for one dawn;"
+        }
     ]
 ]

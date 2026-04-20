@@ -395,7 +395,12 @@ class GameStateManager:
         if not self.__talk or not self.__talk.is_radiant:
             return None
         interval = getattr(self.__config, 'radiant_force_refresh_interval', 0)
-        if interval <= 0:
+        # A forced refresh requested by the conversation (e.g. player just spoke)
+        # overrides both the "no interval configured" and "cooldown still active"
+        # cases - we ALWAYS want the next LLM turn to see all accumulated Papyrus
+        # events when the player has just said something in radiant mode.
+        forced_by_conversation = self.__talk.consume_force_radiant_refresh_request()
+        if interval <= 0 and not forced_by_conversation:
             return None
         # If the incoming request already carried `mantella_context`, Papyrus just
         # flushed on its own (because a real advanced action with requires_response=true
@@ -406,12 +411,16 @@ class GameStateManager:
             return None
         now = time.time()
         elapsed = now - self.__last_radiant_refresh_time
-        if elapsed < interval:
+        if not forced_by_conversation and elapsed < interval:
             return None
         self.__last_radiant_refresh_time = now
-        logger.log(24, f"[RADIANT REFRESH] Asking Papyrus to flush accumulated in-game "
-                       f"events + context via dummy player call "
-                       f"(elapsed={elapsed:.1f}s, interval={interval}s).")
+        if forced_by_conversation:
+            logger.log(24, f"[RADIANT REFRESH] Forced immediate flush (player just spoke) "
+                           f"- asking Papyrus to dispatch dummy player call now.")
+        else:
+            logger.log(24, f"[RADIANT REFRESH] Asking Papyrus to flush accumulated in-game "
+                           f"events + context via dummy player call "
+                           f"(elapsed={elapsed:.1f}s, interval={interval}s).")
         return {
             comm_consts.KEY_REPLYTYPE: comm_consts.KEY_REQUESTTYPE_TTS,
             comm_consts.KEY_TRANSCRIBE: "",

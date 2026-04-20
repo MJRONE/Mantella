@@ -155,9 +155,36 @@ class Transcriber:
 
     @property
     def has_player_spoken(self) -> bool:
-        """Check if speech has been detected."""
+        """Check if the player has spoken recently.
+
+        Returns True if either:
+          * speech is currently being detected (VAD threshold crossed, utterance still
+            being accumulated), OR
+          * a transcription has already been finalised and is waiting to be consumed
+            (``_transcription_ready`` event is set but no consumer has called
+            ``get_latest_transcription`` yet).
+
+        The second condition is important because ``_finalize_transcription`` resets
+        ``_speech_detected`` to ``False`` as soon as VAD sees silence. Pollers that
+        only check ``_speech_detected`` miss the entire utterance whenever the whole
+        detect -> end -> transcribe cycle completes between two polls (observed with
+        Moonshine + short utterances in radiant mode, where transcriptions were
+        silently dropped because ``__handle_radiant_player_speech`` was never
+        invoked).         Blocking consumers such as ``get_latest_transcription`` already
+        clear ``_transcription_ready`` when they drain the result, so this stays
+        True only until someone actually reads the queued transcription.
+
+        Empty finalisations (VAD fired but transcription returned nothing) are
+        NOT reported as "player spoke" - they would otherwise cause the radiant
+        STT worker thread to spin waiting for a follow-up transcription that
+        may never arrive.
+        """
         with self._lock:
-            return self._speech_detected
+            if self._speech_detected:
+                return True
+            if self._transcription_ready.is_set():
+                return bool(self._current_transcription and self._current_transcription.strip())
+            return False
     
     def set_temporary_pause(self, pause_seconds: float) -> None:
         """Set a temporary pause threshold override for the next transcription
