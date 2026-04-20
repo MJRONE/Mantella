@@ -212,6 +212,12 @@ class Conversation:
             if self.last_sentence_audio_length > 0:
                 logger.debug(f'Waiting {round(self.last_sentence_audio_length, 1)} seconds for last voiceline to play')
             # before immediately sending the next voiceline, give the player the chance to interrupt
+            # While waiting for the current sentence's audio to finish, also drive
+            # periodic vision captures for radiant conversations so the vision
+            # description can land DURING a long NPC monologue instead of only firing
+            # between turns (the turn granularity would otherwise make periodic vision
+            # effectively never fire when monologues are longer than the interval).
+            _last_periodic_vision_check: float = 0.0
             while time.time() - self.last_sentence_start_time < self.last_sentence_audio_length:
                 if self.__stt and self.__stt.has_player_spoken:
                     if isinstance(self.__conversation_type, radiant):
@@ -221,6 +227,11 @@ class Conversation:
                     self.__sentences.clear()
                     self.__is_player_interrupting = True
                     return comm_consts.KEY_REQUESTTYPE_TTS, None
+                # Cheap check: at most once per second, and only in radiant mode
+                now = time.time()
+                if isinstance(self.__conversation_type, radiant) and now - _last_periodic_vision_check > 1.0:
+                    _last_periodic_vision_check = now
+                    self.__trigger_periodic_vision_if_due()
                 time.sleep(0.01)
             self.last_sentence_audio_length = next_sentence.voice_line_duration + self.__context.config.wait_time_buffer
             self.last_sentence_start_time = time.time()
@@ -750,7 +761,56 @@ class Conversation:
         # Detach any radiant late-vision callback so in-flight vision requests don't inject
         # into a future unrelated conversation.
         self.__clear_late_vision_callback()
+        # For radiant conversations: flush any still-unconsumed events / vision descriptions
+        # into a final user message BEFORE summarizing. Without this, events that arrived
+        # during the last NPC monologue (or a late-arriving vision description) never make
+        # it into the summary because the conversation ends before the next radiant turn
+        # can drain them.
+        if isinstance(self.__conversation_type, radiant):
+            self.__flush_pending_radiant_events_into_final_message()
         self.__save_conversation(is_reload=False, end_timestamp=end_timestamp)
+
+    def __flush_pending_radiant_events_into_final_message(self):
+        """Drain any unconsumed radiant events into one final UserMessage so the summary
+        (which reads ``__messages.get_talk_only()``) can see them.
+
+        Pulls from three sources:
+          - ``__pending_injection_events`` (late vision + player-speech transcriptions)
+          - ``Context.__ingame_events`` (standard game events not yet used)
+          - ``Context.__radiant_event_log`` (persistent radiant log)
+        """
+        try:
+            pending = self.__drain_pending_injection_events()
+            ingame_events = self.__context.get_context_ingame_events()
+            radiant_log = self.__context.get_radiant_event_log()
+
+            merged: list[str] = []
+            existing: set[str] = set()
+            for source in (pending, ingame_events, radiant_log):
+                for event in source:
+                    if event and event not in existing:
+                        merged.append(event)
+                        existing.add(event)
+
+            if not merged:
+                logger.log(23, "[RADIANT EVENTS] END - No unconsumed events to flush into final summary message")
+                return
+
+            max_events = self.__context.config.max_count_events
+            if max_events > 0 and len(merged) > max_events:
+                merged = merged[-max_events:]
+
+            final_message = UserMessage(self.__context.config, "", "", False)
+            final_message.add_event(merged)
+            self.__messages.add_message(final_message)
+            logger.log(24, f"[RADIANT EVENTS] END - Flushed {len(merged)} unconsumed events into final message (for summary):")
+            for idx, evt in enumerate(merged, 1):
+                logger.log(24, f"    [{idx}] {evt}")
+
+            self.__context.clear_context_ingame_events()
+            self.__context.clear_radiant_event_log()
+        except Exception as e:
+            logger.warning(f"[RADIANT EVENTS] END - Failed to flush events into final message: {e}")
     
     @utils.time_it
     def __start_generating_npc_sentences(self, allow_tool_use: bool = True):
