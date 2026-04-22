@@ -170,6 +170,7 @@ The location is now {location}. The time is {time} {time_group} on Day {current_
 Use tools to perform actions where appropriate.
 You are tasked with providing the responses for the NPCs. Begin your response with an indication of who you are speaking as, for example: '{name}: Good evening.'.
 Multiple NPCs should speak each turn.
+If any of the speakers ({names}) stops appearing in the most recent "Characters nearby" in-game event, they have walked out of earshot - call the EndConversation action instead of replying.
 Output ONLY spoken dialogue. No narration, no descriptions, no thoughts.
 Do not use quotation marks.
 Stay in character.
@@ -246,6 +247,7 @@ The location is now {location}. The time is {time} {time_group}.
 Use tools to perform actions where appropriate.
 You are tasked with providing the responses for the NPCs. Begin your response with an indication of who you are speaking as, for example: '{name}: Good evening.'.
 Multiple NPCs should speak each turn.
+If any of the speakers ({names}) stops appearing in the most recent "Characters nearby" in-game event, they have walked out of earshot - call the EndConversation action instead of replying.
 Output ONLY spoken dialogue. No narration, no descriptions, no thoughts.
 Do not use quotation marks.
 Stay in character.
@@ -313,7 +315,7 @@ Please summarize the conversation into a single paragraph in {language}."""
     def get_radiant_continue_prompt_config_value() -> ConfigValue:
         radiant_continue_prompt_description = """The prompt sent to the LLM between turns in a radiant conversation to keep the conversation going.
                                             This is used for intermediate turns when Radiant Max Turns is greater than 2."""
-        radiant_continue_prompt = """Continue the conversation, or call the EndConversation action if the conversation has naturally concluded."""
+        radiant_continue_prompt = """Continue the conversation, or call the EndConversation action if the conversation has naturally concluded. If a speaker no longer appears in the latest "Characters nearby" in-game event, they have walked out of earshot - call EndConversation."""
         return ConfigValueString("radiant_continue_prompt","Radiant Continue Prompt",radiant_continue_prompt_description,radiant_continue_prompt,[PromptDefinitions.PromptChecker([])])
 
     @staticmethod
