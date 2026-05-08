@@ -22,7 +22,7 @@
         },
         {
             "role": "assistant",
-            "content": "Commander Caius: Squabbles? That's putting it mild, milady. Those rebel fucks are like wolves at the gates—Jarl Balgruuf holds 'em off for now, but one wrong move and we'll be kissing Solitude's boots. You ever think about fleeing if it comes to that? Cinia: Flee? I'd sooner paint these stones with Stormcloak blood than run to Elisif's perfumed palace."
+            "content": "Commander Caius: Squabbles? That's putting it mild, milady. Those rebel fucks are like wolves at the gates\u2014Jarl Balgruuf holds 'em off for now, but one wrong move and we'll be kissing Solitude's boots. You ever think about fleeing if it comes to that? Cinia: Flee? I'd sooner paint these stones with Stormcloak blood than run to Elisif's perfumed palace."
         },
         {
             "role": "user",
@@ -38,7 +38,7 @@
         },
         {
             "role": "assistant",
-            "content": "Commander Caius: Ha, that's the Imperial fire I like to hear—blood on the stones instead of groveling in Solitude's Blue Palace like some exiled lapdog."
+            "content": "Commander Caius: Ha, that's the Imperial fire I like to hear\u2014blood on the stones instead of groveling in Solitude's Blue Palace like some exiled lapdog."
         },
         {
             "role": "user",
@@ -54,7 +54,7 @@
         },
         {
             "role": "assistant",
-            "content": "Cinia: Mercy from Dibella? Ha, that painted harlot's more likely to bless a brothel than save your sorry arse from Ulfric's howling pack. But tell me, Commander, if those mountain shadows spit out a real threat tonight—like that skeever-riddled mess at Honningbrew—would you drag Sabjorn to the dungeon yourself, or let Sinmir do the heavy lifting? Commander Caius: Sabjorn? That filthy Nord brewer's ass is mine if I catch him slinking these streets."
+            "content": "Cinia: Mercy from Dibella? Ha, that painted harlot's more likely to bless a brothel than save your sorry arse from Ulfric's howling pack. But tell me, Commander, if those mountain shadows spit out a real threat tonight\u2014like that skeever-riddled mess at Honningbrew\u2014would you drag Sabjorn to the dungeon yourself, or let Sinmir do the heavy lifting? Commander Caius: Sabjorn? That filthy Nord brewer's ass is mine if I catch him slinking these streets."
         },
         {
             "role": "user",
@@ -63,6 +63,24 @@
         {
             "role": "assistant",
             "content": "Cinia: Let him try, Commander. That fat Nord oaf couldn't command a piss-up in the Bannered Mare without spilling half the mead. But with this chill biting through my raiment and those stars mocking us from above, even I wouldn't bet against the Legion holding Whiterun's walls. Commander Caius: Aye, and Hulda'd lap up my coin faster than Sabjorn's tainted mead."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The conversation now takes place at night.) (Characters nearby (from nearest to furthest): Fianna, Nelkir, Cinia, Gerda, Commander Caius) (Lydia equipped Pharaoh's General Armlets) (Lydia equipped Pharaoh's General Bracelets) (Lydia equipped Pharaoh's General Pasties) (Lydia unequipped Leather Boots) (Lydia equipped Ebony Greatsword) (Lydia equipped Pharaoh's General Bra) (Lydia equipped Pharaoh's General Harness) (Lydia equipped Pharaoh's General Skirt A) (Lydia dropped/gave Silver Ring) (Lydia equipped Iron Boots) (Lydia equipped Leather Boots) (Lydia rested on / used a(n) Chair) (Lydia stood up from a(n) Chair) (Jenassa rested on / used a(n) Bench) (Jenassa stood up from a(n) Bench) (The location is now Whiterun.) (Characters nearby (from nearest to furthest): Lydia, Jenassa, Whiterun Guard, Cinia, Whiterun Guard)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: That clear sky's mocking us, isn't it? All that peace up there while we're whispering like thieves in our own hall\u2014reminds me of sneaking out of the Isles under the stars, dodging those self-righteous hunters. Commander Caius: Aye, the night's too calm for my liking after that arrow business earlier. If those bandit wenches think they can slink back for more, they'll find my guards ready\u2014 and me not in a forgiving mood. What's your take on it, elf? You seemed awfully cozy with that rat of yours during the fuss."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Cozy? Korpse here's just my little lookout\u2014keeps the real vermin at bay, unlike those arrow-slinging fools."
+        },
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Lydia, Jenassa, Mila Valentia, Secunda, Masser)"
         }
     ]
 ]

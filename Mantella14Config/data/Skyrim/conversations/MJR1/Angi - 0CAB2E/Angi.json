@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Angi's Camp.) (Characters nearby (from nearest to furthest): Serana, Lydia, rabbit, Snow Fox, Paarthurnax)"
+        },
+        {
+            "role": "assistant",
+            "content": "Angi: This grey sky's hanging low today, makes the mountains feel even more isolated up here at my camp. You all look like you've come a long way from those wild places in the north\u2014Solstheim, was it? What's drawn you to these Jerall peaks this early in the morning? Frea: Aye, the ash and storms of Solstheim cling to my skin like a lover's sweat, but this mountain chill bites deeper, stirring Dibella's fire in unexpected ways. My camp in the Skaal Village never felt so cut off from the wilds\u2014your seclusion here reminds me of the blizzards that claimed my mother, or so I thought. Tell me, Angi, do you hunt these slopes alone to channel that rage, or does the bow quiet the desires Dibella whispers in the grey?"
+        },
+        {
+            "role": "assistant",
+            "content": "Angi: These Jerall Mountains have a way of testing your aim with the wind whipping through the peaks\u2014keeps things sharp out here in the snow. If you're serious about practice, stranger, we can start with accuracy; hit those close targets first, build from there like my mother taught me, calm amid the chaos. Frea: The bow's whisper echoes the shaman's chants back in Skaal Village, channeling Dibella's fire through steady hands and heated breath. I've felled beasts under Solstheim's ashen skies with less than that rack offers\u2014show us your form, and perhaps I'll share how I turned rage into strikes that leave foes begging beneath me."
+        },
+        {
+            "role": "assistant",
+            "content": "Angi: Inside the cabin's warmer than I thought it'd be this morning with that grey sky pressing down outside\u2014fire's just right for steadying the hands before we take shots. That bow you're drawing looks solid; nock another and aim true like my mother showed me, calm even with the flames crackling. Frea: The runes on this staff hum with Dibella's old fire, much like the heat rising from that cauldron, turning this cabin's chill into something... invigorating under the shaman's gaze."
+        }
+    ]
+]

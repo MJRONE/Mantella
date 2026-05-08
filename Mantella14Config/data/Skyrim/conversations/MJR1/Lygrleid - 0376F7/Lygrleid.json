@@ -40,5 +40,15 @@
             "role": "user",
             "content": "Please begin / continue a conversation topic (greetings are not needed). Ensure to change the topic if the current one is losing steam. The conversation should steer towards topics which reveal information about the characters and who they are, or instead drive forward previous conversations in their memory."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Windhelm.) (Characters nearby (from nearest to furthest): Serana, Lydia, Arch Conjurer, Fox, Leonara Arius)"
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene unfolds at night under a clear, star-filled sky, with clusters of bright stars scattered across the dark expanse above. To the left, a tall birch tree stands prominently, its white bark contrasting against the shadows, slender trunk rising toward the heavens with sparse branches. Surrounding it are jagged rock formations and low cliffs, their surfaces rough and textured, blending into the dimly lit ground. The foreground is a natural patchwork of terrain: scattered rocks and boulders covered in patches of moss or lichen, interspersed with earthy soil and fallen leaves tinged in warm orange hues. Vegetation thrives in the undergrowth\u2014clusters of low bushes with green foliage, ferns unfurling their delicate fronds, and small purple flowers blooming amid the grasses. Orange-tinted shrubs and wildflowers add splashes of color to the otherwise subdued palette, suggesting a cool, autumnal evening in a forested wilderness. The overall atmosphere is serene yet mysterious, illuminated faintly by the starlight casting soft shadows across the landscape.)"
+        }
     ]
 ]

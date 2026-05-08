@@ -24,5 +24,23 @@
             "role": "assistant",
             "content": "Embry: Yeah, yeah... yer right scary when yer riled up. Think I'll just... uh... find another drink. Lydia: Smartest thing you've said all night, drunk. Now piss off before I lose my patience entirely. Embry: Gods, women these days... all fire and no fuckin' fun. Lydia: And men like you are all piss and no backbone. At least my Thane knows what to do with a real woman."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Sleeping Giant Inn.) (Characters nearby (from nearest to furthest): Orgnar, delphine, Alvor, Korpse, Daegon)"
+        },
+        {
+            "role": "assistant",
+            "content": "Embry: Another round, Hod? This mead's goin' down smooth tonight, but I'm runnin' low on coin. Hod: You're always runnin' low, Embry. Sawmill's been busy all day with them logs pilin' up by the river\u2014war's keepin' folks needin' timber faster than we can cut it. If you swung an axe instead of a mug, you'd have your own gold. Embry: Bah, axes are for strong backs like yours. Me? I got stories worth more than gold. Heard the guards talkin' 'bout some trouble up in Whiterun today\u2014somethin' 'bout a dragon or some fool's tall tale. Hod: Dragons? That's just wind from the holds. Gerdur's worried enough 'bout Ralof out there fightin' for the Stormcloaks. Pass me that tankard, though\u2014night's cold, and Orgnar's fire's warmin' the place right."
+        },
+        {
+            "role": "assistant",
+            "content": "Embry: Did I hear somethin' 'bout free mead over there? Aye, that's the kinda magic I like\u2014none o' that fire-summonin' nonsense, just warm booze flowin' my way. Hod, you hear these two yammerin' 'bout Daedric whatsits? Sounds like trouble brewin', and Orgnar's pourin' steady tonight. Hod: Keep your voice down, Embry, or you'll scare off the coin they're spendin'. Daedra and witches? That's bard tales from Faendal on a bad night. I've enough real worries with the mill groanin' under all that timber for the Jarl's men\u2014no time for princes from Oblivion. But if they're buyin' rounds, I'll raise a glass from here; night's drawin' long with that chill seepin' through the walls. Embry: Heh, wise as ever, Hod. Gerdur's lucky to have a head like yours steerin' the family. Me, I'd chase them princes if they led to a bottomless cask\u2014pass the word to Sven, he's closest, might snag us a share."
+        },
+        {
+            "role": "assistant",
+            "content": "Embry: Daegon, was it?"
+        }
     ]
 ]

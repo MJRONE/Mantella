@@ -14,7 +14,7 @@
         },
         {
             "role": "assistant",
-            "content": "Aela the Huntress: Dropped his shield like a milk-drinker. I've got it stashed—thinks he's ready for the Companions, asking all these questions about us, the war, the whole lot. Skjor: Hah, let him squirm a bit."
+            "content": "Aela the Huntress: Dropped his shield like a milk-drinker. I've got it stashed\u2014thinks he's ready for the Companions, asking all these questions about us, the war, the whole lot. Skjor: Hah, let him squirm a bit."
         },
         {
             "role": "user",
@@ -30,7 +30,7 @@
         },
         {
             "role": "assistant",
-            "content": "Aela the Huntress: Squirm or not, this place is starting to feel like a bloody den again—look at that mess on the table, goblets scattered like we've been carousing since dawn. Noon hits, and I'm already itching for a hunt to clear the air down here in the undercroft. Skjor: Aye, the light's sneaking in through the cracks up top, but it's still a cave fit for wolves. That hammock's seen better days too—reminds me of the camps from the Great War, hunkered down with nothing but stone and shadows."
+            "content": "Aela the Huntress: Squirm or not, this place is starting to feel like a bloody den again\u2014look at that mess on the table, goblets scattered like we've been carousing since dawn. Noon hits, and I'm already itching for a hunt to clear the air down here in the undercroft. Skjor: Aye, the light's sneaking in through the cracks up top, but it's still a cave fit for wolves. That hammock's seen better days too\u2014reminds me of the camps from the Great War, hunkered down with nothing but stone and shadows."
         },
         {
             "role": "user",
@@ -38,7 +38,7 @@
         },
         {
             "role": "assistant",
-            "content": "Skjor: Undercroft's always a pit after a late night—those candles flickering like they're about to give up on this damp hole. But a hunt? Count me in, lass. Been too long since we let the beast loose under the midday sun."
+            "content": "Skjor: Undercroft's always a pit after a late night\u2014those candles flickering like they're about to give up on this damp hole. But a hunt? Count me in, lass. Been too long since we let the beast loose under the midday sun."
         },
         {
             "role": "user",
@@ -46,11 +46,11 @@
         },
         {
             "role": "assistant",
-            "content": "Aela the Huntress: This undercroft's got that same damp stink as always—noon outside, but you'd swear it's eternal night in here with these stone walls closing in."
+            "content": "Aela the Huntress: This undercroft's got that same damp stink as always\u2014noon outside, but you'd swear it's eternal night in here with these stone walls closing in."
         },
         {
             "role": "user",
-            "content": "**Late visual context as seen by MJR (the player): scene shows a dark, medieval-inspired chamber with rough stone architecture, warm candlelight flickering on stone walls and woven floor coverings, and the memory of previous interactions—like the merchant near some unidentified objects and a brief conversation with a hooded figure. The intricately carved doorways suggest important passageways, hinting that we might be nearing the entrance to a forgotten storeroom. Though dimly lit, the red accents on one of the furnishings and our companion’s gesturing hint at some urgency or purpose, though its full nature remains unclear.**"
+            "content": "**Late visual context as seen by MJR (the player): scene shows a dark, medieval-inspired chamber with rough stone architecture, warm candlelight flickering on stone walls and woven floor coverings, and the memory of previous interactions\u2014like the merchant near some unidentified objects and a brief conversation with a hooded figure. The intricately carved doorways suggest important passageways, hinting that we might be nearing the entrance to a forgotten storeroom. Though dimly lit, the red accents on one of the furnishings and our companion\u2019s gesturing hint at some urgency or purpose, though its full nature remains unclear.**"
         },
         {
             "role": "assistant",
@@ -62,7 +62,43 @@
         },
         {
             "role": "assistant",
-            "content": "Skjor: Eternal night suits us, doesn't it? These walls have heard more secrets than Sovngarde itself—my quarters right next door to yours, always that faint echo of footsteps on the stone like ghosts from the Circle stirring. But midday's calling; that weak light through the cracks makes me restless for blood under the open sky. Aela the Huntress: This undercroft's a fucking crypt at noon—those candles sputtering like dying embers on that rickety table, shadows playing tricks on the crates like ghosts of old hunts. Makes me want to shift and tear through this gloom just to feel the blood rush. Skjor: Aye, and that red-draped slab over there's begging for a proper feast, not this half-assed setup. Been staring at these stone arches too long; Aela the Huntress: Secrets in these walls? Hah, like the ones whispered about us, Skjor—you and me tangled up in the sheets down here while the torches gutter out. Bloody idiots upstairs think they're clever with their rumors. Skjor: Let 'em prattle, love."
+            "content": "Skjor: Eternal night suits us, doesn't it? These walls have heard more secrets than Sovngarde itself\u2014my quarters right next door to yours, always that faint echo of footsteps on the stone like ghosts from the Circle stirring. But midday's calling; that weak light through the cracks makes me restless for blood under the open sky. Aela the Huntress: This undercroft's a fucking crypt at noon\u2014those candles sputtering like dying embers on that rickety table, shadows playing tricks on the crates like ghosts of old hunts. Makes me want to shift and tear through this gloom just to feel the blood rush. Skjor: Aye, and that red-draped slab over there's begging for a proper feast, not this half-assed setup. Been staring at these stone arches too long; Aela the Huntress: Secrets in these walls? Hah, like the ones whispered about us, Skjor\u2014you and me tangled up in the sheets down here while the torches gutter out. Bloody idiots upstairs think they're clever with their rumors. Skjor: Let 'em prattle, love."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Daegon, Njada Stonearm, Ria, Torvar, Athis) (The location is now Jorrvaskr.) (Characters nearby (from nearest to furthest): Korpse) (MJR: Why don't you wear some of these items...? (Persuade); Aela the Huntress: Okay. Just this once.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Aela the Huntress: Fine, but if these straps chafe during a hunt, I'll rip them off and go back to my leathers."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Jorrvaskr.) (Characters nearby (from nearest to furthest): Daegon, Jenassa, Lydia, Athis, Torvar) (MJR dropped/gave Steel Shield in/on/to Aela the Huntress) (MJR: I have your shield.; Aela the Huntress: Ah, good. I've been waiting for this. Good to see you made it up here.) (Aela the Huntress picked up/took Steel Shield from MJR)"
+        },
+        {
+            "role": "assistant",
+            "content": "Aela the Huntress: This shield feels solid in my grip\u2014better than I remembered. It'll serve well on the next hunt, especially with how light these new straps let me move. Skjor: Aye, Aela, it suits you. Though with that belted tunic hugging your form like a second skin, you'll have the beasts scattering before you even nock an arrow. Remember that time we tracked the frostbite spider in the barrow? Your speed turned the tide\u2014can't wait to see it paired with this. Aela the Huntress: Flattery from you, Skjor? Save it for the mead hall. But you're right; last night's persuasion to try these on has me feeling... unburdened. If it doesn't snag on thorns come dawn, I'll keep it. What's the word from the others\u2014Daegon still lounging with that bird of hers? Skjor: She's been watchful, as always, with Jenassa sharpening blades nearby. The hall's quiet at this hour, but the air's thick with that pre-hunt tension. We should plan our route out of Whiterun soon\u2014the moon's high, perfect for stalking under Dibella's gaze."
+        },
+        {
+            "role": "assistant",
+            "content": "Aela the Huntress: Easy there, newcomer\u2014Skjor's just making sure you're true to the pack. These halls watch everyone, especially at this witching hour when shadows play tricks. Skjor: That's right, Aela. But if you've got the fire you showed boasting about Vilkas, you might earn your place quick. Just don't think words alone forge a Companion\u2014prove it on the hunt, like we did in those barrows last moon. Aela the Huntress: He's got spirit, I'll give him that. Reminds me of when you first prowled these beams, Skjor, all growl and no bite yet. With this shield weighing my arm right, maybe I'll drag him out at dawn\u2014test if that outfit lets me run true under Dibella's stars. Skjor: Ha, your straps are barely holding secrets as is, huntress. The mead's flowing low in the brazier light; Torvar's snoring already means no one's stirring for tales tonight."
+        },
+        {
+            "role": "assistant",
+            "content": "Aela the Huntress: These old leathers feel right again after fumbling with that lighter getup\u2014got me stirring even in this candlelit hush. Skjor, you think the whelp's eyes lingered too long on my swaps? With Farkas and the others milling about like shadows at this dead hour, it's a wonder no one's called for mead to loosen tongues. Skjor: Lingered or not, Aela, your form draws eyes like a full moon on the hunt. Dropping that belted tunic set the air thicker than the incense in here\u2014Dibella would approve of such bold shifts under these red drapes. Vilkas might grumble if he caught wind, but with Daegon and Lydia watching from the benches, night's young for deeper talk of what makes a true Companion. Aela the Huntress: Deeper, eh? Like how we bloodied our boots in those ancient barrows, sweat mixing with the thrill? This shield's got me itching for dawn's light filtering through those arches\u2014pass me a skin of wine if you're not too busy eyeing the newcomer like fresh prey."
+        },
+        {
+            "role": "assistant",
+            "content": "Aela the Huntress: That whelp's off on Farkas's errand now\u2014scaring some fool in Whiterun Hold without a drop of real blood. Makes me itch for a proper hunt myself, stripping down these straps in the night air under that reddish glow from the sconces. Skjor: Aye, Aela, with Vilkas brooding in the shadows and Jenassa sharpening nearby, the hall hums like before a storm. Your shifts from those ancient leathers to lighter fare have the rugs here hiding more secrets than usual\u2014Dibella's blessing on such restless nights in Jorrvaskr. Aela the Huntress: Restless is right; dropped my gauntlets again fumbling for the bow."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene depicts a cozy, dimly lit interior room with a rustic, medieval ambiance. Rough stone walls form the foundation, interrupted by heavy wooden beams that support the low, vaulted ceiling overhead. Exposed wooden rafters crisscross above, adding to the sturdy, timber-framed structure. A large iron chandelier hangs centrally from the ceiling, its candles flickering with warm, yellowish light that casts soft shadows across the space. To the left, an open doorway leads into a darker adjoining area, framed by more dark wooden supports. On the right side, another arched doorway reveals a glimpse of a mirror or reflective surface mounted on the wall, partially obscured by the stone and wood framing. Near the center, a wooden table sits against the wall, topped with a few simple items like a bowl of fruit\u2014perhaps apples or similar produce\u2014and some scattered utensils or vessels. The floor is covered in worn wooden planks, partially overlaid with a large, patterned rug in deep red hues, featuring intricate geometric designs in black and gold. A wooden staff or pole leans against the nearby wall, its tip resting on the floor amid the shadows.) (Characters nearby (from nearest to furthest): Jenassa, Lydia, Daegon, Korpse, Kodlak Whitemane) (MJR: Do you need some \"help\" ?; Aela the Huntress: Sure, I don't see a reason to say no.) (Aela the Huntress equipped Ancient Nord Gauntlets) (Aela the Huntress equipped Ancient Nord Boots) (Aela the Huntress unequipped Ancient Nord Armor) (Aela the Huntress equipped Ancient Nord Armor) (Aela the Huntress unequipped Ancient Nord Gauntlets) (Aela the Huntress dropped/gave Ancient Nord Gauntlets) (Aela the Huntress unequipped Ancient Nord Boots) (Aela the Huntress dropped/gave Ancient Nord Boots) (Aela the Huntress dropped/gave Ancient Nord Armor) (Aela the Huntress dropped/gave Belted Tunic) (MJR: I'm looking for work.; Aela the Huntress: Aren't you already running a job for Farkas? Come talk to me when you finish that up.)"
         }
     ]
 ]

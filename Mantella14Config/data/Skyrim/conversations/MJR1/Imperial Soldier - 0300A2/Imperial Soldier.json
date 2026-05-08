@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Shadow Doomstone.) (Characters nearby (from nearest to furthest): Serana, Leonara Arius, Vale Deer, Cow, chicken) (MJR equipped Summon Serana) (MJR unequipped Unrelenting Force) (MJR cast the spell / consumed Summon Serana) (MJR unequipped Soul Gauge Left-hand) (MJR equipped Soul Gauge Left-hand) (MJR unequipped Summon Serana) (MJR equipped Daedric Wrath) (MJR equipped Unrelenting Force) (MJR unequipped Daedric Wrath)"
+        },
+        {
+            "role": "assistant",
+            "content": "Imperial Soldier: This Shadow Doomstone gives me the chills, even with the sky so clear this morning."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this serene outdoor scene, the viewer stands amidst a lush, autumnal woodland clearing. Tall birch trees with pale, peeling bark and sparse yellowing leaves frame the area, their trunks rising gracefully against a backdrop of distant snow-capped mountains under a clear sky. The ground is carpeted in fallen orange and red leaves, interspersed with patches of vibrant green grass, ferns, and clusters of delicate purple flowers blooming near the bases of the trees. To the right, a sturdy wooden structure with weathered plank walls and a stone foundation sits partially enclosed by a low wooden fence, its thatched roof slightly askew. Nearby, large boulders and smaller rocks dot the terrain, while a sinuous, scaled form\u2014resembling a coiled serpent with reddish-brown hues\u2014lies partially obscured in the leaf litter at the foreground's edge. Overlaid across the lower portion of the view is a subtle, arched interface resembling a compass, marked with intricate knotwork patterns and a faint directional indicator, evoking ancient craftsmanship. At the scene's periphery, small icons and symbols hover faintly:)"
+        }
+    ]
+]

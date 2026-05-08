@@ -12,5 +12,19 @@
             "role": "user",
             "content": "**Late visual context as seen by MJR (the player): The scene depicts a serene and idyllic setting, with four figures lying on the ground. In the foreground, a figure is seen lying face-down on the stone floor to the left, wearing a tiny top. To the right of the frame, another figure is kneeling, also facing away from the camera. In the center of the scene, a third figure is lying on their back, dressed in black shorts and a vest. The fourth figure is on the left, lying on their stomach, and appears to be wearing black undergarments. The background of the scene features a wooden structure with a thatched roof, adorned with various items. The sky above is blue and cloudy, adding to the overall sense of tranquility. The atmosphere is peaceful, with no signs of tension or conflict. The scene appears to be depicting a moment of relaxation, where several people have gathered in a picturesque setting.**"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(MJR fired an arrow.) (MJR unequipped Daedric Arrow) (MJR dropped/gave Daedric Arrow) (MJR equipped Daedric Arrow) (The location is now Whiterun.) (Characters nearby (from nearest to furthest): chicken, Jenassa, chicken, Daegon, Ria) (MJR: ...; Aela the Huntress: You handle yourself well. You could make for a decent shield-brother. MJR: What is a shield-brother?; Aela the Huntress: An outsider, eh? Never heard of the Companions? An order of warriors. We are brothers and sisters in honor. And we show up to solve problems if the coin is good enough. MJR: Can I join you?; Aela the Huntress: Not for me to say. You'll have to talk to Kodlak Whitemane up in Jorrvaskr. The old man's got a good sense for people. He can look in your eyes and tell your worth. If you go to him, good luck.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Aela the Huntress: Jorrvaskr's just up the hill in the Wind District, past the Gildergreen tree. Don't let the old mead hall fool you\u2014it's seen more battles than half the forts in Skyrim. Whiterun Guard: Late night for wandering, isn't it? You lot best keep it civil around here, or I'll have to ask what business brings warriors like you out under these stars. Companions or no, the Jarl's rules stand."
+        },
+        {
+            "role": "assistant",
+            "content": "Aela the Huntress: These clear skies make for good hunting ground tonight\u2014stars sharp enough to cut, and that chill wind carrying scents from the plains. If you're heading to Jorrvaskr, watch your step on these steps; they've tripped up milk drinkers before."
+        }
     ]
 ]

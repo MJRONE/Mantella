@@ -39,5 +39,19 @@
             "role": "user",
             "content": "(*The player says:* \"Frea, forget this idiot, let's get going.\")"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Orc, Serana, Fox, rabbit, Gonnar Oath-Giver) (The location is now Vominheim.) (Characters nearby (from nearest to furthest): Lydia, Frea, Barney, Agrorul, Eldvar)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: These ancient stones whisper like a lover's regret in the dark\u2014bet they've seen more betrayals than my father's court, especially with that brooding Orc lurking like he's auditioning for Dibella's next blood orgy. Soraul Anvil-Finger: Aye, Vominheim's got that chill bite tonight, clouds so thick they could forge a gloom-shield."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In the dim glow of a starry night, you hold a sleek black bow drawn taut in your hands, its curved limbs etched with subtle red veins that pulse faintly against the cold air. An arrow is nocked and ready, its shaft aligned along the string's tension. Before you stretches a frost-kissed landscape, blanketed in snow that crunches underfoot, dotted with tufts of dry, pale grass peeking through. Jagged wooden pilings rise from the frozen ground like ancient sentinels, some half-submerged in a dark, icy waterway that mirrors the heavens above. To your left, a weathered wooden structure looms, its planks dark and splintered, partially shrouded in shadow. In the distance, more timbers form a skeletal framework\u2014perhaps the remnants of a dock or pier\u2014framed against a cluster of low, huddled buildings with faint warm lights flickering from within, suggesting hearth fires or lanterns. A tall cross-like mast or beam stands sentinel nearby, swaying slightly in the chill breeze. Overhead, the sky is a vast canvas of midnight blue, pierced by countless twinkling stars and streaked with the ethereal glow of a swirling galaxy, its milky bands cutting through scattered wisps of clouds.)"
+        }
     ]
 ]

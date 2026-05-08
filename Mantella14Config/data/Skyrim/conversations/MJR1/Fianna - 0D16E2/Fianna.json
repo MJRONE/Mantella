@@ -20,5 +20,39 @@
             "role": "assistant",
             "content": "Fianna: Gods, this place looks like a troll's armpit after a month-long skooma binge. Stone floors covered in filth, barrels leaking gods-know-what... Disgusting. Serana: Oh relax, Fianna darling. A little grime builds character. Fianna: Who in Oblivion thought streaming red cloth in a damp cellar was a good idea?"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Dragonsreach.) (Characters nearby (from nearest to furthest): Daegon, Gerda, Hrongar, Proventus Avenicci, Farengar Secret-Fire)"
+        },
+        {
+            "role": "assistant",
+            "content": "Fianna: Look at the state of you, traipsin' in here with mud on your boots after gods-know-what escapades in those barrows. Don't think I won't make you wipe that down before you set foot on my rugs! Jenassa: Your rugs can wait, servant. We've just crawled out of Bleak Falls, draugr dust and all. If the Jarl needs my blade sharp, he'll overlook a little dirt from slaying his enemies. Fianna: Enemies or not, everyone's equal under my broom in this hall\u2014except the Jarl himself. And with dragons circlin' outside at this early hour, we don't need more mess from sellswords like you trackin' in the world's filth. Jenassa: Dragons or draugr, death follows me clean or caked. But fine, point me to your rags if it keeps your tongue from wagging. I've gold from that barrow haul burning a hole\u2014perhaps enough to hire your silence."
+        },
+        {
+            "role": "assistant",
+            "content": "Fianna: That stone's got more grime on it than a skeever's nest\u2014handlin' ancient relics like it's just another trinket. If that wizard's not careful, it'll end up smearin' my clean tables. Jenassa: The Dragonstone, fresh from Bleak Falls' depths. I carved through draugr and bandits to clear the path for it\u2014undead rot clingin' worse than cave dust. Farengar'd best study it quick; more threats lurk in those barrows if he sends fools back without steel like mine. Fianna: Steel or spells, it all brings trouble to my doorstep at this hour. With the hall's fire roarin' and banners hangin' proud, we don't need your barrow tales stirrin' up the Jarl's court before breakfast. Jenassa: Breakfast can wait when dragons circle Whiterun at dawn. That stone's a map to bigger kills\u2014pay me enough, and I'll shadow the next hunt myself."
+        },
+        {
+            "role": "assistant",
+            "content": "Fianna: Jarl Balgruuf's up early with the court gatherin' 'round his throne\u2014best behavior now, sellsword, or I'll have you scrubbin' these banners myself. Jenassa: Throne or no, I've faced worse than a jarl's gaze after barrow blood. That Dragonstone's his now; if dragons swoop at dawn's light through those windows, my blade's for hire to guard this hall. Fianna: Guardin' starts with clean boots on my stone floors\u2014look at Daegon loungin' there, stirrin' trouble enough without your dust. Early mornin' feasts on that table won't stay spotless long with folk like you pilin' in. Jenassa: Feasts bore me; blood's my mead. But if the Jarl calls for shadows like mine against Irileth's scouts and guards, coin'll follow\u2014clean or caked."
+        },
+        {
+            "role": "assistant",
+            "content": "Fianna: This chamber's dim as a barrow at mornin' light\u2014gotta polish those stone slabs before Proventus starts his ledgers and tracks ink everywhere. Can't have Hrongar or the guards thinkin' Dragonsreach is some dank hold. Jenassa: Dim or not, it reeks of the same stone tombs I just escaped. No wonder you servants skulk down here; I'd rather face draugr than linger in earthen shadows like this, rug or no. Fianna: Skulkin'? It's honest work keepin' the Jarl's halls from fallin' to rot, especially with sellswords like you bringin' cave filth after dawn patrols. Daegon's about somewhere, probably stirrin' more chaos than caution. Jenassa: Chaos is my trade\u2014Commander Caius and his lot know that. If dragons breach these walls at eight bells, my iron'll carve a path; your rugs'll just get bloodier."
+        },
+        {
+            "role": "assistant",
+            "content": "Fianna: Late evenin' up on this balcony, with the ruddy moon hangin' low over Whiterun\u2014makes the whole plain look like it's waitin' for trouble. Jarl Balgruuf knows better than to linger out here without guards patrollin' these slabs. Jenassa: Moon's blood-red tonight, perfect for shadows and steel. I've geared up proper in this barbarian kit after that Silver Ring fetch\u2014feels right for circlin' dragons or whatever Daegon's schemin' down below. Fianna: Schemin' or not, your new pauldrons and belt won't hide the barrow dust you dragged up these steps. With torches flickin' on the benches and rugs scattered against the chill, we don't need more filth from a day's kills settlin' in before bedtime. Jenassa: Bedtime's for the weak; night's my haunt, crisp air or no. If Irileth's scouts spot wings in that starry haze, my dagger's ready\u2014Jarl's court owes me coin for the Dragonstone blood spilled at dawn."
+        },
+        {
+            "role": "assistant",
+            "content": "Fianna: That Hide Armor of Minor Destruction looks sturdy enough for dragon scales\u2014no more excuses for trackin' blood across my flagstones when you all charge out with the Jarl's orders. Jenassa: Reward's fair, but the real prize is dragon blood under this barbarian gear. I've lingered long enough in these chandelier shadows; if Irileth leads on that hunt, my blade'll sing come dawn\u2014clean kill or none at all. Fianna: Sing all you want, just keep the mess outside the tapestries and benches. With the court's stirrin' late like this, I've got enough to scrub without your tales of glory."
+        },
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Daegon, Irileth, Farengar Secret-Fire, Jarl Balgruuf the Greater, Proventus Avenicci)"
+        }
     ]
 ]

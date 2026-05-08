@@ -38,7 +38,7 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Look at that gazebo up ahead—mossy vines and an old skull on top, like some forgotten shrine. Peaceful enough, but in Whiterun?"
+            "content": "Serana: Look at that gazebo up ahead\u2014mossy vines and an old skull on top, like some forgotten shrine. Peaceful enough, but in Whiterun?"
         },
         {
             "role": "user",
@@ -50,7 +50,7 @@
         },
         {
             "role": "assistant",
-            "content": "Whiterun Guard: That skull up there—antlers like a horker's, but bigger. Shrine to some dead god, or just a hunter's joke?"
+            "content": "Whiterun Guard: That skull up there\u2014antlers like a horker's, but bigger. Shrine to some dead god, or just a hunter's joke?"
         },
         {
             "role": "user",
@@ -66,7 +66,7 @@
         },
         {
             "role": "assistant",
-            "content": "Whiterun Guard: ... make it look like some hunter's trophy gone wild. But with that moss creepin' in, bet it's hidin' more than old kills—maybe a spot for shady deals."
+            "content": "Whiterun Guard: ... make it look like some hunter's trophy gone wild. But with that moss creepin' in, bet it's hidin' more than old kills\u2014maybe a spot for shady deals."
         }
     ],
     [
@@ -76,11 +76,11 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: You know, that antlered skull on the gazebo looks like it was mounted by a drunk hunter who mistook his wife's ex for a stag—probably some ancient Nord ritual to ward off impotence, or just Balgruuf's idea of garden decor. Bet it's hiding a stash of skooma-laced mead;"
+            "content": "Serana: You know, that antlered skull on the gazebo looks like it was mounted by a drunk hunter who mistook his wife's ex for a stag\u2014probably some ancient Nord ritual to ward off impotence, or just Balgruuf's idea of garden decor. Bet it's hiding a stash of skooma-laced mead;"
         },
         {
             "role": "user",
-            "content": "**Late visual context as seen by MJR (the player): As MJR, you stand in a dimly lit chamber, the air thick with shadows and the faint scent of incense and stone. Flickering torchlight casts an eerie orange glow across the rough-hewn walls, adorned with intricate carvings of hooded figures and daggers. Before you looms a striking woman, positioned as if in quiet command of the space—she's the embodiment of dark allure, her long dark hair cascading over her shoulders, partially veiled by a black blindfold that covers her eyes, leaving her full lips and sharp jawline exposed. Her skin is pale and smooth, contrasting against the skimpy black straps of her attire, which barely conceal her ample, bare breasts and leave her midriff and hips exposed, emphasizing her confident, statuesque pose with one hand resting on her hip. In the periphery, faint ethereal overlays seem to shimmer in your vision: lists of pending tasks like joining shadowy orders or eliminating targets, vital signs showing health and endurance levels, and system notes affirming your role as the eternal leader of this clandestine brotherhood. The chamber's floor is scattered with ritualistic rugs and altars, and distant murmurs echo from unseen corridors, hinting at gathered followers awaiting orders.**"
+            "content": "**Late visual context as seen by MJR (the player): As MJR, you stand in a dimly lit chamber, the air thick with shadows and the faint scent of incense and stone. Flickering torchlight casts an eerie orange glow across the rough-hewn walls, adorned with intricate carvings of hooded figures and daggers. Before you looms a striking woman, positioned as if in quiet command of the space\u2014she's the embodiment of dark allure, her long dark hair cascading over her shoulders, partially veiled by a black blindfold that covers her eyes, leaving her full lips and sharp jawline exposed. Her skin is pale and smooth, contrasting against the skimpy black straps of her attire, which barely conceal her ample, bare breasts and leave her midriff and hips exposed, emphasizing her confident, statuesque pose with one hand resting on her hip. In the periphery, faint ethereal overlays seem to shimmer in your vision: lists of pending tasks like joining shadowy orders or eliminating targets, vital signs showing health and endurance levels, and system notes affirming your role as the eternal leader of this clandestine brotherhood. The chamber's floor is scattered with ritualistic rugs and altars, and distant murmurs echo from unseen corridors, hinting at gathered followers awaiting orders.**"
         },
         {
             "role": "assistant",
@@ -92,7 +92,21 @@
         },
         {
             "role": "assistant",
-            "content": "Whiterun Guard: Hah, skooma-laced mead? You'd best keep such talk quiet around here, lass—Jarl's men don't take kindly to whispers of that rot."
+            "content": "Whiterun Guard: Hah, skooma-laced mead? You'd best keep such talk quiet around here, lass\u2014Jarl's men don't take kindly to whispers of that rot."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Whiterun.) (Characters nearby (from nearest to furthest): chicken, Goat, Cow, chicken, Goat)"
+        },
+        {
+            "role": "assistant",
+            "content": "Whiterun Guard: That dragon's roar still echoes in my ears from the watchtower. Jarl Balgruuf will want a full report soon\u2014good thing the skies cleared up, makes patrolling these streets easier at dawn. Jenassa: Dragons or no, my blade's still thirsty after that chaos. Whiterun's too quiet now, like these farm beasts just clucking around. You guards ever miss the real fights, or is babysitting chickens your thrill?"
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this dimly lit stone corridor, rough-hewn walls of dark gray masonry enclose the space on all sides, with faint cracks and mossy patches adding to the ancient, weathered feel. A prominent arched opening ahead frames a twilight vista: a gnarled, barren tree with twisted branches reaches toward a sky streaked in deep oranges and purples, its silhouette backlit by the fading glow of sunset. Beyond the arch, a set of wide stone steps ascends gently, flanked by sparse green bushes and clusters of small pink flowers blooming along the edges. The ground appears uneven and shadowed, with scattered pebbles and faint light filtering in from the exterior, casting long shadows that deepen the sense of transition from enclosed darkness to open dusk.)"
         }
     ]
 ]

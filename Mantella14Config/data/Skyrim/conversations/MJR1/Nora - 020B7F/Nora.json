@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Kolbjorn Barrow.) (Characters nearby (from nearest to furthest): Octavia, Lydia, Frea, draugr, Draugr Wight)"
+        },
+        {
+            "role": "assistant",
+            "content": "Ralis Sedarys: These draugr won't stay down for long\u2014I've seen enough of them crawling out of these walls to know we're not done yet. That Wight over there looks like it's itching for another round at 4 in the morning. Serana: Oh, perfect, because nothing says 'romantic midnight stroll' like stumbling into a family reunion with the undead. Pass the garlic, or should I just bite first? Nora: Ha, if these old bones think they can crash our party, they've got another thing coming\u2014my bow's got stories of sharper endings than this barrow's got dust. What's the plan with that Wight, before the sun even thinks about rising?"
+        },
+        {
+            "role": "assistant",
+            "content": "Ralis Sedarys: That shout of yours shook the whole barrow\u2014listen to those stones groaning like they're about to give way. Good thing those beams are holding, or we'd be buried with the draugr at this hour. Serana: Fus Ro Dah, huh? Nothing gets the undead dancing like a good dragon yell in a fire-lit tomb. Watch your arrows, though\u2014dropping them mid-fight's like teasing a vampire with a vein and then pulling back. Nora: Arrows flying true in this flickering light, and that force blasting 'em back\u2014reminds me of hunting elk under the northern lights, but with more rattling bones. Keep it up before dawn creeps in and wakes the whole nest."
+        },
+        {
+            "role": "assistant",
+            "content": "Ralis Sedarys: Octavia's down, but these steps are slick with her blood\u2014watch your footing in this torchlight or you'll join the draugr cluttering the floor by 4 AM. Serana: Nothing like a fresh kill to liven up the tunnel;"
+        }
+    ]
+]

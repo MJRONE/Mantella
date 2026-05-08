@@ -92,5 +92,39 @@
             "role": "assistant",
             "content": "Gerda: Greybeards meddlin' in truces now, eh? Last I heard, them old windbags couldn't shut their mouths long enough to broker peace without summonin' another dragon down on our arses. But if it keeps the jarl's hall from turnin' into a blood-soaked mead hall, I'll scrub the throne room twice over just to show my respects."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Dragonsreach.) (Characters nearby (from nearest to furthest): Lydia, Jenassa, Korpse, Fianna, Nelkir)"
+        },
+        {
+            "role": "assistant",
+            "content": "Gerda: Aye, this early light filters through the high windows like Dibella's own blessing, doesn't it? Makes the scrubbing of these flagstones almost bearable, though the chill clings to my old bones still. Whiterun Guard: Morning duties never wait for the sun to warm the hold properly. You see any trouble stirring in the halls last night, Gerda? With all these visitors milling about, one can't be too careful. Daegon: Trouble? Ha, if only it were that simple. beauty"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Trouble? Ha, if only it were that simple. Dibella's so-called beauty empire turns everything into some twisted game anyway. Did you hear that? Someone just loosed an arrow in here\u2014hope it's not aimed at us. Gerda: An arrow? By the gods, in Dragonsreach of all places! These halls are sacred ground; who'd dare such folly this early? My back aches enough from sweeping without dodging shafts. Whiterun Guard: Alert! Who fired that? Show yourself, or face the Jarl's justice. These visitors best have a good explanation\u2014can't have arrows whizzing about like we're in some bandit camp."
+        },
+        {
+            "role": "assistant",
+            "content": "Gerda: Shh, look there\u2014those two lasses by the table, barely a stitch on them in broad daylight. If that arrow's meant for showing off, it's bolder than most of the Jarl's court. My eyes've seen plenty, but this hold's going to the dogs with Dibella's whims. Whiterun Guard: By Shor, armed and half-naked like that? State your business, or I'll have you in irons faster than you can string another bow. Dragonsreach isn't some brothel for wandering eyes\u2014explain the shot! Daegon: Oh, please, like their outfits are the real scandal here. Korpse is twitching on my shoulder, smelling trouble before I do. If that's the Dragonborn's handiwork, maybe it's just practice\u2014better than stabbing shadows in the dark, right?"
+        },
+        {
+            "role": "assistant",
+            "content": "Gerda: Picking through the Jarl's own stores like that\u2014boots, ale, even a stamina potion? Bold as brass in broad daylight, but mind you don't spill a drop on these floors I've just waxed. Whiterun Guard: Oi, that's housecarl gear you're eyeing, stranger. Hands off unless you've got leave from the Jarl himself\u2014can't have every wanderer looting Dragonsreach like it's a battlefield spoil. Daegon: Snagging ale and potions at this hour? Smart move if you're planning a scrap, but save some for Korpse here; the little guy's eyeing that stamina draught like it might make him faster than a skeever."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Hello, little one. Korpse here's been fidgeting all morning\u2014thinks this room's got secrets in the shadows, or maybe just scents from that open wardrobe. Whiterun Guard: Easy with the greetings in these quarters; Jarl's rest is sacred. If you're settling in, keep it quiet\u2014no more rummaging like earlier."
+        },
+        {
+            "role": "assistant",
+            "content": "Gerda: Aye, quiet's the word in these halls\u2014let the shadows keep their secrets for now, or we'll all be sweeping up more than dust. Whiterun Guard: Settled then; no more fuss, and we'll all get through the morning without stirring the Jarl's ire. Daegon: Fine, fine\u2014Korpse and I will behave, but if those shadows whisper back, don't say I didn't warn you."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this dimly lit chamber, rough stone walls rise around a modest wooden bed positioned against one side of the room. An arched stone doorway leads into deeper shadows beyond, flanked by sturdy wooden supports carved with subtle patterns. A faded banner hangs on the wall nearby, its fabric draped loosely over a bracket. The focus of the scene is the bed itself, covered in a checkered blanket of dark and light green plaid, rumpled from use. It features carved wooden headboard and footboard with intricate, weathered engravings resembling Nordic runes or motifs. Beside the bed sits a small wooden table or chest, its surface bare except for faint traces of dust. Two figures occupy the bed in an intimate embrace: a bald man with toned, bare back and shoulders kneels facing away from the viewer, his skin illuminated faintly by ambient light. He appears to be holding or positioning a short, curved dagger or knife in one hand, though its purpose is unclear in the moment. Beside and partially beneath him is a woman with long, silver-gray hair cascading over her shoulders; she lies on her side, her nude form partially visible, legs extended across the bedding with one foot dangling off the edge.) (Characters nearby (from nearest to furthest): Jenassa, Lydia, Whiterun Guard, Korpse, Whiterun Guard)"
+        }
     ]
 ]

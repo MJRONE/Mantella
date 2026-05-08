@@ -1,0 +1,12 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Sons of Skyrim Military Camp.) (Characters nearby (from nearest to furthest): Stormcloak Soldier, Stormcloak Soldier, Serana, Frea, Stormcloak Soldier) (MJR fired an arrow.) (MJR unequipped Daedric Arrow) (MJR equipped Daedric Arrow) (MJR cast the spell / consumed Unrelenting Force - Fus) (Stormcloak Soldier hit Lydia with Hunting Bow - Scoped)"
+        },
+        {
+            "role": "assistant",
+            "content": "Stormcloak Soldier: By Shor, that shout of yours rattles the bones even here in camp! Felt it in my chest like a dragon's roar. Lydia: Ah! You bastard, that arrow stings worse than a skeever's bite! But I'll take it for the thane's training\u2014keeps the edge sharp against those Imperial dogs. Stormcloak Soldier 2: Clear skies like this make for good practice under the stars, lads. Dragonborn's Fus could scatter a whole Thalmor patrol from Solitude to Falkreath. Stormcloak Soldier 3: Aye, and Lydia, you're tougher than old leather."
+        }
+    ]
+]

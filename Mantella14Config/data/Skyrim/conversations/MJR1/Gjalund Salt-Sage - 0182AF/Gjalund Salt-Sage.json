@@ -6,11 +6,11 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: You know, captain, sailing the Sea of Ghosts at dawn like this? It's like Dibella herself decided to paint the sky with her blush after a night of too much sujamma and bad decisions—beautiful, but I bet you've seen rougher mornings than this frozen harbor. Gjalund Salt-Sage: Aye, lass, and I've puked over the rails from worse hangovers than whatever goddess-whore's whimsy you're spoutin'."
+            "content": "Serana: You know, captain, sailing the Sea of Ghosts at dawn like this? It's like Dibella herself decided to paint the sky with her blush after a night of too much sujamma and bad decisions\u2014beautiful, but I bet you've seen rougher mornings than this frozen harbor. Gjalund Salt-Sage: Aye, lass, and I've puked over the rails from worse hangovers than whatever goddess-whore's whimsy you're spoutin'."
         },
         {
             "role": "user",
-            "content": "**Late visual context as seen by MJR (the player): As MJR stands on the weathered wooden platform overlooking the misty fjord, the scene unfolds in the fading light of dusk. The sky above is a deepening canvas of bruised purples and soft pinks, streaked with wispy clouds that hint at the chill of the coming night. Jagged, snow-capped mountains rise sharply in the distance, their peaks piercing the horizon like ancient sentinels, blanketed in a fresh layer of white that glimmers faintly under the twilight glow. Closer by, the structure around you feels rugged and timeworn—a sturdy bridge of dark stone arches spans a narrow chasm, its surface etched with frost and supported by thick wooden beams that creak softly in the breeze. Rusty iron rails line the edges, flanked by stacks of weathered crates and barrels lashed with ropes, some marked with faded symbols of trade or warning. To one side, a longship rests against a makeshift dock, its hull scarred by salt and storms, with tall oars extended like the ribs of some forgotten beast, secured by heavy chains.**"
+            "content": "**Late visual context as seen by MJR (the player): As MJR stands on the weathered wooden platform overlooking the misty fjord, the scene unfolds in the fading light of dusk. The sky above is a deepening canvas of bruised purples and soft pinks, streaked with wispy clouds that hint at the chill of the coming night. Jagged, snow-capped mountains rise sharply in the distance, their peaks piercing the horizon like ancient sentinels, blanketed in a fresh layer of white that glimmers faintly under the twilight glow. Closer by, the structure around you feels rugged and timeworn\u2014a sturdy bridge of dark stone arches spans a narrow chasm, its surface etched with frost and supported by thick wooden beams that creak softly in the breeze. Rusty iron rails line the edges, flanked by stacks of weathered crates and barrels lashed with ropes, some marked with faded symbols of trade or warning. To one side, a longship rests against a makeshift dock, its hull scarred by salt and storms, with tall oars extended like the ribs of some forgotten beast, secured by heavy chains.**"
         },
         {
             "role": "assistant",
@@ -22,7 +22,17 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Captain, that sunset's bleeding over the fjord like a fresh kill after a Volkihar feast—Dibella's way of saying Skyrim's richer with a little red in the sky, don't you think? Bet your Maiden's itching to shove off before the ghosts start whispering deals. Gjalund Salt-Sage: Ghosts? Aye, and worse've haunted these docks since the war—Thalmor pricks sniffing cargo like starved hounds."
+            "content": "Serana: Captain, that sunset's bleeding over the fjord like a fresh kill after a Volkihar feast\u2014Dibella's way of saying Skyrim's richer with a little red in the sky, don't you think? Bet your Maiden's itching to shove off before the ghosts start whispering deals. Gjalund Salt-Sage: Ghosts? Aye, and worse've haunted these docks since the war\u2014Thalmor pricks sniffing cargo like starved hounds."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Windhelm.) (Characters nearby (from nearest to furthest): Serana, Lydia, Arch Conjurer, Fox, Leonara Arius)"
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene unfolds at night under a clear, star-filled sky, with clusters of bright stars scattered across the dark expanse above. To the left, a tall birch tree stands prominently, its white bark contrasting against the shadows, slender trunk rising toward the heavens with sparse branches. Surrounding it are jagged rock formations and low cliffs, their surfaces rough and textured, blending into the dimly lit ground. The foreground is a natural patchwork of terrain: scattered rocks and boulders covered in patches of moss or lichen, interspersed with earthy soil and fallen leaves tinged in warm orange hues. Vegetation thrives in the undergrowth\u2014clusters of low bushes with green foliage, ferns unfurling their delicate fronds, and small purple flowers blooming amid the grasses. Orange-tinted shrubs and wildflowers add splashes of color to the otherwise subdued palette, suggesting a cool, autumnal evening in a forested wilderness. The overall atmosphere is serene yet mysterious, illuminated faintly by the starlight casting soft shadows across the landscape.)"
         }
     ]
 ]

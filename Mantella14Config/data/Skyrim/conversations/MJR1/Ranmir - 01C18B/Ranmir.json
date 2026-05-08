@@ -6,11 +6,11 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: You know, bartender's got a face like he just watched his wife fuck a draugr—pale and lifeless. Pass me that mead, will ya?"
+            "content": "Serana: You know, bartender's got a face like he just watched his wife fuck a draugr\u2014pale and lifeless. Pass me that mead, will ya?"
         },
         {
             "role": "user",
-            "content": "**Late visual context as seen by MJR (the player): From MJR's perspective, the scene unfolds inside a dimly lit wooden hut, its rough-hewn timber walls and exposed beams giving the space a sturdy, rustic feel. A soft glow emanates from a hanging lantern on the right, casting warm shadows across the uneven floorboards partially covered by a large, shaggy brown fur rug strewn with patches of wear. In the foreground, a woman stands directly ahead, her reddish-brown hair falling loosely to her shoulders, framing a face with sharp, intense features—high cheekbones, narrowed eyes, and lips pressed into a firm line. She's dressed in a form-fitting maroon gown with a low, square neckline that accentuates her ample bosom, the fabric draping softly over her curves and ending just above her knees, paired with simple boots. Her hands rest naturally at her sides, posture straight and unyielding. To the sides, a couple of plain wooden stools sit near a cluttered workbench on the left, where barrels and earthenware pots are stacked haphazardly, while more shelves line the back wall, holding odds and ends like rolled fabrics and tools. The air seems thick with the scent of aged wood and faint smoke, the overall atmosphere one of quiet domesticity edged with tension.**"
+            "content": "**Late visual context as seen by MJR (the player): From MJR's perspective, the scene unfolds inside a dimly lit wooden hut, its rough-hewn timber walls and exposed beams giving the space a sturdy, rustic feel. A soft glow emanates from a hanging lantern on the right, casting warm shadows across the uneven floorboards partially covered by a large, shaggy brown fur rug strewn with patches of wear. In the foreground, a woman stands directly ahead, her reddish-brown hair falling loosely to her shoulders, framing a face with sharp, intense features\u2014high cheekbones, narrowed eyes, and lips pressed into a firm line. She's dressed in a form-fitting maroon gown with a low, square neckline that accentuates her ample bosom, the fabric draping softly over her curves and ending just above her knees, paired with simple boots. Her hands rest naturally at her sides, posture straight and unyielding. To the sides, a couple of plain wooden stools sit near a cluttered workbench on the left, where barrels and earthenware pots are stacked haphazardly, while more shelves line the back wall, holding odds and ends like rolled fabrics and tools. The air seems thick with the scent of aged wood and faint smoke, the overall atmosphere one of quiet domesticity edged with tension.**"
         },
         {
             "role": "assistant",
@@ -30,7 +30,7 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Speak for yourself, you sodden sack—I've got ways to heat things up that'd make your dead heart twitch. What's your poison tonight, huh? Skooma dreams or just drowning in the same old regret? Ranmir: Regret's the only thing that keeps me coming back here."
+            "content": "Serana: Speak for yourself, you sodden sack\u2014I've got ways to heat things up that'd make your dead heart twitch. What's your poison tonight, huh? Skooma dreams or just drowning in the same old regret? Ranmir: Regret's the only thing that keeps me coming back here."
         },
         {
             "role": "user",
@@ -38,7 +38,7 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: New? Honey, I've been around longer than this piss-poor town's snowdrifts, but yeah, Winterhold's my latest pit stop. Blizzard out there's got teeth sharper than my fangs—nearly froze my tits off before we stumbled in here. Who's the blonde bombshell over there, strutting like Dibella's wet dream in the buff? Your entertainment for the night?"
+            "content": "Serana: New? Honey, I've been around longer than this piss-poor town's snowdrifts, but yeah, Winterhold's my latest pit stop. Blizzard out there's got teeth sharper than my fangs\u2014nearly froze my tits off before we stumbled in here. Who's the blonde bombshell over there, strutting like Dibella's wet dream in the buff? Your entertainment for the night?"
         },
         {
             "role": "user",
@@ -46,7 +46,7 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Regret? Honey, that's just foreplay for a vampire. Try eternal boredom—makes drowning your sorrows look like a party. What's haunting you tonight, besides the ghosts in this drafty dump? Ranmir: Isabelle. Always Isabelle."
+            "content": "Serana: Regret? Honey, that's just foreplay for a vampire. Try eternal boredom\u2014makes drowning your sorrows look like a party. What's haunting you tonight, besides the ghosts in this drafty dump? Ranmir: Isabelle. Always Isabelle."
         },
         {
             "role": "user",
@@ -54,7 +54,7 @@
         },
         {
             "role": "assistant",
-            "content": "Ranmir: Blonde bombshell? That's probably Ysolda, the trader's girl—always hustlin' for exotic furs or some shit."
+            "content": "Ranmir: Blonde bombshell? That's probably Ysolda, the trader's girl\u2014always hustlin' for exotic furs or some shit."
         },
         {
             "role": "user",
@@ -70,7 +70,7 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Ah, the classic ghost of pussy past. Isabelle, huh? Let me guess—she ditched your sorry ass for a warmer bedroll and left you here nursing mead like it's Mother's milk at three in the goddamn morning. Tell Auntie Sera all about it; I've got centuries of heartbreak stories that'd make yours look like a stubbed toe."
+            "content": "Serana: Ah, the classic ghost of pussy past. Isabelle, huh? Let me guess\u2014she ditched your sorry ass for a warmer bedroll and left you here nursing mead like it's Mother's milk at three in the goddamn morning. Tell Auntie Sera all about it; I've got centuries of heartbreak stories that'd make yours look like a stubbed toe."
         },
         {
             "role": "user",
@@ -86,7 +86,37 @@
         },
         {
             "role": "assistant",
-            "content": "Ranmir: Yeah, well, she was the only warm thing in this frozen hellhole worth a damn. Left me for greener pastures—probably shaggin' some Imperial officer in Solitude by now. What's your story, fang-face? You don't look like the type to haunt taverns without a body count. Auntie Sera? Fuck off with that—last thing I need's a bloodsucker playin' shrink at this hour. Isabelle was the sun in this icy hell; now it's just me, mead, and memories that hit harder than a frost troll's club. You got someone drivin' you to this dive, or just the blizzard pushin' your ass through the door? Serana: Fancy cages are overrated—give me a blood-soaked crypt any day."
+            "content": "Ranmir: Yeah, well, she was the only warm thing in this frozen hellhole worth a damn. Left me for greener pastures\u2014probably shaggin' some Imperial officer in Solitude by now. What's your story, fang-face? You don't look like the type to haunt taverns without a body count. Auntie Sera? Fuck off with that\u2014last thing I need's a bloodsucker playin' shrink at this hour. Isabelle was the sun in this icy hell; now it's just me, mead, and memories that hit harder than a frost troll's club. You got someone drivin' you to this dive, or just the blizzard pushin' your ass through the door? Serana: Fancy cages are overrated\u2014give me a blood-soaked crypt any day."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Frozen Hearth.) (Characters nearby (from nearest to furthest): Lydia, Dagur, Serana, Frea)"
+        },
+        {
+            "role": "assistant",
+            "content": "Ranmir: This blizzard's got the whole town frozen solid again. Can't even stumble home without frostbite nipping at your heels. Nelacar: Indeed, Winterhold's eternal gift to its residents. Though I'd wager the chill suits my studies better than your endless mugs of swill, Ranmir. What folly keeps you up at this forsaken hour?"
+        },
+        {
+            "role": "assistant",
+            "content": "Ranmir: Folly? Aye, call it that if you like, elf. Lost in my cups, same as always. That wind's howling like it's got a grudge against the whole hold. You tinkering with your spells up in that corner all night? Nelacar: Experiments wait for no man, especially not in a place where the nights drag on like this eternal winter. The artifacts here\u2014cheese wheels and mead jugs\u2014hardly compare to the arcane pursuits that got me exiled from the College. But enough of that; Dagur looks ready to pour another round despite the hour. What troubles brew in that skull of yours beyond the drink?"
+        },
+        {
+            "role": "assistant",
+            "content": "Ranmir: Troubles? Ha, the only thing brewing in here is Dagur's latest batch of regret for serving me. Heart's been pickled longer than that cheese on the bar\u2014ain't no spell for that, elf. exile"
+        },
+        {
+            "role": "assistant",
+            "content": "Nelacar: Exile or no, I've seen enough shattered souls in my time to know yours isn't mended by mead alone. That drinking horn on the table calls to you like an old lover\u2014Isabelle's ghost, perhaps? Spill it before the candles gutter out at this witching hour."
+        },
+        {
+            "role": "assistant",
+            "content": "Ranmir: Don't... don't say her name. Not you, not anyone. She's gone, and that's the end of it. Now, if you'll excuse me, this bed's calling my name louder than any ghost. Nelacar: Fine, keep your secrets buried like those red bottles on the table. But mark my words, Ranmir\u2014in this frozen husk of a town at 2 in the morning, regrets fester worse than any blight. If not her, then what chains you here night after night?"
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this dimly lit, rustic interior scene viewed from a low angle as if peering over a wooden table, a sturdy central pillar of rough-hewn timber rises prominently, its bark-stripped surface etched with natural grain and age. To the left, a seated figure with long red hair cascading down their back faces away, dressed in a brown leather vest over a light shirt and trousers, their arms resting on the table's edge. The table itself is a simple wooden slab cluttered with a plate of reddish meat or bread, crumbs scattered nearby, and a faint steam suggesting recent warmth. The floor beneath is composed of wide, uneven wooden planks partially covered by a dark fur pelt with a long, scaled tail trailing across it. Surrounding walls appear to be thatched or wattle-and-daub construction with patches of exposed plaster and shadowy corners. Overlaid at the lower edge is a curved, metallic status bar in dark tones, flanked by braided rope-like accents and arrow motifs, while small circular icons resembling tools, scrolls, and symbols hover faintly in the bottom-right corner.)"
         }
     ]
 ]

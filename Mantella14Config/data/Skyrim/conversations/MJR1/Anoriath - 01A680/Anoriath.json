@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Drunken Huntsman.) (Characters nearby (from nearest to furthest): Jenassa, Daegon, Ahlam) (MJR: Consider yourself hired. (500); Jenassa: You have chosen wisely. Lead on, and I shall follow.) (MJR dropped/gave 500 Gold)"
+        },
+        {
+            "role": "assistant",
+            "content": "Elrindir: Hired Jenassa, have you? Smart move with all these dragon sightings keeping everyone on edge. Anoriath: Aye, she's as sharp as they come. Better her watching your back than some green recruit, especially this late when the roads turn treacherous. Nazeem: Dragons or no, it's the sort of bold decision that gets you places. Not that most folk around here would understand \u2013 too busy scraping by in the dust. Ahlam, pass the mead; this night's chill demands it."
+        },
+        {
+            "role": "assistant",
+            "content": "Elrindir: Dragons have everyone jumping at shadows these days. Jenassa's one of the few who doesn't flinch \u2013 paid well for that kind of steel in your hireling. Nazeem: Steel? Ha, more like elven cunning. My farm's got guards aplenty, but nothing beats a proper escort on these Skyrim nights. Ahlam, you're quiet tonight; the mead not warming you enough?"
+        },
+        {
+            "role": "user",
+            "content": "(MJR fired an arrow.) (MJR unequipped Daedric Arrow) (MJR dropped/gave Daedric Arrow) (MJR equipped Daedric Arrow)"
+        }
+    ]
+]

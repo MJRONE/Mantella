@@ -8,5 +8,33 @@
             "role": "assistant",
             "content": "Whiterun Guard: Heh, save your coin for mead, brother. shout session Whiterun Guard 2: Back in my day, we fought naked! Whiterun Guard: glory tale,"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Whiterun.) (Characters nearby (from nearest to furthest): Serana, Frea, Whiterun Guard, Horse, Whiterun Guard) (MJR unequipped Soul Gauge Left-hand) (MJR equipped Soul Gauge Left-hand) (MJR equipped Unrelenting Force) (MJR unequipped Daedric Wrath) (MJR equipped Daedric Wrath) (MJR unequipped Summon Serana)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: My Thane, no thanks are needed\u2014Whiterun's walls are yours as much as the Jarl's, especially after all you've done slaying those dragon abominations. But this drizzle's turning the plains to mud; we should get inside before those bandit sluts you mentioned try another ambush in the fog. Whiterun Guard: Aye, Thane, the hold's grateful for your service. Jarl Balgruuf's court is open to you anytime, but mind the patrols\u2014 this grey sky and mist make it hard to spot trouble from Riverwood way. Heard any word on those Stormcloak movements up north?"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: This storm's no jest from Dibella\u2014it's like the skies themselves rage against those foreign scum infesting our holds. Thane, with Ri'saad's caravan lingering nearby and that leather you just grabbed, we ought to press on to Dragonsreach before the rain turns the paths to rivers. Whiterun Guard: Aye, the night's turned foul with this lashing rain;"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Whiterun.) (Characters nearby (from nearest to furthest): Whiterun Guard, Whiterun Guard, Farkas, Ria, Aela the Huntress) (MJR: Will this change your mind? (67 gold); Whiterun Guard: Welcome to Whiterun, friend. Go right on in. ) (MJR dropped/gave 67 Gold)"
+        },
+        {
+            "role": "assistant",
+            "content": "Whiterun Guard: Bit late to be wandering the streets at this hour, stranger. Keep your wits about you\u2014thieves love the shadows after dark. Daegon: Oh, please, as if a little gold doesn't buy a Nord's loyalty faster than a dragon's roar. This city's gates creak open for the right price, but at least the stars are out to light our way\u2014no Dibella-forsaken storms tonight."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this dimly lit scene, a pair of tall, weathered wooden double doors dominate the view, standing slightly ajar or closed against a shadowy backdrop. The doors are constructed from dark, aged timber with vertical planks and subtle paneling, their surfaces etched with intricate carvings\u2014perhaps resembling stylized wings or feathers\u2014along the edges and upper sections. Two prominent, round metal rings, resembling knockers or handles, are centered on each door at about eye level, adding a touch of rustic ornamentation. The surrounding walls appear to be rough-hewn stone, blending into the gloom, while the foreground floor consists of uneven, dark flagstones or tiles, scattered with faint debris and extending into deeper shadows. At the bottom of the view, faint overlays suggest interactive elements or indicators, including small icons for tools, windows, and circular buttons, hinting at a navigable or augmented environment. The overall atmosphere is foreboding and ancient, with warm, reddish-brown tones from torchlight or embers casting elongated shadows across the surfaces.)"
+        }
     ]
 ]

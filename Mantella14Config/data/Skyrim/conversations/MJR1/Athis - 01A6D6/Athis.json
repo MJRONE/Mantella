@@ -30,5 +30,19 @@
             "role": "assistant",
             "content": "Athis: Maybe we should save the bedroom talk for when we're not standing in Harbinger Kodlak's bloodstains. These old floors have heard enough confessions. Serana: Fair point. Though if these walls could talk, I bet they'd beg for more scandal. That's the thing about ancient places - always aching for fresh sins to soak into the stonework. Athis: Just try not to break anything. The last thing I need is Vilkas bitching about vampire claw marks on the mead barrels."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Jorrvaskr.) (Characters nearby (from nearest to furthest): Daegon, Jenassa, Skjor, Brill, Torvar)"
+        },
+        {
+            "role": "assistant",
+            "content": "Athis: The mead hall's quiet this early, but the fire's already crackling like it's got a grudge against the chill outside. You look like you've been up since dawn, housecarl\u2014chasing shadows in Whiterun? Lydia: Aye, shadows with curves and daggers, those bandit sluts trailing my Thane. But Jorrvaskr's walls feel solid, like the old Nord way. You Companions still drill with those quick blades of yours at this hour? Athis: Quicker than a greatsword's swing, that's for sure. Vary your style, Lydia\u2014ten little cuts beat one big one every time. What's your Thane got you doing here, anyway? Seeking glory with us?"
+        },
+        {
+            "role": "assistant",
+            "content": "Athis: Njada's got a fist like a warhammer\u2014reminds me why I stick to blades over brawling."
+        }
     ]
 ]

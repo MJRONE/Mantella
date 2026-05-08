@@ -24,7 +24,7 @@
         },
         {
             "role": "assistant",
-            "content": "Vilkas: Makes you wonder if Hircine's peekin' down, laughin' at us whelps trompin' through these godsforsaken ruins like we're chasin' our own tails. Ria: Ha, you'd know all about tails, wouldn't you, big brother? That clear sky's a blessin' after the stink-hole we just crawled out of—blood and guts everywhere, like the Silver Hand threw a fuckin' party for the flies."
+            "content": "Vilkas: Makes you wonder if Hircine's peekin' down, laughin' at us whelps trompin' through these godsforsaken ruins like we're chasin' our own tails. Ria: Ha, you'd know all about tails, wouldn't you, big brother? That clear sky's a blessin' after the stink-hole we just crawled out of\u2014blood and guts everywhere, like the Silver Hand threw a fuckin' party for the flies."
         },
         {
             "role": "user",
@@ -32,7 +32,43 @@
         },
         {
             "role": "assistant",
-            "content": "Ria: Hah, if that mangy bastard's watchin', he's probably jerkin' off to the thought of us hackin' through this black-as-hell thicket, stumblin' blind like idiots in the dead of night. These trees look ready to swallow us whole—think there's a wolf pack sniffin' us out already?"
+            "content": "Ria: Hah, if that mangy bastard's watchin', he's probably jerkin' off to the thought of us hackin' through this black-as-hell thicket, stumblin' blind like idiots in the dead of night. These trees look ready to swallow us whole\u2014think there's a wolf pack sniffin' us out already?"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Whiterun.) (Characters nearby (from nearest to furthest): Aela the Huntress, Whiterun Guard, Whiterun Guard, Whiterun Guard, Whiterun Guard) (MJR: Why don't you wear some of these items...? (Persuade); Ria: Okay. Just this once.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Ria: Fine, but if this fancy getup slows me down in a scrap, I'm blaming you. What's the point of all this anyway\u2014some Cyrodiil fashion statement? Daegon: Oh, look at the little Imperial playing dress-up under the stars. If you're trying to impress the guards over there, save it. They've got eyes for Aela's torch more than your tunic tweaks. Korpse thinks it's hilarious, don't you, little guy? Farkas: Nights like this, with the sky clear as polished steel, make me miss a good hunt. But yeah, Ria, suit up proper. We've got eyes on those guards milling about\u2014don't want to draw the wrong kind of attention from the walls. Aela's already stirring up enough with that light of hers."
+        },
+        {
+            "role": "assistant",
+            "content": "Ria: Hey, that's my spare belt! If Aela's borrowing it, tell her not to stretch it out\u2014she's got that huntress build that snaps things. Still, under these stars by Jorrvaskr's steps, maybe it'll keep the chill off better than my old roughspun. Daegon: Passing tunics around like cheap mead at a feast? Careful, elf princess here thinks you're starting a midnight fashion revolt against Dibella's empire. Korpse is eyeing those reeds over there like he wants to nest in 'em\u2014better than your hand-me-downs, Ria."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene depicts a quiet Nordic village at night, viewed from a low perspective as if standing on a cobblestone path. A vast starry sky stretches overhead, dotted with twinkling stars and faint aurora-like lights near the horizon, while distant snow-capped mountains loom under a dark, cloudy veil. Clustered wooden longhouses with steeply pitched, thatched roofs line the area, their timber frames weathered and adorned with carved eaves. Warm lantern light spills from narrow windows in several buildings, casting soft glows on the surrounding structures, and thin wisps of smoke curl upward from chimneys. In the foreground, the uneven stone pathway is bordered by patches of grass, low wooden fences, and scattered foliage. Two cloaked figures stroll along the path\u2014one slightly ahead, the other trailing with a handheld lantern that emits a steady, flickering orange light illuminating their feet and nearby ground. A wooden signpost nearby bears the carved name \"Whiterun,\" marking the entrance to the settlement. Evergreen trees frame the edges of the village, their branches heavy with snow, adding to the serene, misty atmosphere. Faint overlays in the view indicate that the location has been \"discovered.) (The sky is a vast, clear expanse, with barely a cloud in sight, offering a moment of tranquility.) (Characters nearby (from nearest to furthest): Whiterun Guard, Idolaf Battle-Born, Cinia, Adrianne Avenicci, chicken) (MJR: ...; Whiterun Guard: Halt! City's closed with the dragons about. Official business only.) (MJR: Will this change your mind? (67 gold); Whiterun Guard: Welcome to Whiterun, friend. Go right on in. ) (MJR dropped/gave 67 Gold) (Daegon unequipped Firebolt) (Daegon equipped ) (Daegon unequipped Soul Trap) (Daegon equipped Soul Trap)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Whiterun.) (Characters nearby (from nearest to furthest): Cow, chicken, Whiterun Guard, Whiterun Guard, chicken) (MJR: Why don't you wear some of these items...? (Persuade); Ria: Okay. Just this once.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Ria: Fine, but if this fancy getup slows me down in a scrap, I'm blaming you. What's the point of all this anyway? Looks more like court wear than something for a Companion. Daegon: Oh, look at that\u2014our little warrior's playing dress-up under the stars. Korpse thinks it's hilarious; he's practically giggling on my shoulder. blessings"
+        },
+        {
+            "role": "assistant",
+            "content": "Ria: These heels are going to trip me up before I even draw my sword. And this tunic\u2014it's barely holding together. You sure this isn't some Thalmor nonsense? Daegon: Thalmor? Please, they'd kill for something this scandalous. Suits you, though\u2014makes you look less like a farm girl playing warrior and more like you're ready for Dibella's wilder blessings under these stars."
+        },
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Whiterun Guard, Jenassa, Whiterun Guard, Whiterun Guard, Masser)"
         }
     ]
 ]

@@ -6,7 +6,7 @@
         },
         {
             "role": "assistant",
-            "content": "Imperial Soldier: Fuckin' hell, look at that sky tonight—aurora dancin' like some Daedric whore over Winterhold. Two in the goddamn mornin', and we're freezin' our balls off guardin' this shithole college."
+            "content": "Imperial Soldier: Fuckin' hell, look at that sky tonight\u2014aurora dancin' like some Daedric whore over Winterhold. Two in the goddamn mornin', and we're freezin' our balls off guardin' this shithole college."
         },
         {
             "role": "user",
@@ -22,7 +22,7 @@
         },
         {
             "role": "assistant",
-            "content": "Imperial Soldier 2: Aye, that green glow's got me tits freezin' solid under this skimpy Stormcloak rag—fucked if I'm freezin' my ass off in full plate for some mage wankers. These cabins by the college are the only warm spot in this frostbitten dump, but one wrong spark from those wizard cunts and we're all barbecued Nords."
+            "content": "Imperial Soldier 2: Aye, that green glow's got me tits freezin' solid under this skimpy Stormcloak rag\u2014fucked if I'm freezin' my ass off in full plate for some mage wankers. These cabins by the college are the only warm spot in this frostbitten dump, but one wrong spark from those wizard cunts and we're all barbecued Nords."
         },
         {
             "role": "user",
@@ -30,7 +30,21 @@
         },
         {
             "role": "assistant",
-            "content": "Imperial Soldier 2: Bailin'? Shit, half my kin'd string me up for wearin' this Imperial tin instead of Stormcloak furs, but fuck 'em—Empire pays better than freezin' my tits off in the rebellion."
+            "content": "Imperial Soldier 2: Bailin'? Shit, half my kin'd string me up for wearin' this Imperial tin instead of Stormcloak furs, but fuck 'em\u2014Empire pays better than freezin' my tits off in the rebellion."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Winterhold.) (Characters nearby (from nearest to furthest): Lydia, Serana, chicken, chicken, chicken)"
+        },
+        {
+            "role": "assistant",
+            "content": "Imperial Soldier: These Imperial bikinis they issued us are a joke in this Skyrim freeze\u2014barely keep the frost from nipping my tits, and here we are patrolling Winterhold at 2 in the morning like we're bait for every ice wraith in the province. Frea: The cold here bites like Solstheim's blizzards, but it's nothing compared to Miraak's curse twisting minds into mindless lust. I'm Frea, shaman of the Skaal\u2014far from home, but Dibella's gaze warms even this starry chill if you know how to invoke her. Imperial Soldier 2: Aye, speak for yourself, Nord."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this snowy outdoor scene, a wooden longhouse stands partially visible to the left, constructed from sturdy logs with a sloped roof covered in light snow. Icicles hang from the eaves, and stacks of firewood lean against the walls, dusted with frost. A set of broad wooden steps rises from the ground nearby, leading upward toward an open doorway framed by more timber posts. The ground is a patchwork of uneven stone tiles blanketed in thin snowdrifts, with sparse brown bushes and weeds poking through the white. To the right, a woman with long blonde hair stands poised, her skin bare except for minimal leather straps in red and brown that cross her chest and hips, paired with tall fur-lined boots. She grips a lit torch in her right hand, its flames crackling brightly and casting warm orange light that melts nearby snow, illuminating her determined expression as she faces forward. A simple curved path marker lies on the ground ahead, pointing northward like a directional guide etched into the stone. At the lower edge of the view, faint overlays suggest health, energy, and navigation indicators, while a row of small icons appears along the bottom, resembling desktop tools or notifications.)"
         }
     ]
 ]

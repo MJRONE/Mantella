@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Skyrim.) (Characters nearby (from nearest to furthest): Imperial Soldier, Stormcloak Soldier, Imperial Soldier, mudcrab, mudcrab) (MJR: ...; Daegon: You look worse than the cult of Witch Hunters I just slaughtered. MJR: Witch Hunters down here? You must have some powerful magic to catch their eye.; Daegon: Something like that. Heh. Why don't you buy me another bottle and join me? We're celebrating tonight. MJR: Certainly. (Order a bottle of mead for the table); Daegon: Ah, nothing like hot mead. So what side are you on? The Hunters, or the Hunted? MJR: I practice magic myself. If anyone's killing witches, I'll help you kill them.; Daegon: I could tell. I can see your magic from Aetherius, waiting right beneath your fingertips. You like to summon fire. Chaotic and thoughtless destruction, burns anything down quick enough. But you aren't so thoughtless yourself. MJR: You can see the magic from Aetherius? You're no ordinary witch.; Daegon: These pesky Witch Hunters seem to agree. Skyrim hasn't been the most welcoming. Ah, but perhaps I've said too much. Appreciate the drink. MJR: Is Skyrim ever truly welcoming? (Order another bottle of mead) ; Daegon: I suppose it can be, between you and all this mead. You seem like someone that knows this land quite well. Actually, I'll let you in on a little secret. I'm searching for the Daedric Princes. I've heard the rumors, of their artifacts appearing all around Skyrim as of late. I'd like to find them. MJR: I'm looking for them too. We might have more luck if we help each other.; Daegon: Heh. Not a bad idea. I like you already. I'm Daegon, by the way. Fetch us another bottle, will you? And let me know when you're ready to head out. MJR: Follow me. I need you with me.; Daegon: Way ahead of you. MJR: k101DaegonFollowerHelloLines; Daegon: Could go for some mead right now. MJR: I have some rules to set.; Daegon: I won't play nice, even if you ask nice. MJR: k101DaegonFollowerHelloLines; Daegon: Hello! MJR: I need to talk to you about your lights...; Daegon: Is something the matter? MJR: Don't use your lantern anymore, no matter what.; Daegon: It's bloody dark out here! It's not my fault I came prepared. MJR: I need to talk to you about your lights...; Daegon: Is something the matter? MJR: Don't cast your Firefly anymore, no matter what.; Daegon: SCOFF, you sadistic or something?)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: rules"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Fine, no Firefly if it bothers you so much, but if we get jumped by some frostbite spider in this blasted snow, don't blame me when you're stumbling blind. This clear sky's mocking us\u2014stars out like it's a festival, but the cold bites harder than any beast. Imperial Soldier: Keep your voice down, elf. That dragon up there's no aurora; it's scouting for easy prey like us on these mountain paths. You with the rebels or just lost in the wrong armor for this weather?"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Hear that? Arrows whistling through the night air like angry ghosts\u2014your lot skirmishing with those Stormcloak fools again?"
+        }
+    ]
+]

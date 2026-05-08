@@ -28,7 +28,7 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Gods, that bolt burns like hellfire—what manner of fool shoots a vampire in broad daylight? Casimir, you see that archer skulking by the Bannered Mare?"
+            "content": "Serana: Gods, that bolt burns like hellfire\u2014what manner of fool shoots a vampire in broad daylight? Casimir, you see that archer skulking by the Bannered Mare?"
         },
         {
             "role": "user",
@@ -36,7 +36,7 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Casimir, you see that? Some android bitch just tagged me from the shadows—smells like machine oil and spite, right here in Whiterun's dusty streets."
+            "content": "Serana: Casimir, you see that? Some android bitch just tagged me from the shadows\u2014smells like machine oil and spite, right here in Whiterun's dusty streets."
         }
     ],
     [
@@ -50,7 +50,7 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: That android bitch came out of nowhere, Casimir—crossbow bolt right through the shoulder. But look at this morning now, sun blazing like it never saw a drop of blood."
+            "content": "Serana: That android bitch came out of nowhere, Casimir\u2014crossbow bolt right through the shoulder. But look at this morning now, sun blazing like it never saw a drop of blood."
         },
         {
             "role": "user",
@@ -58,7 +58,7 @@
         },
         {
             "role": "assistant",
-            "content": "Casimir: Gods, Serana, you alright? Android? What in Oblivion's that—some dwemer contraption gone rogue?"
+            "content": "Casimir: Gods, Serana, you alright? Android? What in Oblivion's that\u2014some dwemer contraption gone rogue?"
         },
         {
             "role": "user",
@@ -66,7 +66,7 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Aye, the bolt's just a scratch—vampire healing's got its perks. But this Whiterun morning's too damn calm, Casimir."
+            "content": "Serana: Aye, the bolt's just a scratch\u2014vampire healing's got its perks. But this Whiterun morning's too damn calm, Casimir."
         }
     ],
     [
@@ -76,23 +76,15 @@
         },
         {
             "role": "assistant",
-            "content": "Casimir: Gods' balls, Lurius, you hear about that vamp bitch Serana gettin' plugged by some metal ghost earlier? Whiterun's turnin' into a fuckin' circus at this hour—two in the damn mornin', and the fire here's the only thing keepin' the chill off my Redguard ass."
+            "content": "Casimir: Gods' balls, Lurius, you hear about that vamp bitch Serana gettin' plugged by some metal ghost earlier? Whiterun's turnin' into a fuckin' circus at this hour\u2014two in the damn mornin', and the fire here's the only thing keepin' the chill off my Redguard ass."
         },
         {
             "role": "user",
-            "content": "**Late visual context as seen by MJR (the player): MJR stands in a dimly lit, rustic hall with sturdy wooden beams arching overhead, their surfaces etched with subtle carvings and supported by thick, polished columns. The walls are rough-hewn stone, aged and shadowed, enclosing a space that feels both cozy and ancient. Flickering firelight dances from a small hearth or pit on the stone floor nearby, casting warm glows and long shadows across the room. Directly in front of you is a woman with shoulder-length blonde hair, her expression composed yet intense, dressed in a form-fitting black garment with intricate lace patterns that accentuate her figure; one of your hands extends toward her, almost touching her arm. In the background, near a heavy wooden door slightly ajar, another figure—a woman in flowing white robes—stands partially turned away, her posture suggesting quiet observation amid the ambient warmth of the fire. Scattered furnishings like a wooden bench and shelves line the edges, holding simple items that catch the eye in the low light.**"
+            "content": "**Late visual context as seen by MJR (the player): MJR stands in a dimly lit, rustic hall with sturdy wooden beams arching overhead, their surfaces etched with subtle carvings and supported by thick, polished columns. The walls are rough-hewn stone, aged and shadowed, enclosing a space that feels both cozy and ancient. Flickering firelight dances from a small hearth or pit on the stone floor nearby, casting warm glows and long shadows across the room. Directly in front of you is a woman with shoulder-length blonde hair, her expression composed yet intense, dressed in a form-fitting black garment with intricate lace patterns that accentuate her figure; one of your hands extends toward her, almost touching her arm. In the background, near a heavy wooden door slightly ajar, another figure\u2014a woman in flowing white robes\u2014stands partially turned away, her posture suggesting quiet observation amid the ambient warmth of the fire. Scattered furnishings like a wooden bench and shelves line the edges, holding simple items that catch the eye in the low light.**"
         },
         {
             "role": "assistant",
-            "content": "Casimir: What's a Breton like you doin' stirrin' this late? Lurius Liore: Aye, caught wind of it from the whispers 'round the hearth—android, they say?"
-        },
-        {
-            "role": "user",
-            "content": "Continue the conversation naturally."
-        },
-        {
-            "role": "assistant",
-            "content": "Lurius Liore: Aye, Casimir, that pale cunt Serana yelpin' like a stuck skeever outside—thought the whole damn hold heard it. This fog-shrouded shithole Whiterun's crawlin' with weirder freaks than usual tonight; fire's dyin' low in the hearth, makin' every shadow twitch like it's got fangs. You pourin' or what, barkeep?"
+            "content": "Casimir: What's a Breton like you doin' stirrin' this late? Lurius Liore: Aye, caught wind of it from the whispers 'round the hearth\u2014android, they say?"
         },
         {
             "role": "user",
@@ -100,7 +92,7 @@
         },
         {
             "role": "assistant",
-            "content": "Casimir: Stirrin'? Shit, I'm slingin' drinks till the sun cracks this frozen shithole open—Whiterun don't sleep when the wind's howlin' like a skeever in heat at two bells. Android, yeah? Sounds like some Dwemer fever dream gone sour. You buyin' that crap, or just the mead? Lurius Liore: Half-drunk whispers make it real enough for me, barkeep."
+            "content": "Lurius Liore: Aye, Casimir, that pale cunt Serana yelpin' like a stuck skeever outside\u2014thought the whole damn hold heard it. This fog-shrouded shithole Whiterun's crawlin' with weirder freaks than usual tonight; fire's dyin' low in the hearth, makin' every shadow twitch like it's got fangs. You pourin' or what, barkeep?"
         },
         {
             "role": "user",
@@ -108,7 +100,7 @@
         },
         {
             "role": "assistant",
-            "content": "Casimir: Pourin' your sorry ass another mug of Honningbrew? Fine, but make it quick—two in the mornin', and this place feels like Dibella's forgotten her curves, just cold stone walls and that piss-poor fire flickerin' shadows everywhere. Heard the vamp heal up like nothin', but that metal bitch shooter? Fuck if I know what crawled out the Aetherium veins this time."
+            "content": "Casimir: Stirrin'? Shit, I'm slingin' drinks till the sun cracks this frozen shithole open\u2014Whiterun don't sleep when the wind's howlin' like a skeever in heat at two bells. Android, yeah? Sounds like some Dwemer fever dream gone sour. You buyin' that crap, or just the mead? Lurius Liore: Half-drunk whispers make it real enough for me, barkeep."
         },
         {
             "role": "user",
@@ -116,15 +108,7 @@
         },
         {
             "role": "assistant",
-            "content": "Casimir: Whispers, eh? In this piss-poor excuse for a tavern, they're worth about as much as a beggar's promise—still, with the hearth flickerin' like it's got the shivers and that chill seepin' through the beams at two in the mornin', I'll take any tale to warm the blood. Lurius, you slinkin' off to one of them upstairs rooms soon, or nursin' that dagger like it's your only friend?"
-        },
-        {
-            "role": "user",
-            "content": "**Late visual context as seen by MJR (the player): ### Scene Description as Seen by MJR The scene unfolds in a dimly lit, rustic interior room with rough-hewn stone walls that rise unevenly, showing signs of age and wear with patches of mortar crumbling between the blocks. A crackling fire burns brightly in a built-in hearth on the left side, its orange and yellow flames flickering and casting warm, dancing shadows across the uneven stone floor and wooden beams overhead. The fire sits atop a small pile of logs within a recessed alcove edged by more stone, with embers glowing softly at its base. To the right of the hearth, a sturdy wooden door stands slightly ajar, framed by the stone wall, leading perhaps to another space beyond—its surface weathered and marked by faint scratches. Nearby, on the floor in front of the hearth, rests a simple wooden chest or box, its lid closed and grainy surface blending with the surrounding shadows. The floor itself is a mix of packed earth and scattered stone tiles, dimly illuminated by the fire's light, with darker areas pooling in the corners where the walls meet.**"
-        },
-        {
-            "role": "assistant",
-            "content": "Lurius Liore: Ha, barkeep, my steel here's seen more action than your Redguard cock on market day—aye, whispers of metal ghosts and vamp cunts got me eyein' the shadows, but this mead's callin' louder. Pour double, make it burn."
+            "content": "Casimir: Pourin' your sorry ass another mug of Honningbrew? Fine, but make it quick\u2014two in the mornin', and this place feels like Dibella's forgotten her curves, just cold stone walls and that piss-poor fire flickerin' shadows everywhere. Heard the vamp heal up like nothin', but that metal bitch shooter? Fuck if I know what crawled out the Aetherium veins this time."
         },
         {
             "role": "user",
@@ -132,7 +116,23 @@
         },
         {
             "role": "assistant",
-            "content": "Lurius Liore: Dwemer dream or Daedric shitshow, don't matter—Serana's blood probably still stainin' the cobblestones out there in this frostbitten piss-storm. You Redguards got that desert grit; I'd be hidin' under the bar if some iron whore came boltin' bolts my way. What's your take, Casimir?"
+            "content": "Casimir: Whispers, eh? In this piss-poor excuse for a tavern, they're worth about as much as a beggar's promise\u2014still, with the hearth flickerin' like it's got the shivers and that chill seepin' through the beams at two in the mornin', I'll take any tale to warm the blood. Lurius, you slinkin' off to one of them upstairs rooms soon, or nursin' that dagger like it's your only friend?"
+        },
+        {
+            "role": "user",
+            "content": "**Late visual context as seen by MJR (the player): ### Scene Description as Seen by MJR The scene unfolds in a dimly lit, rustic interior room with rough-hewn stone walls that rise unevenly, showing signs of age and wear with patches of mortar crumbling between the blocks. A crackling fire burns brightly in a built-in hearth on the left side, its orange and yellow flames flickering and casting warm, dancing shadows across the uneven stone floor and wooden beams overhead. The fire sits atop a small pile of logs within a recessed alcove edged by more stone, with embers glowing softly at its base. To the right of the hearth, a sturdy wooden door stands slightly ajar, framed by the stone wall, leading perhaps to another space beyond\u2014its surface weathered and marked by faint scratches. Nearby, on the floor in front of the hearth, rests a simple wooden chest or box, its lid closed and grainy surface blending with the surrounding shadows. The floor itself is a mix of packed earth and scattered stone tiles, dimly illuminated by the fire's light, with darker areas pooling in the corners where the walls meet.**"
+        },
+        {
+            "role": "assistant",
+            "content": "Lurius Liore: Ha, barkeep, my steel here's seen more action than your Redguard cock on market day\u2014aye, whispers of metal ghosts and vamp cunts got me eyein' the shadows, but this mead's callin' louder. Pour double, make it burn."
+        },
+        {
+            "role": "user",
+            "content": "Continue the conversation naturally."
+        },
+        {
+            "role": "assistant",
+            "content": "Lurius Liore: Dwemer dream or Daedric shitshow, don't matter\u2014Serana's blood probably still stainin' the cobblestones out there in this frostbitten piss-storm. You Redguards got that desert grit; I'd be hidin' under the bar if some iron whore came boltin' bolts my way. What's your take, Casimir?"
         },
         {
             "role": "user",
@@ -140,7 +140,7 @@
         },
         {
             "role": "assistant",
-            "content": "Lurius Liore: Upstairs? Nah, not till this fire's burned down to embers and that door's creakin' shut on whatever ghost's out there scratchin' at it—feels like the whole damn inn's breathin' heavy in these shadows. Dagger's for comfort, Casimir; a Breton's gotta watch his back in a Redguard's den when freaks like that android are loose. You ever see one up close, or just hear the tales? Casimir: Double burnin' down your gullet? You're a Breton fool with a death wish, Lurius—fire's cracklin' low 'gainst these stone walls, shadows dancin' like whores in the columns at this bastard hour, two bells past midnight. Fine, slop it yourself; my Redguard hands ain't wastin' on your tab. Fuck it, Lurius, whatever crawled outta that android's ass tonight, Whiterun's seen worse—vamps, dragons, the lot. Long as it don't darken my door, I'll chalk it up to another Dibella-damned fever in the fog. Lurius Liore: Aye, to forgotten fevers and fuller mugs—pass me that one warmin' by the hearth; this chill's got my Breton balls shrivelin' like old grapes."
+            "content": "Lurius Liore: Upstairs? Nah, not till this fire's burned down to embers and that door's creakin' shut on whatever ghost's out there scratchin' at it\u2014feels like the whole damn inn's breathin' heavy in these shadows. Dagger's for comfort, Casimir; a Breton's gotta watch his back in a Redguard's den when freaks like that android are loose. You ever see one up close, or just hear the tales? Casimir: Double burnin' down your gullet? You're a Breton fool with a death wish, Lurius\u2014fire's cracklin' low 'gainst these stone walls, shadows dancin' like whores in the columns at this bastard hour, two bells past midnight. Fine, slop it yourself; my Redguard hands ain't wastin' on your tab. Fuck it, Lurius, whatever crawled outta that android's ass tonight, Whiterun's seen worse\u2014vamps, dragons, the lot. Long as it don't darken my door, I'll chalk it up to another Dibella-damned fever in the fog. Lurius Liore: Aye, to forgotten fevers and fuller mugs\u2014pass me that one warmin' by the hearth; this chill's got my Breton balls shrivelin' like old grapes."
         }
     ],
     [
@@ -154,7 +154,7 @@
         },
         {
             "role": "user",
-            "content": "**Late visual context as seen by MJR (the player): From MJR's perspective, the scene unfolds in a dimly lit, rustic wooden hall with heavy timber beams supporting the low ceiling overhead. Flickering lantern light casts warm shadows across the rough-hewn walls and floorboards, illuminating a cozy yet worn interior that suggests a traveler's inn or tavern. Directly in view stands a striking woman with long, reddish-brown hair cascading over her shoulders, her face turned slightly toward MJR with a composed, almost enigmatic expression—pale skin, sharp features, and full lips curved in a subtle line. She's dressed in a form-fitting black garment that accentuates her figure, featuring a low neckline revealing ample cleavage, paired with sheer black netting along the sleeves and bodice for a provocative edge. A studded choker encircles her neck, adding to her bold, alluring presence. She appears to be leaning or seated nearby, perhaps at a table or counter. In the background, the space feels lived-in: sturdy wooden pillars rise from the floor, a long bar counter stretches along one wall lined with stools and scattered tankards, and a few simple benches or chairs are visible amid the gloom.**"
+            "content": "**Late visual context as seen by MJR (the player): From MJR's perspective, the scene unfolds in a dimly lit, rustic wooden hall with heavy timber beams supporting the low ceiling overhead. Flickering lantern light casts warm shadows across the rough-hewn walls and floorboards, illuminating a cozy yet worn interior that suggests a traveler's inn or tavern. Directly in view stands a striking woman with long, reddish-brown hair cascading over her shoulders, her face turned slightly toward MJR with a composed, almost enigmatic expression\u2014pale skin, sharp features, and full lips curved in a subtle line. She's dressed in a form-fitting black garment that accentuates her figure, featuring a low neckline revealing ample cleavage, paired with sheer black netting along the sleeves and bodice for a provocative edge. A studded choker encircles her neck, adding to her bold, alluring presence. She appears to be leaning or seated nearby, perhaps at a table or counter. In the background, the space feels lived-in: sturdy wooden pillars rise from the floor, a long bar counter stretches along one wall lined with stools and scattered tankards, and a few simple benches or chairs are visible amid the gloom.**"
         },
         {
             "role": "assistant",
@@ -166,7 +166,7 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Ha, a Thalmor elf with a crossbow? Please, Casimir—that prickly-eared bastard couldn't aim for shit without his mommy's elven tears lube. Nah, this thing was all gears and glow, like some Daedric dildo gone rogue under the moonlight. Stung like a bitch, but nothing a little vampire blood couldn't fix."
+            "content": "Serana: Ha, a Thalmor elf with a crossbow? Please, Casimir\u2014that prickly-eared bastard couldn't aim for shit without his mommy's elven tears lube. Nah, this thing was all gears and glow, like some Daedric dildo gone rogue under the moonlight. Stung like a bitch, but nothing a little vampire blood couldn't fix."
         },
         {
             "role": "user",
@@ -174,7 +174,7 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Ha, a Thalmor elf with a crossbow? Please, Casimir, those pointy-eared pricks couldn't hit a Skyrim whore in a blood orgy. This thing was all sleek metal and cold eyes, like a Dwemer wet dream fucked a ghost and spat out murder. Shot me right in the tit—stings like a bastard, but I'm already knitting back together."
+            "content": "Serana: Ha, a Thalmor elf with a crossbow? Please, Casimir, those pointy-eared pricks couldn't hit a Skyrim whore in a blood orgy. This thing was all sleek metal and cold eyes, like a Dwemer wet dream fucked a ghost and spat out murder. Shot me right in the tit\u2014stings like a bastard, but I'm already knitting back together."
         },
         {
             "role": "user",
@@ -190,7 +190,7 @@
         },
         {
             "role": "assistant",
-            "content": "Casimir: Knitting back together, eh? Shit, that's some dark magic you've got bubbling under that pale skin—vampire tricks, I'm guessing? Whiterun's seen its share of weird at midnight, with the wind howling like a frostbite spider in heat outside these creaky walls. Spill it, lass: what the fuck are you chasing through our plains that'd piss off a ghost machine?"
+            "content": "Casimir: Knitting back together, eh? Shit, that's some dark magic you've got bubbling under that pale skin\u2014vampire tricks, I'm guessing? Whiterun's seen its share of weird at midnight, with the wind howling like a frostbite spider in heat outside these creaky walls. Spill it, lass: what the fuck are you chasing through our plains that'd piss off a ghost machine?"
         },
         {
             "role": "user",
@@ -202,7 +202,7 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Honningbrew? Fuck yeah, pour it strong—might as well drown the memory of that tin-can twat before it rusts my mood. Eleven bells and the Mare's still buzzing like a Skooma den; bet half these drunks are fleeing their own nightmares. You hear any whispers 'bout mechanical freaks prowling the plains lately, barkeep?"
+            "content": "Serana: Honningbrew? Fuck yeah, pour it strong\u2014might as well drown the memory of that tin-can twat before it rusts my mood. Eleven bells and the Mare's still buzzing like a Skooma den; bet half these drunks are fleeing their own nightmares. You hear any whispers 'bout mechanical freaks prowling the plains lately, barkeep?"
         },
         {
             "role": "user",
@@ -210,7 +210,7 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Chasing? Oh, honey, I'm the one being chased—by daddy's ancient grudges and whatever metallic cunt decided to play target practice on my rack tonight."
+            "content": "Serana: Chasing? Oh, honey, I'm the one being chased\u2014by daddy's ancient grudges and whatever metallic cunt decided to play target practice on my rack tonight."
         }
     ],
     [
@@ -236,7 +236,7 @@
         },
         {
             "role": "assistant",
-            "content": "Lydia: Hah, keep yer lecherous eyes on the mead, barkeep, or I'll cleave 'em from yer skull with this ebony blade. We're trackin' those curvy bandit whores huntin' my Thane—sluts with hips like battle-axes, ambushin' us from the shadows outside where the wind's screamin' like a draugr whore. Dibella's Skyrim ain't safe for a Dragonborn with a price on his cock, and I'm sworn to gut every last one of 'em. Pour me a Honningbrew, double strong, and pray to the Divines those metal ghosts don't come crashin' through yer door next."
+            "content": "Lydia: Hah, keep yer lecherous eyes on the mead, barkeep, or I'll cleave 'em from yer skull with this ebony blade. We're trackin' those curvy bandit whores huntin' my Thane\u2014sluts with hips like battle-axes, ambushin' us from the shadows outside where the wind's screamin' like a draugr whore. Dibella's Skyrim ain't safe for a Dragonborn with a price on his cock, and I'm sworn to gut every last one of 'em. Pour me a Honningbrew, double strong, and pray to the Divines those metal ghosts don't come crashin' through yer door next."
         },
         {
             "role": "user",
@@ -244,11 +244,25 @@
         },
         {
             "role": "assistant",
-            "content": "Casimir: Whoa, easy with that ebony beast on your back, you Nord berserker slut—ain't scarin' me, but these mugs won't pour themselves in this frostbitten gale rattlin' the shutters. Spill it, then: how many of them jigglin' bandit whores you gutted tonight to keep MJR's cock safe? Lydia: Gutted? Hah, s'posed to be a dozen skulkin' in the snow outside, packs stuffed with ropes and potions to snag my Thane like some prize boar, but I left three headless by the watchtower, their blood freezin' black under that blood moon peekin' through your shitty windows. Pour double, barkeep, or Dibella curse your sandy balls."
+            "content": "Casimir: Whoa, easy with that ebony beast on your back, you Nord berserker slut\u2014ain't scarin' me, but these mugs won't pour themselves in this frostbitten gale rattlin' the shutters. Spill it, then: how many of them jigglin' bandit whores you gutted tonight to keep MJR's cock safe? Lydia: Gutted? Hah, s'posed to be a dozen skulkin' in the snow outside, packs stuffed with ropes and potions to snag my Thane like some prize boar, but I left three headless by the watchtower, their blood freezin' black under that blood moon peekin' through your shitty windows. Pour double, barkeep, or Dibella curse your sandy balls."
         },
         {
             "role": "user",
             "content": "Continue the conversation naturally."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Bannered Mare.) (Characters nearby (from nearest to furthest): Ena, Saadia, Sinmir, Daegon, Hulda) (MJR: Consider yourself hired. (500); Jenassa: You have chosen wisely. Lead on, and I shall follow.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: So, MJR's leading us into the fray at last. Dragons circling Whiterun like vultures\u2014I've been itching for a real fight since those gates slammed shut earlier. Casimir: Aye, and here you are, slinking in at this unholy hour. That blood moon's got the whole plain whispering about shadows and worse. Pour you a Honningbrew on the house, Dunmer?"
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene unfolds in a dimly lit, rustic interior room with dark wooden beams supporting the low ceiling and walls. The walls are rough-hewn stone covered in patches of mossy plaster, giving an aged, weathered appearance. Two tall, narrow windows on the right side dominate the view, their frames arched and fitted with intricate latticework grilles that cast faint geometric shadows onto the floor. Moonlight or dim light filters through the frosted glass panes, illuminating swirling motes of dust in the air. In the foreground, a wooden floor stretches out, partially covered by a worn, patterned rug in muted earth tones. To the left, a sturdy wooden table sits against the wall, holding a small ceramic vase with a rounded base and blue-glazed surface, alongside a shallow ceramic dish containing what looks like dried herbs or spices. Nearby, a low stool or bench is positioned, and a dark-cloaked figure is seated there, their back partially turned, dressed in layered, hooded robes that blend with the shadows. The figure appears to be a slender elf-like person, with long, pointed ears visible beneath the hood, engaged in some quiet activity at the table.)"
         }
     ]
 ]

@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Clearspring Tarn.) (Characters nearby (from nearest to furthest): Lydia, hunter, Deer, Serana, Elk)"
+        },
+        {
+            "role": "assistant",
+            "content": "Frea: This Clearspring Tarn... the water runs so clear under Dibella's morning light, like the All-Maker's own tears frozen in time, but without Solstheim's biting curse. Those deer and elk grazing peaceful-like, they remind me of hunts back home, stalking through the snow to claim what the wild offers without Miraak's twisted pull. hunter: Aye, fine mornin' for it, ain't it? Sky's blue as a fresh pelt, no clouds muckin' up the shot. Been trackin' these deer and elk all week\u2014plenty of meat and hides if you're lookin' to trade. You folk seem like you've seen your share of trouble; what's brought ya to these parts?"
+        },
+        {
+            "role": "assistant",
+            "content": "Frea: Aye, trouble's our shadow since slaying that cursed dragon up on the peaks\u2014feels like the All-Maker's winds still carry Miraak's echo, even here in this peaceful tarn with its misty falls and autumn birches glowing like Dibella's fire. We've come seekin' relics and rest, but the wilds whisper of more hunts ahead, just like yours with that elk you tangled with."
+        }
+    ]
+]
