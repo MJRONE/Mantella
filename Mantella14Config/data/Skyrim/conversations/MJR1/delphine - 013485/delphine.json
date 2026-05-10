@@ -34,5 +34,95 @@
             "role": "assistant",
             "content": "delphine: So, Lydia... still letting that vampire slut Serana ride your Thane like a saddled skeever? Or do you actually have the spine to stake your claim properly? Lydia: Oh, fuck off, you dried-up inn hag. At least Serana's got the tits and ass to keep MJR satisfied\u2014unlike your leathery old Blades ass hiding in basements from Thalmor. delphine: Hah! Last I checked, you're the one chasing his shadow like a bitch in heat while he\u2019s balls-deep in undead cunt."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Skyrim.) (Characters nearby (from nearest to furthest): Daegon, Lydia, wolf, wolf, wolf) (MJR: I'd like to rent the attic room. (10 gold); Delphine: Attic room, eh? Well... we don't have an attic room, but you can have the one on the left. Make yourself at home. MJR: What do you want?; Delphine: So you're the Dragonborn I've been hearing so much about. MJR: What of it?; Delphine: I think you're looking for this. MJR: What do you want?; Delphine: The Greybeards seem to think you're the Dragonborn. I hope they're right. MJR: The Greybeards are right. I am Dragonborn.; Delphine: I hope so. But you'll forgive me if I don't assume that something's true just because the Greybeards say so. I just handed you the Horn of Jurgen Windcaller. Does that make me Dragonborn too? MJR: What do you want with me?; Delphine: I didn't go to all this trouble on a whim. I needed to make sure it wasn't a Thalmor trap. MJR: I just came here for the horn.; Delphine: I am not your enemy. I already gave you the horn. I'm actually trying to help you. I just need you to hear me out. MJR: Go on. I'm listening.; Delphine: Like I said in my note, I've heard that you might be Dragonborn. MJR: ...; Delphine: I'm part of a group that's been looking for you... well, someone like you, for a very long time. If you really are Dragonborn, that is. Before I tell you any more, I need to make sure I can trust you. MJR: Why did you take the horn from Ustengrav?; Delphine: I knew the Greybeards would send you there if they thought you were Dragonborn. They're nothing if not predictable. When you showed up here, I knew you were the one the Greybeards sent, and not some Thalmor plant. MJR: How do I know I can trust you?; Delphine: If you don't trust me, you were a fool to walk in here in the first place. MJR: You said the Thalmor are after you?; Delphine: Yes. We're very old enemies. And if my suspicions are correct, they might have something to do with the dragons returning. But that isn't important right now. What is important is that you might be Dragonborn. MJR: Why are you looking for a Dragonborn?; Delphine: We remember what most don't - that the Dragonborn is the ultimate dragonslayer. You're the only one that can kill a dragon permanently by devouring its soul. MJR: What of it?; Delphine: Can you do it? Can you devour a dragon's soul? MJR: Yes, that's how I first learned I was Dragonborn.; Delphine: Good. And you'll have a chance to prove it to me soon enough. MJR: Why are you looking for a Dragonborn?; Delphine: We remember what most don't - that the Dragonborn is the ultimate dragonslayer. You're the only one that can kill a dragon permanently by devouring its soul. MJR: So what's the part you're not telling me?; Delphine: Dragons aren't just coming back, they're coming back to life. They weren't gone somewhere for all these years. They were dead, killed off centuries ago by my predecessors. Now something's happening to bring them back to life. And I need you to help me stop it. MJR: What makes you think dragons are coming back to life?; Delphine: I know they are. I've visited their ancient burial mounds and found them empty. And I've figured out where the next one will come back to life. We're going to go there, and you're going to kill that dragon. If we succeed, I'll tell you anything you want to know. MJR: So where are we headed?; Delphine: Kynesgrove. There's an ancient dragon burial near there. If we can get there before it happens, maybe we'll learn how to stop it. MJR: Let's go kill a dragon.; Delphine: I need to get into my traveling gear. Give me a minute and I'll be ready.)"
+        },
+        {
+            "role": "assistant",
+            "content": "delphine: This path to Kynesgrove cuts through some dense woods at night\u2014keeps the Thalmor eyes off us, but watch for wolves or worse in these shadows. Jenassa: Wolves are nothing; I've gutted fiercer beasts in darker places. But a dragon rising from its grave? That stirs the blood. Reminds me of the undead filth we carved through in Ustengrav\u2014though this prey won't stay down easy. delphine: Ustengrav was a test for you Dragonborn types, but Sahloknir's mound is older, deadlier. I've seen what happens when they stir; the air turns foul, like death breathing again. You devoured one soul already\u2014tell me, does it burn like fire inside you? Jenassa: Fire? More like shadow claiming shadow. I felt it too, watching that beast at the Western Watchtower fall to my patron's fury. If this dragon's anything like, I'll savor the kill\u2014blade first, then soul for you, Dragonborn. delphine: It's not just killing; it's ending them for good. My order lost everything to threats like this, hiding in places like my inn while the world forgot. You mercenaries chase gold, but this?"
+        },
+        {
+            "role": "assistant",
+            "content": "delphine: ...this is about legacy, about what the Blades stood for before they were scattered like ash."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Whiterun.) (Characters nearby (from nearest to furthest): Daegon, Lydia, wolf, chicken, Whiterun Guard)"
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: This Whiterun air feels good after those woods\u2014clean, open, not choked with wolf howls or dragon omens."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now White River Watch.) (Characters nearby (from nearest to furthest): Jenassa, wolf, Irina, Skye, chicken)"
+        },
+        {
+            "role": "assistant",
+            "content": "delphine: That aurora's painting the sky like dragonfire\u2014fitting for a place crawling with these White River scum. We've got eyes on us already; stay sharp, or we'll be fighting our way in. Daegon: Gods, look at that light show\u2014Dibella's probably up there drunk on her own beauty again. But this bandit hole? White River Watch reeks of desperate fools thinking rocks make a kingdom. MJR, you want me to torch the wolf first or the idiots holding it? Lydia: Under Dibella's watchful glow, these Imperial-tainted bandits defile true Nord lands\u2014Irina and Skye, skulking like Thalmor spies. I'll cleave through them for you, my Thane; no foreign filth touches Whiterun's borders while I draw breath."
+        },
+        {
+            "role": "assistant",
+            "content": "delphine: What in Oblivion\u2014Daegon, you blasted fool!"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Valtheim Towers.) (Characters nearby (from nearest to furthest): Lydia, Ava, bandit, Ayrenn, Katie) (delphine has entered combat with ) (Daegon has entered combat with bandit) (Jenassa has entered combat with bandit) (delphine has entered combat with bandit)"
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: These towers reek of bandit filth, just like White River\u2014I'll carve through them like the wolves we left behind. delphine: Keep your eyes sharp in this downpour; the rain's masking their movements\u2014strike fast, don't let them regroup! Daegon: Oh, look, more Dibella-worshipping idiots hiding in the storm\u2014let's burn these towers down and send their souls screaming to daddy's realm."
+        },
+        {
+            "role": "assistant",
+            "content": "delphine: These bandit dens always hide worse secrets underground\u2014keep your wits, that woman's no lost traveler, she's bait or worse in this gloom. Jenassa: Earthen passages like this twist my gut; I hate the crush of stone, but if she's leading us to more kills, I'll follow\u2014shadows suit my blade. Daegon: A naked elf strutting into the dark like she's Dibella's forsaken pet? Pathetic\u2014bet she's one of those Thalmor spies Delphine's always yapping about, let's chase and roast her for fun."
+        },
+        {
+            "role": "assistant",
+            "content": "delphine: That Bandit Chief fought like a cornered rat\u2014good riddance, but these towers are riddled with more like him; light the way with that torch, we've deeper shadows to scour. Jenassa: Blades bit deep into that fool, but the stone echoes make my skin crawl\u2014reminds me too much of those cursed mines I despise; let's finish this and breathe open air again. Daegon: beauty"
+        },
+        {
+            "role": "assistant",
+            "content": "delphine: Spiders in the mist\u2014filthy beasts, aim for the eyes with that bow, don't let them close in under these stars! Jenassa: More vermin to slaughter; my blades hunger for their ichor, unlike those endless mines that choke the life out\u2014strike true! Daegon: Gods, a spider? Get it away, you eight-legged abomination\u2014I'll incinerate it from afar, but if it touches me, I'm out, MJR, just like those coven fools who couldn't handle the dark!"
+        },
+        {
+            "role": "assistant",
+            "content": "delphine: That Ava fought dirty with her bow, but she's down now\u2014these towers hold too many ambushes like the Thalmor I evaded for years; press on, the deeper we go, the closer to whatever they're guarding. Jenassa: Another notch for the blade, but this wooden creak underfoot feels like a trap waiting to snap\u2014better than stone tombs, yet I yearn for the open sky after these skirmishes. Daegon: Finally, that spider-skittish wench is roasted;"
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene unfolds from within a dimly lit stone archway, its weathered gray masonry curving overhead in a broad, imposing span that frames the view ahead. The arch's surface is rough and textured, marked by irregular patches of moss or lichen clinging to the cracks, with faint horizontal lines suggesting layered construction blocks. Shadows dominate the interior, pooling deeply along the edges and casting the stone in shades of deep charcoal and muted brown. Beyond the arch, a rugged mountainous landscape stretches into the distance under a twilight sky tinged with indigo and faint starlight. Jagged peaks rise sharply on the horizon, their summits dusted with snow that gleams softly against the encroaching darkness. The foreground reveals a steep, terraced drop-off, with layered rock faces and sparse, thorny vegetation clinging to the slopes. A narrow, shadowy valley winds below, shrouded in gloom, while hints of a misty river or frozen stream glint faintly at the base. The overall atmosphere is one of vast, untamed wilderness, cool and foreboding, with the arch serving as a threshold between shelter and the wild expanse.)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Skyrim.) (Characters nearby (from nearest to furthest): Daegon, Jenassa, Goat, Goat, Goat)"
+        },
+        {
+            "role": "assistant",
+            "content": "delphine: That aurora's a rare sight tonight\u2014Dibella's veil over the stars, or so the Nords say. Makes this path feel less like a march to Whiterun and more like a dream, but don't let it lull you. Bandits could be anywhere in these woods. Lydia: Aye, the lights dance like Dibella herself blessing our steps, but my thane's safety comes first. Those bandit sluts won't catch us off guard\u2014not with my greatsword ready to split their skulls. We press on to Whiterun, strong and pure for the Nords."
+        },
+        {
+            "role": "assistant",
+            "content": "delphine: Look sharp\u2014that sabre cat's prowling too close to the path, eyes on us like we're fresh meat. Stay your ground; one wrong step and it'll pounce under these auroras. Lydia: Hah, let the beast come\u2014I'll cleave its head clean off for Dibella's glory and my thane's protection. These woods are no place for the weak, especially with foxes skulking and goats scattering like omens of ambush. We march on, Nords first."
+        },
+        {
+            "role": "assistant",
+            "content": "delphine: That blue beam piercing the night\u2014looks like some mage's ward or a trap lit for fools like us. Campfire ahead by the water means eyes watching; could be scouts or worse, pulling us off the path to Whiterun. Lydia: Dibella light the way, but I'll not trust that glow or the boat rocking there\u2014bandit sluts hiding in the shadows, waiting to sully pure Nord blood. My sword's for my thane;"
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this dimly lit nighttime scene, a vibrant aurora borealis dominates the sky, swirling in shades of emerald green and deep blue, casting an ethereal glow over the landscape. The foreground features a rugged, uneven dirt path winding through patches of sparse grass and scattered rocks, flanked by low shrubs and wildflowers. A few slender pine trees dot the edges, their dark silhouettes rising against the starry blackness above. In the midground, several deer stand alert amid the terrain\u2014one grazing near the path, others partially obscured by foliage\u2014while a solitary armored figure, cloaked and holding a flickering torch that emits a warm orange light, moves forward along the trail. Beyond, the path leads into a misty valley framed by steep, snow-dusted mountain peaks and denser clusters of coniferous trees, evoking a sense of remote wilderness under the cosmic display.) (Characters nearby (from nearest to furthest): Jenassa, Goat, Daegon, mudcrab, Bear) (Lydia has entered combat with Vale Sabre Cat) (MJR fired an arrow.) (MJR unequipped Daedric Arrow) (MJR dropped/gave Daedric Arrow) (MJR equipped Daedric Arrow) (Daegon hit Lydia with Firebolt) (Vale Sabre Cat was killed by the group) (Lydia is no longer in combat)"
+        }
     ]
 ]

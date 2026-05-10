@@ -8,5 +8,31 @@
             "role": "assistant",
             "content": "Sven: Enough of this... I'd rather drink with Orgnar than suffer your twisted tongue any longer. Serana: Run along then, little bard. But remember - if you ever want to learn seduction, my fangs are always available for lessons."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Sleeping Giant Inn.) (Characters nearby (from nearest to furthest): Daegon, Korpse, Lydia, Orgnar, delphine)"
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: This inn's warmth cuts the night chill, but I keep my hand near my sword. Bandits lurk even in quiet places like Riverwood. Sven: Aye, the fire's a blessing after a long day, but the real warmth comes from a good tune. I've been strumming for Delphine and the patrons\u2014keeps the shadows at bay, or so I tell myself. You look like you've seen your share of fights; care to share a tale over mead?"
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: Settling into this chair eases the ache from the road, but my eyes stay sharp on that fire's glow\u2014reminds me of campfires after a bloody hunt, warming the hands that just spilled blood. Tales, eh?"
+        },
+        {
+            "role": "assistant",
+            "content": "Sven: Aye, tales it is then. I've spun my share here at the Sleeping Giant\u2014songs of dragons and lost loves under these very beams. But yours sound darker, forged in blood. What foes have you felled lately on these snowy roads? Jenassa: Dragons at High Hrothgar today. Greybeards droned on, but the beasts fell to arrows. Riverwood's too quiet for my taste\u2014bandits could stir it up any moment."
+        },
+        {
+            "role": "assistant",
+            "content": "Sven: That oven's heat beats the chill outside, but eavesdropping on Delphine's whispers\u2014Thalmor parties and secret files? Sounds like a ballad waiting to be sung, full of intrigue and elf-hating spies. Jenassa: Thalmor scum deserve the blade, not fancy invites. If you're heading to Solitude for this embassy foolery, I'll tag along for the kills\u2014bandits or elves, doesn't matter. Pay up, and my sword's yours against those golden-robed bastards."
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: Stocking up on potions and that Blades sword?"
+        }
     ]
 ]

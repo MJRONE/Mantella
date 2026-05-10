@@ -32,5 +32,29 @@
             "role": "user",
             "content": "(*You are observing the following:* The scene depicts a dimly lit, ancient stone passageway viewed from a low angle, as if standing at the base of a descending staircase. Rough-hewn walls of weathered brown rock dominate the view, textured with irregular cracks, mossy patches, and uneven protrusions that suggest years of natural erosion or manual carving. The walls curve slightly inward, creating a narrow, oppressive corridor that fades into deep shadows ahead. A set of sturdy stone steps leads downward into the darkness, their surfaces worn smooth in places and dusted with faint debris. The stairs appear to spiral or turn gently to the right, following the contour of the enclosing walls. The lighting is sparse and ambient, casting subtle warm glows and long shadows that emphasize the depth and isolation of the space\u2014no visible light sources are apparent, implying illumination from a torch or unseen lantern just out of frame. At the periphery, a subtle overlay of graphical elements hovers at the bottom, including small icons resembling a digital clock, battery indicator, network status, and notification badges, alongside minimized windows for various applications, evoking a modern interface superimposed on the archaic surroundings.) (Jenassa is no longer in combat.) (Characters nearby (from nearest to furthest): bandit, Daegon, Lydia, rabbit, Fox) (bandit hit Jenassa with Steel Mace) (MJR fired an arrow.) (MJR unequipped Daedric Arrow) (MJR dropped/gave Daedric Arrow) (MJR equipped Daedric Arrow) (MJR cast the spell / consumed Unrelenting Force - Fus) (MJR hit Jenassa with Unrelenting Force - Fus) (Jenassa has entered combat with bandit) (bandit was killed by the group) (Jenassa is no longer in combat) (Jenassa is searching for bandit)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Nilheim.) (Characters nearby (from nearest to furthest): Daegon, Lydia, rabbit, rabbit, Fox)"
+        },
+        {
+            "role": "assistant",
+            "content": "Telrav: Stars are out in force tonight."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene unfolds under a vast, deep blue night sky densely packed with countless stars. The constellations are visible, creating a tapestry of white and pale blue light against the darkness. To the left, a lantern hangs suspended from a wooden beam. It is constructed of a cage-like frame of vertical slats and rope, enclosing a warm, flickering flame that casts a soft, amber glow onto the immediate surroundings. This light illuminates the nearby foliage, revealing trees and shrubs with brownish-yellow leaves that suggest an autumnal setting. On the right side, a steep, rocky slope rises up. The terrain is rugged, dominated by dark grey stones and earth. The same kind of sparse, dry vegetation clings to the hillside, growing out of the crevices in the rock. In the immediate foreground, the ground appears to be rugged, reddish-brown earth or rock, leading up to a rocky outcrop on the bottom left. The overall atmosphere is quiet and solitary, with the lantern serving as the primary source of warmth and light in the encroaching night.)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Nilheim.) (Characters nearby (from nearest to furthest): Daegon, Lydia, Fox, Fox, wolf)"
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: This moonlit hush over Nilheim feels like the calm before a bandit ambush."
+        }
     ]
 ]
