@@ -265,12 +265,28 @@ class ClientBase(AIClient):
                     
                     # Determine if vision should be enabled for this call
                     if self._should_enable_vision():
+                        inline_was_skipped = False
                         if self._image_client:
-                            openai_messages = self._image_client.add_image_to_messages(openai_messages, vision_hints)
-                            logger.log(23, f"Vision enabled for this LLM call")
+                            # Radiant conversations toggle ``inline_disabled`` on the
+                            # shared ImageClient so the slow vision LLM never blocks
+                            # the streaming text LLM call. The async vision pipeline
+                            # (see Conversation.__trigger_periodic_vision_if_due)
+                            # keeps producing description events in the background.
+                            if getattr(self._image_client, 'inline_disabled', False):
+                                inline_was_skipped = True
+                                logger.log(22, "Inline per-turn vision skipped - radiant async vision path is active")
+                            else:
+                                openai_messages = self._image_client.add_image_to_messages(openai_messages, vision_hints)
+                                logger.log(23, f"Vision enabled for this LLM call")
                         else:
                             logger.warning("Vision tool called but Vision not enabled in config - ignoring")
-                        self._enable_vision_next_call = False  # Reset flag after use
+                        # Reset the on-demand "use vision on next call" flag only if
+                        # vision actually ran. If we skipped the inline call due to
+                        # radiant mode, preserve the explicit request so it survives
+                        # the radiant conversation and fires on the very next
+                        # non-radiant turn instead of being silently dropped.
+                        if not inline_was_skipped:
+                            self._enable_vision_next_call = False
 
                     # Handle tool calling: use dedicated function client if available, otherwise use main LLM
                     if tools:

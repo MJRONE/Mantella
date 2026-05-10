@@ -2884,5 +2884,79 @@
             "role": "user",
             "content": "(*You are observing the following:* The scene unfolds within a dimly lit cavern, its jagged walls encrusted with patches of snow and ice that glisten faintly in the low light. Rough, uneven stone formations rise on all sides, creating a natural enclosure with a sense of depth and confinement. The floor is a mix of bare rock, scattered with small pools of shallow water that reflect subtle green hues, and littered with debris including twisted roots, splintered wood, and skeletal remains\u2014a human skull and ribcage partially embedded in the dirt near a cluster of pale yellow fungi sprouting from the damp ground. In the foreground, a nude woman with long, flowing blonde hair kneels bent forward on the uneven terrain, her back arched and skin pale against the cool surroundings. Her pose suggests she's reaching toward the ground with one extended hand, near a large, moss-covered boulder and more of those yellowish growths. The atmosphere feels cold and foreboding, with shadows pooling in the crevices and faint mist hanging in the air.) (MJR unequipped Unrelenting Force) (MJR equipped Summon Serana) (MJR cast the spell / consumed Summon Serana) (Serana equipped Pharaoh's General Tiara) (Serana equipped Pharaoh's General Skirt A) (Serana equipped Pharaoh's General Pasties) (Serana equipped Pharaoh's General Harness) (Serana equipped Pharaoh's General Bracelets) (Serana equipped Pharaoh's General Armlets) (Serana equipped Pharaoh's General Anklets) (Serana unequipped Pharaoh's General Bra) (Serana equipped Pharaoh's General Bra) (Serana equipped Hide Boots) (Serana equipped Dwarven Mace) (Serana equipped Pharaoh's General Stockings) (Serana unequipped Dwarven Mace) (MJR picked up / took Troll Fat from Ancient Frost Troll) (MJR: I need to trade some things with you.; Serana: Sure thing.) (MJR picked up / took Dwarven Mace from Serana) (Serana dropped/gave Dwarven Mace in/on/to MJR)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Dimhollow Crypt.) (Characters nearby (from nearest to furthest): Jenassa, gargoyle, Daegon, gargoyle, Skeleton)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Dimhollow Crypt.) (Characters nearby (from nearest to furthest): Skeleton, Skeleton, Karla Raven, draugr, Juniper) (MJR fired an arrow.) (MJR dropped/gave Daedric Arrow) (MJR unequipped Daedric Arrow) (MJR equipped Daedric Arrow) (MJR fired an arrow.) (MJR dropped/gave Daedric Arrow) (MJR unequipped Daedric Arrow) (MJR equipped Daedric Arrow) (MJR dropped/gave Daedric Arrow) (MJR fired an arrow.) (MJR unequipped Daedric Arrow) (MJR equipped Daedric Arrow) (MJR fired an arrow.) (MJR dropped/gave Daedric Arrow) (MJR unequipped Daedric Arrow) (MJR equipped Daedric Arrow)"
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: Another tomb, another collection of restless bones. I\u2019d almost rather face a bear than these walking corpses. Serana: Bears don\u2019t usually have glowing eyes and a grudge about their funeral arrangements. I find the dead far more entertaining\u2014they never bore you with talk about the weather."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Well, that\u2019s not something you see every day. A glowing purple altar with a dead tree growing out of it\u2014very chic. I wonder if the carrots are a ritual offering or someone\u2019s forgotten lunch. Jenassa: This place reeks of old magic. Not the subtle kind, either. I\u2019ve seen Dwemer ruins with less nonsense than this. Best keep your blade ready. Lydia: I don\u2019t like it. Pretty lights and dead trees mean trouble. If something rises from that thing, I\u2019m putting my greatsword through it first. Dibella guide our strikes."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Five skeletons shuffling our way\u2014looks like the altar sent a welcoming committee. Hope you\u2019re ready to crack some old bones, Lydia. Lydia: Let them come. I\u2019ll split them like firewood and Dibella can admire the splinters. Jenassa: I\u2019ll take the ones in the back. Don\u2019t block my shots with that greatsword of yours. And MJR, if you\u2019re grabbing potions, save me one\u2014I might need it after this mess."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Ah, nothing clears the head like a morning bone-splintering. Though I do hope that altar is more interesting than these skeletons\u2014they didn\u2019t even put up a decent fight. Lydia: Their skulls cracked easy enough. But that purple altar still stands. I\u2019d rather smash it than wonder what it does. Jenassa: Leave it. We\u2019re not here to dismantle every enchanted relic. MJR has the right idea\u2014grab what\u2019s useful and move on. I\u2019d rather breathe fresh air than tempt a curse."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: And just like that, another one bites the dust. Or the cobblestone, in this case. Who was that, a stray bandit or a local welcoming committee? Jenassa: Didn\u2019t catch her name. Didn\u2019t need to. She picked the wrong target, and now she\u2019s nothing but a memory. Lydia: She fought with desperation, not skill. A coward\u2019s blade. Dibella favors those who stand firm, not those who skulk in shadows. Jenassa: Skulking worked fine for me. She never saw my dagger until it was too late."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Well, that was a proper brawl. I see you summoned your pet gargoyle again, MJR. Quite the party trick\u2014though I\u2019m still not sure if it\u2019s helping or just getting in the way. Lydia: Gargoyle or no, we\u2019re still standing and they\u2019re dust. That\u2019s what matters. Though I could do without another skeleton\u2019s sword in my ribs. Jenassa: We\u2019re all bleeding a little. That draugr had a mean swing. But the crypt\u2019s quieter now, and that\u2019s all I care about. Let\u2019s find whatever we came for and get out."
+        },
+        {
+            "role": "user",
+            "content": "(Jenassa is no longer in combat.) (Lydia is no longer in combat.) (Serana is no longer in combat.) (Characters nearby (from nearest to furthest): Skeleton, draugr, Karla Raven, Skeleton, Skeleton) (MJR fired an arrow.) (MJR unequipped Daedric Arrow) (MJR dropped/gave Daedric Arrow) (Lydia has entered combat with Skeleton) (Jenassa has entered combat with Skeleton) (Skeleton was killed by the group) (Serana is no longer in combat) (MJR equipped Daedric Arrow) (Lydia is no longer in combat) (Jenassa is no longer in combat) (MJR picked up / took Potion of Stamina) (MJR picked up / took Potion of Minor Healing) (MJR picked up / took Potion of Minor Magicka)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Dimhollow Crypt.) (Characters nearby (from nearest to furthest): Jenassa, Skeleton, draugr, Skeleton, Karla Raven) (Serana stood up from a(n) Bench)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You know, Lydia, there's something almost cozy about this crypt. The skeletons really know how to keep a place drafty and depressing. I'd say it's a fixer-upper, but the neighbors are dead. Lydia: Cozy? This place reeks of old death and stale magic. Dibella's tits, I'd rather be splitting Orc skulls in an open field than crawling through this tomb again. At least out there I can see my enemy coming. Serana: Oh, but where's the mystery in that? Nothing gets the blood flowing like wondering if the next corner holds a draugr with a grudge or a trap that'll drop a ceiling on your pretty blonde head. Speaking of, nice work with that greatsword back there. You really know how to make bones fly. Lydia: Flattery won't get you out of carrying your share of the loot, vampire. And don't think I didn't notice you hanging back when that frostbite spider dropped from the ceiling. Too busy thinking about fucking that summoned gargoyle again? Serana: Jealous that I have options? Mortal men, immortal beasts\u2014variety is the spice of eternal life."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Oh, look, the local welcoming committee has arrows now. How thoughtful of them to announce their presence. Lydia: Dibella's grace, that one had my name on it! Lucky it just grazed my shoulder. Watch the archway, MJR's sending that gargoyle through! Serana: At least your gargoyle is good for something besides lurking and drooling. Though between you and me, I'd rather have him trap that skeleton archer in a corner. Lydia: Keep talking, vampire, and I'll let the next arrow hit you instead. Now move! I want to get close enough to split that bow in half."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Ow! That skeleton has terrible aim but good persistence. Lydia, are you still standing or did you decide to take a nap? Lydia: I'm fine! Just a scratch from that bitch Karla Raven. Dibella, give me strength to reach her and shove this greatsword where the sun don't shine. Serana: Such poetry. You should write a song about it. Meanwhile, MJR is picking them off one by one. That Daedric bow of his is a work of art. Lydia: He's showing off again. I love it when he does that. Now if only this gargoyle would stop getting in my way! Serana: Be nice to the gargoyle. He's trying his best."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Well, that was invigorating. Nothing like a bit of arrow dodging to wake you up in the morning. Did you see MJR shout that skeleton into the wall? Beautiful. Lydia: Beautiful indeed. That Thu'um of his sends them flying like ragdolls. Dibella smiles on his aim today. Shame about Karla Raven getting away, though. I wanted to teach her some manners. Serana: She'll turn up again. Bandits always do. Probably nursing a bruised ego and a bruised ass from that Fus she caught. Lydia: Good."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Well, well, well. Looks like Karla Raven won't be bothering anyone again. I'd say rest in peace, but she's probably warming a spot in Oblivion by now. Lydia: Good riddance. That bitch had it coming since she first drew a bow on us. Dibella's justice is swift. I hope she enjoys whatever Daedra she worships now. Serana: You know, for a goddess of beauty and desire, you sure invoke her name a lot when splitting skulls. Lydia: Dibella teaches that beauty can be found in a clean kill and a righteous death. That woman was neither beautiful nor righteous. Serana: Fair point. Now, shall we see if she had anything worth taking?"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: I swear, MJR could hit a skeever's left testicle from three hundred paces with that bow. Karla never stood a chance. Lydia: He's a true Nord shot. None of that elf-fancy archery, just pure skill and a steady hand. Makes me proud to fight at his side. Serana: Proud and soaking wet, I imagine. Lydia: Watch your tongue, vampire, or I'll show you what this greatsword can do to more than just skeletons."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene depicts a dimly lit underground environment, likely a dungeon or deep cavern. The foreground is dominated by deep shadows, which obscure much of the immediate area but reveal a floor made of stacked, rough-hewn blocks. In the middle distance, the scene is illuminated by a warm, orange glow, suggestive of a nearby fire or torchlight. This light reveals a circular structure with walls made of stacked, rough-hewn materials. A partial archway is visible, hinting at the architecture of the space. To the side, a large, dark shape is partially visible, resembling either a heavy wooden door or a substantial piece of furniture like a cabinet. A thin line, which could be a rope, a cable, or the edge of a deep fissure in the floor, stretches across the view. The upper portion of the scene is swallowed by darkness, contributing to a sense of an enclosed, confined atmosphere.)"
+        }
     ]
 ]

@@ -2276,5 +2276,241 @@
             "role": "user",
             "content": "(*You are observing the following:* In this dimly lit stone chamber, rough-hewn walls of weathered masonry rise on all sides, featuring arched doorways and alcoves that suggest an ancient, fortified interior. Flickering torchlight casts elongated shadows across the uneven floor, which is scattered with small rocks and patches of worn stone. At the center stands an ornate metal brazier on a tall, carved pedestal, its twin flames dancing within a latticed enclosure, illuminating intricate engravings on the structure. To the right, near a short flight of stairs leading upward, a figure clad in segmented armor\u2014complete with a helmet and boots\u2014holds aloft a burning torch, the bright flames licking at its tip and highlighting the metallic sheen of their gear. The overall atmosphere is one of subdued warmth amid pervasive darkness, with deep shadows pooling in the corners and along the base of the walls.) (Characters nearby (from nearest to furthest): Celann, Durak, Elk, rabbit)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Fort Dawnguard.) (Characters nearby (from nearest to furthest): Isran, Lydia, Agmaer, Sceolang, Bran)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: This place gives me the creeps. Stale air, old stone, and that vampire hunter Isran glaring at everyone like we're all potential bloodsuckers. Korpse doesn't like it either\u2014he's buried himself in my shoulder pouch. Jenassa: Fort Dawnguard reeks of purpose. I've seen fortresses like this before\u2014places where men gather to fight something they barely understand."
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: We stay sharp, watch the shadows, and let Isran's zealots do the heavy lifting if they want to throw themselves at vampires. I've seen enough undead to know charging in blind gets you killed. Let them test the waters first. Daegon: I say we poke around this fortress a bit. Maybe there's something useful stashed away\u2014old tomes, enchanted gear, or whatever these Dawnguard fanatics have been hoarding. And if we happen to find a quiet corner to examine anything interesting, well, what Isran doesn't know won't bite him in the arse."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Nice shot, MJR. Practicing your aim on the fortress walls? Or did something skitter in the dark that needed reminding of mortality? Korpse perked up at the twang\u2014thought it might be dinnertime. Jenassa: A well-placed arrow speaks louder than any war cry. I'd wager you're keeping your hand warm for when the real prey shows its fangs. This place has the stench of old blood and older grudges. We'd best be ready."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Ugh, sorry about that. Bit of a wardrobe malfunction\u2014these straps are tricky in the dark. Still, nothing like a good re-equip to shake off the Fort Dawnguard jitters. Korpse is giving me a look like I'm losing my mind. Joining in, Jenassa? Jenassa: I prefer to keep my gear firmly in place. The only adjustments I make are when I'm cleaning blood off my blade. But I'll admit, this place has a way of making even seasoned killers fidget. Let's focus on the mission at hand before we all start changing outfits like court nobles."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Fine, fine. I'll keep my hands to myself and my spells ready. But if we're going to be stuck in this draughty crypt of a fortress, at least let's find a warm spot to wait for something interesting to happen. Maybe Isran will let us poke through those old armouries I saw down the hall. Jenassa: Interest is coming. I can feel it in the air\u2014like the quiet before a storm. Vampires don't just lurk in the shadows for nothing."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: This hall has more tapestries than my old tutor's private study back in the Isles. Still, I suppose even vampire hunters need a bit of decor to remind them they're not just living in a tomb. Korpse seems to like the mist\u2014reminds him of the fog back home. Jenassa: Decoration or not, this chamber holds the weight of purpose. I've stood in places like this before, waiting for the bloodshed to begin. It's a good place to take stock of your blades and your breath. The quiet won't last. Daegon: Then let's enjoy it while it does."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Fort Dawnguard.) (Characters nearby (from nearest to furthest): Isran, Daegon, Agmaer, Sceolang, Bran)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: This fort feels solid. Built by Nords for Nords, not like those fancy Imperial keeps. Jenassa: It has a purpose. Unlike most ruins I've seen, this one isn't filled with the dead. Yet. Lydia: Aye, the Dawnguard know their business. Hunting vampires takes true steel, not magic tricks. Jenassa: I've faced worse than bloodsuckers. But I'll admit, the quiet here is unsettling. Too much stone, not enough sky."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: By Dibella's grace, look at that beast's skull above the fire. Must've been a mighty creature. Jenassa: A troll, by the shape. Or perhaps a Frost Giant's younger cousin. Either way, it took more than a few arrows to bring down. Lydia: I'd have split its skull clean in two with my greatsword. None of this sneaking about with bows and daggers. Jenassa: Your way works when the enemy charges you. My way works when they never see you coming. Both end in the same result. Lydia: Aye, dead enemies. I can drink to that. Though I'd rather be out there hunting than standing around admiring old trophies. Jenassa: Patience. Your Dragonborn will no doubt give us work soon enough."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Skyrim.) (Characters nearby (from nearest to furthest): rabbit, mudcrab, mudcrab, Vale Deer, Frostbite Spider)"
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: A clear night like this makes for good hunting."
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: That pillar of light is unnatural. I've traveled these lands for years and never seen its like. Magic leaves a scent on the air, and this one reeks of power. Lydia: Diabella's tits, it's beautiful though. Like the gods themselves are painting the sky for us. But beautiful things in Skyrim usually want to kill you."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: A fine shot, my Thane."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Ustengrav.) (Characters nearby (from nearest to furthest): mudcrab, mudcrab, Stormcloak Soldier, Frostbite Spider, Frostbite Spider)"
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: Ustengrav. Another tomb carved into the earth."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Skyrim.) (Characters nearby (from nearest to furthest): Daegon, Goat, mudcrab, Goat, mudcrab)"
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: The night air carries the scent of pine and distant snow. A stark contrast to the damp rot of that tomb behind us. Lydia: Aye, I'll take the open sky over crumbling stone any day. Gives a warrior room to swing, though this quiet makes my skin prickle. Reminds me of the calm before a Stormcloak ambush. Jenassa: You've fought them then? The rebels? I've seen their skirmishes from a distance. Bloody work, but honest in its brutality. Lydia: Fought beside them, more like. Jarl Balgruuf keeps Whiterun neutral, but a Nord knows where his loyalties lie. Skyrim belongs to the Nords, not some milk-drinking Imperials or pointy-eared Thalmor puppets. What of you, Dunmer? You fight for coin, not a cause? Jenassa: Coin buys me freedom to choose my causes. I've no love for empires or rebellions. But I respect a warrior who knows her own mind. You'd be useful in a tight spot, I'd wager. Lydia: Damn right I would."
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: This sky... it stretches on forever. A hunter's sky. The stars are bright enough to track by. I could pick off a goat from here and never lose its silhouette against the snow. Lydia: Or I could charge in and split it clean in two with my ebony blade. Less elegant than your shadow work, but it gets the job done."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Stonehills.) (Characters nearby (from nearest to furthest): Swanhvir, Jesper, chicken, Gestur Rockbreaker, Teeba-Ei)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Damn quiet for a mining town. Even the chickens are asleep. Reminds me of that canyon\u2014too peaceful, like something's waiting. Jenassa: Stonehills. Fitting name. All rock and dust, no cover for a proper hunt. Still, the clear sky is a welcome sight after that tomb. Daegon: At least nothing's trying to claw through a conjured mist out here."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene depicts a serene but rugged winter landscape at night, dominated by a spectacular celestial display. **The Sky** The upper portion of the view is filled with a deep, starry sky. A massive, cratered full moon hangs in the upper right corner, casting a pale, cool light. Sweeping across the center of the sky are vibrant ribbons of an aurora, displaying shades of electric blue, magenta, and deep purple that seem to ripple like smoke. **The Landscape** Below the sky, a mountainous terrain is blanketed in snow. In the distance, dark, jagged mountain peaks are silhouetted against the colorful sky. A thin layer of mist or fog hangs low in the valley, obscuring the base of the distant mountains. **The Foreground and Mid-ground** Tall, snow-dusted evergreen trees frame the left and right sides of the scene. Their branches are heavy with white snow. The ground is uneven, strewn with dark rocks and snowdrifts. In the center, slightly to the left, there is a small, dark wooden structure with a slanted roof, resembling a small shed or outpost. Near the bottom left, a warm, distinct orange glow emanates from behind a large rock or tree trunk, likely a campfire or torch, providing a stark contrast to the cool blue and purple tones of the environment. A few wooden barrels or crates are visible near this light source.)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Dimhollow Crypt.) (Characters nearby (from nearest to furthest): Daegon, rabbit, rabbit, rabbit, Anna)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Another tomb. These Nords sure knew how to bury their dead deep. I hope we find something worth the chill creeping up my spine. Jenassa: The dead should stay dead. These crypts always feel like a trap waiting to spring. At least the sky above is clear\u2014a small mercy before we descend further."
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: The aurora dances tonight. Purple and pink like spilled arcane essence across the sky. Even a mercenary can pause for such a sight. Lydia: Aye, it's beautiful. But beautiful things in Skyrim have a way of distracting you from the blades aimed at your back. Still... I'll admit, standing here under the lights with the snow at our feet, it feels like the gods are watching. Jenassa: Dibella's handiwork, no doubt. She favors those who appreciate beauty even in the midst of death's work. Lydia: Dibella favors those who fight for what's theirs. And these crypts? They're ours now. Whatever's inside, we'll claim it for the Dragonborn."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: By Ysmir, they're everywhere! Jenassa, watch your flank! Jenassa: I see them! That firebolt nearly took my head off\u2014watch your aim, Daegon! Lydia: Solvi's got a fancy sword. I'll split her skull for it! Come on, you walking bones! Jenassa: Death hounds and skeletons... I hate fighting things that don't know when to stay dead. Keep moving, don't let them surround us! Lydia: The Dragonborn's arrows are singing tonight! Keep shooting, my Thane\u2014we'll clean up the scraps!"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Filthy archers, hiding in the shadows. I hope that Nathalie's bowstring snaps the next time she draws it. At least the death hounds are put down for good. Jenassa: The skeletons crumble, the hounds fall silent, and yet I still feel uneasy. This place has a hunger about it. We should find what the Dragonborn came for and leave before something worse awakens. Lydia: Agreed. My greatsword is thirsty for more than bones and dogs. Let's push deeper and see what else this crypt hides. The Dragonborn's arrows guided us true tonight\u2014I'll follow where they lead."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: This crypt feels wrong. Even the air tastes old and bitter. I'd rather face a dozen bandits in the open than spend another hour in these stone halls. Jenassa: The dead cling to their treasures here. I can feel their resentment in every draft. The sooner we find whatever the Dragonborn seeks, the sooner we can breathe fresh air again. Lydia: Aye. And if more skeletons or death hounds crawl out, I'll send them back to Oblivion piece by piece. Jenassa: Save your strength, Lydia."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: My Thane asks a good question. Vampires skulking in a crypt this remote... they're after something specific. A weapon, perhaps, or a pact sealed in blood. Nords don't bury secrets lightly. Jenassa: Whatever it is, the dead here were meant to guard it. I've heard whispers of an ancient vampire prophecy\u2014a return of something older than the Jarls' histories. These ruins may hold the key. Lydia: Prophecy or not, we'll cut through whatever stands between us and the truth. Lead on, Dragonborn. Let's see what these stone walls are hiding."
+        },
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Daegon, Bea, Skeleton, Skeleton, Death Hound) (MJR equipped Daedric Arrow)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Dimhollow Crypt.) (Characters nearby (from nearest to furthest): Restless Draugr)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Ugh, another crypt, another pile of bones that refuse to stay dead. At least these draugr don't spin webs. Jenassa: Earthen passages do not agree with me."
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: Still water like this hides many things. Tread carefully on that plank, it may be the only thing between us and a cold grave. Daegon: Lovely. A flooded crypt with a walkway made of rotting timber. What's next, a troll playing a lute?"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Fine shot, my thane. That arrow echoed off the stone like a war drum. The dead will know we're coming now. Daegon: Let them know. I'd rather face a screaming draugr than a silent one sneaking up from behind."
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: The dead know we are here already. They have known since we set foot in this tomb. The question is whether we find what we seek before they rouse in force. Daegon: And what exactly are we seeking in this sunken hole anyway? Feels like we're chasing ghosts and old bones."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: We seek whatever the Dragonborn seeks. My oath is to his blade, not to question his purpose. Though I'll admit, this place has the stench of something ancient and foul. Daegon: Ancient and foul describes half of Skyrim. The other half is just cold and miserable."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Enough talk. This crypt won't explore itself, and I'd rather meet whatever waits ahead on my feet than standing here in cold water. Jenassa: Agreed. Whatever prize lies deeper, I want it found before the sun fully rises. Daegon: Fine, fine. Lead on. Just try not to step on any pressure plates that drop us into a spike pit. I left my lucky coin at home. Jenassa: Stay sharp and stay quiet. Let us finish this."
+        },
+        {
+            "role": "user",
+            "content": "(MJR fired an arrow.) (MJR unequipped Daedric Arrow) (Jenassa has entered combat with YoRHa 2B) (MJR dropped/gave Daedric Arrow) (MJR equipped Daedric Arrow) (Lydia has entered combat with YoRHa 2B) (Daegon is searching for YoRHa 2B) (Jenassa is searching for YoRHa 2B) (Daegon has entered combat with YoRHa 2B) (Daegon is no longer in combat) (Lydia is no longer in combat) (Jenassa is no longer in combat) (Jenassa has entered combat with Death Hound) (Daegon is searching for Death Hound) (Daegon equipped Soul Trap) (MJR cast the spell / consumed Conjure Flame Atronach) (Lydia has entered combat with Death Hound) (Daegon unequipped Blades Sword) (Daegon has entered combat with Death Hound) (Jenassa unequipped Iron Dagger) (Daegon unequipped Soul Trap) (Daegon equipped Blades Sword) (Death Hound hit MJR with Ice Cloak Freeze) (Daegon cast the spell Firebolt) (Death Hound hit Jenassa with Ice Cloak Freeze) (Death Hound hit Daegon with Ice Cloak Freeze) (Daegon unequipped Firebolt) (Daegon equipped Flames) ( punched Daegon) ( punched Jenassa) (Daegon cast the spell Flames) (Death Hound punched Jenassa) (Daegon cast the spell Soul Trap) (Death Hound hit Jenassa with Death Hound Attack) (Daegon unequipped Flames) (Daegon equipped Firebolt) (Jenassa equipped Iron Dagger) (Jenassa has entered combat with Maya) (Daegon has entered combat with Maya) (Lydia has entered combat with Maya) (Death Hound was killed by the group) (Maya was killed by the group)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Dimhollow Crypt.) (Characters nearby (from nearest to furthest): Daegon, Lydia, gargoyle, gargoyle, Skeleton)"
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: I despise these crypts. Every skeleton we shatter only reminds me that death is the one employer who never pays on time. Mysterious Woman: At least they're honest about their intentions. Unlike some Nords I've met, these corpses don't pretend to like you before they try to gut you. Jenassa: The silence between battles is worse."
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: What in Oblivion is that purple glow? This place reeks of magic I don't trust. Mysterious Woman: That glowing liquid... I've seen something like it before, in my father's castle. It's alchemical in nature, used for rituals. Someone has been busy here. Jenassa: Rituals? For what purpose? I've never met a mage who carved channels through stone just for decoration. Mysterious Woman: Let's just say the kind of magic that needs blood and light doesn't tend to end well for those who stumble upon it. Stay sharp."
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: What in the name of the Three are you doing? You're disrobing in a crypt filled with hostile magic and undead. Have you lost your mind? Mysterious Woman: Relax, mercenary. This place has an energy I need to feel properly. Armor interferes with certain... sensitivities. Besides, I've been wearing this stiff leather for days. A girl needs to breathe. Jenassa: Breathe? We're standing in a tomb with glowing blood channels and skeleton dust. This isn't a bathhouse. Mysterious Woman: You worry too much, Dunmer. I've survived a lot longer than you've been alive. Trust me when I say I know what I'm doing. Now let's see what that pedestal's really for."
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: You've seen these channels before, you said. In your father's castle. What kind of man builds such things in his home? Mysterious Woman: A man who sought power beyond mortality. He was a collector of ancient knowledge, the kind that whispers secrets best left unspoken. These channels, they're used to draw energy from sacrifices. Very efficient, very... permanent. Jenassa: Sacrifices. Of course. And you know this because you helped him, or because you opposed him? Mysterious Woman: Let's just say I learned enough to recognize the work when I see it. The architect of this place had similar ambitions to my father. Small world, isn't it?"
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: What in the name of the Three was that? Your man just shouted you halfway across the crypt! Mysterious Woman: That... was unexpected. I suppose he wanted my attention. Or he's testing to see if I'm still alive. Jenassa: You're not angry? He sent you flying like a rag doll. Mysterious Woman: Angry? No. That's the most excitement I've had since we entered this dismal place. Besides, when you've lived as long as I have, you learn not to take a little roughhousing personally."
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: A vampire. I should have known. The way you moved, the talk of your father's castle, the casual disrobing in a crypt... it all makes sense now. Mysterious Woman: And yet you haven't reached for your blade. Impressive restraint for someone who claims to despise the undead. Jenassa: I've fought alongside stranger allies. Besides, if the Dragonborn trusts you, I'll withhold judgment. For now. Mysterious Woman: Smart woman."
+        },
+        {
+            "role": "user",
+            "content": "(MJR: Is that an Elder Scroll?; Serana: Yes, it is, and it's mine. ) (MJR: Why do you have an Elder Scroll?; Serana: It's... complicated. I can't really talk about it. I'm sorry.) (MJR: Is it fragile? Do we need to be careful with it?; Serana: Ha. Nothing can destroy an Elder Scroll. Worry more about protecting your hide, and let me worry about my things.) (MJR: k101DaegonFollowerHelloLines; Daegon: Would you like me to kill someone for you?)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Dimhollow Crypt.) (Characters nearby (from nearest to furthest): Skeleton, Skeleton, Karla Raven, draugr, Juniper) (MJR fired an arrow.) (MJR dropped/gave Daedric Arrow) (MJR unequipped Daedric Arrow) (MJR equipped Daedric Arrow) (MJR fired an arrow.) (MJR dropped/gave Daedric Arrow) (MJR unequipped Daedric Arrow) (MJR equipped Daedric Arrow) (MJR dropped/gave Daedric Arrow) (MJR fired an arrow.) (MJR unequipped Daedric Arrow) (MJR equipped Daedric Arrow) (MJR fired an arrow.) (MJR dropped/gave Daedric Arrow) (MJR unequipped Daedric Arrow) (MJR equipped Daedric Arrow)"
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: Another tomb, another collection of restless bones. I\u2019d almost rather face a bear than these walking corpses. Serana: Bears don\u2019t usually have glowing eyes and a grudge about their funeral arrangements. I find the dead far more entertaining\u2014they never bore you with talk about the weather."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Well, that\u2019s not something you see every day. A glowing purple altar with a dead tree growing out of it\u2014very chic. I wonder if the carrots are a ritual offering or someone\u2019s forgotten lunch. Jenassa: This place reeks of old magic. Not the subtle kind, either. I\u2019ve seen Dwemer ruins with less nonsense than this. Best keep your blade ready. Lydia: I don\u2019t like it. Pretty lights and dead trees mean trouble. If something rises from that thing, I\u2019m putting my greatsword through it first. Dibella guide our strikes."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Five skeletons shuffling our way\u2014looks like the altar sent a welcoming committee. Hope you\u2019re ready to crack some old bones, Lydia. Lydia: Let them come. I\u2019ll split them like firewood and Dibella can admire the splinters. Jenassa: I\u2019ll take the ones in the back. Don\u2019t block my shots with that greatsword of yours. And MJR, if you\u2019re grabbing potions, save me one\u2014I might need it after this mess."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Ah, nothing clears the head like a morning bone-splintering. Though I do hope that altar is more interesting than these skeletons\u2014they didn\u2019t even put up a decent fight. Lydia: Their skulls cracked easy enough. But that purple altar still stands. I\u2019d rather smash it than wonder what it does. Jenassa: Leave it. We\u2019re not here to dismantle every enchanted relic. MJR has the right idea\u2014grab what\u2019s useful and move on. I\u2019d rather breathe fresh air than tempt a curse."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: And just like that, another one bites the dust. Or the cobblestone, in this case. Who was that, a stray bandit or a local welcoming committee? Jenassa: Didn\u2019t catch her name. Didn\u2019t need to. She picked the wrong target, and now she\u2019s nothing but a memory. Lydia: She fought with desperation, not skill. A coward\u2019s blade. Dibella favors those who stand firm, not those who skulk in shadows. Jenassa: Skulking worked fine for me. She never saw my dagger until it was too late."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Well, that was a proper brawl. I see you summoned your pet gargoyle again, MJR. Quite the party trick\u2014though I\u2019m still not sure if it\u2019s helping or just getting in the way. Lydia: Gargoyle or no, we\u2019re still standing and they\u2019re dust. That\u2019s what matters. Though I could do without another skeleton\u2019s sword in my ribs. Jenassa: We\u2019re all bleeding a little. That draugr had a mean swing. But the crypt\u2019s quieter now, and that\u2019s all I care about. Let\u2019s find whatever we came for and get out."
+        },
+        {
+            "role": "user",
+            "content": "(Jenassa is no longer in combat.) (Lydia is no longer in combat.) (Serana is no longer in combat.) (Characters nearby (from nearest to furthest): Skeleton, draugr, Karla Raven, Skeleton, Skeleton) (MJR fired an arrow.) (MJR unequipped Daedric Arrow) (MJR dropped/gave Daedric Arrow) (Lydia has entered combat with Skeleton) (Jenassa has entered combat with Skeleton) (Skeleton was killed by the group) (Serana is no longer in combat) (MJR equipped Daedric Arrow) (Lydia is no longer in combat) (Jenassa is no longer in combat) (MJR picked up / took Potion of Stamina) (MJR picked up / took Potion of Minor Healing) (MJR picked up / took Potion of Minor Magicka)"
+        }
     ]
 ]

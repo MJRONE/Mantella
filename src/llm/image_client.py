@@ -69,7 +69,32 @@ class ImageClient(ClientBase):
         # requesting conversation has already moved on (used for radiant NPC-to-NPC
         # conversations where vision should never block the LLM response).
         self._late_vision_callback: Optional[Callable[[str], bool]] = None
-    
+
+        # When True, ``add_image_to_messages`` becomes a no-op so the text LLM
+        # streaming call does not synchronously block on a vision LLM request.
+        # Set by the radiant conversation flow (see Conversation._update_radiant_inline_vision_flag)
+        # while a radiant (NPC-to-NPC) conversation is active AND a separate
+        # vision LLM is configured (``custom_vision_model = True``). The async
+        # periodic vision system (``get_vision_description_with_timeout``) keeps
+        # producing description events in the background, so the text LLM still
+        # gets visual context - it just no longer waits for it on every turn.
+        self._inline_disabled: bool = False
+
+    def set_inline_disabled(self, disabled: bool) -> None:
+        """Toggle whether ``add_image_to_messages`` skips the per-turn vision call.
+
+        Used by radiant conversations to prevent the synchronous inline vision
+        request from blocking every NPC turn when a slow custom vision LLM is
+        configured. Setting this back to ``False`` immediately restores normal
+        per-turn vision behaviour.
+        """
+        self._inline_disabled = bool(disabled)
+
+    @property
+    def inline_disabled(self) -> bool:
+        """Whether ``add_image_to_messages`` is currently a no-op."""
+        return self._inline_disabled
+
     @utils.time_it
     def add_image_to_messages(self, openai_messages: list[ChatCompletionMessageParam], vision_hints: str) -> list[ChatCompletionMessageParam]:
         '''Adds a captured image to the latest user message
@@ -80,6 +105,15 @@ class ImageClient(ClientBase):
         Returns:
             list[ChatCompletionMessageParam]: The updated list of messages with the image added
         '''
+        # Radiant conversations with a separate vision LLM use the async
+        # late-vision callback path instead of synchronous per-turn captures.
+        # Skipping here avoids: (a) doubling the per-turn API cost, (b) blocking
+        # the streaming text LLM call on the slow vision LLM, and (c) lock
+        # contention against any in-flight async periodic vision request that
+        # is using the same ``ImageClient._generation_lock``.
+        if self._inline_disabled:
+            return openai_messages
+
         image = self.__image_manager.get_image()
         if image is None:
             return openai_messages

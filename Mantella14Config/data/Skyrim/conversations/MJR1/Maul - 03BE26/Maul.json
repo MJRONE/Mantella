@@ -1,0 +1,24 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Riften.) (Characters nearby (from nearest to furthest): Sapphire, Shadr, Daegon, Lydia, Jenassa) (MJR: ...; Maul: I don't know you. You in Riften lookin' for trouble? MJR: Just passing through.; Maul: Yeah? Well, I got news for you; there's nothing to see here. Last thing the Black-Briars need is some stranger stickin' their nose where it doesn't belong. MJR: Who are the Black-Briars?; Maul: The Black-Briars have Riften in their pocket and the Thieves Guild watchin' their back, so keep your nose out of their business. Me? I'm Maul. I watch the streets for 'em. If you need dirt on anythin', I'm your guy... but it'll cost you. MJR: Here, what can you tell me? (142 gold); Maul: Pleasure doin' business with you. So what do you want to know? MJR: Any news involving the Dark Brotherhood?; Maul: The only thing I heard is a rumor that a boy named Aventus Aretino, in Windhelm, has been attempting to contact the Dark Brotherhood. He used to live here in Riften at the Orphanage on the other side of town, but I think he ran away. Can't say I blame him. MJR: Tell me more about the Black-Briars.; Maul: Well, you got Maven, she pretty much runs the whole operation. She's got friends in high places if you know what I mean. She's also got ties to the Dark Brotherhood and the Thieves Guild, so basically no one can touch her. Just remember, if she tells you to do somethin'... you damn well better do exactly what she says. MJR: Know anything about the Thieves Guild?; Maul: You kiddin'? My brother Dirge works in their hideout. I used to run with them myself, but took a job with Maven after they started hittin' a rough patch. If you want to get in on that action, find Brynjolf in the marketplace. I'm sure he could use someone like you.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Maul: Late night at the Bee and Barb, eh Gilen? Clear skies outside, but in here it's gettin' steamy with all these patrons eyein' the help. You slinkin' around for business or pleasure tonight? Gilen: Business as usual, Maul\u2014though pleasure sneaks in when the moon's high like this. That welcome sign's got folks lingerin' longer than they should at this hour. Maven keepin' you busy on the docks, or did she send you to watch the shadows in here too?"
+        },
+        {
+            "role": "assistant",
+            "content": "Maul: Maven's got me patrollin' wherever she needs eyes, Gilen\u2014docks by day, taverns like this when the night's got too many whispers. Welcome"
+        },
+        {
+            "role": "assistant",
+            "content": "Gilen: Look at that sky, Maul\u2014aurora dancin' like Dibella's own veil over the docks. Rarely see it this vivid at one in the mornin', pulls the eye right to those two on the bridge. That elf in nothin' but scraps, and her companion armed to the teeth... you reckon they're headin' for trouble or just showin' off under the lights? Maul: Aye, the lights are puttin' on a show tonight, Gilen\u2014clear as crystal, no clouds to spoil it. Those lasses down there? Elf's got curves that'd make Maven jealous, and the blonde looks like she could handle herself... or us. Maven'd want me keepin' an eye, but hell, might be worth a closer look if they're lingerin' by Lake Honrich."
+        },
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Lydia, Jenassa, Riften Guard, Daegon, Horse)"
+        }
+    ]
+]

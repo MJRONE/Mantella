@@ -8,5 +8,39 @@
             "role": "assistant",
             "content": "Riften Guard: Keep your fanged whore mouth shut before I arrest you for public indecency\u2014not that there\u2019s much left arrest you for in that flimsy excuse for armor."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Riften.) (Characters nearby (from nearest to furthest): Shadr, Daegon, Riften Guard, Gilen, Jenassa)"
+        },
+        {
+            "role": "assistant",
+            "content": "Riften Guard: Another foreigner skulking around Riften at dawn. We've got our eyes on you, elf. What business do you have in the city of Dibella's chosen? The sun's barely kissed the sky and here you are, dressed like you're heading to a brothel, not a morning prayer. Lydia: By Dibella's grace, at least the sky is finally clear! No more of that storm that plagued us near Redwater Den. My Thane, these Riften guards are suspicious of everyone. They think every traveler is a thief come to pluck coins from their precious treasury. I'd rather face a dozen bandit sluts than answer questions from watchmen who've never swung a real blade."
+        },
+        {
+            "role": "assistant",
+            "content": "Riften Guard: Don't get clever with me, housecarl. I'm just doing my job. That one over there with the white hair - she's been standing on the balcony like she's waiting for a signal. And you, elf, with those glowing marks on your skin - that's not natural. This is Riften, under Dibella's watch. We don't tolerate witches or Thalmor spies."
+        },
+        {
+            "role": "assistant",
+            "content": "Riften Guard: I saw her markings, housecarl. Glowing bands and strange tattoos on her thighs and arms - that's no common traveler's decoration. We've had enough trouble with coven activity along the Rift. If she's casting spells near the city gates, I'll have her in the dungeons before she can whisper a hex. Lydia: By Dibella's curves, you're jumpier than a skeever in a honningbrew mead hall!"
+        },
+        {
+            "role": "assistant",
+            "content": "Riften Guard: I'm not jumping at shadows. I've seen what happens when we let strange magic fester in Riften. That elf with the white hair - she's got markings that glow like a will-o'-the-wisp. And you, housecarl, acting all innocent while your Thane's companion looks like she stepped out of a daedra's dream. If there's trouble brewing, I'll root it out before it stains these streets."
+        },
+        {
+            "role": "assistant",
+            "content": "Riften Guard: I'm not finished. That pale-haired elf with the glowing bands - I want to know what she's doing here. She's been loitering near the market since before the sun rose."
+        },
+        {
+            "role": "assistant",
+            "content": "Riften Guard: Fine. I've got my eye on all of you, but the morning's too clear for a cell. Just don't let me catch any of you stirring up trouble near the Bee and Barb or the Temple. Dibella's watching, and so am I. Lydia: A wise choice, guard. Come, my Thane, Daegon, Jenassa. Let's find some breakfast before the city truly wakes. The fish at the Bee and Barb are fresh this early, and I've a thirst for something stronger than milk."
+        },
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Riften Guard, Daegon, Jenassa, Shadr, Riften Guard)"
+        }
     ]
 ]

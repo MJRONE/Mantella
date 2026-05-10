@@ -84,9 +84,21 @@ class Conversation:
         # These fields are only actively used when __conversation_type is `radiant`.
         self.__vision_requested_for_current_conversation: bool = False
         self.__last_vision_trigger_time: float = 0.0  # when we last fired a vision capture
-        self.__last_vision_used_time: float = 0.0    # when we last consumed a vision result
+        self.__last_vision_used_time: float = 0.0    # when we last consumed a vision result (callback fired)
         self.__allow_vision_injection: bool = False  # gate to block vision injection during initial greeting
         self.__periodic_vision_interval: float = float(getattr(context_for_conversation.config, 'periodic_vision_interval', 0) or 0)
+        # Tracks an in-flight async vision capture: set to ``time.time()`` when a
+        # capture is dispatched, cleared to 0.0 when the description arrives via
+        # ``inject_late_vision_description``. Prevents the periodic trigger from
+        # piling up multiple concurrent vision LLM requests when the vision model
+        # is slower than ``periodic_vision_interval``. A safety timeout in
+        # ``__trigger_periodic_vision_if_due`` clears stale flags if the vision
+        # request fails silently (the callback only fires on success).
+        self.__vision_in_flight_since: float = 0.0
+        # Hard cap on how long we trust the in-flight flag before assuming the
+        # request failed. Conservative - the longest realistic vision LLM
+        # response we want to wait for before allowing another attempt.
+        self.__vision_in_flight_max_seconds: float = 90.0
 
         # Debounce to collapse near-simultaneous event/vision injections into a single LLM call
         self.__pending_injection_lock: Lock = Lock()
@@ -118,6 +130,18 @@ class Conversation:
         # in the same LLM turn that responds to the speech. Consumed via
         # ``consume_force_radiant_refresh_request``.
         self.__radiant_force_refresh_requested: bool = False
+
+        # Safety counter for radiant conversations: tracks how many radiant turns
+        # in a row produced no usable LLM output (no AssistantMessage was added
+        # during the previous turn). Without this guard, a misbehaving text LLM
+        # that returns empty / pure-narration responses would loop forever -
+        # ``radiant_max_turns`` is measured by AssistantMessage count and so
+        # never advances on empty turns - causing repeated LLM calls with no
+        # actual dialogue. When the counter reaches
+        # ``__max_consecutive_empty_radiant_turns`` we end the radiant
+        # conversation immediately to stop wasting API calls.
+        self.__consecutive_empty_radiant_turns: int = 0
+        self.__max_consecutive_empty_radiant_turns: int = 3
 
     @property
     def has_already_ended(self) -> bool:
@@ -223,10 +247,15 @@ class Conversation:
         
         # Check if this is an action-only sentence (no text, but has actions)
         if next_sentence and len(next_sentence.text.strip()) == 0 and len(next_sentence.actions) > 0:
+            # The LLM produced a valid (action-only) response - reset the radiant
+            # empty-response safety counter so isolated empty turns don't add up.
+            self.__consecutive_empty_radiant_turns = 0
             if FunctionManager.any_action_requires_response(next_sentence.actions):
                 self.__awaiting_action_result = True
             return comm_consts.KEY_REPLYTYPE_NPCACTION, next_sentence
         elif next_sentence and len(next_sentence.text) > 0:
+            # Verbal response received - reset the radiant empty-response safety counter.
+            self.__consecutive_empty_radiant_turns = 0
             if {'identifier': comm_consts.ACTION_REMOVECHARACTER} in next_sentence.actions:
                 departing_npc = next_sentence.speaker
                 self.__context.remove_character(departing_npc, len(self.__messages))
@@ -263,8 +292,38 @@ class Conversation:
             # Check if end conversation was requested via tool call
             if self.__output_manager.end_conversation_requested:
                 self.__output_manager.clear_end_conversation_requested()
+                # An EndConversation tool call is itself a valid LLM response;
+                # reset the empty-turn safety counter.
+                self.__consecutive_empty_radiant_turns = 0
                 self.initiate_end_sequence()
                 return comm_consts.KEY_REPLYTYPE_NPCTALK, None
+            # Radiant safety net: if the previous LLM call produced no usable
+            # output the last message in the thread is still a UserMessage
+            # (no AssistantMessage was added by retrieve_sentence_from_queue).
+            # Detect that, count it, and bail out after a few in a row to stop
+            # an empty-response loop from burning API calls indefinitely.
+            if isinstance(self.__conversation_type, radiant):
+                last_msg = self.__messages.get_last_message()
+                if isinstance(last_msg, UserMessage):
+                    self.__consecutive_empty_radiant_turns += 1
+                    if self.__consecutive_empty_radiant_turns >= self.__max_consecutive_empty_radiant_turns:
+                        logger.warning(
+                            f"[RADIANT] {self.__consecutive_empty_radiant_turns} consecutive empty LLM "
+                            f"responses (>= {self.__max_consecutive_empty_radiant_turns}) - ending radiant "
+                            f"conversation to avoid stuck loop"
+                        )
+                        self.__stop_generation()
+                        self.__sentences.clear()
+                        return comm_consts.KEY_REPLYTYPE_ENDCONVERSATION, None
+                    logger.log(
+                        24,
+                        f"[RADIANT] Empty LLM response detected "
+                        f"({self.__consecutive_empty_radiant_turns}/{self.__max_consecutive_empty_radiant_turns} consecutive)"
+                    )
+                else:
+                    # Last message is an AssistantMessage - LLM did produce output
+                    # at some point in this turn. Keep the counter at zero.
+                    self.__consecutive_empty_radiant_turns = 0
             #Ask the conversation type here, if we should end the conversation
             if self.__conversation_type.should_end(self.__context, self.__messages):
                 # For radiant (NPC-to-NPC) conversations, skip the goodbye-voiceline
@@ -482,6 +541,7 @@ class Conversation:
                 self.__vision_requested_for_current_conversation = False
                 self.__last_vision_trigger_time = 0.0
                 self.__last_vision_used_time = 0.0
+                self.__vision_in_flight_since = 0.0
                 self.__allow_vision_injection = False
                 # Clear any stale late-vision callback from a previous conversation
                 self.__clear_late_vision_callback()
@@ -491,6 +551,13 @@ class Conversation:
             else:
                 self.__conversation_type = pc_to_npc(self.__context.config)
                 self.__clear_late_vision_callback()
+
+            # Toggle the inline (per-turn synchronous) vision call on the shared
+            # ImageClient. Disabled in radiant + custom_vision_model setups so the
+            # slow vision LLM does not block every NPC turn (the async
+            # ``get_vision_description_with_timeout`` path keeps the text LLM
+            # supplied with description events).
+            self.__update_radiant_inline_vision_flag(is_now_radiant)
 
             new_prompt = self.__conversation_type.generate_prompt(self.__context)        
             if len(self.__messages) == 0:
@@ -513,6 +580,40 @@ class Conversation:
                 image_client.set_late_vision_callback(None)
             except Exception:
                 pass
+
+    def __update_radiant_inline_vision_flag(self, is_radiant: bool):
+        """Toggle the inline-vision-skip flag on the shared ``ImageClient``.
+
+        In radiant conversations with ``custom_vision_model = True`` every text
+        LLM streaming call would otherwise synchronously invoke the vision LLM
+        via ``ImageClient.add_image_to_messages`` BEFORE the text LLM starts
+        streaming. With a slow separate vision model this:
+          1. Doubles the per-turn API cost (vision LLM + text LLM, sequentially).
+          2. Stalls the radiant flow until the vision LLM responds, so NPC
+             turns ``stick`` waiting for a description that the async pipeline
+             is already producing in the background.
+          3. Contends against any in-flight async periodic vision request that
+             is holding ``ImageClient._generation_lock``.
+
+        The async periodic / startup vision system already injects vision
+        descriptions as user-message events, so the inline call is redundant
+        in radiant mode. We leave inline vision enabled for non-radiant
+        conversations (it is the only way to get visual context there) and
+        for the single-LLM case (``custom_vision_model = False``), where the
+        inline branch just attaches the image to the text request and is cheap.
+        """
+        image_client = getattr(self.__llm_client, '_image_client', None)
+        if not image_client or not hasattr(image_client, 'set_inline_disabled'):
+            return
+        try:
+            should_disable = bool(is_radiant) and bool(getattr(self.__context.config, 'custom_vision_model', False))
+            image_client.set_inline_disabled(should_disable)
+            if should_disable:
+                logger.log(24, "[RADIANT VISION] Inline per-turn vision call disabled - using async vision only (custom_vision_model=True)")
+            else:
+                logger.log(23, "[VISION] Inline per-turn vision call enabled")
+        except Exception as e:
+            logger.warning(f"[VISION] Failed to toggle inline vision flag: {e}")
 
     def __seed_radiant_conversation_with_events_and_vision(self):
         """Prime a freshly-started radiant conversation with any queued events and register
@@ -565,11 +666,16 @@ class Conversation:
                 # Fire-and-forget: returns None immediately; result is delivered via
                 # inject_late_vision_description() as soon as the vision LLM responds.
                 image_client.get_vision_description_with_timeout(timeout_seconds=0)
-                self.__last_vision_trigger_time = time.time()
+                now = time.time()
+                self.__last_vision_trigger_time = now
+                # Mark vision as in-flight so periodic_vision_interval does not
+                # dispatch a second capture on top of the one we just sent.
+                self.__vision_in_flight_since = now
                 logger.log(24, "[RADIANT VISION] STARTUP - Initial vision capture dispatched (background)")
             except Exception as e:
                 logger.warning(f"[RADIANT VISION] STARTUP - Failed to dispatch initial vision capture: {e}")
                 self.__last_vision_trigger_time = 0.0
+                self.__vision_in_flight_since = 0.0
         else:
             if not self.__context.config.vision_enabled:
                 logger.log(23, "[RADIANT VISION] STARTUP - Vision disabled in config, skipping radiant vision setup")
@@ -648,8 +754,14 @@ class Conversation:
             # Dedupe against any queued events
             if event_line in self.__pending_injection_events:
                 logger.log(23, "[RADIANT VISION] Duplicate vision description discarded")
+                # Still clear the in-flight flag so periodic vision can fire again
+                self.__vision_in_flight_since = 0.0
                 return True
             self.__pending_injection_events.append(event_line)
+            # Vision has returned and is queued for use - clear in-flight gate
+            # under the same lock so a concurrent __trigger_periodic_vision_if_due
+            # observes a consistent state.
+            self.__vision_in_flight_since = 0.0
         self.__last_vision_used_time = time.time()
         # Deliberately terse - the full description text was already logged by
         # image_client.get_vision_description_with_timeout when the vision LLM
@@ -659,7 +771,17 @@ class Conversation:
 
     def __trigger_periodic_vision_if_due(self):
         """For ongoing radiant conversations, fire a background vision capture if the
-        configured interval has elapsed since the last capture."""
+        configured interval has elapsed since the last *used* (consumed) vision result.
+
+        The interval is intentionally measured from the last consumed result
+        (``__last_vision_used_time``) rather than from the last dispatch. This
+        prevents the timer from "restarting on dispatch" while the previous
+        description is still in flight or has not yet been injected into a
+        radiant turn - the issue the player observed when running a slow
+        custom vision LLM. An in-flight guard additionally blocks new
+        captures while one is already pending, so concurrent vision LLM
+        requests cannot pile up against ``ImageClient._generation_lock``.
+        """
         if not isinstance(self.__conversation_type, radiant):
             return
         if not self.__context.config.vision_enabled:
@@ -672,9 +794,40 @@ class Conversation:
             return
 
         now = time.time()
-        if now - self.__last_vision_trigger_time < self.__periodic_vision_interval:
+
+        # In-flight guard: don't dispatch another capture while one is pending.
+        # The async vision callback only fires on success, so we also enforce a
+        # safety timeout to recover from silent failures (network errors, empty
+        # responses, dropped requests). Without this, a single failed capture
+        # would permanently block periodic vision for the rest of the conversation.
+        if self.__vision_in_flight_since > 0.0:
+            in_flight_for = now - self.__vision_in_flight_since
+            if in_flight_for < self.__vision_in_flight_max_seconds:
+                logger.log(22, f"[RADIANT VISION] Periodic capture skipped - previous capture still in flight ({in_flight_for:.1f}s)")
+                return
+            logger.warning(f"[RADIANT VISION] Previous capture in-flight for {in_flight_for:.1f}s (>{self.__vision_in_flight_max_seconds:.0f}s) - assuming silent failure and clearing flag")
+            self.__vision_in_flight_since = 0.0
+
+        # Anchor the interval to the last *used* (callback-arrived) time when we
+        # have one, otherwise fall back to the last trigger time so the very
+        # first periodic call after startup still respects the interval relative
+        # to the initial capture dispatched by ``__seed_radiant_conversation_with_events_and_vision``.
+        if self.__last_vision_used_time > 0.0:
+            anchor_time = self.__last_vision_used_time
+            anchor_label = "last_used"
+        else:
+            anchor_time = self.__last_vision_trigger_time
+            anchor_label = "last_trigger"
+
+        elapsed = now - anchor_time
+        if elapsed < self.__periodic_vision_interval:
             return
 
+        # Mark in-flight BEFORE the dispatch so a concurrent invocation (the
+        # audio-playback wait loop polls this every second) cannot race us
+        # into a duplicate dispatch while ``get_vision_description_with_timeout``
+        # is still acquiring its image / spawning its worker thread.
+        self.__vision_in_flight_since = now
         self.__last_vision_trigger_time = now
         # Ensure the callback is registered (it may have been cleared by a prior conversation)
         if hasattr(image_client, 'set_late_vision_callback'):
@@ -684,9 +837,17 @@ class Conversation:
                 pass
         try:
             image_client.get_vision_description_with_timeout(timeout_seconds=0)
-            logger.log(24, f"[RADIANT VISION] Periodic vision capture dispatched (interval={self.__periodic_vision_interval:.0f}s)")
+            logger.log(
+                24,
+                f"[RADIANT VISION] Periodic vision capture dispatched "
+                f"(interval={self.__periodic_vision_interval:.0f}s, "
+                f"elapsed_since_{anchor_label}={elapsed:.1f}s)"
+            )
         except Exception as e:
             logger.warning(f"[RADIANT VISION] Failed to trigger periodic vision: {e}")
+            # Roll back the in-flight flag so the next tick can retry instead
+            # of waiting for the safety timeout.
+            self.__vision_in_flight_since = 0.0
 
     def __drain_pending_injection_events(self) -> list[str]:
         """Pop all pending injection events (late-vision descriptions + any queued events)."""
@@ -860,6 +1021,9 @@ class Conversation:
         # Detach any radiant late-vision callback so in-flight vision requests don't inject
         # into a future unrelated conversation.
         self.__clear_late_vision_callback()
+        # Restore inline vision behaviour on the shared ImageClient so the next
+        # (potentially non-radiant) conversation gets normal per-turn vision.
+        self.__update_radiant_inline_vision_flag(is_radiant=False)
         # For radiant conversations: flush any still-unconsumed events / vision descriptions
         # into a final user message BEFORE summarizing. Without this, events that arrived
         # during the last NPC monologue (or a late-arriving vision description) never make

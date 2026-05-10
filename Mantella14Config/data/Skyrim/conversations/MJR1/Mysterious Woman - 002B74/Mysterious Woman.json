@@ -8,5 +8,39 @@
             "role": "assistant",
             "content": "Daegon: Serana: They say death gives perspective. These dusty tombs certainly offer something to compare our luxurious accommodations to. Though I must say, eternal rest looks rather appealing if it means escaping this damp smelling hole with only your bickering for company. Oh, boo hoo Princess. Some of us actually find ancient history fascinating, unlike our undead companion who probably can't even remember her own childhood in these very crypts. At least it's not filled with that insufferable Lydia woman though. I suppose every crypt has its silver lining."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Dimhollow Crypt.) (Characters nearby (from nearest to furthest): Daegon, Lydia, gargoyle, gargoyle, Skeleton)"
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: I despise these crypts. Every skeleton we shatter only reminds me that death is the one employer who never pays on time. Mysterious Woman: At least they're honest about their intentions. Unlike some Nords I've met, these corpses don't pretend to like you before they try to gut you. Jenassa: The silence between battles is worse."
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: What in Oblivion is that purple glow? This place reeks of magic I don't trust. Mysterious Woman: That glowing liquid... I've seen something like it before, in my father's castle. It's alchemical in nature, used for rituals. Someone has been busy here. Jenassa: Rituals? For what purpose? I've never met a mage who carved channels through stone just for decoration. Mysterious Woman: Let's just say the kind of magic that needs blood and light doesn't tend to end well for those who stumble upon it. Stay sharp."
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: What in the name of the Three are you doing? You're disrobing in a crypt filled with hostile magic and undead. Have you lost your mind? Mysterious Woman: Relax, mercenary. This place has an energy I need to feel properly. Armor interferes with certain... sensitivities. Besides, I've been wearing this stiff leather for days. A girl needs to breathe. Jenassa: Breathe? We're standing in a tomb with glowing blood channels and skeleton dust. This isn't a bathhouse. Mysterious Woman: You worry too much, Dunmer. I've survived a lot longer than you've been alive. Trust me when I say I know what I'm doing. Now let's see what that pedestal's really for."
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: You've seen these channels before, you said. In your father's castle. What kind of man builds such things in his home? Mysterious Woman: A man who sought power beyond mortality. He was a collector of ancient knowledge, the kind that whispers secrets best left unspoken. These channels, they're used to draw energy from sacrifices. Very efficient, very... permanent. Jenassa: Sacrifices. Of course. And you know this because you helped him, or because you opposed him? Mysterious Woman: Let's just say I learned enough to recognize the work when I see it. The architect of this place had similar ambitions to my father. Small world, isn't it?"
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: What in the name of the Three was that? Your man just shouted you halfway across the crypt! Mysterious Woman: That... was unexpected. I suppose he wanted my attention. Or he's testing to see if I'm still alive. Jenassa: You're not angry? He sent you flying like a rag doll. Mysterious Woman: Angry? No. That's the most excitement I've had since we entered this dismal place. Besides, when you've lived as long as I have, you learn not to take a little roughhousing personally."
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: A vampire. I should have known. The way you moved, the talk of your father's castle, the casual disrobing in a crypt... it all makes sense now. Mysterious Woman: And yet you haven't reached for your blade. Impressive restraint for someone who claims to despise the undead. Jenassa: I've fought alongside stranger allies. Besides, if the Dragonborn trusts you, I'll withhold judgment. For now. Mysterious Woman: Smart woman."
+        },
+        {
+            "role": "user",
+            "content": "(MJR: Is that an Elder Scroll?; Serana: Yes, it is, and it's mine. ) (MJR: Why do you have an Elder Scroll?; Serana: It's... complicated. I can't really talk about it. I'm sorry.) (MJR: Is it fragile? Do we need to be careful with it?; Serana: Ha. Nothing can destroy an Elder Scroll. Worry more about protecting your hide, and let me worry about my things.) (MJR: k101DaegonFollowerHelloLines; Daegon: Would you like me to kill someone for you?)"
+        }
     ]
 ]

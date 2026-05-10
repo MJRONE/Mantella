@@ -1,0 +1,24 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Sons of Skyrim Military Camp.) (Characters nearby (from nearest to furthest): Jenassa, Lydia, Arrald Frozen-Heart, Stormcloak Soldier, Goat)"
+        },
+        {
+            "role": "assistant",
+            "content": "Stormcloak Soldier: These are strange times when an Altmer princess walks into a Stormcloak camp dressed like that. What brings you here, outlander? Daegon: Your commander's banner caught my eye. Though I must say, the fashion sense in this camp is... inconsistent. A bikini on a soldier of Ulfric? Very progressive. Stormcloak Soldier: Don't let the armor fool you. I've split more Imperial skulls than you've likely seen summers. But you didn't answer my question."
+        },
+        {
+            "role": "assistant",
+            "content": "Stormcloak Soldier: That aurora paints the sky like spilled magicka. Some say it's Dibella weaving her beauty across the heavens. What do you see in it, elf? Daegon: I see the universe slowly dying, frozen light leaking from a wound in reality. But your interpretation is cute too. Dibella probably charges a subscription fee for that view. Stormcloak Soldier: You've got a sharp tongue for someone wearing little more than string in a snowstorm. Are you a mage then? That outfit suggests either foolishness or fire spells."
+        },
+        {
+            "role": "assistant",
+            "content": "Stormcloak Soldier: I asked if you're a mage. That Altmer glow in your eyes says yes, but I've learned not to trust your kind. Daegon: My kind? You mean people who can turn you into a pile of ash with a whispered word? Yes, very untrustworthy. But don't worry, I'm only here because my friend needed to pass through. I have no interest in your civil war."
+        },
+        {
+            "role": "assistant",
+            "content": "Stormcloak Soldier: Ah, I see you travel with more of your kind. A Nord woman and a Dunmer."
+        }
+    ]
+]

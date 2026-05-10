@@ -1,42 +1,27 @@
-[Day 20, 11 at night]
-The group arrives at Sarethi Farm, with MJR equipping a Daedric Arrow; nearby are Lydia, farm animals including chickens and a goat, and Avrusa Sarethi, but no conversation takes place.
+[Day 22, 7 in the early morning]
+Lydia and Jenassa discuss the solid Nord-built fort, with Lydia approving of its martial purpose and Jenassa noting the unsettling quiet. Lydia boasts of her greatsword prowess while Jenassa counters with her stealthy approach, and both express eagerness for the Dragonborn to give them work.
 
-[Day 21, 0 at night]
-[Day 21, early morning] At High Hrothgar amid snowy steps and ancient urns, with Greybeards Arngeir, Wulfgar, Einarth, and Borri nearby, Jenassa remarks on the reek of old stone and forgotten whispers after MJR's arrow actions against distant beasts; Lydia invokes Dibella's glory in the sacred site, chiding MJR's crude reaction to its temptations while noting the chill but her inner fire, as Daegon blurts "what the fuck" in surprise.
+[Day 22, 11 at night]
+In the clear night, Jenassa noted it was good for hunting, then pointed out an unnatural pillar of light reeking of powerful magic. Lydia admired its beauty but warned that beautiful things in Skyrim often kill you, before complimenting the Dragonborn on a fine shot.
 
-[Day 21, 0 at night]
-[Day 21, night] In serene Riverwood under a starry sky with snow-capped mountains, evergreens, and warm-lit homes like the Sleeping Giant Inn amid nearby Durak, chickens, and a cow, Lydia warns her Thane MJR of lurking bandit sluts while invoking Dibella's stars and gripping her greatsword; Daegon calls the village peaceful after High Hrothgar's chill, comparing it to a warm bath versus the missed Summerset beaches.
+[Day 22, 11 at night]
+Jenassa noted with distaste that they were entering Ustengrav, another tomb carved into the earth, as the party moved deeper into the damp, echoing ruin surrounded by mudcrabs, frostbite spiders, and a lone Stormcloak Soldier.
 
-[Day 21, 1 at night]
-At the Sleeping Giant Inn in Riverwood, Jenassa and Sven exchange words by the fire, with Jenassa wary of bandits and reminiscing about dragon kills at High Hrothgar, while Sven shares tales of intrigue and overhears Delphine plotting against Thalmor spies at the Solitude embassy; Jenassa offers her blade for hire against them or bandits, and notes the player stocking up on potions and a Blades sword, amid nearby Lydia, Daegon, Korpse, Orgnar, and Delphine.
+[Day 22, 11 at night]
+Jenassa and Lydia emerged from the tomb into the open night, with Jenassa appreciating the fresh air and clear sky for hunting, while Lydia preferred the open sky for fighting. They discussed their past battles—Lydia revealing her Stormcloak sympathies and loyalty to Skyrim's Nords, and Jenassa asserting her mercenary pragmatism. They then traded jabs about their respective combat styles: Jenassa's stealthy archery versus Lydia's brute-force greatsword work, each respecting the other's skill despite their differences.
 
-[Day 21, 3 at night]
-In a dimly lit nighttime wilderness under a starry sky amid jagged rocks and boulder-strewn terrain, with nearby foxes, Lydia, Telrav, and a goat, Jenassa remarks on the bold foxes sniffing around like lurking bandits and asks Lydia if she sees the goat eyeing them.
+[Day 23, 2 at night]
+In Stonehills, Lydia commented on the eerie quiet of the mining town, Jenassa appreciated the clear sky after the tomb but noted the lack of
 
-[Day 21, 4 at night]
-In the moonlit calm of Nilheim, with Daegon and Lydia nearby amid prowling foxes and a distant wolf, Jenassa warns of the eerie hush resembling the prelude to a bandit ambush.
+[Day 23, 4 at night]
+As the party advanced deeper into Dimhollow Crypt, Lydia grumbled about the oppressive stone walls and the stench of old death, while Jenassa noted the dead's resentment clinging to their treasures. Daegon moved silently ahead, and the sudden clash of bone and snarling hounds erupted—Lydia hefted her greatsword and charged, shouting for the Dragonborn to keep loosing arrows as she split a skeleton's skull. Jenassa slid into the shadows, picking off a second skeleton with a clean shot before driving her blade through a death hound's ribs, then warned they should find their prize quickly before something worse stirred. Lydia spat at a crumbling corpse and agreed, her eyes fixed on the dark passage ahead.
 
-[Day 21, 5 in the early morning]
-[Day 21, early morning] Under the fading auroras of an early morning Skyrim wilderness amid pines, birches, and distant hills, with Lydia and thralls nearby, Daegon marvels at the lights like Dibella's dream while missing Summerset and noting Korpse's sleep, then recalls coven rituals amid a hag's death by firebolt; Jenassa warns of shadowing wolves and bandits, savors the crone's bloody end like undead kills, dismisses spiders as vermin before slaying one and the frostbite spider in combat, as MJR unleashes Fus, heals with potions, and receives Daegon's restorative grace amid the group's victory.
+[Day 23, 5 in the early morning]
+In the flooded depths of Dimhollow Crypt, Daegon grumbled about restless bones and rotting walkways, Jenassa warned of hidden dangers beneath still water, and Lydia praised MJR's echoing arrow shot while questioning the tomb's foul stench—until combat erupted against a mysterious figure named YoRHa 2B, a Death Hound, and Maya. After a chaotic skirmish involving firebolts, soul trapping, and freezing attacks, the group overcame the foes, leaving the crypt's silence to settle once more.
 
-[Day 21, 5 in the early morning]
-[Day 21, early morning] At Redwater Den amid a starry aurora-lit woodland clearing with evergreens, birches, and autumn foliage under swirling blue-red clouds, following the group's victory over a frostbite spider using Fus, Firebolt, healing potions, and Daegon's Grace—now with nearby Fox, Lydia, Redwater Lookout, wolf, and Goat—Jenassa remarks on the reek of desperation and shadows pervading the illicit den.
+[Day 23, 8 in the morning]
+In the dim depths of Dimhollow Crypt, Jenassa grumbled about the oppressive tombs and undead, while Serana (the Mysterious Woman) disrobed to better sense the magical energy, revealing she recognized the ritual channels from her father's castle. After MJR unexpectedly Shouted her across the room, Serana laughed it off, and Jenassa deduced her vampiric nature but chose to trust the Dragonborn's judgment. When MJR asked about
 
-[Day 21, 11 at night]
-[Day 21, early morning] At Redwater Den amid a dawn-lit woodland clearing with birches, evergreens, and swirling auroras, as rain turns to storm, Daegon laments the desperate reek and relentless downpour evoking the Divines' wrath while questioning the Dawn God and missing Summerset's salt air; Jenassa warns of shadowing beasts like the nearby bear, wolf, and fox, urging MJR's bow against watchful lookouts; Lydia praises Dibella's piercing light amid clear skies, vows to cleave threats to her Thane, and asks their next move.
-
-[Day 21, 11 at night]
-[Day 21, night] In the stormy veil of Autumnshade Clearing amid heavy rain over jagged mountains, autumnal trees, mossy boulders, and wet ferns, with Lydia, a wolf, two sabre cats, and a hunter nearby, Jenassa warns of the tempest's fury like angry spirits and the prowling sabre cats, urging MJR to ready his blade as she's felled worse in such downpours; Daegon groans at the endless rain turning Skyrim into a soggy nightmare, worse than Redwater Den's earlier stench.
-
-[Day 22, 1 at night]
-[Day 22, night] In Riften under a clear starry sky with auroras and autumn foliage near Rift Guards, horses, and chickens, Daegon mocks the visitor's tax as Thalmor-like extortion while praising Mjoll's anti-corruption fire akin to her coven plots and noting the lantern-lit bridges; Lydia hails Mjoll as a true Nord savior by Dibella and Aerin, vowing to protect MJR from guards, thieves, and foreigners in Stormcloak lands; Jenassa likens Riften's shadows to bandit dens and Dwemer delves, urging caution amid the crisp air; meanwhile, MJR pays Maul 142 gold in a dimly lit tavern for rumors of Aventus Aretino in Windhelm contacting the Dark Brotherhood after fleeing Riften's orphanage.
-
-[Day 22, 3 at night]
-[Day 22, night] In the aurora-veiled Skyrim wilderness amid rocky cliffs, birch groves, evergreens, and a wooden bridge under swirling purple-blue lights, with nearby horses, rabbits, snow foxes, and distant threats, Lydia vows her greatsword against trailing Riften guards, bandits, and beasts like sabre cats, wolves, frostbite spiders, and foreign orcs to safeguard her Thane under Dibella's stars, praising victorious cleavings; Jenassa savors the kills' thrill in the crisp autumn shadows, urging vigilance against ambushes and trophies from felled foes amid rustling ferns and scattering deer; Daegon mocks Riften's exit while flaming spiders, trapping souls, and striking orcs with coven flair, her rat Korpse hiding amid the chaos as she hands Daedric arrows and notes the ethereal night's deceptive peace before spotting the looming dragon Alduin.
-
-[Day 22, 4 at night]
-[Day 22, night] In the aurora-veiled Skyrim wilderness amid rocky cliffs, birch groves, evergreens, and a wooden bridge under swirling purple-blue lights, with nearby Daegon, fox, rabbit, afflicted refugee, and wolf, Jenassa warns of Alduin's encroaching shadow blotting the stars like a curse, offering her blades to carve its scales for a trophy while noting the deceptive calm of glowing leaves and uneasy wildlife urging haste; Lydia invokes Dibella's fierce beauty and tranquil stars to defy the wyrm's roar and hidden perils in the mist-shrouded hills, vowing her greatsword to shield MJR and charge head-on against the dragon or any beasts and bandits.
-
-[Day 22, 5 in the early morning]
-[Day 22, late night to early morning] In the misty aurora-veiled Dayspring Canyon amid jagged peaks, snow-dusted rocks, evergreens, and scuttling mudcrabs, with nearby foxes, rabbits, elk, wolves, afflicted refugees, Agmaer, Celann, and Durak scouting an ancient stone chamber's torchlit brazier and arched doorways, Daegon notes the eerie hush post-Alduin like coven spells, senses vampiric taint via Korpse's twitches, and laments the cold; Lydia praises Dibella's pure Nord sanctuary against foreigners and bloodsuckers, vowing her greatsword for her Thane against beasts or spies; Jenassa warns of stirring predators and hidden threats in the shadows, offering her blades for trophies in the deceptive calm.
+[Day 23, 10 in the morning]
+In Dimhollow Crypt, Serana quipped about the purple altar and the skeletons' lack of hospitality, Lydia called for Dibella's guidance before splitting bones, Jenassa dispatched foes with shadowy precision, and after a summoned gargoyle helped finish the draugr, the group exchanged banter about wounds and the need to escape the cursed ruin.
 
