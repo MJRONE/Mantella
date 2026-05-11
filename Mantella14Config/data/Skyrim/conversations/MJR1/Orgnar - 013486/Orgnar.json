@@ -104,5 +104,39 @@
             "role": "user",
             "content": "(The location is now Sleeping Giant Inn.) (Characters nearby (from nearest to furthest): Daegon, Orgnar, Lydia, Jenassa, Embry)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Sleeping Giant Inn.) (Characters nearby (from nearest to furthest): Daegon, Embry, Korpse, Lydia, Sven)"
+        },
+        {
+            "role": "assistant",
+            "content": "Orgnar: You lot look like you've been through a grinder. More mead? delphine: Not tonight, Orgnar. Too much to think about. Orgnar: Suit yourself. That dragon business got you spooked? delphine: Spooked? No. Angry. The Thalmor are moving faster than I anticipated. Orgnar: Damn Thalmor."
+        },
+        {
+            "role": "assistant",
+            "content": "Orgnar: That meat's nearly done. Smells better than anything those fancy merchants in Solitude try to pass off as roast. delphine: The fire's good tonight. Reminds me of the old Blades hideouts. We always kept a hearth burning, even in the deepest cellars. A symbol that we were still alive. Orgnar: Blades knew how to live. Shame the Thalmor couldn't let 'em be."
+        },
+        {
+            "role": "assistant",
+            "content": "Orgnar: That blonde lass by the fire. She with your group? Looks like she just stepped out of a Dibella temple, not a dragon hunt. delphine: That's Jenassa. Don't let the tattoos fool you. She's got more kills in her little finger than most mercenaries have in their whole swords. Orgnar: Hmph. Fancy gear for a sellsword."
+        },
+        {
+            "role": "assistant",
+            "content": "Orgnar: That's the storage room. Got some rare alchemy ingredients in there. Fire salts, nightshade, even some powder from a dead mage's staff. delphine: You've been experimenting again. I told you to be careful mixing those concoctions. The whole inn could blow. Orgnar: Only blew up once. And I fixed the ceiling. Mostly."
+        },
+        {
+            "role": "assistant",
+            "content": "delphine: Mostly. You mean there's still scorch marks above the bar I have to look at every night. Orgnar: Adds character. Gives the place a story. Like that scar you've got under your arm. delphine: That's not a scar from a story. That's from a Thalmor blade in a back alley of Bruma. Orgnar: Told you, those elves fight dirty. Should've let me come with you back then."
+        },
+        {
+            "role": "assistant",
+            "content": "Orgnar: Water under the bridge. You're still here, still kicking. That's what matters. delphine: For now. But the dragons won't wait, and neither will the Thalmor. I need to rest while I can. Orgnar: Get some sleep. I'll keep the fire going."
+        },
+        {
+            "role": "assistant",
+            "content": "Orgnar: That candle's burning low. Let me fetch another from the cabinet. delphine: Don't bother. I've seen enough in this dim light to last a lifetime. Orgnar: Suit yourself. I'll be at the bar if you need me. That meat won't serve itself. delphine: Go on. I'll lock up the back when I'm done here."
+        }
     ]
 ]

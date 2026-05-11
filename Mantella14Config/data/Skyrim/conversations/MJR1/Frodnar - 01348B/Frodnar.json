@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Riverwood.) (Characters nearby (from nearest to furthest): Lydia, Jenassa, Stump, Alvor, chicken)"
+        },
+        {
+            "role": "assistant",
+            "content": "Frodnar: Look, Dorthe, that traveller over there must be new in town. I bet Stump could chase a chicken at 'em and see how they react. Dorthe: Frodnar, you're always up to mischief. Maybe some folk just want a quiet evening without your pranks."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene depicts a bright, outdoor settlement on a sunny day. On the left side, a large wooden archway topped with a thatched roof stands prominently; hanging from the wood is a sign that reads \"Froldnar.\" Beneath this structure, there appears to be a covered area with various items. In the center foreground, a wooden two-wheeled cart sits empty on the dirt path. To the right, two figures are standing with their backs to the viewer. The character closest to the camera has long, platinum-blonde hair and is wearing a minimal outfit consisting of leather straps and a bikini bottom, with a sword sheathed on their back. Beside them is another figure with reddish hair, dressed in similarly light and revealing attire. Behind the figures are rustic log buildings with dark, sloping roofs. In the background, a steep, rocky mountain peak rises into the sky. Unusually, a glowing column of cyan light is emanating from the top of the mountain, stretching upwards. Several tall pine trees are scattered around the area. In the bottom left corner of the view, the text \"Grab\" and \"Exit\" is visible.)"
+        }
+    ]
+]
