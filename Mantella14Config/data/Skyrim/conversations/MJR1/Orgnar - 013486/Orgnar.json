@@ -138,5 +138,19 @@
             "role": "assistant",
             "content": "Orgnar: That candle's burning low. Let me fetch another from the cabinet. delphine: Don't bother. I've seen enough in this dim light to last a lifetime. Orgnar: Suit yourself. I'll be at the bar if you need me. That meat won't serve itself. delphine: Go on. I'll lock up the back when I'm done here."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Sleeping Giant Inn.) (Characters nearby (from nearest to furthest): Lydia, Daegon, Embry, Sven, Korpse)"
+        },
+        {
+            "role": "assistant",
+            "content": "delphine: The Thalmor are getting bolder. I've had word from a contact that they're poking around Riverwood more often now. Orgnar: Thalmor don't usually bother with a small inn like this unless they're hunting something specific."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* This scene depicts a first-person perspective inside a rustic, open-air structure, likely a tavern or market stall, characterized by heavy timber construction. The ground is paved with uneven, rough-hewn flagstones in varying shades of grey and brown, illuminated by dappled sunlight that creates a complex pattern of light and shadow across the floor. Dominating the right side and center of the view are massive, vertical wooden support beams. These logs have a realistic, rough bark texture and cast deep shadows onto the stone pavement. Behind the central pillar, a wooden barrel stands near a dark wooden wall. To the left, a sturdy wooden counter stretches across the background. Behind it stands a figure dressed in earth-toned clothing, appearing to be a server or merchant. On the counter sits a wooden keg, and above it, strings of white objects\u2014resembling garlic or dried herbs\u2014hang from the rafters alongside some greenery. On the far right edge, part of another individual is visible, showing a dark sleeve and what looks like a belt or waistband. At the very bottom of the frame, a curved, black graphical bar arcs across the view, featuring subtle white etchings and the letter \"E\" centered within it.)"
+        }
     ]
 ]

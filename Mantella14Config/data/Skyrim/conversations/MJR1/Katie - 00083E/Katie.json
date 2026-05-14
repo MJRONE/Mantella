@@ -1,0 +1,12 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Volskygge.) (Characters nearby (from nearest to furthest): Lydia, Lexa, Julianne, draugr)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Great, more draugr."
+        }
+    ]
+]

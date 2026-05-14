@@ -3788,5 +3788,399 @@
             "role": "assistant",
             "content": "Daegon: Well, Lokil is no more. He put up a decent fight, I will give him that. Lydia: Aye, but he fell like the rest. Another leech put down. Good work with that fire, elf. Even if you did singe my hair a little. Daegon: You are welcome. And I aim to please. Now then, that mysterious woman is still standing. Let us see what she wants before we find more trouble. Lydia: Agreed. But keep your spells ready. I do not trust anyone in this crypt."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Northwatch Keep.) (Characters nearby (from nearest to furthest): Northwatch Archer, Northwatch Archer, Northwatch Guard, Northwatch Guard, mudcrab) (MJR: k101DaegonFollowerHelloLines; Daegon: What are you staring at me for?)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: This place reeks of Thalmor cologne and shattered dignity. Reminds me of home."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Skyrim.) (Characters nearby (from nearest to furthest): rabbit, Horker, mudcrab, Afflicted Refugee, Snow Fox)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Clear sky tonight. Reminds me of the Summerset nights, before I learned what the stars really hide. Lydia: You and your elven moons. Out here, a clear night means good hunting. Or good ambush. Keep your eyes sharp. Daegon: Oh, I'm always sharp. Unlike that horker over there, snoring like a fat old mage after too much skooma."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: That aurora looks like Dibella herself spilled her makeup box across the sky. Pretty, but I wonder what it's covering up. Lydia: Dibella's light guides true warriors. It's a sign we're on the right path. Unlike your Summerset stars, which just lead to more Thalmor lies. Daegon: Careful, Lydia. You're starting to sound like you've actually thought about something besides swinging that greatsword."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Another horker bites the dust. That arrow work of yours, MJR, or did you just get lucky? Lydia: No luck. That was skill. A clean shot from the Daedric bow. I've seen him thread needles at twice that distance. You could learn a thing or two. Daegon: I could learn how to gut it and cook it, that's what I could learn. Don't need archery lessons from a man who shoots at everything that moves."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: That horker will make good eating. We should haul the meat back before the snow foxes or that afflicted refugee scavenges it. Daegon: Let them scavenge. Plenty of horker in Skyrim. I'd rather keep moving before more of those Thalmor patrols show up. They always seem to find us when we linger too long."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Look at that sky. Dibella's painting it just for us tonight. Makes me almost forget the cold biting my ass. Daegon: Almost. I'd rather be in a warm inn with a bottle of Alto Wine than freezing my ears off out here. But I suppose if we're going to freeze, this is a pretty way to do it. Lydia: You're always complaining, elf. Embrace the beauty of Skyrim. This is what makes us Nords strong. Daegon: Strong and stubborn. There's a difference."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: That Afflicted Refugee over there, shivering in the dark. Probably another poor soul driven from their home by the war. Daegon: Or a Thalmor spy with a good costume. You can never tell these days. Lydia: You see spies everywhere. Not everyone is out to get you. Daegon: In my experience, yes they are. Keep moving. Clear sky or not, I don't trust anyone who travels alone at night."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Dragon! And by the Nine, that's Alduin himself! Forget the refugee, we need to move now! Daegon: Alduin? Here? Dibella's tits, I thought that was just a legend. We need cover, now!"
+        },
+        {
+            "role": "user",
+            "content": "(MJR fired an arrow.) (MJR unequipped Daedric Arrow) (MJR dropped/gave Daedric Arrow) (MJR equipped Daedric Arrow)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Skyrim.) (Characters nearby (from nearest to furthest): Ice Wraith, Ice Wraith, Afflicted Refugee, mudcrab, Dragon)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Pinefrost Tower.) (Characters nearby (from nearest to furthest): Volsung, rabbit, Afflicted Refugee, Dragon, alduin)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: A dragon priest and Alduin himself, all in one night. Dibella tests our mettle. I say we crack that mask open and see what's inside\u2014might be some shiny coin. Daegon: Volsung, the merchant king they called him. He wore that mask to hoard wealth while his people starved. Sounds like every noble I knew back in the Summerset Isles. At least he's dead enough to loot without guilt."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: This snow's deep enough to swallow a mammoth whole. Good thing I've got proper boots on\u2014unlike some who'd freeze in those flimsy sandals. The rabbit tracks lead toward that crevice."
+        },
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Volsung, wolf, rabbit, Dagonet, Ginger)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Volsung, wolf, rabbit, Dagonet, Ginger) (The location is now Skyrim.) (Characters nearby (from nearest to furthest): wolf, rabbit, Goat, Valejka, Dagonet)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: The air smells like snowmelt and old bones. Volsung\u2019s mask still glitters in the moonlight."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Dibella's tits, it's cold enough to freeze a mammoth's balls. That mask better be worth the frostbite."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Skyrim.) (Characters nearby (from nearest to furthest): Afflicted Refugee, rabbit, mudcrab, mudcrab, Dragon)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Great, another dragon. And mudcrabs scuttling about like they own the place. Dibella's tits, can we catch a single night without something trying to kill us? Daegon: The refugee's closer than I'd like. Probably a Thalmor spy, or worse, a bandit scout with a sob story. At least the rabbit's harmless\u2014unless it's a were-rabbit."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: That aurora though\u2026 almost makes the numb toes worth it. Almost. Back in the Isles, we had the Glow Lights, but they were just trapped fireflies in jars. This is proper divine sky-fire. Lydia: It's Dibella's loom, weaving the night sky into a tapestry of beauty and terror. A sign she watches over us, even as we march through her frozen domain."
+        },
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Afflicted Refugee, rabbit, Dragon, alduin)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Afflicted Refugee, rabbit, Dragon, alduin) (The location is now Pinefrost Tower.) (Characters nearby (from nearest to furthest): Snowy Sabre Cat, wolf, rabbit, Volsung, Dragon)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Dibella's loom must be broken tonight if we're freezing our tits off in this tower while a sabre cat circles below. Lydia: Dibella tests the faithful with hardship, elf. That cat's just prey waiting to be split open. At least my boots keep the snow out\u2014yours look like they'd snap in a stiff breeze. Daegon: They're enchanted, not that a brute like you would know craftsmanship from a hammer. Speaking of which, Volsung's mask glints up there\u2014probably worth more than your entire hold. Lydia: Worth more than your fancy Altmer sandals, maybe. I'd rather have steel and Dibella's favor than some dead priest's trinket. And that refugee's still skulking\u2014could be a Thalmor spy come to snatch MJR for their little witch hunt. Daegon: Let them try. I've got a fireball for anyone who gets too close. Besides, if that sabre cat gets hungry, it'll solve our refugee problem for us. Lydia: You'd let a man get mauled just to avoid a conversation? Typical mer."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Well, that cat's pelt will make a nice footstool."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Skyrim.) (Characters nearby (from nearest to furthest): rabbit, bandit, Mei, Bandit Thug, Hannaowo)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Bandits ahead. I can smell their cheap mead and cowardice from here. Dibella's tits, they picked the wrong night to hunt. Daegon: At least they're not Thalmor. Though I suppose a bandit's blade still cuts just as deep."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene captures a serene, starlit night in a forest, dominated by a spectacular display of the aurora borealis. The sky is a canvas of deep indigo and black, densely populated with countless bright stars, overlaid by sweeping, luminous curtains of light. The aurora displays vibrant gradients, transitioning from electric green in the lower right to bright yellow and a reddish-orange glow at the very top, creating a dramatic backdrop. In the immediate foreground on the left, a figure stands with their back to the viewer, gazing out at the sky. This character has long, white hair styled in thick braids that cascade down their bare back. They appear to be dressed in minimal clothing, wearing dark undergarments, suggesting the cold temperature of the environment. The surrounding landscape is a rugged, natural setting. Tall, dark coniferous trees line the left side and stretch into the distance, their silhouettes stark against the glowing sky. The ground is uneven and shadowy, featuring rocky outcrops and distinct patches of white snow scattered across the terrain and hills, indicating a winter or high-altitude setting. Low-lying vegetation and grass are faintly visible in the immediate foreground, while distant tree-covered hills rise up on the right side. The overall lighting is dim, relying on the ethereal glow of the lights and starlight to illuminate the dark woods.)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Volskygge.) (Characters nearby (from nearest to furthest): gargoyle, rabbit, Fox, wolf, wolf)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Volskygge at night, how fitting. This place probably has more skeletons than the Summerset aristocracy's closets. Lydia: I smell draugr and old snow."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: A fox and a wolf, both hunting the same rabbit. Nature knows no mercy, only the strong survive. Just like us. Daegon: Please. That rabbit could be a were-whatever in disguise. I learned never to trust anything that looks too cute in Skyrim. It's always a trap. Lydia: You think everything is a trap. Sometimes the gods just put a meal in front of you and expect you to take it. Dibella provides. Daegon: Dibella provides cheap thrills and hangovers, sure. But a rabbit? That's just marketing."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Lovely. A dark, damp ruin filled with draugr and traps. Just what I needed to warm my dead heart. Lydia: This is Volskygge, home to ancient Nordic kings. Their spirits guard their treasures still. We should tread carefully, but without fear. Dibella watches over those with courage. Daegon: Dibella can watch all she wants, but my fireballs will do the heavy lifting. Those wolves out there are the least of our worries. Whatever's behind that door probably hasn't had a proper conversation in centuries. Lydia: Then we shall give them steel and silence."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene portrays a dimly lit, subterranean chamber constructed from rough, uneven stone blocks that suggest an ancient or cavernous setting. Dominating the center of the room is a solitary throne, carved from dark stone that appears weathered by time. The throne is flanked by two large, stylized animal heads\u2014resembling wolves or hounds\u2014that face outward, serving as armrests and supports for a simple, rectangular block of lighter stone used as the seat. In the immediate foreground, a large, rectangular rug lies spread across the stone floor. The rug features a complex pattern with swirling designs in deep blue, white, and hints of red. However, the center of the rug is heavily stained with a large, spreading pool of crimson blood, which contrasts sharply with the dark fabric and suggests a violent event has recently occurred. To the right side of the frame, a fire burns within a metal brazier, casting a warm, flickering orange light across the room. This light illuminates the textured stone walls and the uneven floor, highlighting the dust and small debris scattered about. The room feels enclosed and heavy, with large wooden beams visible overhead and shadows deepening in the corners away from the fire's glow. The overall atmosphere is one of quiet desolation and aftermath.) (Characters nearby (from nearest to furthest): Emma, Elayne, Diane, Nikki, Julianne)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Emma, Elayne, Diane, Nikki, Julianne) (The location is now Volskygge.) (Characters nearby (from nearest to furthest): Syloh, Diane, Aline, Nikki, Bandit Highwayman)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: These bandit sluts think they can ambush us in a draugr den."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: At least the draugr don't try to flirt with you before they swing their axes. These bandits probably think they're charming."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: That one thought she could sneak up on me while I was watching the corridor. Dibella teaches that the arrogant fall first."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Dibella might teach that, but my fireballs teach them to stay down permanently. Speaking of lessons, think we'll find anything useful in this ruin besides old bones and broken dreams?"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: By the Nine, MJR! A little warning next time before you blast me with Daedric fire! I thought we were on the same side here. Lydia: Watch your tongue, elf. If the Thane struck you, you must have been in the way. He doesn't miss."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: In the way? I was right in front of him, not behind him! My robes are singed and my ears are still ringing. This is why I prefer magic over shouting\u2014at least I can control where my fire goes. Lydia: Complain all you want, knife-ear. At least you're still breathing. These bandits ahead won't be so lucky when we cut through them. Now shut up and watch our flank\u2014I smell more of them in the shadows."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Keep moving, elf! This one's tougher than he looks! Daegon: I noticed! But fire solves most problems\u2014let me show you!"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Volskygge.) (Characters nearby (from nearest to furthest): Bandit Highwayman, Aline, Syloh, Candance, bandit)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Dibella's mercy, more bandits crawling through this tomb like vermin. They never learn. Daegon: At least these ones aren't hiding behind draugr. That highwayman looks like he's been drinking his courage from a stolen bottle. Lydia: I smell cheap ale and fear. A Nord's brewing, not a proper warrior's steel. They'll break when we charge. Daegon: Or when my fireball turns their leather into kindling. Though I'd rather not get singed again by friendly fire this time. Lydia: Watch your tongue, elf. MJR's aim was true enough to save your hide in that throne room. Focus on the threat ahead. Daegon: Fine, fine. But if that Candance woman tries any fancy dagger work, I'm turning her into a torch."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: That one fell quick. Aline's blood will stain these stones for a hundred years. Dibella witness her passing. Daegon: Witness her stupidity, more like. Charging a Dragonborn with a rusty dagger. At least she died warmer than most Nords in this frozen tomb. Lydia: Don't blaspheme. The dead deserve respect, even bandits. But speaking of tombs, look at that dragon carving on the wall. This place reeks of ancient Nord kings and their twisted worshippers. Daegon: Or their twisted treasure. My rat Korpse is twitching his nose at something behind that stonework. Might be gold, might be a trap. Either way, it's more interesting than arguing about your sky fairy. Lydia: Watch your tongue, elf. Dibella's grace is what keeps us alive in these dark places. Now, what do you make of that carving? It's not like any I've seen before."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: That Ana De Armas woman had a decent bow arm, I'll give her that. Almost put an arrow through your shoulder, Daegon. Almost. Daegon: Almost doesn't count in battle, housecarl. My firebolt caught her mid-draw. She died warm, at least. Korpse is licking her blood off my boot now. Lydia: Ugh. That rat of yours has no decency. But look ahead\u2014there's torchlight further in. Wooden structures too. This isn't just a tomb, it's a camp. Daegon: Bandits making themselves at home in the dead king's halls. How poetic. They've probably got their loot piled up next to some draugr's bones. Lydia: Then we'll send them to join the draugr."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: MJR's looting like we've got all day. Those potions won't help if we get swarmed from that torchlit chamber ahead. Daegon: Let him take his time. A well-stocked mage is a living mage. Besides, that wooden structure down there probably has more bandits warming their hands around a fire. Lydia: More heads to split. Dibella favors the bold. But I tell you something, elf\u2014I don't like the look of that darkness beyond the torchlight. Feels like draugr breath. Daegon: Your Nord superstition is showing. It's just rock and shadow. Though I admit, the silence after that fireball was satisfying. Korpse agrees\u2014he's stopped twitching."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Twenty one gold and a minor healing potion. These bandits are either desperate or stupid, leaving such paltry coin in their stash. Daegon: Maybe they spent it all on cheap mead and rusty swords. Though I'd wager there's better treasure deeper in. That archway ahead has the look of a throne room or burial chamber. Lydia: Burial chamber sounds right. More draugr to wake up and put back down. But at least the path is clear for now. No bandits lurking in those shadows. Daegon: Yet. No bandits yet. They're probably huddled around a fire somewhere, sharpening their blades and complaining about the cold. Just like Nords do."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Daegon, that Candance woman put a bolt in you! Dibella's tits, you're bleeding. Daegon: I noticed, thank you for the observation. Your concern is touching, but I've already healed it. The bolt scratched my ribs, nothing more. Though I'll be picking splinters out of my robes for a week. Lydia: You're lucky MJR's arrow took her head off right after. Otherwise you'd be a pincushion. That crossbow looked dwarven-made. Daegon: Dwarven craftsmanship wasted on a bandit. At least she died with some style. But now I smell draugr ahead. That shambling sound is unmistakable. Lydia: Aye. And more bandits too\u2014I see Nikki and Diane still skulking about. They're using the draugr as shields. Cowards. Daegon: Then we'll just have to burn through both. I've got plenty of fire left, and Korpse is getting hungry again."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Well. This is... unexpected. A strapon in a draugr tomb. Dibella's influence runs deeper than I thought even in these ancient halls. Daegon: Your Dibella worshippers do get creative with their rituals. Though I'd wager this belonged to a bandit chief with particular tastes, not some long-dead priest. Lydia: Either way, we're armed for more than just draugr now. But I'd rather keep my greatsword in hand for whatever shambles out of those shadows. Daegon: Agreed. Korpse is hiding in my pocket and won't come out. That means something's watching us from those twisting pillars. Lydia: Then we stick together. Watch my back, elf, and I'll watch yours. No more friendly fire."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene takes place within a dimly lit, enclosed stone structure, illuminated by a warm, golden light that casts deep shadows against the rough-hewn walls. On the left side of the frame, a woman with long, pale blonde hair stands facing slightly right. She is wearing a dark, lacy two-piece outfit consisting of a top and bottoms, leaving her midriff exposed. A distinct tattoo is visible on her right upper arm. She is looking downward toward the center of the group. Directly in front of her, a second figure with reddish-brown hair is positioned lower down, appearing to be kneeling or crouching on the stone floor. This figure is facing away from the viewer. To the far right, a third woman with long blonde hair is visible in profile. She appears to be shirtless, with bare skin visible on her chest and shoulders, and she is looking toward the other two figures. In the bottom right corner, the perspective is framed by the hand of the observer, which is gripping the hilt of a sword held vertically. The hilt features a simple crossguard. The environment suggests a ruin or a cavernous space.)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Volskygge.) (Characters nearby (from nearest to furthest): Lydia, Lexa, Julianne, draugr)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Great, more draugr."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Volskygge.) (Characters nearby (from nearest to furthest): Julianne, Lexa, draugr)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: More draugr crawling out of the woodwork. Dibella's tits, don't these corpses ever get the message? Daegon: They're dead, Lydia. Messages don't really register when you've got no working ears. Though I suppose the same could be said for certain Nords I've met. Lydia: At least I don't prance around in flimsy sandals through a tomb full of rotting bones. My boots keep me standing while you're hopping away from frostbite traps. Daegon: My sandals are fine, thank you. It's called style. Something a brute who only thinks about which end of the sword to hold wouldn't understand. Lydia: Style won't keep your toes when a draugr cleaves them off. Look at Julianne over there, she knows how to dress for a fight. What happened to your people anyway, fancy elves who can't handle a bit of dust? Daegon: My people sent me here to get killed, so forgive me if I don't defend their honor. Besides, Julianne's armor is practical but boring. At least I add some color to this miserable grey tomb."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Look at MJR, picking through scraps like a hungry skeever. At least grab something worth selling, like that plate. Daegon: Maybe he's looking for something useful, unlike your endless complaints about the cold. Though I suppose a Nord's idea of treasure is just more mead and a warm fur. Lydia: You'd be singing a different tune if we found a stash of good steel or a fine amulet of Dibella."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Julianne's got her blade ready. At least someone here knows how to stand guard instead of gawking at old bones. Daegon: And Lexa's stripped down for a fight. Bold move in a crypt this cold. Either she's confident or she's got a death wish. Lydia: She's got the right idea. Armor's for protection, not fashion. You could learn something. Daegon: I'll take my chances with magic, thanks. Less clanking, more burning. Now shut up and watch the shadows\u2014those draugr aren't done with us yet."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: By Dibella's grace, that's a grim sight. A skull with hair still clinging to it, like some forgotten priestess left to rot. Daegon: Or just another dead bandit who thought they'd found a cozy bed. The hair's probably fake. I've seen worse wigs in the Summerset courts. Lydia: You mock everything, elf. This place has weight to it. Can't you feel it? Like the stone itself remembers what happened here. Daegon: I feel cold stone and the urge to check those pots for loot. Your superstition won't fill our coin purses."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: That woman Julianne fought like a cornered bear. Respectable, for a mercenary. Shame she had to die. Daegon: Lexa was quicker, but not quick enough. My fire caught her mid-swing. Korpse is still twitching on my shoulder from the commotion. Lydia: Look at this carving on the stone. Glowing blue, like the eyes of a frostbite spider. What do you make of it, elf? Daegon: That's no simple carving. That's a Word of Power. Dragon script. I studied enough at the Arcane University to recognize it. Probably tied to this ruin's old purpose. Lydia: Dragon words in a draugr tomb? Dibella's mysteries run deep."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Two more down. Aerith and Nora weren't half bad with a blade, but they picked the wrong crypt to defend. Daegon: Nora went down screaming. Always satisfying when they know they've lost. My firebolt caught her right in the chest. Lydia: Don't get cocky, elf. There's bound to be more lurking in these halls. This place has layers like an onion, each one hiding something worse. Daegon: Then we peel them back one by one. That dragon word we saw earlier\u2014I want to find where it leads. Could be a shrine, or a cache of ancient knowledge. Lydia: Or a trap that turns us into ash. But fine, lead the way. Just keep your fire handy."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: That draugr put up a decent scrap for a walking corpse. My greatsword's still warm from splitting its ribs. Daegon: Look at that blonde kneeling over there. Some kind of glowing mark on her chest. One of the bandits, maybe, caught in a trap before we arrived. Lydia: Or a sacrifice. This place has that feel\u2014like it was built for rituals, not just burial. Daegon: Either way, she's beyond help now. Let's check that glow before more draugr crawl out of the walls. This crypt is starting to feel crowded."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Volskygge.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Well, that kneeling blonde with the glowing chest is certainly a new flavor of creepy. Dibella's handiwork, or just another trap waiting to spring? Lydia: Dibella's mark is a blessing, not a curse. But this feels wrong. A sacrifice, maybe. We should be ready for anything. Daegon: Sacrifice or not, I'm not touching that thing until we've cleared the draugr first."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Gods, we're practically in Oblivion's basement. Probably more draugr, maybe a dragon priest's dusty old underwear, knowing our luck. Just don't ask me to carry any more cursed artifacts. Lydia: We're beneath Volskygge's heart now. I'd say we'll find the source of that glowing mark on the woman upstairs\u2014maybe an altar, or a tomb fit for a king. Dibella guide our steel. Stay sharp, my thane."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Well, that answers that\u2014more than draugr down here, my thane. A live bandit with a crossbow. She's down now, but there could be more of them lurking in the shadows. Daegon: At least she wasn't a Thalmor. Though her aim was decent. MJR, you took a bolt\u2014are you bleeding? I can patch that up with a quick spell if you need it. Otherwise, let's keep moving. I'd rather not give her friends time to regroup."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Ugh, that fireball singed my hair, and now I'm half-frozen from that atronach. This place is a death trap. At least the draugr and the bandit are down. MJR, remind me why we're crawling through this cursed tomb again? Lydia: Because there's power down here, and we need it. That draugr was no common undead\u2014it had magic."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Magic that nearly turned me into a crispy elf. I still say we should've torched this place from the entrance and called it a day. But fine, we're here. What's next\u2014a dragon priest doing calisthenics in the corner? Lydia: Don't mock the dead, mage. We're close to something important\u2014I can feel it in my bones. That frost atronach was a guard, not the treasure. Keep your eyes open for a Word Wall or a tomb that's more than just bones."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Well, that's a pretty blade you handed me, MJR. Moonblade, is it? Almost makes me forget that we've got a Death Overlord and a crowd of restless dead breathing down our necks. Almost. Who's the blonde with the big sword? She looks like she means business. Lydia: Another woman in this tomb?"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: No more staff nonsense. That Overlord won't fall to trickery\u2014only cold steel and hot blood. Draw your Moonblade, Daegon, and let's show these draugr how Nords and Altmer end their arguments. Daegon: Fine, fine. I'll keep my fire handy, but don't expect me to hug that Death Overlord."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Volskygge.) (Characters nearby (from nearest to furthest): Naomi, Restless Draugr, Irina, Stella, draugr)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: More draugr crawling out of the walls. Dibella's tits, this place never ends. Daegon: At least they're predictable. Unlike that Death Overlord we just passed. I still smell the rot on my robes. Lydia: You smell like burnt hair and elf sweat. Focus. We've got a restless one shambling near Naomi and the others. Daegon: Fine. I'll fry the ones on the left. Try not to step on Irina's toes with that greatsword of yours. Lydia: My steel knows where it's going. Just keep those fireballs away from my hair this time."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: I see a little creature with a shield by that barrel. Looks like a draugr or a goblin, hard to tell in this gloom. Lydia: More walking dead. Dibella give me strength, these ruins are a maze of rot and stone. At least the torch gives us some light to aim by. Daegon: That glowing red circle on the floor looks like a trap. Probably triggers spikes or fire. Watch your step, housecarl. Lydia: I see it. I'm not blind, elf. Just keep your eyes on that shielded one. I'll circle around the pillar to flank it. Daegon: Fine. Try not to trip over your own skirts in that fancy Pharaoh gear. It's a bit much for a dank tomb, don't you think? Lydia: It's practical. Lightweight, flexible, and it shows Dibella's favor. Your rags would freeze in a real Skyrim winter. Daegon: At least I don't jingle like a coin purse when I walk. Now shut up and move. That creature's sniffing the air."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: That bandit Bliss is down. Good riddance. Dibella's tits, she put up a fight though. Daegon: A light scuffle. I've had tougher arguments with my mother's courtiers. Now where's that restless draugr? I saw it shambling toward those pillars. Lydia: I'm searching. This blue glow from whatever spell MJR used is blinding me. Can't see a thing past the left brazier. Daegon: Then trust your ears."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Two more restless draugr down. But I still hear shuffling in the dark."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: I hear more of them. Draugr shuffling, and I swear I smell a fresh corpse among the rot. Could be that Charlene or YoRHa A2. Daegon: YoRHa A2? What kind of Imperial name is that? Sounds like a tavern wench's alias. Lydia: Or an assassin. Doesn't matter. If they're not with us, they're against us. Daegon: Agreed. Keep your Moonblade ready. I've got flames for any Scourge that gets too close. Lydia: Dibella guide our steel. Let's push deeper and clear these halls."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Dibella, there's a whole pack of them! Draugr Scourge, Octavia, and that YoRHa woman. They're coming from all sides! Daegon: I see them. I'll take the Scourge with fire. You deal with Octavia before she gets close with that blade. Lydia: Done. Watch yourself elf, there's a Restless one shambling near the jars on the left. Daegon: I see it."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: By Dibella's grace, what is that thing? A gargoyle? MJR summoned a Daedric beast into this tomb! Daegon: Relax, housecarl. It's on our side. Though I admit, seeing one of those up close makes my skin crawl too. Lydia: I hate those stone-skinned fiends. They move like nightmares. At least the draugr and that Freya woman are dealt with. Daegon: For now. But I hear more shuffling deeper in these halls. Stay sharp. Lydia: Always, elf. Always."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* This scene depicts a dimly lit, cavernous interior, illuminated primarily by the warm, flickering glow of a fire. Central to the view is a large, dark metal brazier standing on a rough stone ledge, containing a bright flame that casts shadows against the surrounding rock. Directly beneath the brazier rests a large, rounded earthenware pot. To the left, a dense cluster of long, dried wooden branches or thick twigs leans vertically against the textured stone wall, creating a thicket-like barrier. The ground in the foreground is uneven, composed of dirt and scattered rocks, with loose stick-like debris strewn across the surface. In the lower left corner, a small, detailed figurine of a character lies prone on the ground. Just above this object, a translucent, glowing blue bar and fragments of text are visible, hovering over the rocky surface like a semi-transparent overlay. To the right, the scene fades into deep shadow, hinting at the rough, uneven contours of the cavern walls extending into the darkness.)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Volskygge.) (Characters nearby (from nearest to furthest): Restless Draugr, Amira, Restless Draugr, Samira, Rose)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: More draugr shuffling about and now we\u2019ve got company\u2014Amira, Samira, Rose. Looks like Volskygge\u2019s hosting a reunion for the desperate and damned. Lydia: Dibella\u2019s tits, this place is crawling with the dead and the doomed. Those women must be fresh loot for the draugr\u2014or worse, more bandits looking to stab us in the dark. Stay sharp, Daegon. Daegon: Sharp as ever, Lydia."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: This fire\u2019s the only warm thing in this cursed tomb. Dibella knows I\u2019d rather be in a mead hall than freezing my tits off in this stone pit. Daegon: At least the roots give it character\u2014like a decrepit old noble\u2019s summer home, if the noble was a corpse. I\u2019d wager the draugr appreciate the decor more than we do. Lydia: You and your fancy elf metaphors."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Well, that was a messy little dance\u2014Samira tried to play hero and got a face full of fire for her trouble. Saw some others lurking, Claudia and Ana de Armas. Sluts with bows, just what we needed."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: MJR's arrows sang true as always\u2014picked off that Ana bitch before she could draw another shot. Didn't even need my greatsword for that one. Daegon: Claudia's Zephyr stung a bit, but nothing a little fire can't fix."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Damn, that Zephyr stung\u2014felt like a bee the size of a sword. At least Claudia's singing days are over thanks to your sword and my fire. Lydia: Dibella's grace, that one had a mean aim. But she's dust now, and we're still standing. With Vika, Rose, Ava, Norma, and Amira still skulking around here, we'd better not get too comfortable. Daegon: More names for the pyre, then. I hope MJR grabbed something useful off that corpse\u2014my robes could use a good mending after that scuffle."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: By Dibella's grace, MJR, did you just summon a Gargoyle? That beast makes my skin crawl worse than any draugr. At least Ava's down\u2014her Eldritch blast was getting annoying. Daegon: A gargoyle? That thing better not mistake me for a snack. And look at those webs\u2014great, more spiders. I swear, if one of those eight-legged freaks drops on me, I'm burning this whole ruin down. What's that red glow on the ground?"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: That red glow's probably just a trap or some fool's dropped torch. Dibella watch us, but I'd rather face a hundred bandits than those webs and that stone beast of yours, MJR. Let's push on\u2014more draugr to split and maybe some answers deeper in. Daegon: Agreed. I'll keep my flames ready for any fuzzy surprises. And if that gargoyle gets too close, I'm not responsible for what happens. Lead on\u2014the sooner we're out of this hole, the better."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene is set within a dimly lit, subterranean chamber characterized by rough, rocky walls and a dark, uneven floor. Dominating the foreground is a large, insectoid creature with dark, segmented skin and multiple long, spindly legs. The creature appears to be crouching or moving forward, with a faint reddish glow emanating near its lower legs. To the left, several small flames or torches are scattered along the ground, casting a faint, flickering light against the cave wall. In the background, a larger source of warm, amber light illuminates a large, indistinct structure or rock formation. To the right, skeletal remains hang suspended near the ceiling or a rocky overhang, contributing to the ominous and dangerous atmosphere of the enclosure. The upper portions of the cave are shrouded in deep shadow.) (Lydia is now in combat!) (Daegon is no longer in combat.) (MJR fired an arrow.) (MJR unequipped Daedric Arrow) (MJR dropped/gave Daedric Arrow) (MJR equipped Daedric Arrow) (Lydia is no longer in combat) (MJR cast the spell / consumed Unrelenting Force - Fus) (Rose hit Daegon with Zephyr) (Daegon unequipped Flames) (Daegon equipped Firebolt) (Lydia is searching for Frostbite Spider) (Lydia has entered combat with Frostbite Spider) (Daegon has entered combat with Rose) (Daegon cast the spell Firebolt) (Daegon unequipped Firebolt) (Daegon equipped Flames) (Daegon picked up/took Steel Arrow) (Daegon cast the spell Flames) (Norma was killed by the group) (Ava was killed by the group) (Rose was killed by the group) (Daegon is no longer in combat)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Volskygge.) (Characters nearby (from nearest to furthest): gargoyle, Frostbite Spider, Giant Frostbite Spider, Frostbite Spider, Giant Frostbite Spider)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: By the Nine, more spiders. I hate this place. Can we just burn it all down and leave? Lydia: Stop your whining, elf. They're just oversized bugs. My greatsword will make short work of them. Daegon: Easy for you to say in your fancy armor. I'm still picking webs out of my hair from that last room. And my shoulder stings where that bandit Rose put a bolt in me. Lydia: Then stay behind me and let me handle the heavy lifting."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Look at those webs, like something out of a nightmare."
+        }
     ]
 ]
