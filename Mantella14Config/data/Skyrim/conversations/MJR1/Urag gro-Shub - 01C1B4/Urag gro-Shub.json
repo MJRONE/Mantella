@@ -42,5 +42,41 @@
             "role": "assistant",
             "content": "Lydia: By the tight ass of Diabella, this cursed pile of rocks smells worse than a skeever's cunt."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Arcanaeum.) (Characters nearby (from nearest to furthest): Daegon, Serana) (MJR: I need to learn about something we found in Saarthal.; Urag gro-Shub: I know what you want. Word travels fast around here. Discovered some big mystery, huh? Well you don't even need to ask. No, I don't have anything for you. Not anymore, anyway. MJR: You don't have anything that can help?; Urag gro-Shub: I said not anymore. Orthorn stole a number of books when he ran off to Fellglow Keep to join those summoners. Some kind of peace offering. I think one of those volumes may have had some relevant information. If you want them, you'll have to talk to Orthorn. MJR: I need to find a moth priest.; Urag gro-Shub: A moth priest? What in Oblivion do you need a moth priest for? MJR: My business is my own. Just tell me what I need to know.; Urag gro-Shub: Fine, fine. No need to get your breeches in a twist. The obvious answer is to go to the Imperial City. The moth priests make their home in the White Gold Tower. Sometimes they go out looking for Elder Scrolls. Lucky for you, there's a moth priest in Skyrim right now, doing just that. He stopped in to do some research in the library, then left for Dragon Bridge. If you hurry, you might catch him there.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Urag gro-Shub: Orthorn. That fool. Always dabbling in magic he couldn't control. Now he's run off with my books to those so-called summoners at Fellglow Keep. Lydia: Summoners are weaklings hiding behind magic. A true Nord would face his enemies with steel, not tricks."
+        },
+        {
+            "role": "assistant",
+            "content": "Urag gro-Shub: A Nord woman standing in my library without a stitch of armor, save for those boots, and carrying a glowing blade. This is not the usual sort of scholarly attire I'm accustomed to seeing. Lydia: The Arch-Mage's housecarl dresses as she pleases. My thane likes the view, and that is all that matters. Besides, these stone halls are warm enough for a warrior's blood. Urag gro-Shub: Dibella's blessings upon you, then. But I wonder, does your thane know you wander the College so... exposed? The apprentices might lose their concentration. Lydia: Let them stare."
+        },
+        {
+            "role": "assistant",
+            "content": "Urag gro-Shub: What in Oblivion is that? Some new form of magic I haven't catalogued? The air around your thane shimmers like a heat haze over the Ashen Plains. Lydia: That is the Dragonborn's power. He bends the very world to his will. I have seen him shout down walls and freeze men solid with a whisper. Urag gro-Shub: Fascinating. And terrifying. I shall add notes on this to my personal journals."
+        },
+        {
+            "role": "assistant",
+            "content": "Urag gro-Shub: By the Nine, does your thane always fidget with such... spectral calibrations? It's like watching a mage try to tune a soul gem with a butter knife. Lydia: He is perfecting his craft."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Hall of the Elements.) (Characters nearby (from nearest to furthest): Serana, Lydia, Daegon) (MJR: Who are you talking about?; Nirya: Faralda. Don't act like she didn't say anything. I know her, and I know what she's been up to. MJR: What's your problem with Faralda?; Nirya: My problem with her? She's the one who has a problem with me! She's threatened by me! By my skill as a wizard, by my elegance and posture, by my superior good looks! But she's not going to get the better of me, oh no. I won't let it get to me one bit. That's what she's after. She's trying to undermine my confidence, make me doubt myself. Well it won't work, I tell you!)"
+        },
+        {
+            "role": "assistant",
+            "content": "Nirya: Oh, don't mind me. I'm just a bit on edge tonight. The cold in this hall seeps into my bones, and I can't help but think of warmer places. Aelythea's solstice fires in Summerset, perhaps. Have you ever seen them, Urag? The flames dance with such grace, unlike the harsh frost here."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this scene, the perspective is close-up and immersive, placing the viewer directly in front of a female character. She has long, straight platinum blonde hair that falls over her shoulders and pale skin. Her gaze is directed slightly off-center but generally towards the viewer, featuring blue eyes and bold red lipstick. She wears a thin, dark necklace with a small pendant, and her upper body is largely bare, suggesting a lack of armor or heavy clothing. Dominating the background behind her is a large, heavy wooden door or gate. It is constructed from dark, vertical planks reinforced with metal bands studded with large, dark rivets. The door is set within a rugged, grey stone archway, indicating the entrance to a sturdy, perhaps subterranean, structure. To the right, the stone wall continues, textured and uneven. A small golden fixture is visible on the stone frame just above the character's head. The lighting is somewhat dim and moody, casting soft shadows that highlight the character's features and the texture of the stone and wood surroundings.)"
+        }
     ]
 ]

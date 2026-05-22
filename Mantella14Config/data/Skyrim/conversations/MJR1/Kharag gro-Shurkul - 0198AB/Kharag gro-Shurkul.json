@@ -1,0 +1,12 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Solitude Sawmill.) (Characters nearby (from nearest to furthest): Daegon, Lydia, chicken, chicken, mudcrab)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Nothing like a good drizzle to remind you that even the weather in Skyrim can't make up its mind."
+        }
+    ]
+]

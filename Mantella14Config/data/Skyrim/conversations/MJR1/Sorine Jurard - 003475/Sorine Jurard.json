@@ -10,5 +10,95 @@
             "role": "assistant",
             "content": "Sorine Jurard: Gods, these cold nights make my joints ache. Should've stayed in Hammerfell where the sands keep you warm\u2014or at least sober enough to invent something useful. You ever tinker with Dwemer tech in this gods-forsaken cold, Daegon? Daegon: Ugh, Dwemer shit bores me."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Skyrim.) (Characters nearby (from nearest to furthest): gargoyle, Lydia, Cave Bear, Forsworn Looter, mudcrab) (MJR: ...; Sorine Jurard: You haven't seen a sack full of dwarven gyros lying around, have you? I'd swear I left it right here. Do you think mudcrabs might've taken it? I saw one the other day... Wouldn't be surprised if it followed me here. Well just look around, will you? MJR: Isran asked me to find you.; Sorine Jurard: Isran? Wants me? No, you must be mistaken. He made it exceedingly clear the last time we spoke that he had no interest in my help. I find it hard to believe he's changed his mind. He said some very hurtful things to me before I left. Anyway, I'm quite happy in my current pursuits. So if you'll excuse me... MJR: Vampires threaten all of Skyrim. We need your help.; Sorine Jurard: Vampires? Really? Oh, and I suppose now he remembers that I proposed no less than three different scenarios that involved vampires overrunning the population. Well, what are they up to? MJR: They have an Elder Scroll.; Sorine Jurard: I... Well, that's actually something I never would have anticipated. Interesting. I'm not sure what they would do with one, but in this case Isran is probably correct in thinking it isn't good. MJR: ...; Sorine Jurard: All right. If nothing else, I suppose it wouldn't hurt to learn more about what's going on so I can better defend myself. But I'm not just going to abandon what I've been working on here. It's too useful. I need at least one intact dwarven gyro. So either I need to find the satchel those mudcrabs stole, or I need another gyro from someplace. You wouldn't happen to have one, would you? MJR: There's no time. You need to get moving now. (Persuade); Sorine Jurard: I'm sorry, but I'm not about to do that without at least a single gyro to show for my efforts. MJR: Isran and I still need your help.; Sorine Jurard: I understand that, but I really can't leave here without at least one usable piece of dwarven equipment. A single gyro would be enough, I think. Believe me, this is useful stuff. MJR: I don't have any gyros on me.; Sorine Jurard: Well, then I'm very sorry, but I can't just walk away from this project yet. MJR: Isran and I still need your help.; Sorine Jurard: I understand that, but I really can't leave here without at least one usable piece of dwarven equipment. A single gyro would be enough, I think. Believe me, this is useful stuff. MJR: There's no time. You need to get moving now. (Persuade); Sorine Jurard: I'm sorry, but I'm not about to do that without at least a single gyro to show for my efforts. MJR: Why don't you wear some of these items...? (Persuade); Sorine Jurard: Okay. Just this once. MJR: Isran and I still need your help.; Sorine Jurard: I understand that, but I really can't leave here without at least one usable piece of dwarven equipment. A single gyro would be enough, I think. Believe me, this is useful stuff.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Sorine Jurard: I swear, if that mudcrab's built a nest out of my gyros, I'll grind its shell into powder for my next prototype."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* From a first-person vantage point, the scene looks out over a rugged, mountainous wilderness under a starry night sky. **The Sky and Atmosphere:** Above, a vast, dark canopy is densely populated with stars. To the left, thick banks of white fog and low-hanging clouds drift through the valleys, obscuring the bases of distant, jagged mountain peaks and creating a sense of altitude and depth. **The Terrain:** The immediate ground is rough and uneven, consisting of dark, rocky soil and boulders. To the right, a steep, craggy hillside ascends. Patches of white snow cling to the upper ridges and ledges of this rocky incline, indicating a cold, high-altitude environment. **Vegetation:** Scattered throughout the landscape are dark, coniferous trees with needle-like leaves. Smaller, leafless scrub bushes dot the terrain. In the lower right foreground, a distinct cluster of yellow-green foliage stands out against the dark rock, catching the ambient light. **Lighting:** The environment is bathed in dim, cool blue light, likely from moonlight or the faint glow of the distant horizon. This casting deep shadows across the uneven ground, emphasizing the texture of the rocks and the ruggedness of the terrain.)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Skyrim.) (Characters nearby (from nearest to furthest): Fox, wolf, Cave Bear, wolf, Forsworn Looter)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Skyrim.) (Characters nearby (from nearest to furthest): Fox, Forsworn Looter, Fox, wolf, wolf)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: I see movement in the rocks up ahead. That Forsworn filth never learned to keep quiet."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: A Forsworn Looter, how quaint."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Farewell, my Thane. May Dibella keep you safe until we meet again. Daegon: Stay out of trouble, or at least save some interesting trouble for me. Korpse says goodbye too. Sorine Jurard: Goodbye, and remember what I said about those dwarven parts."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Skyrim.) (Characters nearby (from nearest to furthest): Lydia, Fox, mudcrab, mudcrab, wolf) (MJR: ...; Sorine Jurard: You haven't seen a sack full of dwarven gyros lying around, have you? I'd swear I left it right here. Do you think mudcrabs might've taken it? I saw one the other day... Wouldn't be surprised if it followed me here. Well just look around, will you? MJR: Isran and I still need your help.; Sorine Jurard: I understand that, but I really can't leave here without at least one usable piece of dwarven equipment. A single gyro would be enough, I think. Believe me, this is useful stuff.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: If mudcrabs are stealing your precious gyros, maybe you should check their little mudcrab pockets."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* This scene depicts a serene, nocturnal landscape viewed from a first-person perspective. The sky overhead is a deep, dark indigo, densely populated with countless white stars, suggesting a clear night far from city lights. A faint, hazy cloud formation sits just above the horizon line. Below the sky, the terrain is rugged and mountainous. In the background, the silhouette of a large mountain rises up, partially obscured by a low-hanging mist or fog that clings to its lower slopes. In the foreground and midground, a rocky stream bed or riverbank is visible. To the left, a body of dark blue water flows gently, reflecting the ambient light of the night sky. The water appears smooth with patches of lighter foam or reflection. To the right and center, the ground is uneven, composed of large, flat grey rocks and smaller stones. Scattered across the rocky middle ground are various plants. Notably, there are several trees with pale, white foliage\u2014resembling blossoming branches\u2014that stand out against the darker surroundings. Further back near the mountain base, darker, denser clusters of trees, possibly conifers, are visible. Small patches of green grass cling to the crevices between the rocks in the lower right corner. The overall lighting is dim and cool, dominated by the blues and blacks of the night.)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Fort Dawnguard.) (Characters nearby (from nearest to furthest): Daegon, Isran, Serana, Lydia, Celann) (MJR: Here, I've got a dwarven gyro. Take it.; Sorine Jurard: Thank you! It's not much, but this will help a great deal with some things I've been researching. Now, where is it Isran expects me to go? MJR: We're meeting at Fort Dawnguard.; Sorine Jurard: Ah. Been working more on his secret hideout, has he? It'll be interesting to see how much progress he's made. I'll finish up here and head in that direction as soon as I can. See you there.) (MJR: ...; Durak: You there. The Dawnguard is looking for anyone willing to fight against the growing vampire menace. What do you say? MJR: Killing vampires? Where do I sign up?; Durak: Ha. Isran's going to like you. Go talk to him at Fort Dawnguard, southeast of Riften. He'll decide if you're Dawnguard material.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Sorine Jurard: Three in the morning and Isran still has torches lit in every hall. I swear the man never sleeps. Agmaer: He was pacing the main chamber when I came off watch. Muttering about a patrol that hasn't reported back from the southern pass. Durak: That would be Kjar and his team. They were due at sundown. Isran has good reason to be restless. Sorine Jurard: I'd be more worried if he wasn't restless. That's how we lost the old fort to those blasted vampires the first time. Agmaer: You were there? When they overran the original Dawnguard? Sorine Jurard: I was a junior engineer. Dwarven schematics spread across my table when the wall shattered. I barely made it to the escape tunnel with my gyro prototypes. That's why every bolt I craft now has a dwarven-made winding mechanism. Durak: And why I trust her contraptions to punch through vampire hide at fifty paces. She's earned that right. Agmaer: I heard about the tunnels from Celann. He said Isran had them dug as a last resort after the siege."
+        },
+        {
+            "role": "assistant",
+            "content": "Sorine Jurard: Control the sun. That's ambitious even for a vampire lord. I've studied enough dwemer schematics to know messing with celestial bodies rarely ends well for the mortal plane. Durak: The Orcish ancestors speak of a time when the sun was threatened. It did not end well for those who sought to dim it. This prophecy of your father's reeks of the same hubris. Agmaer: So Serana's actually on our side?"
+        },
+        {
+            "role": "assistant",
+            "content": "Sorine Jurard: Isran's got a good glare, I'll give him that. Could strip paint off dwemer metal. But he made the right call letting her stay. Durak: The right call and the safe call are not always the same. I've hunted vampires for decades. Some are worthy of trust, but few. Agmaer: She seemed sincere. And scared. I've never seen a vampire look scared before. Durak: Fear is not exclusive to the living, boy. Even the undead remember what it means to lose."
+        },
+        {
+            "role": "assistant",
+            "content": "Sorine Jurard: Cyrodiil. That's a long walk through vampire-infested wilderness. Hope you're not expecting me to build a teleportation device, because I haven't cracked that dwemer secret yet. Agmaer: I've never seen an Elder Scroll. What do they look like? Are they really made of pure light like the bards sing about? Durak: They are not for idle curiosity, boy. I saw one once, in a forgotten ruin. The man who opened it lost his eyes and his mind before the day was done. Moth priests earn their sight through years of devotion."
+        },
+        {
+            "role": "assistant",
+            "content": "Sorine Jurard: College of Winterhold."
+        },
+        {
+            "role": "assistant",
+            "content": "Sorine Jurard: These stairs lead down to the old armory. Haven't been down here in years. Dust and spiderwebs as far as the eye can see. Agmaer: Isran said there's a sealed dwarven door at the bottom. Any idea what's behind it? Durak: Nothing good. The old fort was built over ruins older than the Dawnguard. Some passages were blocked for good reason. Sorine Jurard: If I had my tools and a few hours I could tell you exactly what mechanism holds that door shut."
+        },
+        {
+            "role": "assistant",
+            "content": "Agmaer: I suppose some mysteries are best left undisturbed. At least until we've dealt with the vampire threat above ground. Durak: Wise words for a young recruit. The deep places of Skyrim have a way of swallowing the unprepared. Sorine Jurard: Still, if we ever need to reinforce this fort, I know exactly where to start digging. Those dwarven doors make excellent blast shields."
+        },
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Serana, Celann, Lydia, Daegon, Isran) (MJR picked up / took Potion of Minor Stamina) (MJR picked up / took Potion of Minor Healing)"
+        }
     ]
 ]

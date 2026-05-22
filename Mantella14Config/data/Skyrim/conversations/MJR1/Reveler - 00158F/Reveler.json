@@ -1,0 +1,24 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Skyrim.) (Characters nearby (from nearest to furthest): Reveler, Daegon, Reveler, Lydia, Troll) (MJR: ...; Reveler: Hail, friend! It's good to see another merry soul enjoying this fine day.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Reveler: Come, come, don't be shy. We've got enough Honningbrew to drown a mammoth, and I've a feeling you look like you need it more than the mammoth would. Serana: I've drowned things before, but mead tends to make them float back up with inconvenient questions. Still, I'll take a bottle if only to watch the troll over there decide if it wants to join your little choir. Reveler: That old lump? He's been watching us for an hour. I think he's just jealous of our singing. Or he's sizing me up for a fight. Either way, more mead for us, eh? Serana: A troll sizing you up for a fight is just nature's way of saying your life lacks a proper soundtrack. I'd offer to drain it, but I've already had my nightly sip of something warmer. Reveler: Warm? On a night like this? You must have some fine blood in those veins. Or a fire spell tucked away. Me, I'm just a simple laborer who likes his drink and his company. What brings you out this way, then? Hunting? Exploring? Running from a bad marriage?"
+        },
+        {
+            "role": "assistant",
+            "content": "Reveler: Ah, look there, a Stormcloak soldier. Probably thinks he's guarding the whole of Skyrim from a bottle of mead. Serana: Oh, a soldier. Perfect. He can stand there looking heroic while we drink and he pretends the cold doesn't bother his balls. Reveler: Now now, don't be too harsh. He's just doing his duty. Though I wonder if he'd join us for a swig if I offered. Soldiers like their drink, same as anyone. Serana: Offer him one. I want to see if his oath to Ulfric lets him accept free alcohol from strangers. The drama might be better than the mead."
+        },
+        {
+            "role": "assistant",
+            "content": "Reveler: Well, the soldier's gone. Guess he had better things to do than drink with the likes of us. But look, that troll's come back. He's just standing there, watching. I swear he's judging my mead choice. Serana: Trolls are excellent critics."
+        },
+        {
+            "role": "assistant",
+            "content": "Reveler: Critics, eh? Well, I'd offer him a bottle, but I reckon his hands are a bit too clawed for holding it steady."
+        }
+    ]
+]

@@ -8,5 +8,23 @@
             "role": "assistant",
             "content": "Winterhold Guard: Heh, sounds like you had fun. But fuck it, I\u2019m freezing my balls off out here. Should\u2019ve stayed in the barracks with that new Redguard whore warming my bed. Winterhold Guard 2: Pah, you wish. That slag wouldn\u2019t touch your shriveled cock even if you paid her in dragon bones. Stop dreaming and keep your eyes on the damn road."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(Daegon hit Serana with Clash of Champions) (Daegon hit Serana with Blades Sword) (The location is now The Frozen Hearth.) (Characters nearby (from nearest to furthest): Daegon, Serana, Nelacar, Dagur) (The location is now The Frozen Hearth) (Lydia unequipped Silver Ring) (Lydia unequipped Pharaoh's General Bra) (Lydia equipped Pharaoh's General Bra) (Lydia equipped Pharaoh's General Armlets) (Lydia equipped Pharaoh's General Harness) (Lydia equipped Pharaoh's General Pasties) (Lydia equipped Pharaoh's General Skirt A) (Lydia unequipped Leather Boots) (Lydia equipped Iron Boots) (Lydia dropped/gave Silver Ring) (Lydia equipped Pharaoh's General Bra) (Lydia equipped Pharaoh's General Bracelets) (Lydia equipped Leather Boots) (Lydia equipped Ebony Greatsword)"
+        },
+        {
+            "role": "assistant",
+            "content": "Winterhold Guard: By Dibella, what was that commotion? I heard a spell and a blade clash. Lydia: Daegon struck Serana with magic and steel. That vampire deserves it for her foul bloodline. Winterhold Guard: Vampire? In my inn? We don't want trouble here. The Jarl keeps order, and Dibella's pleasure is for willing partners, not bloodshed."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Trouble follows that pale harlot like a stray dog. She tempts my Thane with her immortal wickedness. Winterhold Guard: Your Thane? You speak of the Dragonborn. I saw him enter, an archer with a deadric bow. A worthy man. Perhaps he seeks warmth after the blizzard. Lydia: He is my sworn duty and my heart's desire. I will protect him from Serana's corruption even if I must split her skull. Winterhold Guard: Easy, warrior. In Winterhold, we settle disputes with flesh, not steel."
+        },
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Serana, Daegon, Ranmir, Nelacar, Dagur)"
+        }
     ]
 ]

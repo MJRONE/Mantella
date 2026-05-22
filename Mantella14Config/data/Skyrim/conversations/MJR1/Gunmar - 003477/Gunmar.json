@@ -8,5 +8,57 @@
             "role": "assistant",
             "content": "Gunmar: Pah. Keep telling yourself that, girl. Just hope your precious Dragonborn doesn\u2019t get snared by those bandit sluts before you\u2019ve had your fill. I\u2019ve seen what happens to men who let their cocks do the thinking down here. Lydia: Fuckin\u2019 right he won\u2019t\u2014they\u2019ll be dead before their skirts hit the dirt."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Fort Dawnguard.) (Characters nearby (from nearest to furthest): Dexion Evicus, Daegon, Lydia, Sorine Jurard, Durak) (MJR: Glad you made it here safely, Dexion.; Dexion Evicus: Ah, my rescuer! It's good to see you again.) (MJR: ...; Gunmar: You there, hold fast! I've tracked this damned bear for two weeks; I'll not let it have any more victims. MJR: Isran needs your help.; Gunmar: Isran? Needing someone else's help? Never thought I'd hear that. I'm afraid he's a few years too late. I've moved on. I have more important business to attend to. Besides, he can handle anything alone! He assured me so himself. What could he possibly need my help with? MJR: We're up against vampires.; Gunmar: Vampires? That... well, that might change things. Tell me more about what's going on. MJR: We're not sure, but they have an Elder Scroll.; Gunmar: By the Eight... All right, look. I'll consider it, but I can't just leave this bear to prey on more innocent people. Once it's dealt with, then perhaps I'll see what Isran expects of me. MJR: ...; Gunmar: Don't know how well I'd have managed by myself. You have my thanks. You've helped me, so I suppose the least I can do is find out what Isran wants. He's still at that fort near Stendarr's Beacon, I assume? MJR: Yes, he said to meet him at Fort Dawnguard.; Gunmar: Of course he did. MJR: Isran's at Fort Dawnguard.; Gunmar: He's been working on that place for years now. Never lets anyone in. His own little fortress. Well, I guess I'll get to see what he's been up to all this time. I'll meet you there.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Four in the morning and we're trading bear stories with a vampire hunter. Skyrim's idea of a proper welcome never disappoints. Gunmar: I've dealt with worse than a bear at this hour. At least the bear doesn't pretend to be something it's not. Unlike some I could name. Serana: Careful, Gunmar. You're standing next to a pure-blood vampire who just helped drag a bleeding Moth Priest halfway across the province. I'm practically on your side. Gunmar: Isran's side. Not yours. I don't trust your kind, but I trust Isran's judgment. He invited you here, so I'll hold my axe until you give me a reason not to. Serana: Fair enough. Though if we're judging by hospitality, your fort's got better lighting than the Volkihar cellar. Less screaming, too. Always a plus. Gunmar: You've got a sharp tongue for someone who spent centuries sleeping in a coffin. What exactly did you do before the Dragonborn woke you up? Serana: Mostly avoided sunlight, mocked my father's fashion sense, and perfected the art of being insufferable at parties."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: An Elder Scroll and a wheel of cheese in the same room. This is either prophecy or the world's most depressing picnic. Gunmar: I've seen men go blind reading those things. You sure about this, priest?"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Blindness is the least of his worries. Last time someone read one of those, a dragon literally fell out of the sky. Or so I hear. Dexion, try not to summon any flying reptiles indoors. The ceiling's too low. Gunmar: You joke, but I've seen what happens to men who meddle with things they don't understand. It never ends well. If the scroll shows us where those vampires are hiding, fine. But I'll be standing right here with my axe if anything goes wrong."
+        },
+        {
+            "role": "assistant",
+            "content": "Gunmar: What in Oblivion is that? Someone's trying to break into the lower levels. Isran never mentioned any tunnels beneath this place. Serana: Oh, lovely. A hidden basement. Because every fortress needs a secret dungeon where you can store your embarrassing exes and questionable experiments. Maybe it's just a very ambitious rat with a crowbar."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: My mother always had a flair for the dramatic. Probably where I get it. But she wasn't stupid. If she said somewhere Father would never search, I believe her. The question is where that could be. Gunmar: A vampire's mother hiding an Elder Scroll. This gets better and better. What's to stop her from being just as twisted as Harkon? Blood calls to blood, or so I've seen."
+        },
+        {
+            "role": "assistant",
+            "content": "Gunmar: Secret tunnels and vampire gardens. Sounds like a trap waiting to spring. But if you're set on this, I'll be watching your backs from the fort. Someone needs to stay behind and make sure Isran doesn't work himself into a frenzy while you're gone."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You know, Gunmar, for a man who hates vampires, you're surprisingly reasonable when you're not swinging an axe. Must be the fresh mountain air. Gunmar: Don't mistake reason for trust. I'm just smart enough to know when a vampire's plan makes more sense than sitting around waiting for the next attack. Your mother's garden might actually lead somewhere useful. Serana: High praise from a Dawnguard veteran. I'll try not to let it go to my head. Gunmar: See that you don't. Now, about that bear I was tracking before your Dragonborn dragged me here... Serana: Right. Because the bear is definitely the bigger threat compared to an ancient vampire prophecy. Priorities, Gunmar. Priorities. Gunmar: At least a bear doesn't lie to you about what it wants. There's honesty in claws and teeth."
+        },
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Sorine Jurard, Lydia, Daegon, Dexion Evicus, Ingjard) (Characters nearby (from nearest to furthest): Ingjard, Daegon, Lydia, Durak, Beleval) (Gunmar stood up from a(n) cot) (Serana rested on / used a(n) Chair) (Serana stood up from a(n) Chair)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Fort Dawnguard.) (Characters nearby (from nearest to furthest): Daegon, Sorine Jurard, Isran, Beleval, Celann)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: This fort is full of zealots who think they can purge every vampire from Skyrim with prayer and torches. At least they have proper steel. Gunmar: Prayer and torches have their place, but it's a well-honed axe that ends a bloodsucker's reign. I've seen too many families torn apart by those creatures to trust in anything less. Serana: Oh, Gunmar, you make it sound so grim. Vampires are just people with a different diet and a superior skincare routine. Though I admit, some of us do have a flair for the dramatic. Ingjard: The Dawnguard's cause is noble, but I've learned that not every shadow hides a monster. Sometimes it's just a traveler seeking shelter from the cold. We must be careful not to let our hate blind us to the innocent. Lydia: Innocent? You sound like Serana now. A vampire is a vampire\u2014they feed on the living, they spread their curse, and they deserve a blade through the heart. Gunmar: There's truth in both your words, Lydia. But I've met vampires who choose to resist their nature, and some who revel in it."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene depicts the interior of a sturdy, stone-built structure, likely a large communal hall or tavern. The viewpoint looks down a corridor paved with irregular, rough-hewn stone slabs that show signs of wear. In the immediate foreground, flanking the path on the left and right, are wooden benches with curved, carved backs. On the right side, a tall metal stand holds lit candles, casting a flickering warm glow against the rough stone wall. In the middle distance, a figure is walking away from the viewer down the central path. They are dressed in reddish-brown attire, possibly leather or armor, and are carrying a backpack. To the left of the path, a long wooden structure\u2014perhaps a large table or counter\u2014is visible, cluttered with various indistinct items that resemble bottles and jars. Above, a cluster of hanging lanterns provides the primary source of illumination, casting a golden light that highlights the texture of the ancient stone masonry. The architecture features heavy pillars and large arches, leading the eye toward a taller section of the ceiling constructed from wooden planks. Further back, the space opens up into a larger area where additional tables and lights suggest a busy gathering spot.) (Characters nearby (from nearest to furthest): Daegon, Agmaer, Celann, Durak, Sorine Jurard) (Gunmar rested on / used a(n) workbench)"
+        }
     ]
 ]

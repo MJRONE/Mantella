@@ -24,5 +24,19 @@
             "role": "assistant",
             "content": "Phinis Gestor: Gods, this place reeks of moldy parchment and orc musk. How you tolerate this dungeon library is beyond me. Urag gro-Shub: Better than the stench of rotting corpses you conjurers drag in here. At least my robes don\u2019t have suspicious\u2026 like yours. Phinis Gestor: Oh please, as if you aren\u2019t sneaking off to the Midden after hours to pay trolls for their . I\u2019ve seen your scrapbook of sketches\u2014Dwemer constructs and flesh atronachs in positions. Urag gro-Shub: Says the man whose last apprentice was found naked in Fellglow Keep\u2019s cellar, strapped to a Daedric summoning circle. Phinis Gestor: , Urag. And she Urag gro-Shub: Hmph. tragic accident"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Arcanaeum.) (Characters nearby (from nearest to furthest): Lydia, Daegon, Urag gro-Shub)"
+        },
+        {
+            "role": "assistant",
+            "content": "Phinis Gestor: The properties of this Gauldur Amulet fragment are fascinating. The enchantment matrix is unlike anything recorded in modern texts. Tell me, did you feel a resonance when you first touched it?"
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene is viewed from a first-person perspective, looking slightly downward into a dimly lit, stone-walled interior. The floor is covered in large, square stone tiles arranged in a grid pattern. These stones appear worn and uneven, with a texture that suggests age and exposure to dampness; they vary in color from pale grey to muted brownish-green. To the left, the wall is constructed of rough-hewn stones, reinforced by thick, cylindrical columns. These columns are dark grey and feature distinct horizontal ridges or segments wrapping around them. On the right side, a massive set of double doors stands closed. The doors are made of dark, heavy wood and are heavily reinforced with rows of metal rivets or studs arranged in a grid pattern. Near the center of the doors, two round metal ring handles are visible. At the very bottom edge of the scene, a curved black bar is visible, likely a user interface element. It features a white symbol on the far left and the letter \"E\" in the center, suggesting an interactive element. The lighting is low and diffuse, creating soft shadows in the corners and highlighting the texture of the stone floor.)"
+        }
     ]
 ]

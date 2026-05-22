@@ -8,5 +8,43 @@
             "role": "assistant",
             "content": "Winterhold Guard: Heh, sounds like you had fun. But fuck it, I\u2019m freezing my balls off out here. Should\u2019ve stayed in the barracks with that new Redguard whore warming my bed. Winterhold Guard 2: Pah, you wish. That slag wouldn\u2019t touch your shriveled cock even if you paid her in dragon bones. Stop dreaming and keep your eyes on the damn road."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Serana, Daegon, Ranmir, Nelacar, Dagur) (The location is now Winterhold.) (Characters nearby (from nearest to furthest): chicken, Winterhold Guard, Lydia, chicken, chicken) (MJR: k101DaegonFollowerHelloLines; Daegon: Hello!)"
+        },
+        {
+            "role": "assistant",
+            "content": "Winterhold Guard: By Dibella, you three look like you've been through a storm and back."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: You have no idea. I swear this frozen wasteland wants to kill me slowly while I'm still alive to feel it. Serana: My favorite part is watching Daegon shiver her pointy ears right off. Definitely worth the hike. Winterhold Guard: You're heading toward the College, I take it? Or just passing through to the inn for some warm mead and furs?"
+        },
+        {
+            "role": "assistant",
+            "content": "Winterhold Guard: That aurora looks like Dibella herself is dancing tonight."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Redwater? You mean that dreary lookout where we first landed in this frozen hellscape? I remember the wolves and that blasted sabre cat. Serana: Redwater had better atmosphere than this town. At least there the snow was fresh. Here it smells like wet chicken and stale mead. Winterhold Guard: Redwater Lookout? That's a few days south. Rough country, but the hunting's good if you can handle the cold. You folks planning to head back that way?"
+        },
+        {
+            "role": "assistant",
+            "content": "Winterhold Guard: Still, if you're staying in Winterhold, best visit the inn. The mead's weak but the company's warm, if you catch my meaning. Dibella teaches us to share our warmth with travelers. Daegon: I'd rather share a bottle of Cyrodiilic brandy alone in a corner. But I suppose your Nords have their own ideas about hospitality."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Oh, this is rich. The College gatekeeper putting on her little show. I remember when I had to prove myself at the Arcane University. At least they didn't make me freeze my ass off in the snow first. Serana: She's enjoying it too much. Look at that smug posture. I'd wager she hasn't cast a real combat spell in decades. Winterhold Guard: Faralda's been standing that post for years. Tougher than she looks, that one. Though I've never seen her let anyone in without some kind of parlor trick first."
+        },
+        {
+            "role": "assistant",
+            "content": "Winterhold Guard: Well, I've seen Faralda turn away plenty of mages, but that's a first. Dibella's blessings, I suppose. Daegon: Of course. The College of Winterhold's grand tradition of magical admission reduced to a roadside dalliance. At least the view was better than that dusty old university. Serana: I'd say she passed the test with flying colors. Or should I say, with flying robes. Winterhold Guard: You College types certainly have interesting customs. We keep things simpler in the guard - a warm fire, good mead, and willing company when the night gets long."
+        },
+        {
+            "role": "user",
+            "content": "(MJR unequipped Lamellar Armor) (MJR equipped Lamellar Armor) (MJR equipped Daedric Wrath) (MJR equipped Soul Gauge Left-hand) (MJR equipped Hide Helmet) (MJR equipped Hide Boots) (MJR equipped Prisoner's Cuffs) (MJR equipped ) (MJR unequipped )"
+        }
     ]
 ]

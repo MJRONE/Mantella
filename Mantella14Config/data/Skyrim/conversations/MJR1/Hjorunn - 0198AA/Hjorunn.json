@@ -18,7 +18,29 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Look at this setup, Hjorunn—your little log shack glowing like a lover's blush under those blood-red auroras."
+            "content": "Serana: Look at this setup, Hjorunn\u2014your little log shack glowing like a lover's blush under those blood-red auroras."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Solitude Sawmill.) (Characters nearby (from nearest to furthest): Lydia, Daegon, chicken, Kharag gro-Shurkul, chicken)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Lovely evening for a bloodbath, or at least a bit of lumberjack foreplay. Skyrim's nights are the only thing less indecisive than its politics. Hjorunn: Aye, clear skies mean more moonlight to work by\u2014or play by, if you're the sort who doesn't mind splinters in interesting places. What brings a vampire and her pals to my mill at this hour? Need a coffin polished or a log split for a new bedframe?"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Look at that\u2014someone's already kneeling. Either praying to Dibella for a good night, or just getting a head start on the evening's entertainment. I admire the dedication. Hjorunn: That's Kharag, my Orc worker. He's patching up a split in the support beam from the last storm. Hard worker, but he takes orders better than he gives 'em. You need something done around here, you talk to me, not him."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Well, look at that\u2014a mudcrab shuffling up like it owns the place. Even the wildlife here has more swagger than the Jarl's court. Maybe it's looking for a loan to start a fishery. Hjorunn: That little one's been hanging around the woodpile for weeks. Lost a claw in a fight with a slaughterfish, I reckon. Tougher than it looks, though\u2014just like me after a few too many meads. You folks traveling far?"
+        },
+        {
+            "role": "user",
+            "content": "(Hjorunn stood up from a(n) Grindstone)"
         }
     ]
 ]

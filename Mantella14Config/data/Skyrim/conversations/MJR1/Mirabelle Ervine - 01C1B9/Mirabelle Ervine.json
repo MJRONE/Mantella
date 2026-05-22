@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Winterhold College.) (Characters nearby (from nearest to furthest): Phinis Gestor, Serana, Colette Marence, Drevis Neloren, Lydia) (MJR: I was told to come see you.; Mirabelle Ervine: Another new student... I'm surprised at how many of you there are lately. Well, first you'll need these. While you're not required to wear them, you may find them more to your liking than your current clothes. I'll give you a brief tour, and then we'll get you to your first class. Are you ready to begin? MJR: I'd love to have a look around.; Mirabelle Ervine: Wonderful. Please follow me, and don't wander off.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Brelyna Maryon: It's so late for a tour, isn't it? I wonder if Mirabelle ever sleeps. Onmund: She probably runs on magicka and stubbornness, like the rest of us. Though I wouldn't mind running into that new student later. They looked... interesting. Enthir: Interesting is one word for it. I'd rather be indoors right now. The cold bites even through these robes at this hour. Mirabelle Ervine: You'll find that the College never truly rests, Enthir. And neither do its duties. A new student arriving after dark is hardly unusual."
+        },
+        {
+            "role": "assistant",
+            "content": "Brelyna Maryon: A Nordic ruin? On your first day? That sounds dangerous, even by our standards. Though I suppose the College has always had a hands-on approach to learning. Onmund: Dangerous, yes, but exciting too. I remember my first delve into Saarthal. Nearly got myself turned into a permanent ice sculpture, but I learned more in that one trip than weeks of lectures. Enthir: Faralda's up to something, you say? That woman never moves without purpose. If she's sending a fresh student into a ruin, there's more to it than simple training."
+        },
+        {
+            "role": "assistant",
+            "content": "Brelyna Maryon: Nirya, please, keep your voice down."
+        }
+    ]
+]

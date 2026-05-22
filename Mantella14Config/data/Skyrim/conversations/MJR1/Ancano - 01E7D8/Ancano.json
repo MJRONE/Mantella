@@ -20,5 +20,15 @@
             "role": "assistant",
             "content": "Lydia: Ugh, think I\u2019d rather gargle troll cum than keep listening to your flapping lips. advising."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The sky is a churning mass of dark clouds, with snow falling in thick, blinding sheets.) (Characters nearby (from nearest to furthest): Colette Marence, Drevis Neloren, Mirabelle Ervine, Enthir, Horker) (The location is now Hall of the Elements.) (Characters nearby (from nearest to furthest): Serana, Lydia, Daegon)"
+        },
+        {
+            "role": "assistant",
+            "content": "Ancano: This storm is a fitting reflection of this College's pathetic grasp on the arcane."
+        }
     ]
 ]

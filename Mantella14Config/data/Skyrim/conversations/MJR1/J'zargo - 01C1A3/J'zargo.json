@@ -8,5 +8,39 @@
             "role": "assistant",
             "content": "Lydia: Ugh, I\u2019d rather let a frost troll rut me raw than listen to another word from a flea-bitten spell-slinger. Let\u2019s go find MJR before he gets ambushed by those bandit whores again. J'zargo: J'zargo would rather test his flame scrolls on his own fur than waste more breath on this raging she-bear. Perhaps next time, she will bring a wit to match her sword."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Saarthal.) (Characters nearby (from nearest to furthest): Tolfdir, Lydia, rabbit, Cave Bear, Ice Wraith)"
+        },
+        {
+            "role": "assistant",
+            "content": "J'zargo: This Saarthal is old, yes, but J'zargo wonders if the Nords who built it were clever enough to hide anything worth finding. Serana: At least the draugr here have better interior decorating sense than the College. Those mages couldn't arrange a decent corpse pile if their lives depended on it. Daegon: The College has chickens. Saarthal has frozen Nords who want to eat your face. I'm starting to think our fearless leader has a type when it comes to ruins. Serana: Speaking of types, Daegon, your pet rat seems more interested in that rabbit over there than in helping us find ancient artifacts. I admire his priorities. J'zargo: J'zargo has seen many rats in his travels. That one carries itself like it knows secrets. Perhaps Daegon's pet is smarter than the average vermin. Daegon: Korpse is a connoisseur of fine cheeses and warm shoulders. He doesn't need to know secrets when he has charm. Serana: Unlike some of us who traded charm for a thousand years of napping in a box. Remind me why I woke up again?"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Well, looks like the whole College decided to join our little field trip. Tolfdir brought the study group. Daegon: Great. Now J'zargo has an audience for his next experiment involving fire and questionable intent. J'zargo: J'zargo's experiments are always calculated. Unlike some people's decision to wake up a vampire from a thousand-year nap. Serana: Calculated? I saw you try to light a candle with a Fireball last night. The candle survived. The table did not. Daegon: At least he missed the chicken. Lydia would have never let us hear the end of it. Serana: Lydia would have mounted its head on her shield and called it a war trophy. That woman's obsession with poultry is deeply concerning. J'zargo: Speaking of trophies, J'zargo wonders if these ruins hold anything more valuable than old bones and frozen draugr. Serana: Give it an hour. We'll find some ancient Nord's idea of treasure. Probably a rusty sword and a note about how much they hated elves. Daegon: Sounds like every family reunion I've ever been to."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Assist Arniel Gane? The man looks like he's been cataloging his own funeral arrangements for the past century. Daegon: At least he has a job that doesn't involve waking up in a stone coffin with family drama. J'zargo: J'zargo thinks this is a fine opportunity. Magical artifacts, even weak ones, can teach a clever mage much about their craft."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: These beams look like they were put together by a drunk giant with a grudge. I've seen spider webs hold more structural integrity. Daegon: Says the woman who slept in a stone box for a few centuries. At least this place has lighting. J'zargo: J'zargo notices the enchantments on these supports. Weak, but old. The Nords knew how to preserve their dead, if not their architecture. Serana: Preserve their dead and make them grumpy. I've met friendlier bears."
+        },
+        {
+            "role": "assistant",
+            "content": "J'zargo: J'zargo wonders if Arniel Gane's cataloguing skills extend to finding traps."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Thank us for having you? MJR, you're the one who dragged us into this frozen crypt. But you're welcome, I suppose. Serana: Daegon's right. If anything, we should be thanking you for the entertainment. Watching Tolfdir lecture about ancient Nord pottery is almost as thrilling as watching paint dry. J'zargo: J'zargo is grateful for the opportunity to study these ruins. The magical residue here is... intriguing. Almost as intriguing as the way our fearless leader says thank you like we're guests at a tea party."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Round up artifacts. He talks like we're herding chickens through a crypt. Serana: At least he didn't ask us to polish his collection of ancient Nord spoons. I've met draugr with better social skills. J'zargo: J'zargo will help search. These ruins have a pulse of old magic that even Arniel Gane's attitude cannot diminish."
+        }
     ]
 ]

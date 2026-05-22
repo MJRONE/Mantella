@@ -1,0 +1,12 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Deepwood Redoubt.) (Characters nearby (from nearest to furthest): Forsworn Forager Marksman, Forsworn Forager, Sabre Cat, Afflicted Refugee, Fox)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: I smell blood and burnt wood. This place stinks of Forsworn filth. Forsworn Forager Marksman: Stay where you are, outlander."
+        }
+    ]
+]

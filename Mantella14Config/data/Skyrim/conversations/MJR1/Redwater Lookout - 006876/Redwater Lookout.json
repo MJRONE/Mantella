@@ -118,5 +118,19 @@
             "role": "user",
             "content": "(*You are observing the following:* In this scene, you're standing in a dense autumn woodland, surrounded by tall trees with slender trunks clad in dark bark, their branches heavy with foliage in vibrant shades of orange and yellow, as if caught in the glow of a setting sun. Patches of green ferns and underbrush dot the forest floor, interspersed with scattered fallen leaves in rusty reds and golds. To your immediate front, a large, irregularly shaped gray boulder rises from the earthy ground, its surface rough and textured, partially covered in moss or dirt at the edges. The terrain slopes gently upward, with more boulders and roots peeking through the leaf-strewn soil. On the right side, weathered wooden planks form a makeshift platform or walkway, splintered and aged, extending toward a dark, shadowy overhang formed by more trees. A taut rope or line stretches from the wood, leading into the dimness beyond, suggesting some rudimentary structure or path. The overall atmosphere is one of quiet wilderness, with soft lighting filtering through the canopy, casting long shadows across the scene.)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Redwater Den.) (Characters nearby (from nearest to furthest): Daegon, Lydia, Fox, Fox, Fox)"
+        },
+        {
+            "role": "assistant",
+            "content": "Redwater Lookout: This storm feels like it's clawing at the earth itself. I've not seen rain this fierce since the night Vulpin first took me. Redwater Lookout 2: The sky weeps for the souls we lure down that trapdoor. Or maybe it's just the Rift being its usual miserable self. Redwater Lookout: You think the master's brood will stir tonight? The rain might keep the desperate away, but they still need feeding. Redwater Lookout 2: They always need feeding. And we stand here, pretending we're just guards, not the ones who deliver the meat."
+        },
+        {
+            "role": "assistant",
+            "content": "Redwater Lookout: Delivering meat... aye, that's all we are now. I used to think I was a man, a hunter, a guardian. Now I'm just the gatekeeper to a slaughterhouse."
+        }
     ]
 ]

@@ -144,5 +144,67 @@
             "role": "assistant",
             "content": "Dexion Evicus: By the Eight Divines..."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Forebears' Holdout.) (Characters nearby (from nearest to furthest): Serana, Lydia, gargoyle) (Dexion Evicus equipped Fireball) (Dexion Evicus has entered combat with MJR) (MJR fired an arrow.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Well, that escalated quickly. Did you insult his mother, or is this just Skyrim hospitality? Dexion Evicus: You dare raise a bow against a servant of the Elder Scrolls? I have read prophecies that would shatter your mind, child."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Blue tentacles in a pit. That\u2019s new. I\u2019ve seen some questionable decorations in Skyrim, but this takes the sweetroll. Dexion Evicus: That is no decoration, fool. That is the Echo of Razor\u2019s Edge, a fragment of prophecy bound to this stone by the blood of ancient seers. You tread where the Scrolls themselves weep."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Are we done with the pyrotechnics? I was starting to enjoy the tentacle pit light show. Korpse is hiding in my collar, by the way. He does not approve of your aim. Dexion Evicus: The gargoyle... it turned on me. The Echo has been corrupted. This is not the work of a rogue prophecy\u2014this is interference. Someone else has been reading the Scrolls in these halls."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Decades of study, and you still don't know who wrote them? Sounds like the Mages Guild bureaucracy I fled from. Lots of robes, lots of ceremony, very little answers."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Coffins, stone floors, a corpse in the corner. This place has all the charm of a family reunion in the Summerset Isles. Korpse is unimpressed, and he sleeps in a sock. Dexion Evicus: This holdout was once a sanctuary for those who sought the truth in the Scrolls without the Order's permission. Now it is a tomb. That body there\u2014he was one of my former pupils. He wrote to me of a great discovery before he vanished."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Fort Dawnguard, hm?"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Well, at least the vampires were polite enough to keep you alive. Unlike some cultists I've met. Korpse says you smell like old paper and regret, but he respects the commitment. Dexion Evicus: I shall take that as a compliment from a creature of such discerning taste. Now, if you'll excuse me, I have a prophecy to keep waiting."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene depicts a dimly lit, cavernous interior, likely situated deep underground. The floor is paved with rough, uneven stone slabs that stretch across the foreground, their surfaces jagged and aged. Dominating the center of the view is a stone pedestal or stand holding a large brazier. Inside, a fire burns brightly, with orange and yellow flames flickering upwards, casting a warm, dancing glow that illuminates the immediate surroundings. This central fire is the primary light source, revealing the texture of the rugged, rocky walls and ceiling that loom above, fading quickly into total darkness. To the left of the main fire, a tiny, solitary light source\u2014perhaps a small lantern or candle\u2014sits low to the ground, offering a faint glimmer. In the shadows to the right, indistinct shapes are barely visible; these appear to be crates, bags, or perhaps pieces of furniture, clustered near the rocky wall. The overall atmosphere is one of isolation and ancient stillness, with the heavy darkness pressing in from above and the sides.)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Forebears' Holdout.) (Characters nearby (from nearest to furthest): Daegon, Lydia) (MJR: ...; Serana: Are you alright? MJR: Yes, it looks like I'm fine.; Serana: That was a close one. I didn't expect to be... jumped on like that. And those ridiclous masks they wore. Very tacky... Good to know that cultists will always be the same no matter what era. MJR: ...; Serana: Could I read that note you've been reading? Thanks. Hmm... I recall an old book about this cult in the castle's library. This 'Miraak' though, I've read some stories about him. He was supposed to be the first Dragonborn who ever lived. He was around long before even I was. This might be worth looking into.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Dexion Evicus: Miraak... yes, a name whispered in the margins of black-bound prophecies. The first Dragonborn, they say, who turned from the dov to serve a darker master. His cult still festers in forgotten corners of Solstheim. Serana: First Dragonborn, huh? Sounds like someone who didn't know when to quit. Typical. At least the cultists here had the decency to wear those ridiculous masks\u2014gives them a sense of theater."
+        },
+        {
+            "role": "assistant",
+            "content": "Dexion Evicus: This cave holds more than just memories of my abduction."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Fort Dawnguard.) (Characters nearby (from nearest to furthest): Isran, Durak, Sorine Jurard, Agmaer, Gunmar)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: The Fort's got that charming rustic aesthetic - all stone, torches, and vampire-hunting zealots."
+        }
     ]
 ]

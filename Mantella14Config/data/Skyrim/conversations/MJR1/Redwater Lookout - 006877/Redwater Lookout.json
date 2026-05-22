@@ -132,5 +132,19 @@
             "role": "user",
             "content": "(*You are observing the following:* The scene unfolds under a vast, starry night sky, where countless twinkling stars pierce the darkness, mingled with swirling clouds that take on ethereal shades of deep blue and subtle red hues, evoking a cosmic aurora rippling across the heavens. Framing the view are tall evergreen trees with dense, needle-covered branches reaching upward on either side, their trunks dark and textured against the gloom. Interspersed among them are clusters of slender birch-like trees, their leaves in vibrant autumn tones of yellow and orange, casting a warm contrast to the cool night. The foreground descends into shadowy underbrush and uneven ground, sparsely dotted with fallen leaves and low foliage, creating a sense of depth and immersion in a secluded woodland clearing.)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Redwater Den.) (Characters nearby (from nearest to furthest): Daegon, Lydia, Fox, Fox, Fox)"
+        },
+        {
+            "role": "assistant",
+            "content": "Redwater Lookout: This storm feels like it's clawing at the earth itself. I've not seen rain this fierce since the night Vulpin first took me. Redwater Lookout 2: The sky weeps for the souls we lure down that trapdoor. Or maybe it's just the Rift being its usual miserable self. Redwater Lookout: You think the master's brood will stir tonight? The rain might keep the desperate away, but they still need feeding. Redwater Lookout 2: They always need feeding. And we stand here, pretending we're just guards, not the ones who deliver the meat."
+        },
+        {
+            "role": "assistant",
+            "content": "Redwater Lookout: Delivering meat... aye, that's all we are now. I used to think I was a man, a hunter, a guardian. Now I'm just the gatekeeper to a slaughterhouse."
+        }
     ]
 ]

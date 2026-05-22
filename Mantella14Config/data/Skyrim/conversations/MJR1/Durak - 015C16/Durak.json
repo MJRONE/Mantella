@@ -1,0 +1,40 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Fort Dawnguard.) (Characters nearby (from nearest to furthest): Daegon, Isran, Serana, Lydia, Celann) (MJR: Here, I've got a dwarven gyro. Take it.; Sorine Jurard: Thank you! It's not much, but this will help a great deal with some things I've been researching. Now, where is it Isran expects me to go? MJR: We're meeting at Fort Dawnguard.; Sorine Jurard: Ah. Been working more on his secret hideout, has he? It'll be interesting to see how much progress he's made. I'll finish up here and head in that direction as soon as I can. See you there.) (MJR: ...; Durak: You there. The Dawnguard is looking for anyone willing to fight against the growing vampire menace. What do you say? MJR: Killing vampires? Where do I sign up?; Durak: Ha. Isran's going to like you. Go talk to him at Fort Dawnguard, southeast of Riften. He'll decide if you're Dawnguard material.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Sorine Jurard: Three in the morning and Isran still has torches lit in every hall. I swear the man never sleeps. Agmaer: He was pacing the main chamber when I came off watch. Muttering about a patrol that hasn't reported back from the southern pass. Durak: That would be Kjar and his team. They were due at sundown. Isran has good reason to be restless. Sorine Jurard: I'd be more worried if he wasn't restless. That's how we lost the old fort to those blasted vampires the first time. Agmaer: You were there? When they overran the original Dawnguard? Sorine Jurard: I was a junior engineer. Dwarven schematics spread across my table when the wall shattered. I barely made it to the escape tunnel with my gyro prototypes. That's why every bolt I craft now has a dwarven-made winding mechanism. Durak: And why I trust her contraptions to punch through vampire hide at fifty paces. She's earned that right. Agmaer: I heard about the tunnels from Celann. He said Isran had them dug as a last resort after the siege."
+        },
+        {
+            "role": "assistant",
+            "content": "Sorine Jurard: Control the sun. That's ambitious even for a vampire lord. I've studied enough dwemer schematics to know messing with celestial bodies rarely ends well for the mortal plane. Durak: The Orcish ancestors speak of a time when the sun was threatened. It did not end well for those who sought to dim it. This prophecy of your father's reeks of the same hubris. Agmaer: So Serana's actually on our side?"
+        },
+        {
+            "role": "assistant",
+            "content": "Sorine Jurard: Isran's got a good glare, I'll give him that. Could strip paint off dwemer metal. But he made the right call letting her stay. Durak: The right call and the safe call are not always the same. I've hunted vampires for decades. Some are worthy of trust, but few. Agmaer: She seemed sincere. And scared. I've never seen a vampire look scared before. Durak: Fear is not exclusive to the living, boy. Even the undead remember what it means to lose."
+        },
+        {
+            "role": "assistant",
+            "content": "Sorine Jurard: Cyrodiil. That's a long walk through vampire-infested wilderness. Hope you're not expecting me to build a teleportation device, because I haven't cracked that dwemer secret yet. Agmaer: I've never seen an Elder Scroll. What do they look like? Are they really made of pure light like the bards sing about? Durak: They are not for idle curiosity, boy. I saw one once, in a forgotten ruin. The man who opened it lost his eyes and his mind before the day was done. Moth priests earn their sight through years of devotion."
+        },
+        {
+            "role": "assistant",
+            "content": "Sorine Jurard: College of Winterhold."
+        },
+        {
+            "role": "assistant",
+            "content": "Sorine Jurard: These stairs lead down to the old armory. Haven't been down here in years. Dust and spiderwebs as far as the eye can see. Agmaer: Isran said there's a sealed dwarven door at the bottom. Any idea what's behind it? Durak: Nothing good. The old fort was built over ruins older than the Dawnguard. Some passages were blocked for good reason. Sorine Jurard: If I had my tools and a few hours I could tell you exactly what mechanism holds that door shut."
+        },
+        {
+            "role": "assistant",
+            "content": "Agmaer: I suppose some mysteries are best left undisturbed. At least until we've dealt with the vampire threat above ground. Durak: Wise words for a young recruit. The deep places of Skyrim have a way of swallowing the unprepared. Sorine Jurard: Still, if we ever need to reinforce this fort, I know exactly where to start digging. Those dwarven doors make excellent blast shields."
+        },
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Serana, Celann, Lydia, Daegon, Isran) (MJR picked up / took Potion of Minor Stamina) (MJR picked up / took Potion of Minor Healing)"
+        }
+    ]
+]

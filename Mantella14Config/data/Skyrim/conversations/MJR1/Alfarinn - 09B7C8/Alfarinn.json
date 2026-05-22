@@ -4,5 +4,19 @@
             "role": "assistant",
             "content": "Serana: Ah, Windhelm\u2014frozen balls of nostalgia. Last time I was here, your ancestors were building this shithole while fucking draugr in the crypts. Still smells like stale mead and racist Nords. You ever let those Gray Quarter elves ride your carriage, or do you make \u2018em walk barefoot through the snow like the rest of these milk-drinkers? Alfarinn: Keep your fangs out of my business, bloodsucker. I don\u2019t discriminate\u2014gold\u2019s gold, whether it\u2019s from a Dark Elf\u2019s purse or a Breton\u2019s. Though\u2026"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The conversation now takes place at night.) (The sky is almost completely clear, offering a moment of clarity.) (Characters nearby (from nearest to furthest): Daegon, Goat, rabbit, Roggi Knot-Beard, Gemma Uriel) (Serana picked up/took Potion of Blood) (The location is now Windhelm.) (Characters nearby (from nearest to furthest): Horse, Daegon, Horse, Horse, Windhelm Guard)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Windhelm at night, where the cold bites harder than a scorned ex and the blood flows warmer in the gutters than in the guards' veins. This city's got more layers than a dead noble's will. Lydia: Watch your tongue, vampire. This is the cradle of the true Nord spirit, where men like Ulfric stand against Imperial puppets and elven filth."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* This scene depicts a dimly lit, rustic interior, likely a barn or stable, characterized by heavy wooden architecture and stone masonry. The viewpoint looks upward, capturing a network of large, dark timber beams and rafters that crisscross the ceiling, supporting the roof structure above. The light is low, casting deep shadows across the wooden planks and creating a somber atmosphere. The walls are constructed from rough-hewn stone blocks that extend upward, meeting the wooden framework. To the right side of the frame, stacks of hay bales are piled high against a wooden support post. Near the center of the scene, in the gloom beneath the roof, lies what appears to be the skeletal remains of a large animal, possibly a horse, its rib cage and bones faintly visible against the dark background. A small wooden barrel sits nearby on the ground. The floor is uneven, appearing to be packed earth or dirt with patches of dampness near the bottom left. Through an opening on the far right, a contrast is presented: a glimpse of the outside world reveals a cold, snowy landscape with trees covered in white frost, illuminated by a cool, ambient light that suggests twilight or moonlight.)"
+        }
     ]
 ]
