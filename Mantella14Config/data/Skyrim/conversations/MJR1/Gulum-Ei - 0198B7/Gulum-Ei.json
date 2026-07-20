@@ -344,5 +344,69 @@
             "role": "assistant",
             "content": "Lydia: Aye, that frostbite of yours nearly turned my tankard to ice, my Thane. But by Dibella's curves, it's a fine way to chill out these Imperial spies lurking in the corners\u2014keeps 'em from sneakin' up like those bandit wenches earlier. Frea: The All-Maker weaves cold and fire as one, Dragonborn, much like the storms that rage over Solstheim's shores. But here in this stone den, your magic stirs the air like a shaman's rite\u2014best to sheath it now, lest it draws more eyes than just the bard tuning her strings over there. Corpulus Vinius: Enough with the spells, lads and lasses! Dawn's barely cracked, and I've got Minette scrubbing frost off the bar already. If you want real warmth, order some porridge or mead\u2014none of that conjured nonsense that'll have the guards hauling us all to the dungeons. Gulum-Ei: Hmph. Morning spells and tavern theatrics. If you're done playing mage, maybe keep your voices down. Some of us are trying to nurse a drink in peace without the whole hold knowing our business."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Winking Skeever.) (Characters nearby (from nearest to furthest): Daegon, Noster Eagle-Eye, Serana, Ahtar, Lisette)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: This place is better than that dank cave we crawled out of. At least the mead flows freely here. Gulum-Ei: A wise choice for rest, indeed. I have fine wares for sale if your thane seeks to replenish supplies before venturing further. Sorex Vinius: Welcome to the Winking Skeever! I hope the journey treated you well. We've got fresh-brewed mead and a warm hearth to chase off the night's chill."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Finally a proper seat. My bones ache from all that crawling through caves and climbing mountains. This mead better be strong enough to knock out a giant. Sorex Vinius: Strongest in Solitude, I promise you. Vivienne here helped brew it herself with some of her apothecary herbs. Gives it a unique kick. Gulum-Ei: An enterprising young woman. Perhaps we could discuss business arrangements for your herbal concoctions? I have contacts in Riften who would pay handsomely for exotic blends."
+        },
+        {
+            "role": "assistant",
+            "content": "Sorex Vinius: Business with Vivienne? She helps me with the brewing on her own time. I'm not looking to sell her services to some merchant from Riften, no offense intended."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: That Khajiit is scurrying off quick enough. Hope your thane knows what he's doing, handing over all that gear. Malborn better not drop it in the snow."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Winking Skeever.) (Characters nearby (from nearest to furthest): Serana, Daegon, Lydia, Dorian, Gisli)"
+        },
+        {
+            "role": "assistant",
+            "content": "Minette Vinius: Papa says we're almost out of the Honningbrew Reserve, but I told him the Black-Briar Private Reserve is better for the late crowd anyway. Gulum-Ei: A wise choice, young one. The after-hours trade always favors a darker, more complex mead. I have a crate of Surilie Brothers in my warehouse that would complement such a selection. Xander: Late nights at the Skeever remind me of the portside taverns in Anvil. Same damp wood, same smell of spilled ale and desperate men. At least the company here is more... refined."
+        },
+        {
+            "role": "assistant",
+            "content": "Minette Vinius: Oh, Lisette! Did you hear about the shipment of Surilie Brothers that got held up at the East Empire docks? Papa's been grumbling about it all day. Gulum-Ei: A most unfortunate delay. I had arranged for that very shipment to arrive this morning. The harbormaster claims it was a clerical error, but I suspect the Companions' recent contract with the East Empire Company has caused some... logistical complications. Xander: Complications indeed. I've seen how those dockworkers handle cargo when they think no one's watching. A few crates of fine wine can easily find their way into the wrong hands. Corpulus Minette Vinius: By the Nine, don't remind me! I've got thirsty customers and half-empty shelves. Minette, fetch me another tally sheet from the back. We need to recalculate our reserves before the night's through."
+        },
+        {
+            "role": "assistant",
+            "content": "Minette Vinius: Firebrand Wine? That's from the old king's private stash in the Blue Palace. Papa says it's so rare even Jarl Elisif doesn't know she has it stacked in the back cellar. Gulum-Ei: An astute observation for one so young. I admire a mind that keeps track of such valuable... details. Perhaps we can come to a mutually beneficial arrangement regarding that vintage."
+        },
+        {
+            "role": "assistant",
+            "content": "Minette Vinius: Oh, I know all the good hiding spots in Solitude! For the right price, I could show someone where the palace servants keep the keys to the wine cellar. But Papa says I'm not supposed to talk about that with strangers. Xander: The child has a merchant's instincts already. A useful quality in this city of schemers and dreamers. Though I'd advise caution, young one - knowledge of palace secrets can be a dangerous burden. Gulum-Ei: Indeed. Such information should be shared only with those who have proper... credentials. But perhaps we might discuss this further another time. I find myself parched and in need of refreshment."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Octieve San, Noster Eagle-Eye, Jaree-Ra, Solitude Guard, Solitude Guard) (The location is now The Winking Skeever.) (Characters nearby (from nearest to furthest): Serana, Corpulus Vinius, Belrand, Lisette, Minette Vinius) (MJR: I have the Firebrand Wine.; Gulum-Ei: Good. Can't have the buyer getting impatient and looking elsewhere for this, can we? Here, take this. I certainly can't use it, but I suppose I need to pay you something for the goods.)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Solitude.) (Characters nearby (from nearest to furthest): Lydia, Daegon, Horse, Blaise, Goat) (MJR: That's it? No name or anything?; Gulum-Ei: In this business we rarely deal in names; our identity comes from how much coin we carry. MJR: I think you're lying to me.; Gulum-Ei: Look, that's all I know. I never promised you I'd have all the answers. Now, since our transaction is done, I'll be on my way.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Solitude Guard: Three in the morning and the streets are still. Not a soul stirring except for that merchant over there. Haafingar Guard: Aye, saw him talking to someone near the Skeever. Late for business, if you ask me. Keeps the city interesting, I suppose. Gulum-Ei: Interesting is one word for it. A merchant's work never truly ends, even under Dibella's moon. The night air is crisp tonight, perfect for a quiet walk."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A night scene is viewed through the dark, needle-like branches of an evergreen tree in the foreground. The sky above is a vast, deep expanse of black, densely populated with countless shimmering white stars that stretch across the entire upper portion of the view. Below the starlit sky, a dark landscape unfolds. A calm body of water reflects the faint light of the night, nestled among shadowy hills and undulating terrain. Near the water's edge, the silhouettes of small wooden docks or boats are faintly visible. To the right, a soft, hazy mist or smoke drifts through the darkened valley, partially obscuring the distant, rugged outlines of the mountainside. The overall atmosphere is quiet, cool, and vast.)"
+        }
     ]
 ]

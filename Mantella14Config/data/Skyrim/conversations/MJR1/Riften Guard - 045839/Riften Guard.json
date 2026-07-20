@@ -42,5 +42,19 @@
             "role": "user",
             "content": "(Characters nearby (from nearest to furthest): Riften Guard, Daegon, Jenassa, Shadr, Riften Guard)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Riften.) (Characters nearby (from nearest to furthest): Serana, Daegon, Shadr, Cow, Cow)"
+        },
+        {
+            "role": "assistant",
+            "content": "Riften Guard: Clear sky tonight. Rare in Riften\u2014usually we're choking on mist. You lot still skulking about? Thought I warned you earlier. Lydia: Aye, and we remember. But we're on Thane business now, so keep your warnings for the fishmongers. My thane seeks pleasure under Dibella's stars, and I'll not be bothered by a guard whose armor squeaks louder than her mouth. Riften Guard: Thane or not, you carry steel like you're spoiling for a fight. And that one\u2014points at Daegon\u2014still glows like a firefly. Dibella's grace extends to all, but I've seen marked folk bring trouble before. Lydia: Trouble finds the worthy, not the weak. If you're so concerned, fetch us a round at the Bee and Barb and join the conversation. Or stand there and count clouds while I guard my thane's back. Your choice."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A scene unfolds at night, dominated by a dark, rustic wooden structure that resembles a log cabin or a timber-framed building. The building is shrouded in deep shadows, though a warm, golden light glows from two small, rectangular windows, suggesting a cozy interior against the darkness. To the right of the building, a dark metal gate stands partially visible, set beneath a wooden beam structure. Beyond the gate, the silhouettes of trees can be seen against a vast, dark sky filled with a dense scattering of bright, distant stars. The ground in the foreground is bathed in a dim, reddish light, casting soft shadows and highlighting the rough texture of the earth and low-lying foliage. A small, dark sign with the word \"Riften\" written in white text sits low to the ground near the base of the building.) (Characters nearby (from nearest to furthest): Hemming Black-Briar, Haelga, Daegon, Indaryn, Tythis Ulen) (MJR: Why don't you wear some of these items...? (Persuade); Haelga: Okay. Just this once.) (Characters nearby (from nearest to furthest): Haelga, Daegon, Mjoll the Lioness, Serana, Indaryn) (MJR picked up / took Belted Tunic from Haelga) (MJR picked up / took Lockpick from Haelga) (MJR picked up / took Haelga's Bunkhouse Key from Haelga) (MJR dropped/gave Crochet Bikini Top Black in/on/to Haelga) (MJR dropped/gave Crochet Bikini Bottom Black in/on/to Haelga) (MJR dropped/gave College Boots in/on/to Haelga) (MJR picked up / took Crochet Bikini Bottom Black from Haelga) (MJR dropped/gave Belted Tunic in/on/to Haelga)"
+        }
     ]
 ]

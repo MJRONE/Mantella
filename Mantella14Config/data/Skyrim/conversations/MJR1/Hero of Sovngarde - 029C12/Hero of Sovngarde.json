@@ -76,5 +76,43 @@
             "role": "assistant",
             "content": "Serana: Why'd the vampire chick in the skimpy white top stare at that carved pillar like it's her next meal? Because in Dibella's Skyrim, even stone dicks get you wet at 3 AM\u2014bet those flames are just her inner slut flickering to life. Hero of Sovngarde: Fog's choking the air like a draugr's cold kiss on these steps, brother, with shadows dancing wild on that arched maw. Those figures on the rug below? Ghosts of glory past, urging us to break Shor's chains and charge the worm\u2014my axe thirsts for it, this haze be damned. Serana: Urgency's thick as cum in a brothel brawl here;"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Hall of Heroes.) (Characters nearby (from nearest to furthest): Serana, Daegon, Ysgramor, Hero of Sovngarde, Ulfgar the Unending)"
+        },
+        {
+            "role": "assistant",
+            "content": "Jurgen Windcaller: The night air hangs heavy in this hall, carrying echoes of battles long past. I sense the stones themselves remember Thu'um. Hero of Sovngarde: These walls have heard more Shouts than any mortal tongue could utter. Yet tonight they whisper of something else - a tension that walks among us. Jurgen Windcaller: Dibella's influence touches even this sacred space. I feel Her hand in the way the hearthlight falls upon the steel of your armor. Hero of Sovngarde: Sovngarde bows to no god's tradition but Shor's, yet I cannot deny the warmth that lingers here beyond the fire's reach. Tell me, Windcaller - does the Way of the Voice speak of such earthly matters? Jurgen Windcaller: The Voice teaches balance - that all forces have their season. Even a Greybeard understands that desire is merely another form of power waiting to be harmonized."
+        },
+        {
+            "role": "assistant",
+            "content": "Jurgen Windcaller: Gormlaith stands near the hearth, her golden hair catching the firelight like a banner in battle. She seems lost in thought, far from this hall. Hero of Sovngarde: I have seen that look before - the stillness before a storm. She carries the weight of Alduin's Wall etched into her memory. Jurgen Windcaller: Felldir the Old watches her from the shadows. His eyes hold the same ancient knowing they did when he cast the Elder Scroll against the World-Eater. Hero of Sovngarde: Three heroes who stood against the end of all things. Yet here they stand, flesh and bone, breathing the same air as you and I. Jurgen Windcaller: The night grows deeper. Soon the torches will burn low, and Sovngarde will show us what it truly is - a place where even legends must rest."
+        },
+        {
+            "role": "assistant",
+            "content": "Jurgen Windcaller: The mist curls through these pillars like the breath of a slumbering dragon. Do you see the carvings upon them? They tell of the first Nords who walked this hall. Hero of Sovngarde: I have traced those grooves with my fingers before. Each line marks a battle won, a life given in Shor's name. But tonight the mist feels different - heavier, as if it carries secrets. Jurgen Windcaller: Felldir the Old has not moved from his seat. He watches the mist as if expecting something to emerge from it. Hero of Sovngarde: Perhaps he sees Alduin's shadow still clinging to these stones."
+        },
+        {
+            "role": "assistant",
+            "content": "Jurgen Windcaller: Hunroor approaches from the shadows between the pillars. His stride carries the confidence of one who has faced death and laughed in its face. Hero of Sovngarde: Hunroor, the Clever, they called him in the old songs. His axe has tasted more Dwarven blood than any other blade in this hall."
+        },
+        {
+            "role": "assistant",
+            "content": "Jurgen Windcaller: The mead flows freely in this hall tonight. I see the Hero has found the barrels our hosts keep well-stocked. Hero of Sovngarde: Sovngarde knows no thirst, but the taste of Nord Mead still carries memories of warm hearths and long winters. It seems some comforts transcend mortality."
+        },
+        {
+            "role": "assistant",
+            "content": "Jurgen Windcaller: The meat here carries the taste of venison hunted in the forests of old Atmora. I remember feasting on such cuts after the victory at Red Mountain. Hero of Sovngarde: Each bite seems to hold the memory of the beast that gave it, the hunter who felled it, the fire that cooked it. This hall feeds more than the body."
+        },
+        {
+            "role": "assistant",
+            "content": "Jurgen Windcaller: The fire crackles low now. I think the Hall itself tells us the time for tales has passed, and the time for simply being has come. Hero of Sovngarde: Aye. Some silences speak louder than any Thu'um. Let us listen to what the stones have to say tonight."
+        },
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Daegon, Serana, Nikulas, Lydia, Hero of Sovngarde)"
+        }
     ]
 ]

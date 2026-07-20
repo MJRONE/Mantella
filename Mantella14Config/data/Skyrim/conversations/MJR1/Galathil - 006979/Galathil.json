@@ -8,5 +8,41 @@
             "role": "assistant",
             "content": "Galathil: How... quaint. Enjoy your barbaric rutting while it lasts, housecarl. Sooner or later, even brute warriors grow tired of brute companions. Lydia: Hah! Keep carving faces in your piss-stinking cistern, corpse-toucher."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Ragged Flagon.) (Characters nearby (from nearest to furthest): Daegon, Lydia, Serana, Vex, Brynjolf) (MJR: What do you want?; Galathil: Hmm, I suppose I can work with your face. After all, the sculptor cannot always choose the finest clay. MJR: What are you talking about?; Galathil: I assumed you were here to see me about your face. To have it sculpted into something more... artful than Nature has bestowed upon you. MJR: What do you do?; Galathil: So are you here as a client? Shall I remake your face? MJR: I'll have to think about it.; Galathil: Indeed. It is no small thing to submit yourself to the flesh sculptor's knife.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Tonilia: That one seemed uncertain about your services, Galathil. Can't say I blame him\u2014there's something unnerving about letting someone carve into your face. Galathil: Most walk away thinking it over. Few return. But those who do understand that beauty is a weapon sharper than any dagger I've seen you carry. Tonilia: Sharp enough to cut through a mark's coin purse, I suppose. Still, at this hour, most of the folks stumbling in here aren't looking for a new nose\u2014they're looking for a drink to forget their troubles. Galathil: Trouble and transformation often go hand in hand. A new face can be a new life, after all."
+        },
+        {
+            "role": "assistant",
+            "content": "Tonilia: That view... reminds me of the passage out to the old Solitude Lighthouse. I always wondered what it'd be like to carve a new life out of stone and sea. Galathil: The Rock may be indifferent to our desires, but a face can be coaxed into anything you wish."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Ragged Flagon.) (Characters nearby (from nearest to furthest): Karliah, Lydia, Serana, Tonilia, Vekel the Man)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: This place smells worse than the Ratway, and that's saying something. At least there's ale. Galathil: Ale dulls the senses, but a sharp face cuts deeper. Have you reconsidered my offer from before? A new visage could serve you well in this cold land."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Looks like Karliah's on the move again. Probably off to stab someone for a septim or two. Galathil: Purpose gives a face its true beauty. Perhaps you should follow her."
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: Dirge looks like he's been chewing on a troll's boot for breakfast. At least he's consistent. Galathil: Some faces are born of hardship, their lines tell stories of survival. Would you like yours to tell a different tale?"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: I've got enough stories carved into my skin already, thanks. Don't need a new face to go with them."
+        }
     ]
 ]

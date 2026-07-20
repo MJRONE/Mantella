@@ -16,5 +16,43 @@
             "role": "assistant",
             "content": "Valdr: Damn spriggans won\u2019t know what hit \u2018em. Let\u2019s move fast\u2014Ari deserves better than rotting in that cave. Lydia: About time we gut some nature-loving freaks. MJR better be watching when I cleave one in half\u2014nothing gets him hotter than blood on my tits. Valdr: ... I\u2019m just going to focus on killing things quietly now. Lydia: Smartest thing you\u2019ve said all day. Now shut up and bleed quietly if you get stabbed. MJR prefers me when I\u2019m not distracted by whining."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(MJR fired an arrow.) (MJR unequipped Daedric Arrow) (MJR equipped Daedric Arrow) (Daegon cast the spell Flame Cloak) (Daegon unequipped Flame Cloak) (Daegon equipped Fast Healing) (Lydia has entered combat with Frostbite Spider) (Daegon has entered combat with Frostbite Spider) (Serana has entered combat with Frostbite Spider) (Daegon unequipped Fast Healing) (Daegon equipped Flame Cloak) (MJR dropped/gave Daedric Arrow) (Cave Bear was killed by the group) (Frostbite Spider was killed by the group) (Daegon is no longer in combat) (Serana is no longer in combat) (Lydia is no longer in combat) (Lydia has entered combat with Sabre Cat) (Serana is searching for Sabre Cat) (Daegon is no longer in combat.) (Serana is no longer in combat.) (Characters nearby (from nearest to furthest): Valdr, Sabre Cat, Spriggan, Spriggan Matron) (The location is now Moss Mother Cavern.) (Characters nearby (from nearest to furthest): gargoyle, Spriggan Matron, Daegon, Serana, Cave Bear) (Spriggan Matron punched MJR .) (MJR: Greetings.; Valdr: Thank Kynareth for you, stranger. I'd almost given up hope of walking away from here. MJR: Who are you?; Valdr: Name's Valdr. I hunt out of Falkreath. MJR: What are you doing out here?; Valdr: We tracked a bear to this den. Good coin for those pelts. We had the big sow cornered when they showed up. Three of them, out of nowhere. Spriggans. Niels went down before we even knew to run. Ari died just inside. I never even thought the things were real. MJR: Why are you still here?; Valdr: I may have lost a drop or two of blood. Truth is, I'm not going anywhere like this. Hurts to breathe. MJR: I may have a potion to spare.; Valdr: I just need a little to get going. MJR: ...; Valdr: Much better. Thanks, friend. I wouldn't have lasted much longer without that. MJR: I understand. Let me help you.; Valdr: You'd do that for a stranger? I don't know what to say. Lead on, I suppose.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Valdr: I never thought I'd see a spriggan up close, let alone three of them. Those things are nothing like the stories the old hunters tell. Lydia: Stories are for children. You saw the truth of it tonight. Nature's corruption, plain as day. Dibella's domain is beauty and passion, not twisted tree spirits that tear men apart. Valdr: You worship Dibella then? I've always paid my respects to Kynareth for good hunting, but after tonight I might reconsider. Those spriggans felt wrong, like the forest itself was angry. Lydia: Angry because men like you treat it as nothing but a resource for coin and pelts. There's a balance, hunter. The Divines teach us to take only what we need and give thanks. But I suppose thats a lesson lost on Falkreath trappers. Valdr: Easy for you to say, standing there in your fine armor with a housecarl's title. When your belly's empty and the Jarl's tax collector is at your door, you learn to take what you can. Even if it means cracking a few spriggan heads."
+        },
+        {
+            "role": "assistant",
+            "content": "Valdr: By the Nine, what was that? Your friend just shouted me across the cave! I was already bleeding from the spriggans, now my ears are ringing too. Lydia: The Dragonborn does as he pleases. If he shouted at you, you probably deserved it. Maybe you got too close to his shot. Valdr: I was standing right here, not moving! He fired an arrow past my head, then that bear came out of nowhere and nearly took my arm off."
+        },
+        {
+            "role": "assistant",
+            "content": "Valdr: There's another one! A big one, coming from the shadows! I can barely see it in this darkness. Lydia: Stay behind me, hunter. Let the Dragonborn and I handle this. Dibella's grace guides my blade tonight. Valdr: Your Dibella better guide that greatsword true, because I'm not dying to another tree spirit in one night. My luck's already spent."
+        },
+        {
+            "role": "assistant",
+            "content": "Valdr: This one's tougher than the others! I can't get a clear shot with all the branches in the way. Lydia: Then stop whining and find cover! The Dragonborn's arrows will wear it down. Just don't get in his way again. Valdr: Easy for you to say with that greatsword. I've seen what those things can do up close. My bow arm is still shaking from the last fight."
+        },
+        {
+            "role": "assistant",
+            "content": "Valdr: Another one of my friends died to these monsters. Niels, Ari, now I'm the only one left. What kind of hunter survives when the others fall? Lydia: The kind who learns from the dead. Your friends are gone, but you're still breathing. That means the Divines have a purpose for you yet. Stop feeling sorry for yourself and help us finish this. Valdr: Purpose?"
+        },
+        {
+            "role": "assistant",
+            "content": "Valdr: Purpose? I was a hunter, not some hero of legend. Now I'm a man with dead friends and a debt I can't repay. Lydia: You can repay it right now by helping us clear this cave. Every spriggan we kill is one less monster to stalk these woods. The dead don't care about your guilt, only the living matter."
+        },
+        {
+            "role": "assistant",
+            "content": "Valdr: You're right. The living do matter. And I'm still alive, so I'll make it count. Point me at the next spriggan and I'll put an arrow through its twisted heart. Lydia: That's the Falkreath spirit I was hoping for. Keep your head down, watch your flanks, and let the Dragonborn do the shouting. We finish this cave, then we get paid."
+        },
+        {
+            "role": "user",
+            "content": "(Lydia unequipped Pharaoh's General Bra) (Valdr equipped Hide Boots) (Lydia equipped Pharaoh's General Bra) (Valdr equipped Studded Armor) (Lydia equipped Pharaoh's General Armlets) (Valdr unequipped Studded Armor) (Lydia equipped Pharaoh's General Harness) (Valdr equipped Hunting Bow) (Lydia unequipped Leather Boots) (Lydia equipped Iron Boots) (Lydia equipped Ebony Greatsword) (Lydia equipped Leather Boots) (Lydia equipped Pharaoh's General Pasties) (Lydia equipped Pharaoh's General Skirt A) (Lydia equipped Pharaoh's General Bracelets) (Lydia equipped Silver Ring) (Lydia picked up/took Silver Ring) (Lydia unequipped Silver Ring) (Lydia dropped/gave Silver Ring) (Lydia has entered combat with Spriggan) (MJR cast the spell / consumed Unrelenting Force - Fus) (MJR hit Lydia with Unrelenting Force - Fus) (Spriggan punched Lydia) (MJR fired an arrow.) (MJR dropped/gave Daedric Arrow) (MJR unequipped Daedric Arrow) (MJR equipped Daedric Arrow) (Valdr has entered combat with Spriggan) (Spriggan was killed by the group) (Valdr is no longer in combat)"
+        }
     ]
 ]

@@ -1,0 +1,12 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Half-Moon Mill.) (Characters nearby (from nearest to furthest): Daegon, Serana)"
+        },
+        {
+            "role": "assistant",
+            "content": "Hert: Traveling so late, strangers? The road to Falkreath is treacherous after dark, with wolves and worse prowling the woods. Lydia: We've handled worse than wolves. We seek shelter for the night, if your mill has a spare bed or a warm corner. Hert: Shelter we have, and a fire too."
+        }
+    ]
+]

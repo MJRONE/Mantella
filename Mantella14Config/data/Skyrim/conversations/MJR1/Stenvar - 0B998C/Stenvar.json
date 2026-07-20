@@ -1,0 +1,40 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Windhelm Guard, Suvaris Atheron, Windhelm Guard, Rolff Stone-Fist, Windhelm Guard) (MJR: No, I don't hate your people.; Suvaris Atheron: You've come to the wrong city, then. Windhelm's a haven of prejudice and narrow thinking, unworthy of one such as you.) (MJR: Looked like those Nords were giving you trouble.; Suvaris Atheron: Nothing new there. Most of the Nords living in Windhelm don't care much for us, but Rolff is the worst by far. He likes to get drunk and walk around the Gray Quarter yelling insults at us in the small hours of the morning. A real charmer, that one.) (MJR: Why would anyone think you're a spy?; Suvaris Atheron: Some of these Nords will come up with any excuse to despise us. And it isn't just the Dark Elves they hate -- they make a target of the Argonians as well. In fact, just about anyone who isn't a Nord is fair game for their bullying.) (The location is now Candlehearth Hall.) (Characters nearby (from nearest to furthest): Serana, Lydia, Daegon, Elda Early-Dawn, Nils)"
+        },
+        {
+            "role": "assistant",
+            "content": "Sam Guevenne: The air in here is thick with more than just smoke and mead. That little altercation outside the Gray Quarter has left a sour taste lingering. Stenvar: Aye."
+        },
+        {
+            "role": "assistant",
+            "content": "Stenvar: That Dunmer woman has the right of it. Windhelm has a way of showing its ugliest face after dark. I've seen it spill blood more than once in these very streets. Sam Guevenne: Blood and bile, the twin currencies of this frozen city. Tell me, sellsword, do you trade in both, or just the one that pays better?"
+        },
+        {
+            "role": "assistant",
+            "content": "Stenvar: A candle burning for a hundred and sixty-three years. Now that is a tale with some weight to it. Reminds me of the old watchfires in the barrows, said to burn until the dead rise again."
+        },
+        {
+            "role": "assistant",
+            "content": "Sam Guevenne: A flame that defies reason, much like the stubbornness of these Nords. But then again, I've seen stranger things - like a man who claims to have bedded a hagraven and lived to boast about it."
+        },
+        {
+            "role": "assistant",
+            "content": "Stenvar: A hagraven? I've seen what those creatures leave behind after a raid. If the man lived, he earned his boasting. Though I'd sooner trust a skeever than a hagraven's promise."
+        },
+        {
+            "role": "assistant",
+            "content": "Sam Guevenne: Speaking of promises that defy nature, that pale creature by the fire has the look of something that's seen more than a few centuries. I wonder if she's as cold as she appears, or if there's a warmth hidden beneath that marble skin."
+        },
+        {
+            "role": "assistant",
+            "content": "Stenvar: I've learned not to stare too long at folk who look like they've seen the world wear thin. Some secrets are better left buried in the snow where they belong. Sam Guevenne: Wise words from a man who's likely dug a few graves himself. Let us drink to the things we leave undisturbed."
+        },
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Daegon, Serana, Elda Early-Dawn, Nils, Adonato Leotelli) (Sam Guevenne stood up from a(n) Wooden Bar Stool)"
+        }
+    ]
+]

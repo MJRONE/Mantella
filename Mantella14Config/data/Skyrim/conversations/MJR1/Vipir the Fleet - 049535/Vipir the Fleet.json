@@ -1,0 +1,38 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Thieves Guild Headquarters.) (Characters nearby (from nearest to furthest): Daegon, Serana, Lydia, Niruin, Thrynn) (MJR: I need to talk to you.; Etienne Rarnis: I told you, I don't know anything else about it. MJR: I'm not here to torture you.; Etienne Rarnis: What? Who... what do you want then? MJR: No time to explain. Let's get out of here. (Free him); Etienne Rarnis: Yeah, sure, okay. Come on, this way. I've seen the guards use it to get rid of bodies. It must lead somewhere. MJR: You go ahead. I'm not done here.; Etienne Rarnis: No problem. Thanks for springing me. I owe you. Look me up in Riften if you make it out.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Vipir the Fleet: By the Eight, Etienne, you look like you've been dragged through a sewer and back. What in Oblivion happened to you? Etienne Rarnis: Thalmor happened, Vipir. They had me in their embassy for days. Torture, questions about Esbern. I thought I was done for. Vipir the Fleet: Thalmor? Shit. You're lucky to be breathing. How'd you get out? Etienne Rarnis: Some stranger named MJR. Cut me loose, told me to run. Didn't stick around to ask questions. Vipir the Fleet: MJR? Never heard of 'em. But anyone who springs a guild brother from Thalmor hands is alright in my book. You need a drink or a bed for the night? Etienne Rarnis: Both, honestly. My head's still spinning from all that. And my wrists... these chains left marks."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this nighttime scene, a small campfire burns within a stone-rimmed pit, casting a warm, orange glow over the immediate surroundings. A large metal pot hangs suspended over the flames by a rustic metal tripod stand. Faint wisps of steam or smoke rise from the pot into the dark air. The ground is composed of uneven, dark earth and scattered stones, illuminated partially by the flickering firelight. In the foreground, the dark, textured edge of an object, possibly a tool or piece of equipment, is visible in the lower-left corner. The background is shrouded in deep shadows, suggesting a dark, outdoor setting at night.) (Characters nearby (from nearest to furthest): Brynjolf, Lydia, Daegon, Serana, Niruin) (MJR hit Etienne Rarnis with Daedric Wrath) (MJR: ...; Brynjolf: You've made a mess of things and Maven's furious. I told you not to burn more than three of the hives! I've smoothed things over with her for now, but you can forget your cut.) (MJR: Sorry. Here's what was in the safe.; Brynjolf: At least you remembered one of the things I asked. Let me see that.) (MJR dropped/gave Goldenglow Bill of Sale) (MJR: So, what did you think about the deed?; Brynjolf: Aringoth sold Goldenglow? What's that idiot thinking? He has no idea the extent of Maven's fury when she's been cut out of a deal, but I'm certain he'll find out. If only the parchment had the buyer's name instead of this odd symbol. Any idea what that might be?) (MJR: No idea.; Brynjolf: Blast. Well, I'll check my sources and speak to Mercer. But for now, you're off to speak to Maven Black-Briar. She asked for you by name.) (MJR: Good, it's about time I met her.; Brynjolf: Don't sound so eager, it's not a social visit. It's business.) (MJR: What does Maven want from me?; Brynjolf: That's between you and Maven and I prefer to keep it that way. Just keep your ears open and your mouth shut and you'll do fine.)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Delvin Mallory, Daegon, Vex, Serana, Galathil) (Tonilia rested on / used a(n) Wooden Bar Stool) (The location is now Thieves Guild Headquarters.) (Characters nearby (from nearest to furthest): Brynjolf, Daegon, Serana, Cynric Endell, Niruin)"
+        },
+        {
+            "role": "assistant",
+            "content": "Vipir the Fleet: You think Gulum-Ei's still in Solitude after that business with the shipment? Etienne Rarnis: That slippery Argonian's probably halfway to Black Marsh by now, counting his coin and laughing at Mercer. Vipir the Fleet: Mercer never did have a good eye for trustworthy contacts. Picks his partners like he picks his locks - clumsy and leaving marks. Etienne Rarnis: At least the Thalmor shipment gave us something to work with. Rulindil's signature was all over those crates. She's getting sloppy. Vipir the Fleet: Or she wants us to know she's involved. Either way, more coin for us when we turn this around on them. Etienne Rarnis: Speaking of coin, how much did that job in Riften pay out? I heard you lifted a purse heavy enough to choke a horse. Vipir the Fleet: Heavy enough to buy a new set of lockpicks and a warm night at the Bee and Barb. But you know how it is - coin comes, coin goes. Etienne Rarnis: Aye, that's the life we chose. Quick fingers, quicker spending."
+        },
+        {
+            "role": "assistant",
+            "content": "Vipir the Fleet: The Eyes of the Falmer? That's a ghost story, not a real heist. Gallus spent years chasing those things and never got close. Etienne Rarnis: Karliah's back? After all that business with Mercer framing her for Gallus' murder? This is either brilliant or madness. Vipir the Fleet: Knowing Mercer, probably both. That bastard's been planning this since the day he took the Guild from Gallus' cold hands. Etienne Rarnis: If anyone can track him down, it's Karliah. She knows Mercer better than anyone - knew his tells, his habits, his weaknesses. Vipir the Fleet: Let's hope those weaknesses include a slow step and a heavy coin purse. I'd hate to see the Guild fall apart over one man's greed. Etienne Rarnis: The Guild's survived worse than Mercer Frey. We'll come out of this with our pockets full and our heads held high. Just watch."
+        },
+        {
+            "role": "assistant",
+            "content": "Vipir the Fleet: So that's Karliah. I've heard the stories but never thought I'd see her back in the Cistern. Etienne Rarnis: She looks different than the bounty posters. More dangerous somehow. Vipir the Fleet: That's what happens when you spend years hunting the man who ruined your life. Gives you a certain look in your eyes. Etienne Rarnis: Think she'll actually help us find Mercer, or is this just another angle for her own revenge?"
+        },
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Niruin, Daegon, Serana, Lydia, Karliah)"
+        }
+    ]
+]

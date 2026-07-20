@@ -10,7 +10,7 @@
         },
         {
             "role": "assistant",
-            "content": "Xander: This inn's got that Solitude stink about it—polished stone and Imperial coin, but the ale's still watery as the harbor slop. You look like you've seen some real scrapes out there, lass; that greatsword ain't for showin' off to merchants. Lydia: Aye, and it's tasted more Thalmor blood than you've seen fine threads in your life, you prissy Cyrodiil dandy."
+            "content": "Xander: This inn's got that Solitude stink about it\u2014polished stone and Imperial coin, but the ale's still watery as the harbor slop. You look like you've seen some real scrapes out there, lass; that greatsword ain't for showin' off to merchants. Lydia: Aye, and it's tasted more Thalmor blood than you've seen fine threads in your life, you prissy Cyrodiil dandy."
         },
         {
             "role": "user",
@@ -18,7 +18,7 @@
         },
         {
             "role": "assistant",
-            "content": "Lydia: Aye, and you've got the reek of some salt-crusted Imperial dandy who thinks a fancy cloak hides his pirate stink—spill it, mustache, what the fuck are you eyeing up in this shithole tavern at midday? That cheese on the table looks like it's been gnawed by skeever rats, and the only scrapes I've seen worth a damn are the ones I carved into Forsworn hides for my Thane."
+            "content": "Lydia: Aye, and you've got the reek of some salt-crusted Imperial dandy who thinks a fancy cloak hides his pirate stink\u2014spill it, mustache, what the fuck are you eyeing up in this shithole tavern at midday? That cheese on the table looks like it's been gnawed by skeever rats, and the only scrapes I've seen worth a damn are the ones I carved into Forsworn hides for my Thane."
         },
         {
             "role": "user",
@@ -26,7 +26,7 @@
         },
         {
             "role": "assistant",
-            "content": "Xander: Prissy? Oh, that's rich coming from a Nord broad swinging steel like it's a lover's quarrel. I've danced with cutlasses sharper than your tongue, lass—sank my own ship to the ghosts for less lip than this. Lydia: Your ship's a watery grave 'cause you couldn't sail straight, you Imperial fop. I've gutted better men than you for less, and this place reeks of Solitude's soft underbelly—midday sun barely piercing these walls, and already the ale's turning to piss."
+            "content": "Xander: Prissy? Oh, that's rich coming from a Nord broad swinging steel like it's a lover's quarrel. I've danced with cutlasses sharper than your tongue, lass\u2014sank my own ship to the ghosts for less lip than this. Lydia: Your ship's a watery grave 'cause you couldn't sail straight, you Imperial fop. I've gutted better men than you for less, and this place reeks of Solitude's soft underbelly\u2014midday sun barely piercing these walls, and already the ale's turning to piss."
         },
         {
             "role": "user",
@@ -34,7 +34,29 @@
         },
         {
             "role": "assistant",
-            "content": "Xander: Pirate? Oh, darling, that's a crude word for a man of refined tastes like mine—call me a seafarer with a taste for adventure, like captaining the Argent Raptor 'til that cursed iceberg in the Sea of Ghosts turned her to splinters."
+            "content": "Xander: Pirate? Oh, darling, that's a crude word for a man of refined tastes like mine\u2014call me a seafarer with a taste for adventure, like captaining the Argent Raptor 'til that cursed iceberg in the Sea of Ghosts turned her to splinters."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Winking Skeever.) (Characters nearby (from nearest to furthest): Serana, Daegon, Lydia, Dorian, Gisli)"
+        },
+        {
+            "role": "assistant",
+            "content": "Minette Vinius: Papa says we're almost out of the Honningbrew Reserve, but I told him the Black-Briar Private Reserve is better for the late crowd anyway. Gulum-Ei: A wise choice, young one. The after-hours trade always favors a darker, more complex mead. I have a crate of Surilie Brothers in my warehouse that would complement such a selection. Xander: Late nights at the Skeever remind me of the portside taverns in Anvil. Same damp wood, same smell of spilled ale and desperate men. At least the company here is more... refined."
+        },
+        {
+            "role": "assistant",
+            "content": "Minette Vinius: Oh, Lisette! Did you hear about the shipment of Surilie Brothers that got held up at the East Empire docks? Papa's been grumbling about it all day. Gulum-Ei: A most unfortunate delay. I had arranged for that very shipment to arrive this morning. The harbormaster claims it was a clerical error, but I suspect the Companions' recent contract with the East Empire Company has caused some... logistical complications. Xander: Complications indeed. I've seen how those dockworkers handle cargo when they think no one's watching. A few crates of fine wine can easily find their way into the wrong hands. Corpulus Minette Vinius: By the Nine, don't remind me! I've got thirsty customers and half-empty shelves. Minette, fetch me another tally sheet from the back. We need to recalculate our reserves before the night's through."
+        },
+        {
+            "role": "assistant",
+            "content": "Minette Vinius: Firebrand Wine? That's from the old king's private stash in the Blue Palace. Papa says it's so rare even Jarl Elisif doesn't know she has it stacked in the back cellar. Gulum-Ei: An astute observation for one so young. I admire a mind that keeps track of such valuable... details. Perhaps we can come to a mutually beneficial arrangement regarding that vintage."
+        },
+        {
+            "role": "assistant",
+            "content": "Minette Vinius: Oh, I know all the good hiding spots in Solitude! For the right price, I could show someone where the palace servants keep the keys to the wine cellar. But Papa says I'm not supposed to talk about that with strangers. Xander: The child has a merchant's instincts already. A useful quality in this city of schemers and dreamers. Though I'd advise caution, young one - knowledge of palace secrets can be a dangerous burden. Gulum-Ei: Indeed. Such information should be shared only with those who have proper... credentials. But perhaps we might discuss this further another time. I find myself parched and in need of refreshment."
         }
     ]
 ]

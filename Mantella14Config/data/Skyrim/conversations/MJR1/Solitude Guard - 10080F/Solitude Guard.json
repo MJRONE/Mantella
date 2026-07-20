@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Solitude.) (Characters nearby (from nearest to furthest): Lydia, Daegon, Horse, Blaise, Goat) (MJR: That's it? No name or anything?; Gulum-Ei: In this business we rarely deal in names; our identity comes from how much coin we carry. MJR: I think you're lying to me.; Gulum-Ei: Look, that's all I know. I never promised you I'd have all the answers. Now, since our transaction is done, I'll be on my way.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Solitude Guard: Three in the morning and the streets are still. Not a soul stirring except for that merchant over there. Haafingar Guard: Aye, saw him talking to someone near the Skeever. Late for business, if you ask me. Keeps the city interesting, I suppose. Gulum-Ei: Interesting is one word for it. A merchant's work never truly ends, even under Dibella's moon. The night air is crisp tonight, perfect for a quiet walk."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A night scene is viewed through the dark, needle-like branches of an evergreen tree in the foreground. The sky above is a vast, deep expanse of black, densely populated with countless shimmering white stars that stretch across the entire upper portion of the view. Below the starlit sky, a dark landscape unfolds. A calm body of water reflects the faint light of the night, nestled among shadowy hills and undulating terrain. Near the water's edge, the silhouettes of small wooden docks or boats are faintly visible. To the right, a soft, hazy mist or smoke drifts through the darkened valley, partially obscuring the distant, rugged outlines of the mountainside. The overall atmosphere is quiet, cool, and vast.)"
+        }
+    ]
+]

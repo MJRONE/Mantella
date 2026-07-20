@@ -8,5 +8,67 @@
             "role": "assistant",
             "content": "Cynric Endell: Fuckin' hell, Rune, it's four in the goddamn morning down here in this rat-infested shithole."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Thieves Guild Headquarters.) (Characters nearby (from nearest to furthest): Vipir the Fleet, Thrynn, Serana, Lydia, Mercer Frey)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Thieves Guild Headquarters.) (Characters nearby (from nearest to furthest): Brynjolf, Mercer Frey, Lydia, Niruin, Etienne Rarnis)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Well, nothing says a successful heist like standing around in a sewer while a bunch of thieves pretend they're not staring at the vampire's tits. Daegon: At least the Guild has better lighting than Castle Volkihar's torture chambers. And fewer spiders. That's a win in my book. Cynric Endell: I've seen cleaner taverns in the Pale. But I suppose if you're going to plan the next big score, you could do worse than a damp hole with cheap mead and the stench of regret. Serana: Regret is just the foreplay of poor life choices. So, Mercer, Brynjolf, what's the next target? Another priceless artifact we can pawn off to keep the Guild's coffers from drying up? Daegon: Or perhaps a nice little assassination? I know a few people who'd pay handsomely to see some corrupt merchant take a nap in the lake. Just a thought."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: A test for the Dragonborn? Sounds like Mercer wants to see if MJR can pick locks as well as he picks fights. Or women. I'm curious what the prize is. Daegon: If it involves sneaking into some rich bastard's manor and relieving them of their valuables, I'm all for it. My rat Korpse has been itching for a new nest to explore. Cynric Endell: A test, you say? I do love a good challenge. Especially one that ends with me on my back counting septims instead of sheep. Just point me toward the target and I'll make sure the guards are... distracted."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: A courtyard fountain at night. How romantic. Almost makes me want to drag MJR over there for a quick dip. Though knowing our luck, there's probably a dozen archers watching from those windows. Daegon: I could set that fountain on fire. Just for ambiance. Give the guards something pretty to look at while we work. Cynric Endell: Fire would draw too much attention. Though a little distraction never hurt. I could always start a loud argument with a guard about the price of mead. Works every time."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Burning beehives and cracking safes. Now that sounds like a proper night out. I do hope MJR brings back some honey for me. I've got a few... creative uses for it. Daegon: Bee farms are tedious. All that buzzing. But burning things? That I can get behind. Just make sure the flames are hot enough to melt that safe's lock. Cynric Endell: Aringoth sounds like the type who'd sell his own mother for a few extra septims. If MJR needs a hand keeping him distracted while the safe gets cracked, I know a few tricks that'll make that Wood Elf forget his own name."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Fun? Darling, I invented fun."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Thieves Guild Headquarters.) (Characters nearby (from nearest to furthest): Mercer Frey, Daegon, Lydia, Serana, Etienne Rarnis)"
+        },
+        {
+            "role": "assistant",
+            "content": "Cynric Endell: Morning light barely touches this sewer, but I hear Mercer\u2019s got us all wound up about Goldenglow. Rune: Aye, he\u2019s restless. That safe won\u2019t crack itself."
+        },
+        {
+            "role": "assistant",
+            "content": "Cynric Endell: Murderer, is it? Gulum-Ei has a sharp tongue for a merchant who swims in coin. Rune: She\u2019d know a killer when she sees one. But Mercer\u2019s silence on that name tells me there\u2019s more to this parchment than a simple arson job."
+        },
+        {
+            "role": "assistant",
+            "content": "Cynric Endell: Snow Veil Sanctum... that's a cold name for a grave. Mercer's finally breaking his silence on Karliah. Rune: Aye, and dragging MJR into the snow with him. I've heard whispers of her cunning; if she's truly returned, this Guild's in for a reckoning."
+        },
+        {
+            "role": "assistant",
+            "content": "Cynric Endell: Karliah's been a ghost for years. If Mercer's off to Snow Veil with MJR, he's either desperate or certain he can end her. Rune: Desperate, more like. I've heard stories of her slipping through every trap he set. This ruin might be where he finally loses his footing."
+        },
+        {
+            "role": "assistant",
+            "content": "Cynric Endell: The Ratway's damp seeps through your boots down here. Always makes me think of the old tunnels where Karliah might have hidden. Rune: That blade's worn like it's seen a few shadows too. Reminds me of Gallus's dagger\u2014legend says he never went anywhere without it, even into the grave."
+        },
+        {
+            "role": "assistant",
+            "content": "Cynric Endell: Brynjolf's pacing again."
+        }
     ]
 ]

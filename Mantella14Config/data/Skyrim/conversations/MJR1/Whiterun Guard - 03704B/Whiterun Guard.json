@@ -322,5 +322,15 @@
             "role": "user",
             "content": "(*You are observing the following:* In this scene, a young woman with long, dark hair cascading down her back stands poised on a sturdy wooden bridge that spans a serene, crystal-clear blue pool of water below. She's dressed in a minimal black bikini top and bottoms, paired with rugged brown boots, and appears to be descending a set of wide stone steps that lead downward from the bridge's edge. Her figure is viewed from behind, emphasizing her confident stride amid the natural surroundings. The bridge itself is flanked by tall, weathered wooden posts supporting three tattered banners, each bearing a faded emblem that resembles a snarling bear on a yellow field. These hang from a grand arched gateway made of thick logs and crossbeams, evoking an ancient, rustic entrance. Beyond the gateway, a cluster of timber-framed buildings with steep, thatched roofs and stone foundations emerges from the misty landscape, their walls adorned with hanging lanterns and subtle carvings. A small waterfall cascades gently into the pool, creating ripples that reflect the warm, golden hues of the late afternoon light filtering through scattered autumn leaves on nearby trees. The environment is a breathtaking alpine vista: jagged, snow-capped mountains rise in the distance, shrouded in a soft veil of fog and distant clouds.)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Whiterun.) (Characters nearby (from nearest to furthest): Lydia, Daegon, Paarthurnax, Blood Dragon, Dragon)"
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this scene, a desolate, snow-covered landscape stretches under a heavy, overcast sky. The atmosphere is cold and bleak, with streaks of wind or falling snow blurring the air, creating a sense of movement in the harsh weather. In the foreground, a set of rough, uneven stone steps ascends a snowy slope, partially buried under a layer of white. To the right of the path, some dark, sparse vegetation clings to the hillside. In the background, the silhouette of a large, imposing stone fortress or castle rises against the grey sky, its rugged architecture appearing weathered and ancient amidst the wintry gloom. The text \"High Hrothgar\" is visible in the lower-left corner.)"
+        }
     ]
 ]

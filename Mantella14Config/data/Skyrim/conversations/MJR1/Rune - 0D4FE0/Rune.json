@@ -16,11 +16,11 @@
         },
         {
             "role": "user",
-            "content": "**Late visual context as seen by MJR (the player): As MJR stands in this dimly lit underground chamber, the scene unfolds with rough-hewn stone walls and floors, their surfaces etched with age and moisture. A narrow bridge of uneven cobblestones stretches ahead, spanning a shallow chasm where a sluggish flow of dark liquid trickles downward, faintly illuminated by an eerie orange glow emanating from unseen sources. To the right, a sturdy stone pillar rises, partially supporting an arched doorway that leads deeper into the shadows. Scattered debris—crates and broken masonry—litters the edges of the walkway, while faint wisps of steam or mist rise from cracks in the ground. The air feels heavy and oppressive, with the only light filtering through from a distant, flickering source beyond the arch, casting long, jagged shadows across the entire expanse.**"
+            "content": "**Late visual context as seen by MJR (the player): As MJR stands in this dimly lit underground chamber, the scene unfolds with rough-hewn stone walls and floors, their surfaces etched with age and moisture. A narrow bridge of uneven cobblestones stretches ahead, spanning a shallow chasm where a sluggish flow of dark liquid trickles downward, faintly illuminated by an eerie orange glow emanating from unseen sources. To the right, a sturdy stone pillar rises, partially supporting an arched doorway that leads deeper into the shadows. Scattered debris\u2014crates and broken masonry\u2014litters the edges of the walkway, while faint wisps of steam or mist rise from cracks in the ground. The air feels heavy and oppressive, with the only light filtering through from a distant, flickering source beyond the arch, casting long, jagged shadows across the entire expanse.**"
         },
         {
             "role": "assistant",
-            "content": "Serana: You know, down here in the Ratway at four in the morning, it feels like the perfect spot for a skooma-fueled orgy with the ghosts of Skyrim's forgotten thieves—too bad the only thing getting robbed is my patience for this damp shithole. What's a girl gotta do to score some real action in Riften, Rune? Spill the beans on your Guild's dirtiest secrets. Rune: Ha, secrets? Lady, if I told you half of what goes on in these cisterns, you'd be blushing brighter than a Daedric summon gone wrong."
+            "content": "Serana: You know, down here in the Ratway at four in the morning, it feels like the perfect spot for a skooma-fueled orgy with the ghosts of Skyrim's forgotten thieves\u2014too bad the only thing getting robbed is my patience for this damp shithole. What's a girl gotta do to score some real action in Riften, Rune? Spill the beans on your Guild's dirtiest secrets. Rune: Ha, secrets? Lady, if I told you half of what goes on in these cisterns, you'd be blushing brighter than a Daedric summon gone wrong."
         },
         {
             "role": "user",
@@ -28,7 +28,7 @@
         },
         {
             "role": "assistant",
-            "content": "Rune: Action? In the Ratway? Ha, you'd have better luck seducing a skeever down here, Serana—though with that vampiric charm of yours, who knows, maybe you'd turn the whole sewer into a blood-soaked brothel. What's got you prowling these tunnels at this unholy hour anyway? Looking to lift some Guild secrets or just dodge the dawn?"
+            "content": "Rune: Action? In the Ratway? Ha, you'd have better luck seducing a skeever down here, Serana\u2014though with that vampiric charm of yours, who knows, maybe you'd turn the whole sewer into a blood-soaked brothel. What's got you prowling these tunnels at this unholy hour anyway? Looking to lift some Guild secrets or just dodge the dawn?"
         },
         {
             "role": "user",
@@ -36,7 +36,89 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Blushing? Honey, I've been blushing since I crawled out of my coffin—nothing your little pickpocket parade does could shock these fangs. But come on, Rune, in this festering pit at four AM, with the walls dripping like a bad hangover, tell me: does the Guild actually share the spoils with the poor, or is it just another hoard for you leather-clad bastards while Riften's beggars freeze their tits off? Rune: Share?"
+            "content": "Serana: Blushing? Honey, I've been blushing since I crawled out of my coffin\u2014nothing your little pickpocket parade does could shock these fangs. But come on, Rune, in this festering pit at four AM, with the walls dripping like a bad hangover, tell me: does the Guild actually share the spoils with the poor, or is it just another hoard for you leather-clad bastards while Riften's beggars freeze their tits off? Rune: Share?"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Daegon, Lydia, Imperial Soldier, Ferrum, Imperial Soldier) (The location is now Thieves Guild Headquarters.) (Characters nearby (from nearest to furthest): Serana, Cynric Endell, Niruin, Mercer Frey, Daegon)"
+        },
+        {
+            "role": "assistant",
+            "content": "Thrynn: Etienne, you look like you've been through the wringer."
+        },
+        {
+            "role": "assistant",
+            "content": "Etienne Rarnis: You could say that, Thrynn. Rulindil's hospitality left a mark or two. Rune: Rulindil? That Thalmor bitch in Solitude? I've heard she's got a taste for breaking people before she breaks them for information. Etienne Rarnis: She certainly tried. But I'm still standing, and her secrets are mine now. Mercer will want to hear what I found out about Esbern's location."
+        },
+        {
+            "role": "assistant",
+            "content": "Thrynn: This place feels different from the cistern. Whose portrait is that on the wall? Rune: Looks like an old ancestor, maybe someone's family crypt. Etienne, you sure Mercer sent us to the right spot? Etienne Rarnis: This is one of the Guild's safehouses, not our usual headquarters."
+        },
+        {
+            "role": "assistant",
+            "content": "Thrynn: Sabjorn in prison, eh? That's Maven's doing for sure. She always knows how to clean up loose ends. Rune: Resting my feet on this cooking pot feels odd, but I suppose it's better than the cold stone. Brynjolf, what's this about something important for the Guild? Etienne Rarnis: If Maven mentioned something, it's likely related to that informant I found in Solitude."
+        },
+        {
+            "role": "assistant",
+            "content": "Thrynn: An informant in Solitude? That's a dangerous game, even for us. What did this shadow have to say? Rune: Knowing Etienne, it's probably worth more than a full pouch of septims. Spill it, friend. Etienne Rarnis: The Thalmor are moving something through the northern holds. A shipment of weapons, maybe more. My contact couldn't get the full route, but it starts in Dawnstar."
+        },
+        {
+            "role": "assistant",
+            "content": "Thrynn: Mercer angry enough to summon us personally? That's a rare storm brewing. I'd wager whoever's behind this symbol is about to feel the Guild's full weight. Rune: Aringoth, Sabjorn... and now this. Someone's been busy while we were counting our coin. Etienne, you think your Thalmor weapons shipment is connected?"
+        },
+        {
+            "role": "assistant",
+            "content": "Thrynn: Clever indeed, but not clever enough if we're already onto their game. I say we let Mercer's anger guide our blades straight to whoever's behind this. Rune: Sounds like a fine plan to me. I've been itching for a real challenge that doesn't involve picking locks on dusty chests. Etienne Rarnis: Let's move then. The sooner we uncover this thorn, the sooner we can get back to the simple life of stealing coin and avoiding Thalmor torture chambers."
+        },
+        {
+            "role": "user",
+            "content": "(MJR: Clever or not, they need to die.; Mercer Frey: Don't dismiss our adversary so easily. They're well funded, patient, and have been able to avoid identification for years. However, don't mistake my admiration for complacency; our nemesis is going to pay dearly.) (Rune stood up from a(n) Cooking Pot) (MJR: How can we make them pay?; Mercer Frey: Because, even after all their posturing and planning, they've made a mistake. The parchment you recovered mentions a \"Gajul-Lei.\" According to my sources, that's an old alias used by one of our contacts. His real name is Gulum-Ei. Slimy bastard.) (MJR: Where do I begin?; Mercer Frey: Gulum-Ei is our inside man at the East Empire Company in Solitude. I'm betting he acted as a go-between for the sale of Goldenglow Estate and that he can finger our buyer. Get out there, shake him down and see what you come up with. Talk to Brynjolf before you leave if you have any questions.)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Thieves Guild Headquarters.) (Characters nearby (from nearest to furthest): Mercer Frey, Daegon, Lydia, Serana, Etienne Rarnis)"
+        },
+        {
+            "role": "assistant",
+            "content": "Cynric Endell: Morning light barely touches this sewer, but I hear Mercer\u2019s got us all wound up about Goldenglow. Rune: Aye, he\u2019s restless. That safe won\u2019t crack itself."
+        },
+        {
+            "role": "assistant",
+            "content": "Cynric Endell: Murderer, is it? Gulum-Ei has a sharp tongue for a merchant who swims in coin. Rune: She\u2019d know a killer when she sees one. But Mercer\u2019s silence on that name tells me there\u2019s more to this parchment than a simple arson job."
+        },
+        {
+            "role": "assistant",
+            "content": "Cynric Endell: Snow Veil Sanctum... that's a cold name for a grave. Mercer's finally breaking his silence on Karliah. Rune: Aye, and dragging MJR into the snow with him. I've heard whispers of her cunning; if she's truly returned, this Guild's in for a reckoning."
+        },
+        {
+            "role": "assistant",
+            "content": "Cynric Endell: Karliah's been a ghost for years. If Mercer's off to Snow Veil with MJR, he's either desperate or certain he can end her. Rune: Desperate, more like. I've heard stories of her slipping through every trap he set. This ruin might be where he finally loses his footing."
+        },
+        {
+            "role": "assistant",
+            "content": "Cynric Endell: The Ratway's damp seeps through your boots down here. Always makes me think of the old tunnels where Karliah might have hidden. Rune: That blade's worn like it's seen a few shadows too. Reminds me of Gallus's dagger\u2014legend says he never went anywhere without it, even into the grave."
+        },
+        {
+            "role": "assistant",
+            "content": "Cynric Endell: Brynjolf's pacing again."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Thieves Guild Headquarters.) (Characters nearby (from nearest to furthest): Serana, Lydia, Thrynn, Brynjolf, Daegon)"
+        },
+        {
+            "role": "assistant",
+            "content": "Etienne Rarnis: That Thalmor shipment had Gulum-Ei's stench all over it."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this scene, a dimly lit, cavernous space is framed by heavy, rugged stonework. A large, arched opening made of unevenly shaped dark stones dominates the view, creating a deep, shadowy recess. Within the darkness of this alcove, the silhouette of a rustic wooden ladder is visible, its rungs appearing weathered and simple. Above the arch, a thick stone pillar or chimney-like structure extends upward, integrated into a wall composed of large, textured rock slabs. The overall atmosphere is heavy, dark, and ancient, with the low lighting obscuring most of the finer textures in deep shadow.)"
         }
     ]
 ]

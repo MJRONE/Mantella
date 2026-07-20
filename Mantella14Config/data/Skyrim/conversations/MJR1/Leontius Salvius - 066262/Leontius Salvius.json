@@ -1,0 +1,28 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Old Hroldan Inn.) (Characters nearby (from nearest to furthest): Serana, Skuli, Daegon, Eydis)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: This inn has decent mead, but the beds are lumpier than a skeever's back. I hope MJR got better sleep than I did. Leontius Salvius: Aye, the straw ticks here have seen better centuries. But the company makes up for it\u2014especially when you've got a fire mage warming the hearth. Lydia: Daegon's been quiet this morning. Probably still brooding about those spriggans last night. Leontius Salvius: Can't blame her. Those tree-spirits have a nasty habit of ambushing you when you're checking your coin purse. Lydia: At least we've got daylight ahead. No more stumbling through caves with vampires cracking jokes about the decor. Leontius Salvius: Speaking of vampires, that Serana's got sharp wit for a blood-sucker. She almost had me laughing about Dibella's temple potluck. Lydia: Don't encourage her. She'll start comparing the inn's stew to her father's wine cellar next. Leontius Salvius: Fair point. Though between her and Daegon, you'd think they were competing for who can mock the Divines the most."
+        },
+        {
+            "role": "assistant",
+            "content": "Leontius Salvius: Tiber Septim's bed, eh? I wonder if he had a pretty young thing warming it for him after that first victory. Lydia: Watch your tongue, barkeep. That's the founder of the Empire you're speaking of. Show some respect. Leontius Salvius: I meant no disrespect. Just an observation about the old general's tastes. They say he had a way with the ladies as much as the sword. Lydia: And they say you talk too much when the mead is flowing. We've got a long journey ahead to the Reach. Best save your breath for walking, not gossiping about dead emperors."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: What in Oblivion is this? MJR, you're supposed to be resting, not... not defiling Tiber Septim's bed with that vampire harlot! Leontius Salvius: Steady there, lass. The lad paid for the room, and the old general's ghost has seen worse I reckon. Besides, the night's still young. Lydia: You stay out of this, barkeep. I swore an oath to protect him, and that means from bloodsuckers too. Serana, get your pale hands off my thane! Leontius Salvius: I'll just fetch another ale and mind my own business. Eydis, is that fresh bread I smell?"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: A ghost? Now? After what I just witnessed upstairs? This has Dibella's hand all over it, I swear. Leontius Salvius: The old soldier's ghost walks when the moons are right and the blood of Tiber Septim's kin sleeps in his bed. Your thane must have stirred something ancient. Lydia: Or that vampire witch stirred something else entirely. But a ghost is a ghost. We should see what it wants before it starts throwing tankards at our heads. Leontius Salvius: Wise words, lass. The spirits of Old Hroldan don't take kindly to disrespect. Especially not from outlanders and... special company. Lydia: Save your jests, barkeep. If this ghost fought for Tiber Septim, it deserves proper Nord respect. Maybe it needs help finding peace, or vengeance. Either way, I'll not have it haunting MJR's path."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: A ghost of Tiber Septim's army, asking for sworn brotherhood. This is sacred ground, MJR. You must find his blade and honor his oath. Leontius Salvius: That sword might still be in these parts. Old Hroldan's seen plenty of battles, and plenty of lost steel."
+        }
+    ]
+]

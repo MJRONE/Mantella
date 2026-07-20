@@ -1,0 +1,80 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Ragged Flagon.) (Characters nearby (from nearest to furthest): Vex, Daegon, Galathil, Lydia, Tonilia) (MJR: So this is the Ragged Flagon?; Brynjolf: Well, well... color me impressed, lad. I wasn't certain I'd ever see you again! MJR: Getting here was easy.; Brynjolf: Reliable and headstrong? You're turning out to be quite the prize! So... now that I've whetted your appetite with our little scheme at the market, how about handling a few deadbeats for me? MJR: Deadbeats? What'd they do?; Brynjolf: They owe our organization some serious coin and they've decided not to pay. I want you to explain to them the error of their ways. MJR: Sounds good. Who are they?; Brynjolf: Keerava, Bersi Honey-Hand and Haelga. Do this right, and I can promise you a permanent place in our organization. MJR: How did you want me to handle it?; Brynjolf: Honestly, the debt is secondary here. What's more important is that you get the message across that we aren't to be ignored. A word of warning though... I don't want any of them killed. Bad for business. MJR: Consider it done.; Brynjolf: Good. If you need any details on your marks, I'll be here. Now get going. MJR: Any help with Bersi?; Brynjolf: He's as pig-headed a man as you'll ever find. The key is that ugly dwarven urn in his shop. Smash that thing to bits and he'll change his attitude. MJR: What's Haelga's story?; Brynjolf: Haelga is a devout follower of Dibella and dotes over the statue to the Divine that she keeps at the Bunkhouse. Use it as leverage and she'll cave. MJR: Any tips about Keerava?; Brynjolf: Keerava's stubborn, but she's got a soft spot for family. Talk to Talen-Jei at the Bee and Barb and see if you can get something out of him. They're... well acquainted if you catch my meaning. MJR: I'm looking for an old guy, probably hiding out in the Ratway.; Brynjolf: Yeah. I bet I know your guy. He's hiding out in the Ratway Warrens. Paying us good coin for nobody to know about it.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: I give it three days before the Dragonborn cracks Haelga's Dibella statue over Keerava's head and starts a religious war in Riften. Brynjolf: Aye, but that's the kind of chaos that keeps the guild's coffers full. The prettiest lies are born from the ugliest truths. Vekel the Man: If he smashes that urn in Bersi's shop, the old bastard will weep harder than a skooma addict without his fix. I've seen it before. Brynjolf: Bersi's dwarven urn is his pride and his curse. Break it and he'll empty his purse faster than a virgin in the Temple of Dibella. Serana: Dibella's shrine sees more action than the Ragged Flagon on Skooma Tuesdays. Speaking of which, Vekel, is that batch of Black-Briar Reserve still behind the counter, or did you already sell it to the highest bidder? Vekel the Man: It's safe, Serana, but it ain't cheap. Your vampire coin spends the same as anyone else's. Brynjolf: Leave the girl her vice, Vekel."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Well, look who's gracing us with his presence. The old Blade finally crawled out of his dusty hole. I hope you brought better conversation than those skeletons you were muttering to. Brynjolf: Esbern? Here? In the Flagon? That's a sight I never thought I'd see. You look like you've been chewing on sour mead for a decade, old man. Vekel the Man: He's got that look. The one that says I've seen things and I'm about to bore you with them. Another round for the table? Serana: Save your coin, Vekel. Esbern's probably about to tell us the world's ending, and I've heard that prophecy before. Usually ends with someone trying to sacrifice me to a daedric prince. Gets old after the first few centuries. Brynjolf: The world ending, you say? Sounds like bad for business. Unless there's a market for apocalypse souvenirs."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You know, Esbern, I've been alive long enough to see a dozen apocalypses come and go. Each one promised fire and blood, and each one ended with someone richer and someone deader. So what makes your dragon apocalypse any different from the last cult that tried to summon Mehrunes Dagon in my backyard? Brynjolf: Aye, I'd like to hear this myself. Because if the world's ending, I'd rather be spending my last coin on a bottle of Black-Briar Reserve than sitting here listening to prophecies. Vekel the Man: If the world's ending, I'm charging double for the good stuff. Last call for eternity, lads. Serana: Careful, Esbern. Around here, prophecies are cheaper than skooma and twice as addictive. But go on. Let's hear your best doom-laden monologue before I get bored and drain someone dry for entertainment."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Ragged Flagon.) (Characters nearby (from nearest to furthest): esbern, Korpse, Serana, Vex, Lydia)"
+        },
+        {
+            "role": "assistant",
+            "content": "Brynjolf: This place never changes. Same sour faces, same cheap mead. Dirge: You got a problem with the mead, then you can drink elsewhere. Vekel the Man: Easy, Dirge. Brynjolf's just in a mood."
+        },
+        {
+            "role": "assistant",
+            "content": "Brynjolf: A single candle for the whole tavern. Fitting for a place that thrives in shadows. Dirge: Shadows keep our kind safe. You want sunlight, go join the priests of Dibella."
+        },
+        {
+            "role": "assistant",
+            "content": "Brynjolf: Delvin, you look like you've been rolling in a sewer."
+        },
+        {
+            "role": "assistant",
+            "content": "Dirge: Delvin's not here, Brynjolf."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Ragged Flagon.) (Characters nearby (from nearest to furthest): Lydia, Daegon, Delvin Mallory, Dirge, Vex)"
+        },
+        {
+            "role": "assistant",
+            "content": "Vekel the Man: Another morning in the Ragged Flagon."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You know, Vekel, I've seen crypts with better ambiance than this place."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Daegon, Serana, Sapphire, Vipir the Fleet, Etienne Rarnis) (MJR: What's missing from the vault?; Brynjolf: Better question would be \"what did he leave?\" Mercer took everything. Even all of our plans are gone.) (MJR: Plans for what?; Brynjolf: Before Mercer took over, Gallus started collecting every bit of material he could on locations the Guild could heist. Museums, keeps, estates... you name it. By the time Mercer took over the Guild we must have had a few dozen.) (MJR: How could he have opened the vault door alone?; Brynjolf: I don't have a clue. That door is impenetrable. Without two keys, it's impossible to open. I have a key, Delvin has a key, and Mercer has a key. That's it. There are no other copies.) (MJR: What's the best way to get into Riftweald Manor?; Brynjolf: Good question. I've only set foot inside a few times myself and that was in Mercer's company. If you can get past his trained watchdog, I think your best bet might be the ramp to the second floor balcony in his backyard.) (MJR: I don't suppose the ramp is easy to access.; Brynjolf: No. It's some sort of crazy contraption Mercer commissioned for quick escapes. I'd wager a well-placed shot at the ramp's mechanism would lower it in a hurry.) (MJR: You mentioned a watchdog?; Brynjolf: Hmph. That'd be Vald. A real piece of work, that one. Mercer's holding something over his head, keeping him loyal. Talk to Vex. She used to know him very well... if you catch my meaning.) (The location is now The Ragged Flagon.) (Characters nearby (from nearest to furthest): Vex, Daegon, Serana, Lydia, Galathil) (MJR: I heard you're offering extra work.; Vex: I handle the burglary, shill, sweep, and heist jobs. Most of them involve breaking and entering. If you don't like that kind of work, talk to Delvin. He runs the more up close and personal jobs.) (MJR: Brynjolf sent me.; Tonilia: So, you're the new recruit, huh? Well, looks like you and I are going to have to get very well acquainted. MJR: Why is that?; Tonilia: I'm the fence down here. You come by anything you don't exactly own and I'll pay you some coin for it. Minus a little slice for the Guild, of course. I can also provide a few supplies useful to our trade now and again, for a small fee. MJR: Is there anything you don't charge for?; Tonilia: Sure, how about I get Dirge to knock you over your head and dump you into the cistern? Look, I've been in this business a long time and I've seen all types. You can play it tough, or you can play it smart... whatever. At the end of the day, you'll find that all we care about down here is how much gold you can make us. MJR: Understood.; Tonilia: Good. Then there isn't much more to say. Here's your armor, just make sure you put it to good use. MJR: ...; Tonilia: Well, looks like you're fitting in well down here. I'm supposed to allow you to trade in one of your pieces of Guild armor, so what will it be? MJR: Anything different about it?; Tonilia: Of course... otherwise it wouldn't be much of a reward, now would it? Your new piece will enhance your skill beyond that of the original. Trust me. MJR: I'll trade in my boots.; Tonilia: Are you sure? Once I exchange it for you, I'm not taking it back... unless you want to sell it at a discount of course. MJR: Yes, I'm sure.; Tonilia: Okay, there you go.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Delvin Mallory: Two in the morning and the place is still buzzing like a hive of anxious bees. Mercer's betrayal has everyone on edge. Vekel the Man: Aye, and my mead sales have doubled. Misery loves company, and cheap drink. Tonilia: Vekel, you'd sell your own mother's tears if you could bottle them. But Delvin's right. That vault being empty changes everything for us. Delvin Mallory: Empty isn't quite the word I'd use. Cleaned out like a Nord's plate after a feast. Gallus spent years building those plans, and Mercer just... walked off with them. Vekel the Man: Walked off with a key that was supposed to be impossible to copy. Brynjolf's been pacing for hours trying to figure it out. Tonilia: I've seen Mercer charm his way through plenty of locked doors. That man had more tricks than a mages' college dropout. But this... this is different. He planned this for a long time. Delvin Mallory: The question is whether he planned it alone. Someone had to help him get into that vault without the rest of us knowing."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Ragged Flagon.) (Characters nearby (from nearest to furthest): Galathil, Serana, Vex, Daegon, Lydia)"
+        },
+        {
+            "role": "assistant",
+            "content": "Vekel the Man: Late night crowd tonight. Can't say I mind the extra coin, but there's a tension in the air thicker than the smoke. Tonilia: Mercer's shadow still hangs over this place. Empty vault or not, we're all waiting for the other shoe to drop. Dirge: Let him come. I've got my axe ready for whatever walks through that door. Vekel the Man: Easy there, Dirge. We need answers more than blood. Though I won't stop you if he tries anything stupid. Tonilia: The lockbox Gallus used to keep his personal notes is still missing. That's what bothers me most. Mercer knew exactly what he was after. Dirge: Gallus trusted him. We all did."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A scene viewed from a first-person perspective captures a dimly lit, cavernous interior. In the foreground, a character with pale, platinum-blonde hair and pointed ears looks toward the viewer. They have a warm complexion and are dressed in dark, intricate fantasy-style attire with leather elements. The background is shrouded in deep shadows, revealing a rustic, stone-walled structure that resembles an underground chamber or cellar. Faintly visible in the distance are wooden crates and the suggestion of stone architecture. A single, thin rope or chain cuts diagonally across the upper left portion of the frame, adding to the textured, weathered atmosphere of the setting.) (Characters nearby (from nearest to furthest): Delvin Mallory, Daegon, Vex, Serana, Galathil) (Tonilia rested on / used a(n) Wooden Bar Stool)"
+        }
+    ]
+]

@@ -1,0 +1,56 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Riften.) (Characters nearby (from nearest to furthest): Grelka, Daegon, Serana, Edda, Shavari) (MJR: You treat all your customers like this?; Grelka: Look, I've moved all over Skyrim selling these bits of junk and I'm barely scraping by. I'm not out to win friends and I could care less if you're happy about your purchase or not. I just need the coin. The sooner I get out of Skyrim the better.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Riften Guard: Leaving Skyrim, eh? Good riddance to more outlanders who can't handle our northern winters. Lydia: That woman talks like she's too good for this land."
+        },
+        {
+            "role": "assistant",
+            "content": "Gilen: Ah, but her coin spends just as well as any Nord's. I've made a tidy profit from her wares, even if her attitude could curdle milk."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Profit from junk peddled by someone who hates this land. Sounds like Riften's specialty, along with thieves and backstabbers. Riften Guard: Watch your tongue, outlander. I may patrol these streets, but I've got no love for troublemakers stirring pots best left alone."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Burial cairns are for the weak and the unlucky. A true Nord faces dragons and war with steel in hand and Dibella's blessing on their lips. Cowards like her should leave. Gilen: War and chaos are simply market fluctuations to a clever merchant. Dragons burning farms mean more work for smiths and more corpses needing burial cloth. There's always coin to be made, if you know where to look. Riften Guard: She's not wrong about the dragons, though. I've seen what's left of caravans that wandered too far from the hold. But Riften endures. Maven sees to that."
+        },
+        {
+            "role": "assistant",
+            "content": "Riften Guard: Speaking of enduring, I'd best finish my patrol before the night watch captain notices I've been lingering too long."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(MJR: TG01Hellos; Bersi Honey-Hand: No! That urn was priceless!) (Serana stood up from a(n) Cooking Pot) (MJR: That was from Brynjolf. Get the message?; Bersi Honey-Hand: I can't believe you did that. You people are monsters! You demand payment for protection and you can't even protect yourselves. Take your coin and tell Brynjolf to leave us alone.) (MJR picked up / took 100 Gold) (The location is now Riften.) (Characters nearby (from nearest to furthest): Daegon, Lydia, chicken, Thief, chicken) (MJR unequipped Soul Gauge Left-hand) (MJR equipped Soul Gauge Left-hand) (MJR equipped Steel Arrow) (MJR unequipped Daedric Wrath) (MJR equipped Daedric Wrath)"
+        },
+        {
+            "role": "assistant",
+            "content": "Riften Guard: Joining the Thieves Guild, eh? In Riften, that means you are either desperate for coin or desperate for trouble. Which one is it? Serana: I knew a thief once in Morrowind. He said crime was just a way of redistributing wealth from the rich and careless to the poor and clever. Sounds fair to me, especially in a city where the Jarls coin purse is heavier than their conscience."
+        },
+        {
+            "role": "assistant",
+            "content": "Riften Guard: You watch yourself around here. The Guild may talk about honor among thieves, but I've fished enough bodies out of the canal to know where that ends. Serana: Honor among thieves is like virginity among whores."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Riften.) (Characters nearby (from nearest to furthest): Daegon, Lydia, Shadr, Gilen, chicken)"
+        },
+        {
+            "role": "assistant",
+            "content": "Riften Guard: Clear night like this makes me almost forget the stink of the canals for a moment."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* This scene is viewed from a low perspective, looking out from beneath the heavy, textured overhang of a rustic wooden structure. Large, rough-hewn logs form a sturdy roofline, casting deep shadows over the immediate foreground. To the right, a weathered wooden door or wall with dark metal reinforcements is partially illuminated by a warm, amber light. Looking out from under the shelter, a wooden boardwalk or pier stretches into a dimly lit village area. In the mid-ground, several small buildings with sloped roofs are nestled together, some faintly glowing with soft light from within or from small lanterns. A small boat sits docked near the edge of the wooden walkway. The background reveals a dark, night sky peppered with tiny, distant stars, creating a quiet and atmospheric nocturnal setting.)"
+        }
+    ]
+]

@@ -1,0 +1,36 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Soul Cairn.) (Characters nearby (from nearest to furthest): Daegon, Lydia, Boneman, Boneman, Boneman) (MJR: You wanted to speak with me?; Valerica: So how has it come to pass that a vampire hunter is in the company of my daughter? It pains me to think you'd travel with Serana under the guise of her protector in an effort to hunt me down. MJR: This is no ruse. I want to keep her safe.; Valerica: Coming from one who murders vampires as a trade, I find it hard to believe your intentions are noble. MJR: ...; Valerica: Serana has sacrificed everything to prevent Harkon from completing the prophecy. I would have expected her to explain that to you. MJR: That's why I'm here for the Elder Scroll.; Valerica: You think I'd have the audacity to place my own daughter in that tomb for the protection of her Elder Scroll alone? The scrolls are merely a means to an end. The key to the Tyranny of the Sun is Serana herself. MJR: What do you mean?; Valerica: When I fled Castle Volkihar, I fled with two Elder Scrolls. The scroll I presume you found with Serana speaks of Auriel and his arcane weapon, Auriel's Bow. The second scroll declares that \"The Blood of Coldharbour's Daughter will blind the eye of the Dragon.\" MJR: How does Serana fit in?; Valerica: Like myself, Serana was a human once. We were devout followers of Lord Molag Bal. Tradition dictates the females be offered to Molag Bal on his summoning day. Few survive the ordeal. Those that do emerge as a pure-blooded vampire. We call such confluences the \"Daughters of Coldharbour.\" MJR: The Tyranny of the Sun requires Serana's blood?; Valerica: Now you're beginning to see why I wanted to protect Serana, and why I've kept the other Elder Scroll as far from her as possible. MJR: Are you saying Harkon means to kill her?; Valerica: If Harkon obtained Auriel's Bow and Serana's blood was used to taint the weapon, the Tyranny of the Sun would be complete. In his eyes, she'd be dying for the good of all vampires. MJR: I would never allow that to happen.; Valerica: And how exactly do you plan on stopping him? MJR: I'll kill Harkon.; Valerica: If you believe that, then you're a bigger fool than I originally suspected. Don't you think I weighed that option before I enacted my plans? MJR: And Serana's opinion in this?; Valerica: You care nothing for Serana or our plight. Whether or not you've become one of us in order to survive the Soul Cairn, you're still a vampire hunter at heart. You're here because we're abominations in your mind. Evil creatures that need to be destroyed. MJR: Serana believes in me, why won't you?; Valerica: Serana? MJR: What is your decision?; Valerica: Your intentions are still somewhat unclear to me. But for Serana's sake, I'll assist you in any way that I can. MJR: Do you have the Elder Scroll with you?; Valerica: Yes. I've kept it safely secured here ever since I was imprisoned. Fortunately, you're in a position to breach the barrier that surrounds these ruins. MJR: What do we need to do?; Valerica: You need to locate the tallest of the rocky spires that surround these ruins. At their bases, the barrier's energy is being drawn from unfortunate souls that have been exiled here. Destroy the Keepers that are tending them, and it should bring the barrier down. MJR: We'll return soon.; Valerica: One more word of warning. There's a dragon that calls itself Durnehviir roaming the Cairn. Be wary of him. The Ideal Masters have charged him with overseeing the Keepers, and will undoubtedly intervene if you're perceived as a threat. MJR: ...; Valerica: You managed to destroy all three Keepers? Very impressive. MJR: Are you able to give us the scroll now?; Valerica: Yes. Please, follow me. Keep watch for Durnehviir. With the prison's barrier down, he's almost certain to investigate.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: A mage light spell? In the Soul Cairn, you'd think the Ideal Masters would sell light spells to brighten up this dreary place, but they're too busy hoarding souls. I'd check the College of Winterhold back in Skyrim\u2014Faralda or Drevis might have one. Or you could just embrace the darkness like a proper vampire. Much more fun that way. Valerica: A simple light spell is the least of your concerns. The barrier is down, and Durnehviir will be upon us soon."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Look at that dragon, gliding in like he owns the place. I bet he's got some awful one-liner prepared for us. And here I thought the Soul Cairn couldn't get any more theatrical. Valerica: That is Durnehviir. The Ideal Masters' pet wyrm. He will not be as easy to dispatch as those Keepers. Prepare yourselves, and forget about trivial light spells\u2014magelight will do nothing against a dragon's shadow."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You know, mother, I've always said a dragon adds a certain flair to any outing. But I have to ask\u2014does he breathe soul-fire or just really bad poetry? Valerica: The Ideal Masters have no sense of humor, Serana. Durnehviir's breath will unmake you if you're not careful. Focus on the fight ahead, not your witticisms."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Nice of that dragon to remind me why I hate mornings in the Soul Cairn\u2014drain vitality and a side of existential dread. What's next, a weather report from the Ideal Masters? Valerica: Enough, Serana. Your bravado won't heal that wound. Move toward the ruins and let me cover you. We need that scroll before Durnehviir grounds us all."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Well, that was almost exciting. I was hoping Durnehviir would at least threaten to recite a poem before he died. Still, a dead dragon is a dead dragon\u2014good riddance. Valerica: The barrier is down, and the dragon is dealt with. Now, follow me to the ruins. The Elder Scroll awaits, and I'd rather not linger in this wretched place any longer than necessary."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: So, mother, after all these years hiding in the Soul Cairn, you're finally ready to hand over the scroll. I almost expected you to say it was lost in a laundry accident or something. Valerica: The scroll is not a toy for your amusement, Serana. It is the key to stopping your father. I have guarded it with my life because I know what Harkon would do with it."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: So, Durnehviir might pull himself back together like a bad penny. Just what I needed\u2014another reason to love this place. At least the lighting is moody for our dramatic exit. Valerica: Enough frivolity. The scroll is close. Once you have it, you can leave this realm and I can return to my solitude. Let us not delay."
+        }
+    ]
+]

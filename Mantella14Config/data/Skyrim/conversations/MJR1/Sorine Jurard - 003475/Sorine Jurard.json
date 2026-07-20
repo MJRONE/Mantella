@@ -100,5 +100,19 @@
             "role": "user",
             "content": "(Characters nearby (from nearest to furthest): Serana, Celann, Lydia, Daegon, Isran) (MJR picked up / took Potion of Minor Stamina) (MJR picked up / took Potion of Minor Healing)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Fort Dawnguard.) (Characters nearby (from nearest to furthest): Celann, Gunmar, Durak, Agmaer, Isran)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Good morning, Fort Dawnguard. I see we're all still breathing\u2014well, most of us. Lydia, darling, did you sleep in that bra or does it just never come off? Lydia: At least I don't sleep in a coffin, vampire. And my bra stays on because I'm ready to fight at any moment\u2014unlike some bloodsuckers who need a thousand-year nap. Daegon: Korpse says the fort smells like old cheese and righteous fury. I think it's the paladins' laundry. Sorine Jurard: I've been up all night tinkering with that dwarven gyro you brought me, MJR. The calibration is still off, but I think I can adapt it to the crossbow prototype. If only those mudcrabs hadn't nibbled the original. Serana: Nibbled? That's adorable. I once saw a mudcrab drag a whole mammoth tusk into the water. They're the real power in Skyrim. Forget the Empire, forget the Stormcloaks\u2014it's mudcrabs all the way down."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A scene unfolds from an obscured, shadowed perspective, looking through a heavy stone archway into a dimly lit, subterranean stone chamber. The interior is constructed from rugged, uneven masonry, with a vaulted ceiling of textured bricks that catches a warm, amber glow. In the center of the room, a large wooden table sits atop a stone floor, illuminated by the flickering light of a nearby hearth and a circular wrought-iron chandelier hanging from the ceiling. The chandelier holds several small candles, casting long, soft shadows against the walls. Along the far wall, a series of recessed stone arches serve as alcoves, some containing small decorative items or pottery. A decorative tapestry hangs against one of the stone pillars, adding a touch of color to the earthy tones of the room. To the right, wooden barrels are stacked near the edge of the frame, and the floor is uneven, appearing worn by time. The overall atmosphere is one of quiet, medieval antiquity, feeling enclosed and warm despite the heavy stone surroundings.) (Characters nearby (from nearest to furthest): Ingjard, Isran, Beleval, Agmaer, Celann)"
+        }
     ]
 ]

@@ -26,5 +26,19 @@
             "role": "user",
             "content": "(Lydia is no longer in combat.) (MJR dropped Daedric Arrow) (MJR fired an arrow.) (MJR unequipped Daedric Arrow) (Lydia is searching for Nora) (MJR equipped Daedric Arrow) (Lydia has entered combat with Nora) (Lydia has entered combat with Nora) (Lydia is no longer in combat.)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Courier, rabbit, Vale Deer, chicken, chicken) (The location is now Hunter's Rest.) (Characters nearby (from nearest to furthest): Daegon, Lydia, rabbit, Valdr, Fox)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You know, there's something poetic about a place called Hunter's Rest being anything but restful. I bet Dibella herself comes here to hunt when she gets bored with her temple duties. Hunter 2: The rabbits here have more sense than most people I've met in Skyrim. At least they know when to stay quiet and still. Serana: Speaking of sensible creatures, I wonder if that fox over there is smarter than the average bear. Bears at least know not to get involved in Nord politics. Hunter 2: Nords do have a talent for making everything complicated. Give them a simple hunting ground and they'll turn it into a political battleground. Serana: Lydia would say it's because they have honor and principles. I say it's because they get bored easily and need something to scream about between mead breaks. Hunter 2: At least the deer here look well-fed. That's more than I can say for the ones near the cities, always skinny from dodging arrows and elven tax collectors."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A night scene unfolds from a low perspective, looking up at a vast, star-filled sky. A brilliant, bright blue streak of light cuts vertically through the darkness of the heavens, stretching from the top of the frame toward the horizon. Below the celestial display, the dark silhouettes of rustic, wooden structures frame the view. To the left, a structure with a weathered, timber-slatted roof and exposed beams reveals a dimly lit interior. Inside this sheltered area, faint warm light catches the edges of wooden surfaces and what appear to be various household objects resting on a table or bench. To the right, the dark, heavy timbers of another wooden building enclose the space, creating a sense of being within a small, enclosed courtyard or dwelling. The overall atmosphere is quiet and nocturnal, defined by the deep shadows of the architecture and the sharp, luminous glow of the light in the sky.) (Characters nearby (from nearest to furthest): Daegon, Lydia, rabbit, Valdr, Enyala) (hunter rested on / used a(n) Wood Chopping Block)"
+        }
     ]
 ]

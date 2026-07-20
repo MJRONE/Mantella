@@ -20,5 +20,23 @@
             "role": "assistant",
             "content": "Whiterun Guard: That eclipse casts everything in blood-red\u2014looks like Daegon's shadow moving near Gerdur's mill, probably checking for stragglers."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Ingjard, Isran, Beleval, Agmaer, Celann) (The location is now Riverwood.) (Characters nearby (from nearest to furthest): Daegon, Serana, Whiterun Guard, chicken, Hilde)"
+        },
+        {
+            "role": "assistant",
+            "content": "Whiterun Guard: By Ysmir, this morning air is crisp and clean. Been a while since I seen skies this clear over Riverwood. Reminds me of the old days before the war. Whiterun Guard 2: Aye, perfect weather for patrolling. Though I'd rather be doing something else with this warmth starting to creep in. Makes a man think of softer things. Lydia: Weather means nothing when there's work to be done. MJR is scouting ahead, and I'll be damned if any of those bandit sluts catch him off guard while I'm standing here chatting. Whiterun Guard: Heard tell those bandits have been getting bolder. Saw signs of them near the old watchtower just yesterday. Tracks leading south toward the river. Whiterun Guard 2: Lucky for us, we got proper steel and the will to use it. Unlike some of those soft-skinned Imperials who'd rather talk than fight. Dibella's tits, I'd rather be splitting skulls than standing guard all day. Lydia: Talk is cheap. That's why I let my greatsword do the speaking."
+        },
+        {
+            "role": "assistant",
+            "content": "Whiterun Guard: Nights like this make a man grateful for a warm torch and a full belly. Stars are so bright you could almost reach up and grab them. Whiterun Guard 2: Aye, perfect for spotting trouble before it spots you."
+        },
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Daegon, Serana, rabbit, Fox, wolf) (MJR fired an arrow.) (MJR dropped/gave Daedric Arrow) (MJR unequipped Daedric Arrow) (MJR equipped Daedric Arrow)"
+        }
     ]
 ]

@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Solitude.) (Characters nearby (from nearest to furthest): Lydia, Daegon, Jorn, chicken, Jaree-Ra)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You know, I always thought Solitude would have better nightlife. But it's just the same old corpse-grind of politics and the faint smell of fish from the docks."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Skyrim's cobblestones are like the people here\u2014grey, cracked, and full of secrets best left buried. But at least the stones don't try to sell you overpriced dresses."
+        }
+    ]
+]

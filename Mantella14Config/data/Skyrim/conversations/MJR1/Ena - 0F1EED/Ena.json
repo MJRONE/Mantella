@@ -16,5 +16,19 @@
             "role": "assistant",
             "content": "Ena: Dibella's blessings come with a price, Brill. And not just coin. You'd best be ready to give as good as you get. Ysolda: I hear Mikael's been writing songs about the priestesses again. Something about golden thighs and sacred oils. Daegon: If Dibella's priestesses are handing out warmth for free, that temple must be crawling with desperate Nords by now."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Bannered Mare.) (Characters nearby (from nearest to furthest): Daegon, Mallus Maccius, Eimar, Casimir, Serana)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lurius Liore: By the Eight, this cold cuts deeper than any blade I've faced. I swear these northern nights get longer every time I visit. Sinmir: Better get used to it, Imperial. Wyrmstooth's winds make this feel like a summer breeze. But I'd wager you'd rather be wrapped up in silk sheets in some Cyrodiil villa than here. Ena: Silk sheets won't keep you warm when Vulthurkrah comes breathing fire. I've seen what that beast did to a caravan outside Rorikstead. Nothing left but ash and bones. Brenuin: Dragons, cold, war... Dibella's curse on this land never ends. At least the Mare's ale still flows. My purse is lighter for it, but so is my heart. Lurius Liore: The Company wants results, not complaints. We need to track that dragon before it burns another shipment. My reputation hangs by a thread. Sinmir: Then we find it. Track it, corner it, and I'll put my axe through its skull. Stormcloaks don't run from beasts or Imperials. Just point the way."
+        },
+        {
+            "role": "assistant",
+            "content": "Ena: That Mallus fellow looks like he's up to no good, whispering in corners like a skeever in the dark. Sinmir: Let him scheme. His troubles aren't ours. I'm more concerned about that dragon making its way inland. If it hits Whiterun, all the mead in this city won't save us."
+        }
     ]
 ]

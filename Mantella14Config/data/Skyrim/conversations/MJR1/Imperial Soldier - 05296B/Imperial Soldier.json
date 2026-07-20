@@ -1,0 +1,12 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Imperial Military Camp.) (Characters nearby (from nearest to furthest): Lydia, Imperial Soldier, Serana, Imperial Soldier, Legate Emmanuel Admand)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: That aurora's pretty."
+        }
+    ]
+]

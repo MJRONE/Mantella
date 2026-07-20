@@ -1,0 +1,38 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Winking Skeever.) (Characters nearby (from nearest to furthest): Daegon, Noster Eagle-Eye, Serana, Ahtar, Lisette)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: This place is better than that dank cave we crawled out of. At least the mead flows freely here. Gulum-Ei: A wise choice for rest, indeed. I have fine wares for sale if your thane seeks to replenish supplies before venturing further. Sorex Vinius: Welcome to the Winking Skeever! I hope the journey treated you well. We've got fresh-brewed mead and a warm hearth to chase off the night's chill."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Finally a proper seat. My bones ache from all that crawling through caves and climbing mountains. This mead better be strong enough to knock out a giant. Sorex Vinius: Strongest in Solitude, I promise you. Vivienne here helped brew it herself with some of her apothecary herbs. Gives it a unique kick. Gulum-Ei: An enterprising young woman. Perhaps we could discuss business arrangements for your herbal concoctions? I have contacts in Riften who would pay handsomely for exotic blends."
+        },
+        {
+            "role": "assistant",
+            "content": "Sorex Vinius: Business with Vivienne? She helps me with the brewing on her own time. I'm not looking to sell her services to some merchant from Riften, no offense intended."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: That Khajiit is scurrying off quick enough. Hope your thane knows what he's doing, handing over all that gear. Malborn better not drop it in the snow."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Winking Skeever.) (Characters nearby (from nearest to furthest): Erdi, Daegon, Lisette, Vivienne Onis, Minette Vinius) (Sorex Vinius rested on / used a(n) Chair) (MJR: Hello; Sorex Vinius: New in town, right? If you need a place to sleep, head over to the Winking Skeever. We keep a fine inn. MJR: Who's in charge of Solitude?; Sorex Vinius: Jarl Elisif the Fair. Poor woman. Losing her husband and king like that. It was a dark day for us all. Damn. That reminds me. I have a delivery to make to her steward, Falk Firebeard. He ordered a special bottle of Stros M'Kai Rum. MJR: I can deliver that for you.; Sorex Vinius: Save me a lot of trouble. Here. Take it to the Blue Palace. MJR: So you work in the Winking Skeever?; Sorex Vinius: Work in it? I own it. MJR: ...; Sorex Vinius: Well... okay. My father owns the Winking Skeever. But it's the family business, so it'll be mine when he kicks off.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Sorex Vinius: Well, that delivery's off my hands. Good riddance. I swear Falk Firebeard gets more demanding each month. Fihada: Demanding? Try courting a Nord woman whose father wants a bow carved from a single piece of yew with no knots. That's demanding. Corpulus Vinius: You two complain like milk-drinkers. I've run this inn through wars, plagues, and a dragon attack that singed half the roof. You just have to pour ale and bend wood. Noster Eagle-Eye: Aye, and some of us have to bend our backs for every scrap of bread. You ever try sleepin' in the alleys near the docks with Jaree-Ra skimming coin from honest folks? Sorex Vinius: Jaree-Ra? That Argonian's been trouble since before I was tall enough to reach the taps."
+        },
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Eris, Daegon, Gisli, Ahtar, Serana) (Corpulus Vinius rested on / used a(n) Wooden Bar Stool) (Sorex Vinius stood up from a(n) Chair) (Fihada stood up from a(n) Chair)"
+        }
+    ]
+]

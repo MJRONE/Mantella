@@ -3032,5 +3032,19 @@
             "role": "user",
             "content": "(*You are observing the following:* This scene presents a view of a rugged, mountainous landscape under a bright but overcast sky. In the immediate foreground, the terrain consists of uneven ground scattered with large, dark grey boulders and patches of soil. Small green ferns and vegetation grow among the rocks, and fallen brown leaves suggest an autumn season. To the left, a cluster of trees with vibrant yellow foliage stands out against the darker tones of the mountain. Rising in the background is a massive, steep cliff face. The mountain is heavily textured with dark rock interspersed with thick fields of snow and ice. The upper reaches of the mountain are obscured by swirling mist and low clouds, blending into the pale blue sky above. A layer of fog rolls in from the left side, adding to the atmospheric depth and partially obscuring the lower slopes. Superimposed in the center of the view is a line of white, semi-transparent text reading \"HEAVY ARMOR INCREASED TO 21.\" Below this text is a small, horizontal progress bar and the number \"12\" accompanied by a small icon to its right. The lighting is soft and diffuse, reflecting off the snow-covered slopes and illuminating the yellow leaves in the foreground.)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Drunken Huntsman.) (Characters nearby (from nearest to furthest): Lydia, Vignar Gray-Mane, Serana, Amren, Nazeem) (MJR: It's time for us to part ways.; Jenassa: I understand. Come and find me if you decide that you miss my companionship.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: A worthy patron leaves. The night grows longer and the mead tastes bitter. Elrindir: Perhaps a fresh Hunt would sweeten that tongue of yours, Jenassa. I've heard tale of a frost troll troubling the western watchtower. Daegon: Frost trolls are tedious."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A dim, indoor scene is captured from a first-person perspective, showing a small room with rustic, textured walls. Two narrow, arched windows with dark frames are set into the walls, letting in a faint, cool light. In the lower portion of the scene, a woman with dark hair sits on a wooden chair; she is wearing light-colored, decorative attire. To the right, a wooden table holds a large, yellowish vegetable resting in a bowl, a smaller dark bowl, and two glowing yellow candles that cast a warm light against the shadows. Floating in the air on the right side of the frame is white text consisting of dialogue lines and a prompt to \"Exit.)"
+        }
     ]
 ]

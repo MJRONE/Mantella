@@ -20,5 +20,19 @@
             "role": "user",
             "content": "(*You are observing the following:* In this dimly lit stone chamber, rough-hewn walls curve into arched alcoves, their surfaces textured with uneven masonry and faint mossy patches. To the right, a recessed niche holds a framed portrait of a woman with pale skin and dark hair, her expression serene yet enigmatic, illuminated by the soft glow of nearby candles. A cluster of delicate pink cherry blossoms spills from a simple clay pot on the floor beside it, their petals contrasting against the cool gray stone. In the foreground, a small wooden stool sits on the uneven flagstone floor, beside a low table bearing a white ceramic lamp where a single candle flickers, casting warm shadows and droplets of wax. Nearby, a potted plant with slender purple irises adds a touch of subtle color to the austere surroundings. The room's center draws the eye to a small, ethereal fire\u2014crackling red and orange flames that lick upward from the cracks in the stone, as if conjured from embers, with faint sparks dancing briefly before fading. A woven blue rug partially covers the floor near the flames, its edges frayed and blending into the shadows. The overall atmosphere is one of quiet antiquity, with light sources creating pools of warmth amid the encroaching darkness.)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Winking Skeever.) (Characters nearby (from nearest to furthest): Gulum-Ei, Daegon, Serana, Lydia, Lisette) (MJR: I think you're lying to me.; Gulum-Ei: Look, that's all I know. I never promised you I'd have all the answers. Now, since our transaction is done, I'll be on my way.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Corpulus Vinius: It's late for a traveler to be wandering in, but I've seen stranger hours in this place. What brings you to Solitude at this hour, Belrand? Belrand: The cold wind outside bites harder than any blade I've faced, Vinius. I needed a warm hearth and a warmer drink before finding a bed for the night. Your tavern's got a reputation that stretches even into the wilds past the Pale. Corpulus Vinius: Aye, that reputation keeps my mead flowing and my coin purse heavy."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A dimly lit scene unfolds within a stone chamber, viewed from a low, first-person perspective. In the center of the room, a figure sits heavily in a high-backed wooden throne. The individual is dressed in reddish-brown tunic and light-colored trousers, with dark gloves on their hands and sturdy boots on their feet. Their face is obscured by shadows and what appears to be dark, rugged headwear. The room is constructed from rough-hewn, dark stone blocks. To the right, a wooden table holds a platter containing pieces of food, and a small red object sits nearby on a secondary wooden surface. The lighting is minimal, casting deep shadows across the stone floor and the corners of the room, creating a somber and heavy atmosphere. At the bottom of the frame, a portion of a dark, curved UI element is visible, suggesting the viewpoint of an observer.) (Characters nearby (from nearest to furthest): Daegon, Serana, Lisette, Lydia, Minette Vinius)"
+        }
     ]
 ]

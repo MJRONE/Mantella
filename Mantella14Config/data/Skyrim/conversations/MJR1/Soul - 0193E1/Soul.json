@@ -1,0 +1,32 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(Boneman hit Daegon with Bound Bow FX) (MJR cast the spell / consumed Summon Daegon) (Daegon unequipped Fireball) (Daegon equipped Flame Cloak) (Daegon is no longer in combat) (Daegon unequipped Flame Cloak) (MJR unequipped Soul Gauge Left-hand) (MJR unequipped Summon Daegon) (MJR equipped Soul Gauge Left-hand) (MJR equipped Daedric Wrath) (Lydia is no longer in combat) (Serana is no longer in combat) (MJR fired an arrow.) (MJR dropped/gave Daedric Arrow) (MJR unequipped Daedric Arrow) (MJR equipped Daedric Arrow) (Daegon is now in combat!) (Serana is now in combat!) (Lydia is now in combat!) (Characters nearby (from nearest to furthest): Soul, Soul, Soul, Boneman, Wrathman) (Lydia has entered combat with Boneman) (Serana is searching for Boneman) (Boneman hit Serana with Bound Bow FX) (Daegon is searching for Boneman) (Daegon equipped Fireball) (Mistman hit Serana with Shadowbolt) (Daegon has entered combat with Boneman) (Serana has entered combat with Boneman) (The location is now Soul Cairn.) (Characters nearby (from nearest to furthest): Lydia, Whispering Spirit, , Soul, Morven Stroud)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Remind me why we didn't bring an umbrella for the literal plane of the damned? Soul: The rain always smells like old regrets and wet ash. At least the bonemen don't try to dry off. Serana: Your aim's getting better with that Daedric bow. Shame the arrows dissolve into purple nothing when they hit\u2014very dramatic, but terrible for loot."
+        },
+        {
+            "role": "assistant",
+            "content": "Soul: The snowy ground must be a nice change from the dusty soul air back there. Serana: Nice is one word for it. I was starting to think the afterlife had a permanent overcast filter and terrible customer service. This place at least has trees, even if they look like they lost a fight with a frost troll. Soul: That purple glow on the ice wall to your left seems strange. Serana: Everything in Skyrim glows with strange colors. At least that one isn't trying to eat my soul. Yet. Should we see what's making the light, or are you in the mood to stand here and let your fingers freeze to that bow?"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Well, speak of the soul-eaters and they shall appear. Four of them this time. Must be a busy shift in the afterlife tourism board. Soul: Lydia already moved ahead. Looks like she spotted them first. Serana: Lydia always spots the bonemen first. I think she has a sixth sense for anything that might inconvenience MJR's day. Shall we, or do you want to let her have all the fun?"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Mother, always with the dramatic accusations. If he wanted to hunt you, he wouldn't have let me lead him through six miles of soul-sucking fog just to have a chat. Soul: Your daughter's been nothing but helpful. I'm not a hunter. Just someone trying to help her find you. Serana: And here I thought you'd be happy to see me after all these centuries. Instead I get accusations and that same judgmental look you gave father when he brought home those sacrificial virgins."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Mother, stop. He's not like the others. I know you've spent centuries hiding and assuming the worst of everyone, but MJR earned my trust. He earned Lydia's trust. If he wanted me dead, he had plenty of opportunities in that crypt while I was still groggy from a few thousand years of beauty sleep. Soul: I'm not here to hunt anyone. I'm here because Serana asked for my help. That's all. Serana: And for the record, if he was a typical vampire hunter, he would've staked me the moment I mentioned my father's name. Instead he helped me fight through a crypt, dealt with my father's guards, and walked into literal hell to find you. That's either love or stupidity, and I'm choosing to believe it's the former."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Of course there's a dragon. Because the soul-draining wasteland wasn't complicated enough, they had to add a flying lizard with a name that sounds like a sneeze. Soul: Durnehviir. Sounds like a powerful dragon. Serana: Powerful, territorial, and probably bored out of his mind after centuries of babysitting Keepers. Maybe we can reason with him. Or we can just do what we do best and leave a trail of destruction until the barrier falls. Your call, but I'm voting for destruction. It's more fun."
+        }
+    ]
+]

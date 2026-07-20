@@ -1,0 +1,24 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Candlehearth Hall.) (Characters nearby (from nearest to furthest): Adonato Leotelli, Daegon, Captain Lonely-Gale, Serana, Nils) (MJR: I'll deliver the book for you.; Adonato Leotelli: You're sure? When you see Giraud, ask for a tip. I'm sure he'll be in a good mood after reading this.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Dibella's tits, I am sick of this frozen wasteland. A night in a warm tavern with a full tankard is the closest thing to Sovngarde I've seen in days. Luaffyn: Then you've come to the right hearth, dear warrior. My fingers are itching for a tune that'll thaw even the iciest Nord heart. Perhaps a ballad of victory and bloody glory?"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: That captain over there looks like she's seen a few too many battles. Probably got stories that'd curdle milk. Luaffyn: Captain Lonely-Gale? Oh, she's a regular here. Always sits in the shadows, nursing a single mead for hours. They say she was part of an expedition to Solstheim that went terribly wrong. Lydia: Solstheim? That ash-choked hellhole? Only thing worse than the weather there is the company. Dunmer and their bloody mushrooms. Luaffyn: Careful, Nord. You're speaking to a daughter of Morrowind, even if I chose Windhelm's hearth over my ancestors' ashes."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: A killer on the loose? In Windhelm? Ha! Probably some filthy Dark Elf with a grudge. This city's been too soft on foreigners, letting them squat in the Gray Quarter like rats. Luaffyn: Careful with that tongue, housecarl. I may be a bard now, but Dunmer blood runs hot when insulted. Besides, the last three victims were all Nord women. Your own kind is just as capable of butchering as mine. Lydia: Nords don't butcher women. We kill our enemies face-to-face, with steel and honor. Not skulking in shadows like some vampire's thrall. Luaffyn: Then perhaps it is a vampire. Or perhaps it's that Viola woman the captain mentioned. Busybodies often know more than they let on. She could be silencing those who discovered her secrets."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Warm yourself by the fire, bard. Your Dunmer blood might be thin enough to freeze in this cold. I'm going to find MJR. He shouldn't be wandering alone with a murderer about. Luaffyn: Always hovering over your thane like a mother hen with one chick."
+        }
+    ]
+]

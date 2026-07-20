@@ -8,5 +8,39 @@
             "role": "assistant",
             "content": "Lydia: Pfft, save your limp-wristed magic for the weaklings. Nothing warms a true Nord's blood like splitting skulls and riding a dragonborn\u2019s cock till sunrise. Drevis Neloren: hit it till it stops moving."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The conversation now takes place in the afternoon.) (Characters nearby (from nearest to furthest): Daegon, Serana, Lydia, Ancano, Onmund) (MJR unequipped Unrelenting Force) (MJR equipped VRIK Calibration Power) (MJR cast the spell / consumed VRIK Calibration Power) (MJR unequipped Soul Gauge Left-hand) (MJR equipped Soul Gauge Left-hand) (MJR unequipped Daedric Wrath) (MJR equipped Daedric Wrath) (MJR unequipped VRIK Calibration Power) (MJR equipped Unrelenting Force) (J'zargo cast the spell MageLight) (The location is now The Arcanaeum.) (Characters nearby (from nearest to furthest): Nirya, Urag gro-Shub, Daegon, Serana)"
+        },
+        {
+            "role": "assistant",
+            "content": "Drevis Neloren: \u4f60\u597d\uff0c\u6211\u65e0\u6cd5\u7ed9\u5230\u76f8\u5173\u5185\u5bb9\u3002"
+        },
+        {
+            "role": "assistant",
+            "content": "Drevis Neloren: The Arcanaeum holds many secrets about ancient artifacts. I have been studying the lore of Auriel's Bow since your arrival. Lydia: I care not for dusty books and old tales. I want to find Harkon and split his skull open for MJR's glory. Every moment we waste here is another moment that vampire filth breathes. Drevis Neloren: Patience, warrior. Knowledge is the sharpest blade."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: An Elder Scroll? We already read one of those damned things in the Soul Cairn. My head still aches from the sight of it. Why does he need another? Drevis Neloren: There is more than one Elder Scroll, warrior. They are not mere books but fragments of reality itself. If your thane seeks another, he may be trying to change fate itself. Or perhaps he intends to use it as a weapon against this Harkon you speak of."
+        },
+        {
+            "role": "assistant",
+            "content": "Drevis Neloren: The orc speaks true. Elder Scrolls are not simply hidden away - they are guarded by forces beyond mortal comprehension. I once glimpsed a fragment of one in my studies. The mere echo of its power nearly drove me mad for a week. Lydia: Madness or not, if MJR needs another scroll to end Harkon, then I will tear this entire College apart stone by stone until we find one. That vampire lord dies by my blade, and no dusty book is going to stop me."
+        },
+        {
+            "role": "assistant",
+            "content": "Drevis Neloren: I see your thane has found the Ruminations on the Elder Scrolls. A dense text, but it may contain what he seeks. The orc keeps the truly dangerous works behind locked shelves for good reason. Lydia: Good. Let him read and learn. I will stand guard and make sure none of these robed fools interrupt his study. The sooner he finds what he needs, the sooner we leave this place of chalk and candle wax for the blood-soaked halls of Volkihar."
+        },
+        {
+            "role": "assistant",
+            "content": "Drevis Neloren: He takes the Ruminations and the Effects of the Elder Scrolls. Two texts that together might reveal how to properly wield such a dangerous artifact without unraveling the fabric of time itself. Your thane is more clever than most warriors I have met. Lydia: He is the Dragonborn. Of course he is clever. Now tell me, wizard - if we find this scroll, can it truly bring down a vampire lord like Harkon? Or are we chasing shadows in your dusty old books?"
+        },
+        {
+            "role": "assistant",
+            "content": "Drevis Neloren: Septimus Signus. I remember his name from old academy records. A brilliant mind, but isolation in the northern ice does strange things to a man. If your thane seeks him, he may find answers that no book in this library can provide. Lydia: Then we go north. Into the ice and snow to find some mad hermit and his Dwemer trinket. Better than sitting here reading until my eyes bleed. Drevis Neloren: A sound plan. The College has taught us all we can offer on the subject. What remains lies in Signus's frozen domain. Good fortune to you and your thane, warrior."
+        }
     ]
 ]

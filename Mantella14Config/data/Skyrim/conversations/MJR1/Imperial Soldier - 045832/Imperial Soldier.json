@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Riften.) (Characters nearby (from nearest to furthest): gargoyle, Daegon, traveler, Serana, chicken) (MJR cast the spell / consumed Unrelenting Force - Fus)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: By the Nine, that shout rattled my bones! MJR's got the voice of a true Nord tonight."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A scene unfolds at night under a vast, star-filled sky, where a dense cluster of celestial lights stretches across the dark expanse like a cosmic river. In the foreground, a rustic wooden walkway or pier leads the viewer's eye into a small, cozy settlement nestled among trees. The architecture consists of timber-framed buildings with dark, sloped roofs, their wooden structures casting deep shadows. Warm, golden light spills from a few small windows and glowing lanterns, suggesting life and warmth within the dark structures. The surrounding trees are silhouetted against the starlight, their leaves catching faint glimmers of light. The overall atmosphere is peaceful and quiet, evoking the stillness of a remote village deep in the wilderness under a brilliant nocturnal sky.)"
+        }
+    ]
+]

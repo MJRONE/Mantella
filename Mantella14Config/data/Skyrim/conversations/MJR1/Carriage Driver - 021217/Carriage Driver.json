@@ -14,5 +14,23 @@
             "role": "assistant",
             "content": "Katla: Ugh, speakin\u2019 o\u2019 Knud\u2014better go check if that little bastard\u2019s tramplin\u2019 the crops again. Last time I caught him pretendin\u2019 to plough the damn wheat like some drunk bandit. Carriage Driver: Hah! Kid\u2019s got spirit. Might make a decent stablehand one day\u2014if he don\u2019t get fucked to death by a troll first. Katla: If he does, I\u2019ll charge the beast for the privilege. Now piss off \u2018fore I charge for standin\u2019 in my rain. Carriage Driver: Fine, fine. I\u2019ll go see if any drunk idiots need a ride to get robbed\u2014or worse. Dibella\u2019s mercy, this province\u2019s gone to shit."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The sky is a vast, clear expanse, with barely a cloud in sight, offering a moment of tranquility.) (Characters nearby (from nearest to furthest): Thaer, Horse, Daegon, Serana, Lydia) (Malborn unequipped clothes) (Malborn equipped clothes) (Malborn equipped boots) (The location is now Katla's Farm.) (Characters nearby (from nearest to furthest): delphine, Daegon, chicken, Lydia, Horse) (MJR: Yes, Malborn's all set.; Delphine: Good. I have your invitation to the party. But the only way you're going to get past the guards is if they really believe you're an invited guest. Which means you need to look the part, and not be armed to the teeth. Here, put this on.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Carriage Driver: Fine night for travel, ain't it? Clear skies, no rain in sight. You should be grateful for that, boy. traveler: Indeed. The darkness suits those of us who prefer the quiet hours. You keep late watch for a stable child, Blaise. Blaise: I don't sleep much these nights. Too many thoughts. And the horses get restless when something's in the air."
+        },
+        {
+            "role": "assistant",
+            "content": "Blaise: The guard on the wall said he'd rather be there than sleeping in a stable. I guess he's got a point. Carriage Driver: Aye, but that wall gets cold and empty, boy. At least you got the warmth of the animals. More than some can say. traveler: Warmth is overrated. I find the chill keeps the mind sharp. Tell me, stable boy, do you ever think of leaving this farm behind? Blaise: All the time. But where would I go?"
+        },
+        {
+            "role": "assistant",
+            "content": "Blaise: I don't know where I'd go."
+        }
     ]
 ]

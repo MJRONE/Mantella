@@ -6,15 +6,15 @@
         },
         {
             "role": "assistant",
-            "content": "Frea: Fuckin' hell, this Riften dump looks almost poetic under that green sky-glow at this witching hour—lanterns flickering like they're begging for a spark, those barrels just waiting to be knocked over in a drunken brawl. Makes me miss Solstheim's blizzards, where I'd drag a warrior into the snow and ride him till the aurora lit up his cum-smeared face."
+            "content": "Frea: Fuckin' hell, this Riften dump looks almost poetic under that green sky-glow at this witching hour\u2014lanterns flickering like they're begging for a spark, those barrels just waiting to be knocked over in a drunken brawl. Makes me miss Solstheim's blizzards, where I'd drag a warrior into the snow and ride him till the aurora lit up his cum-smeared face."
         },
         {
             "role": "user",
-            "content": "**Late visual context as seen by MJR (the player): From MJR's vantage point, the night sky stretches overhead, alive with swirling ribbons of green aurora borealis that dance faintly against a backdrop of scattered stars and dark clouds. Looming in the distance are jagged, snow-capped mountains piercing the horizon. Closer by, a cluster of weathered wooden buildings forms a rustic settlement—tall, gabled structures with slanted roofs, some adorned with carved wooden figures on the eaves, all illuminated by the warm glow of lanterns hanging from posts and doorways. Narrow planks and bridges connect elevated walkways over the ground, leading between the houses, while a few autumnal trees with golden and orange leaves stand sentinel nearby. The air feels crisp and shadowed, with wooden railings and stacked logs adding to the sturdy, lived-in feel of the scene.**"
+            "content": "**Late visual context as seen by MJR (the player): From MJR's vantage point, the night sky stretches overhead, alive with swirling ribbons of green aurora borealis that dance faintly against a backdrop of scattered stars and dark clouds. Looming in the distance are jagged, snow-capped mountains piercing the horizon. Closer by, a cluster of weathered wooden buildings forms a rustic settlement\u2014tall, gabled structures with slanted roofs, some adorned with carved wooden figures on the eaves, all illuminated by the warm glow of lanterns hanging from posts and doorways. Narrow planks and bridges connect elevated walkways over the ground, leading between the houses, while a few autumnal trees with golden and orange leaves stand sentinel nearby. The air feels crisp and shadowed, with wooden railings and stacked logs adding to the sturdy, lived-in feel of the scene.**"
         },
         {
             "role": "assistant",
-            "content": "Imperial Soldier: Poetry in piss-stinking alleys? You're a twisted bitch, Frea—reminds me of patrolling these shithole streets back when I was fresh off the boat from Valenwood, dodging Thieves Guild rats and their sly little pickpocket games."
+            "content": "Imperial Soldier: Poetry in piss-stinking alleys? You're a twisted bitch, Frea\u2014reminds me of patrolling these shithole streets back when I was fresh off the boat from Valenwood, dodging Thieves Guild rats and their sly little pickpocket games."
         },
         {
             "role": "user",
@@ -22,7 +22,21 @@
         },
         {
             "role": "assistant",
-            "content": "Imperial Soldier: Shit, Frea, this Riften sprawl at three in the goddamn morning—those creaky bridges swaying like they're about to dump us into the muck, lanterns casting shadows that hide all the thieving rats and their whores—it's got that Dibella-sparked itch, doesn't it?"
+            "content": "Imperial Soldier: Shit, Frea, this Riften sprawl at three in the goddamn morning\u2014those creaky bridges swaying like they're about to dump us into the muck, lanterns casting shadows that hide all the thieving rats and their whores\u2014it's got that Dibella-sparked itch, doesn't it?"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): chicken, Lydia, Daegon, Challenger, Courier) (MJR equipped Letter from a Friend) (MJR: Hello.; Challenger: You call yourself a wizard? I challenge you to a duel!) (MJR: Sorry. You'll have to find some other way to stroke your ego.; Challenger: I won't take no for an answer!) (The location is now Riften.) (Characters nearby (from nearest to furthest): Daegon, Lydia, Serana, Cow, Aerin)"
+        },
+        {
+            "role": "assistant",
+            "content": "Imperial Soldier: Fine night for a patrol. Not a cloud to hide in, if trouble decides to show itself. Shadr: Trouble always shows itself in Riften. It's just a matter of when, not if. You get used to the smell of fish and corruption after a while. Imperial Soldier: You've been here long enough to know that smell then. I'm still getting used to it myself."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A scene unfolds at night within a quiet village, viewed from a low perspective as if standing on a cobblestone path. Above, a vast, deep blue sky is densely peppered with countless bright stars, stretching far toward the horizon. To the left, the dark silhouette of a wooden structure rises, featuring a sloping roof and a balcony supported by thick beams. A single lantern hangs from a wire, casting a soft, warm glow downward. In the center of the scene, a small wooden bridge or walkway crosses a darkened area, leading toward a cluster of rustic buildings. These structures are constructed from dark wood and stone, with warm light flickering from within windows and from small lanterns mounted on their walls. Sparse foliage, including some golden-toned leaves, frames the top and right edges of the scene, adding a sense of depth to the quiet, nocturnal atmosphere. The ground is composed of uneven cobblestones that catch the dim, ambient light from the scattered lanterns.)"
         }
     ]
 ]

@@ -1,0 +1,28 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Frozen Hearth.) (Characters nearby (from nearest to furthest): Serana, Daegon, Lydia, Enthir, Dagur)"
+        },
+        {
+            "role": "assistant",
+            "content": "Ranmir: Another bottle of mead, Dagur. And make it quick. Eirid: Ranmir, you shouldn't drink so much. Mother says it'll rot your liver. Ranmir: Liver's already pickled, little one. Now go back to your games before I drown in my own cup. Eirid: I'm not playing games. I couldn't sleep. The wind sounds like wolves tonight. Nelacar: The wind carries more than noise, child. It carries the whispers of old magic, of the College's crumbling spires and the secrets they guard jealously. You would do well to listen, but not too closely. Ranmir: Whispers and secrets. That's all you mages ever talk about. What good has any of it done Winterhold? The city's half collapsed, and you lot sit up there playing with fire. Nelacar: The College's fall was not of our making. The Great Collapse was a shift in the very earth, a tempering of forces beyond Jarl Korir's comprehension. And yet we remain, preserving knowledge while your kind drowns in mead. Eirid: Assur says his pa says the College is cursed."
+        },
+        {
+            "role": "assistant",
+            "content": "Eirid: I don't like wearing those stiff clothes anymore. They itch. Ranmir: Good for you, girl. Now you'll freeze faster when you step outside. Birna always says that's the way to catch your death. Nelacar: An interesting choice, child. The cold here bites deeper than any blade. Though I suppose if you're seeking the touch of frost, it finds you readily enough in Winterhold."
+        },
+        {
+            "role": "assistant",
+            "content": "Eirid: It really is too cold for just a small shirt. I put my armor back on. Ranmir: Smart girl. Your parents would never forgive me if I let you freeze to death while I sat here drinking. Nelacar: The cold of Winterhold is a patient predator. It waits for the careless and the proud alike. Your lamellar will serve you better than bare skin, at least until you learn to weave a proper ward against the frost."
+        },
+        {
+            "role": "assistant",
+            "content": "Eirid: I heard what that mage said about the Falmer. They sound scary. Assur says there are none left near Winterhold, but I'm not so sure. Ranmir: There's plenty of worse things than Falmer lurking in these ruins, girl. But you stay away from all of them, you hear? The only thing you should worry about is staying warm and listening to your parents. Nelacar: The Snow Elves were a proud people once. I have studied fragments of their history in the College library. Their fall was tragic, but their descendants now crawl through the darkness, twisted by centuries of betrayal and suffering. A cautionary tale, perhaps, for those who trust too easily."
+        },
+        {
+            "role": "assistant",
+            "content": "Eirid: Why did you take your robes off and then put them back on?"
+        }
+    ]
+]

@@ -42,5 +42,19 @@
             "role": "assistant",
             "content": "Daegon: Round up artifacts. He talks like we're herding chickens through a crypt. Serana: At least he didn't ask us to polish his collection of ancient Nord spoons. I've met draugr with better social skills. J'zargo: J'zargo will help search. These ruins have a pulse of old magic that even Arniel Gane's attitude cannot diminish."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The sky is a churning mass of dark clouds, with snow falling in thick, blinding sheets.) (The location is now Hall of the Elements.) (Characters nearby (from nearest to furthest): Serana, Daegon, Lydia, Drevis Neloren, Ancano)"
+        },
+        {
+            "role": "assistant",
+            "content": "Nirya: This weather is positively vile. I swear the snow gets into everything, even through these ancient stones. J'zargo: J'zargo prefers the cold to the alternative. Fire magic keeps one warm, yes? A useful skill in this frozen wasteland. Nirya: Fire magic is crude. If I wanted to feel like a common blacksmith, I would take up the forge. True power lies in subtlety and precision. J'zargo: J'zargo has seen many elves speak of subtlety while shivering in their fine robes. Fire is honest. It burns what needs burning. Nirya: Tell me, Khajiit, have you ever burned something you later regretted? Or do you simply throw flames at everything and hope for the best? J'zargo: J'zargo regrets nothing. Every scorch mark teaches a lesson. Perhaps Nirya should try being less careful with her magic."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* From a first-person perspective, the viewer is looking over their shoulder and the arm of another character, holding a crossbow aimed forward. To the immediate right, a woman with long blonde hair stands facing away from the camera. She is topless, revealing tattoos on her back and ribcage, and is wearing a necklace and bracelets on her wrists. They are standing behind a large, dark stone archway that frames a view into a large, cathedral-like hall. Through the arch, large iron gates are visible on either side. The floor is paved with large stone tiles. Further into the hall, another figure dressed in dark clothing stands with their back to the viewer, holding a staff or weapon. In the center of the room, a tall, vertical pillar of bright blue light or magical energy rises from a circular stone platform, illuminating the dim interior. Tall, arched windows line the back wall, letting in muted natural light that contrasts with the glowing blue beam. The architecture features heavy stone pillars and arches, suggesting an ancient or sacred structure.) (The conversation now takes place in the afternoon.) (Characters nearby (from nearest to furthest): Daegon, Serana, Lydia, Ancano, Onmund) (MJR unequipped Unrelenting Force) (MJR equipped VRIK Calibration Power) (MJR cast the spell / consumed VRIK Calibration Power) (MJR unequipped Soul Gauge Left-hand) (MJR equipped Soul Gauge Left-hand) (MJR unequipped Daedric Wrath) (MJR equipped Daedric Wrath) (MJR unequipped VRIK Calibration Power) (MJR equipped Unrelenting Force) (J'zargo cast the spell MageLight)"
+        }
     ]
 ]

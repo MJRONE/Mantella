@@ -1,0 +1,46 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Solitude.) (Characters nearby (from nearest to furthest): Serana, Daegon, Lydia, Horse, chicken)"
+        },
+        {
+            "role": "assistant",
+            "content": "Blaise: I've already mucked out three stalls this morning. At least the horses are happy with the clear sky. Haafingar Guard: Aye, a fine morning for the capital. Makes my patrol along the wall almost pleasant. No rain soaking through the chainmail for once."
+        },
+        {
+            "role": "assistant",
+            "content": "Blaise: I wonder what it's like to be up on that wall all day. Do you ever get bored just walking back and forth? Haafingar Guard: Bored? Not with the threat of wolves, bandits, and worse lurking outside the gates. Every step keeps the people safe."
+        },
+        {
+            "role": "assistant",
+            "content": "Blaise: The rain makes the torch flicker funny. Does it ever go out on you when you're patrolling? Haafingar Guard: Aye, sometimes it does. That's when you learn to keep a spare in your pack, or find a dry spot quick. But this fog tonight makes me keep my eyes and ears open even more."
+        },
+        {
+            "role": "assistant",
+            "content": "Blaise: Are there really wolves that come this close to the city? I've heard stories from the other stable hands. Haafingar Guard: Close enough to snatch a stray chicken or a careless traveler. You stay near the torch and the stables, you'll be fine."
+        },
+        {
+            "role": "assistant",
+            "content": "Blaise: I know every chicken in Katla's coop by name. If a wolf ever got one, I'd be the one to find the feathers. Do you ever get to leave Solitude, or is it just the wall and the gate every day? Haafingar Guard: Most days it's the wall and the gate, aye. But sometimes they send us out on patrol to the farms, or to check trade caravans. It's a good life, serving the Jarl and keeping the people safe. Better than sleeping in a stable, I'd wager."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The sky is a vast, clear expanse, with barely a cloud in sight, offering a moment of tranquility.) (Characters nearby (from nearest to furthest): Thaer, Horse, Daegon, Serana, Lydia) (Malborn unequipped clothes) (Malborn equipped clothes) (Malborn equipped boots) (The location is now Katla's Farm.) (Characters nearby (from nearest to furthest): delphine, Daegon, chicken, Lydia, Horse) (MJR: Yes, Malborn's all set.; Delphine: Good. I have your invitation to the party. But the only way you're going to get past the guards is if they really believe you're an invited guest. Which means you need to look the part, and not be armed to the teeth. Here, put this on.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Carriage Driver: Fine night for travel, ain't it? Clear skies, no rain in sight. You should be grateful for that, boy. traveler: Indeed. The darkness suits those of us who prefer the quiet hours. You keep late watch for a stable child, Blaise. Blaise: I don't sleep much these nights. Too many thoughts. And the horses get restless when something's in the air."
+        },
+        {
+            "role": "assistant",
+            "content": "Blaise: The guard on the wall said he'd rather be there than sleeping in a stable. I guess he's got a point. Carriage Driver: Aye, but that wall gets cold and empty, boy. At least you got the warmth of the animals. More than some can say. traveler: Warmth is overrated. I find the chill keeps the mind sharp. Tell me, stable boy, do you ever think of leaving this farm behind? Blaise: All the time. But where would I go?"
+        },
+        {
+            "role": "assistant",
+            "content": "Blaise: I don't know where I'd go."
+        }
+    ]
+]

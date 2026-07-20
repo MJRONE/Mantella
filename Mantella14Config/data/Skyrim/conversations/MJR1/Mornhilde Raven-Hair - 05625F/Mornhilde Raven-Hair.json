@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Snow Veil Sanctum.) (Characters nearby (from nearest to furthest): Mercer Frey, Katie, Serana, Restless Draugr, Hulking Draugr)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Another draugr crypt. At least these bones are Nords, not some foreign filth defiling our lands. Mornhilde Raven-Hair: Aye, but even Nord dead can rise to haunt the living. I wonder what Mercer hopes to find in this place. Lydia: Treasure, no doubt. The Guild always chases coin like milk-drinkers chase skirts. But as long as it helps MJR, I'll swing my blade."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* This scene depicts a dark, claustrophobic stone corridor or dungeon, viewed from a first-person perspective. The environment is constructed from rough-hewn, irregular stone blocks that form heavy walls and a low, vaulted ceiling. The lighting is very dim and atmospheric, appearing to come from a distant, warm amber glow at the end of the passage, which casts long, deep shadows throughout the foreground. In the mid-ground, several indistinct, shadowy figures are visible. One figure appears to be standing or moving toward the viewer, while others seem to be positioned near the floor or against the far wall. Faint, ethereal blue glimmers or sparks are scattered across the dark, uneven stone floor, providing a sharp contrast to the warm, low light in the distance. The overall mood is one of tension and murky uncertainty.)"
+        }
+    ]
+]

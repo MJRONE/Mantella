@@ -132,5 +132,23 @@
             "role": "assistant",
             "content": "Imperial Soldier: This midnight watch in the dust-choked shadows of Castle Dour's got me itching for a real fight\u2014or at least something warmer than this stone-cold vigil. Serana: Orders, huh? In Dibella's playground, that could mean anything from storming a Stormcloak camp to storming some lucky bastard's bedroom. tribute, Oh, just stirring up trouble, handsome\u2014imagine if these cups were filled with vampire blood instead of that weak Legion piss. One sip, and you'd be begging Dibella to let you fuck the shadows in this foreboding hole."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Castle Dour.) (Characters nearby (from nearest to furthest): Daegon, General Tullius, Lydia, Legate Rikke, Legate Adventus Caesennius)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You know, I've been standing in this draughty castle for about five minutes and I already miss my coffin. At least in there, nobody asks me to pick a side in a civil war. Imperial Soldier: The Empire brings order to Skyrim, ma'am. Without us, the Stormcloaks would have us all bowing to a High King who answers to no one but himself. Serana: Oh, I love that argument. Order. Like chains are just neatly arranged freedom. Tell me, soldier, do you actually believe the Empire cares about Skyrim, or is it just the coin in your purse that sings so sweetly? Imperial Soldier: I believe in my oath. The Legion is my family, my purpose. General Tullius gave me a chance when I had nothing, and I'll die for that chance. Serana: That's adorable. Really. I remember swearing oaths too, a few centuries back. Then I woke up in a tomb, my father trying to end the world, and suddenly loyalty seemed like a very flexible concept. Imperial Soldier: With respect, ma'am, not all of us have the luxury of outliving our mistakes. Some of us have to make the right choice the first time. Serana: Oh, the first time. Bless your young bones. You know what the first time taught me? That Dibella's tradition of bedding a worthy opponent is more honest than any military contract. At least with that, you know exactly what you're getting into. Sweat, struggle and a very clear winner."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Oh, look at this cozy little dungeon corner. Very romantic. Perfect for a quick Dibellan ritual if you ask me, though I doubt General Tullius would approve of using his tactical meeting room for orgies. Imperial Soldier: Ma'am, this is a war room, not a temple."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A scene is depicted from a first-person perspective, looking toward a blonde woman standing in a dimly lit, stone-walled chamber. The woman has long, flowing blonde hair and is wearing minimal, dark, patterned clothing consisting of thin straps and small pieces of fabric. She is positioned in the foreground, partially obscuring a large wooden table behind her. The table is spread with a detailed tactical map featuring small red and blue flags, suggesting a strategy or planning setting. The room itself is constructed from heavy, dark stone blocks arranged in arches, creating a dungeon-like or medieval atmosphere. The ground is made of uneven, light-colored stone pavers. Overlaid on the scene is white text, indicating a task or objective list, with one line marked as \"Completed.\" The lighting is dramatic, with strong highlights on the woman's skin and deep shadows casting across the stone architecture in the background.) (MJR: I have a message from the Greybeards.; General Tullius: The Greybeards? What do those old hermits want with me?) (MJR: They're convening a peace council at High Hrothgar.; General Tullius: Why? There's nothing to discuss as long as that traitor Ulfric is in arms against his rightful Emperor.) (MJR: We need a truce until the dragon menace is dealt with.; General Tullius: They are getting to be a problem. But I wasn't sent to Skyrim to fight dragons. My job is to quell this rebellion, and I intend to do just that, dragons or no dragons.) (MJR: The dragons are a bigger problem than the Stormcloaks right now. (Persuade); General Tullius: Well, you may have a point. It's getting difficult to even move troops around without attracting a dragon attack. By all accounts the Stormcloaks are suffering just as badly. Even Ulfric might see the sense of a truce under these conditions.) (MJR: You'll come to the peace council, then?; General Tullius: Yes. Yes, fine, I'll come to this Greybeard council. For all the good it will do.)"
+        }
     ]
 ]

@@ -1,0 +1,40 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Daegon, Lydia, Imperial Soldier, Ferrum, Imperial Soldier) (The location is now Thieves Guild Headquarters.) (Characters nearby (from nearest to furthest): Serana, Cynric Endell, Niruin, Mercer Frey, Daegon)"
+        },
+        {
+            "role": "assistant",
+            "content": "Thrynn: Etienne, you look like you've been through the wringer."
+        },
+        {
+            "role": "assistant",
+            "content": "Etienne Rarnis: You could say that, Thrynn. Rulindil's hospitality left a mark or two. Rune: Rulindil? That Thalmor bitch in Solitude? I've heard she's got a taste for breaking people before she breaks them for information. Etienne Rarnis: She certainly tried. But I'm still standing, and her secrets are mine now. Mercer will want to hear what I found out about Esbern's location."
+        },
+        {
+            "role": "assistant",
+            "content": "Thrynn: This place feels different from the cistern. Whose portrait is that on the wall? Rune: Looks like an old ancestor, maybe someone's family crypt. Etienne, you sure Mercer sent us to the right spot? Etienne Rarnis: This is one of the Guild's safehouses, not our usual headquarters."
+        },
+        {
+            "role": "assistant",
+            "content": "Thrynn: Sabjorn in prison, eh? That's Maven's doing for sure. She always knows how to clean up loose ends. Rune: Resting my feet on this cooking pot feels odd, but I suppose it's better than the cold stone. Brynjolf, what's this about something important for the Guild? Etienne Rarnis: If Maven mentioned something, it's likely related to that informant I found in Solitude."
+        },
+        {
+            "role": "assistant",
+            "content": "Thrynn: An informant in Solitude? That's a dangerous game, even for us. What did this shadow have to say? Rune: Knowing Etienne, it's probably worth more than a full pouch of septims. Spill it, friend. Etienne Rarnis: The Thalmor are moving something through the northern holds. A shipment of weapons, maybe more. My contact couldn't get the full route, but it starts in Dawnstar."
+        },
+        {
+            "role": "assistant",
+            "content": "Thrynn: Mercer angry enough to summon us personally? That's a rare storm brewing. I'd wager whoever's behind this symbol is about to feel the Guild's full weight. Rune: Aringoth, Sabjorn... and now this. Someone's been busy while we were counting our coin. Etienne, you think your Thalmor weapons shipment is connected?"
+        },
+        {
+            "role": "assistant",
+            "content": "Thrynn: Clever indeed, but not clever enough if we're already onto their game. I say we let Mercer's anger guide our blades straight to whoever's behind this. Rune: Sounds like a fine plan to me. I've been itching for a real challenge that doesn't involve picking locks on dusty chests. Etienne Rarnis: Let's move then. The sooner we uncover this thorn, the sooner we can get back to the simple life of stealing coin and avoiding Thalmor torture chambers."
+        },
+        {
+            "role": "user",
+            "content": "(MJR: Clever or not, they need to die.; Mercer Frey: Don't dismiss our adversary so easily. They're well funded, patient, and have been able to avoid identification for years. However, don't mistake my admiration for complacency; our nemesis is going to pay dearly.) (Rune stood up from a(n) Cooking Pot) (MJR: How can we make them pay?; Mercer Frey: Because, even after all their posturing and planning, they've made a mistake. The parchment you recovered mentions a \"Gajul-Lei.\" According to my sources, that's an old alias used by one of our contacts. His real name is Gulum-Ei. Slimy bastard.) (MJR: Where do I begin?; Mercer Frey: Gulum-Ei is our inside man at the East Empire Company in Solitude. I'm betting he acted as a go-between for the sale of Goldenglow Estate and that he can finger our buyer. Get out there, shake him down and see what you come up with. Talk to Brynjolf before you leave if you have any questions.)"
+        }
+    ]
+]

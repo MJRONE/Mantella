@@ -32,5 +32,19 @@
             "role": "user",
             "content": "(*You are observing the following:* In this dimly lit wooden interior, the walls and ceiling are constructed from rough-hewn logs and sturdy beams, all bathed in a warm, amber glow from a flickering lantern mounted on one of the support posts. The floor appears to be made of packed earth or worn planks, scattered with subtle shadows. From behind, a figure stands in the foreground, a woman with shoulder-length brown hair, dressed in scant, form-fitting leather armor that includes shoulder guards and straps across her back and hips, leaving much of her skin exposed. Her right hand extends forward, gripping a rounded object like a potion bottle or small container. To the right, a wooden door with iron reinforcements stands slightly ajar, revealing a hint of a framed portrait or tapestry hanging on the inner wall just beyond it. The overall atmosphere feels rustic and enclosed, with soft light casting elongated shadows across the timber framework.) (Characters nearby (from nearest to furthest): Daegon, Embry, Sven, delphine, Korpse)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(MJR fired an arrow.) (MJR unequipped Daedric Arrow) (MJR dropped/gave Daedric Arrow) (MJR equipped Daedric Arrow) (Serana has entered combat with Frost Troll) (Lydia has entered combat with Frost Troll) (Frost Troll was killed by the group) (Serana is no longer in combat) (Lydia is no longer in combat) (Characters nearby (from nearest to furthest): Daegon) (MJR picked up / took 19 Gold from Novice Conjurer) (MJR picked up / took Unusual Gem) (Serana is no longer in combat.) (Lydia is no longer in combat.) (Characters nearby (from nearest to furthest): Etienne Rarnis, Daegon) (The location is now Riverwood.) (Characters nearby (from nearest to furthest): Hilde, Lydia, Serana, chicken, Whiterun Guard)"
+        },
+        {
+            "role": "assistant",
+            "content": "Alvor: You look like you've been through the wringer, Daegon. That armor's got fresh blood on it, and it ain't from a deer. Trouble follow you from the old fort? Daegon: Just another Thalmor patrol that won't be reporting back to their masters."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A scene is captured from a low, first-person perspective, looking out from under a dark, thatched-roof structure made of heavy timber. In the foreground, the dark wooden beams and the underside of the roof frame the view. To the right, a small portion of a person's blonde hair is visible at the very bottom of the frame. In the middle ground, a dark, cobblestone or dirt path leads away from the structure. A small bird, possibly a chicken, stands near the edge of the path. To the left, another dark, timber-framed building with a thatched roof is visible, partially obscured by shadows. The background features a clear, pale blue sky dominated by a large, pale moon or celestial body positioned low on the horizon. A tall, slender evergreen tree stands prominently against the sky. To the far right, a rugged, dark rock face rises upward, with a white waterfall cascading down its side. The overall lighting is dim, suggesting twilight or an early morning setting.)"
+        }
     ]
 ]

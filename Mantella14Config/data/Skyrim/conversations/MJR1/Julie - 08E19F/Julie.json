@@ -1,0 +1,12 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(Kaila hit Serana with Dwarven Black Bow of Fate) (MJR dropped/gave Daedric Arrow) (MJR fired an arrow.) (MJR unequipped Daedric Arrow) (Kaila hit Daegon with Absorb) (Daegon unequipped Flame Cloak) (Serana is no longer in combat) (Daegon is no longer in combat) (Serana is now in combat!) (Daegon is now in combat!) (Characters nearby (from nearest to furthest): Kaila, Lydia, wolf, wolf, rabbit) (MJR unequipped Soul Gauge Left-hand) (MJR equipped Soul Gauge Left-hand) (MJR unequipped Daedric Wrath) (MJR equipped Daedric Wrath) (Serana has entered combat with Kaila) (Daegon is searching for Kaila) (Daegon equipped Fireball) (Kaila hit MJR with Absorb) (MJR cast the spell / consumed Unrelenting Force - Fus) (Serana is no longer in combat.) (Daegon is no longer in combat.) (Characters nearby (from nearest to furthest): Lydia, bandit, wolf, wolf, Elise) (The location is now Knifepoint Ridge.) (Characters nearby (from nearest to furthest): gargoyle, bandit, bandit, Vika, Valejka) (MJR dropped/gave Potion of Magicka) (MJR equipped Potion of Magicka) (MJR cast the spell / consumed Potion of Magicka) (MJR dropped/gave Potion of Magicka) (MJR cast the spell / consumed Conjure Gargoyle)"
+        },
+        {
+            "role": "assistant",
+            "content": "Julie: The sky is clear tonight, but the stillness feels wrong after all that commotion with the others."
+        }
+    ]
+]

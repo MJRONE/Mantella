@@ -8,5 +8,19 @@
             "role": "assistant",
             "content": "Whiterun Guard: Aye, well... if you see any more of those Rieklings, send \u2018em my way. My blade\u2019s still thirsty. Daegon: And my legs are still spread. Priorities, guard."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Whiterun.) (Characters nearby (from nearest to furthest): Whiterun Guard, Serana, Whiterun Guard, Whiterun Guard, Lydia)"
+        },
+        {
+            "role": "assistant",
+            "content": "Whiterun Guard: Cold morning, isn't it? The kind that seeps right through scale and leather. Daegon: I've known colder. Summerset nights have a bite to them you wouldn't expect from such a warm place. But this? This is just Skyrim trying to remind you you're alive. Whiterun Guard 2: Aye, nothing like a Whiterun dawn to wake the blood. Makes a guard grateful for the fires in Dragonsreach. You're the one who travels with the Thane, right? The mage? Daegon: That's one word for what I am. Some might say something less flattering. Whiterun Guard: We hear stories, you know. About the things you do in battle. Fire from your hands, disappearing and reappearing like a ghost. Is it true you studied at the Arcane University? Daegon: I spent time there."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this night scene, a figure in the foreground is seen from behind, wearing dark, ornate metal armor with a textured, fur-lined collar. The person\u2019s head is partially covered by a complex, spiked helmet. To the left, another person is visible, holding a brightly burning torch that casts a warm, orange glow over the immediate surroundings. In the background, a large, dark stone building with glowing, patterned windows looms under a star-filled sky. A thin, bright blue beam of light shoots upward from the distant horizon into the dark expanse above. The ground is covered in dark earth and scattered patches of low-lying vegetation.) (Whiterun Guard has entered combat with MJR) (Daegon has entered combat with Whiterun Guard) (Daegon equipped Flame Cloak) (Whiterun Guard hit MJR with Imperial Sword) (Daegon cast the spell Flame Cloak) (Whiterun Guard hit Daegon with Imperial Sword) (Lydia hit Whiterun Guard with Ebony Greatsword) (Daegon is no longer in combat) (Whiterun Guard is no longer in combat) (MJR: What's the problem?; Whiterun Guard: By order of the jarl, stop right there!) (MJR: I'm the jarl's thane. I demand you let me go at once.; Whiterun Guard: Oh, forgive me, Thane. I didn't realize it was you. We'll look the other way this time, but even the jarl's influence has its limits. Be more careful.)"
+        }
     ]
 ]

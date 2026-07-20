@@ -46,5 +46,15 @@
             "role": "user",
             "content": "(MJR unequipped Lamellar Armor) (MJR equipped Lamellar Armor) (MJR equipped Daedric Wrath) (MJR equipped Soul Gauge Left-hand) (MJR equipped Hide Helmet) (MJR equipped Hide Boots) (MJR equipped Prisoner's Cuffs) (MJR equipped ) (MJR unequipped )"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Druadach Redoubt.) (Characters nearby (from nearest to furthest): Serana, Daegon, Lydia, Forsworn Pillager Marksman, Forsworn Looter)"
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A low-angle scene is captured from a first-person perspective, looking out over a rugged, dark landscape under a pale, overcast sky. In the foreground, the back of a blonde-haired figure is visible, wearing minimal attire consisting of thin straps and armbands. To the far right, a portion of another blonde-haired figure is partially visible, standing near the edge of the frame. The terrain is composed of dark, jagged rock formations and uneven earth. Scattered throughout the rocky landscape are sparse, leafless trees with skeletal white branches that reach toward the sky. In the middle ground, a dark, indistinct object or structure rests among the rocks. The overall atmosphere is somber and desolate, characterized by a muted color palette of earthy browns, dark grays, and a soft, hazy light filtering through the clouds.)"
+        }
     ]
 ]

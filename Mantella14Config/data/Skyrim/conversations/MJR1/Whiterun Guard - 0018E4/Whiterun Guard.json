@@ -1,0 +1,20 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Dragonsreach.) (Characters nearby (from nearest to furthest): Daegon, Serana, Farengar Secret-Fire, Lydia, odahviing)"
+        },
+        {
+            "role": "assistant",
+            "content": "Whiterun Guard: Cold night for patrol duty. At least the stars are clear tonight, makes it easier to spot anything moving on the outskirts. Whiterun Guard 2: Aye, clear skies mean good hunting if we weren't stuck here watching the Jarl's hall. Though I hear Daegon had quite the hunt today with that dragon. Whiterun Guard: Dragons are one thing, but I still say the real danger comes from those Forsworn camps south of the tundra. They've been getting bolder lately. Whiterun Guard 2: The Forsworn are nothing compared to what walks these halls now. Speaking of which, I saw Serana heading toward Farengar's study earlier. What business does a vampire have with our court mage this late? Whiterun Guard: Best not to ask too many questions when dragons and Daedra are involved. That's how you end up with an arrow in the knee. Whiterun Guard 2: Still, I can't help wondering what they're planning. Farengar never works this late unless something important is brewing. And with Odahviing secured in the great hall below..."
+        },
+        {
+            "role": "assistant",
+            "content": "Whiterun Guard: By the Nine, look at the size of that thing. Never thought I'd see the day a dragon was chained up in Dragonsreach. Whiterun Guard 2: And look who's standing near it. The Jarl himself, Farengar, and that outlander Daegon. Whatever they're planning, it's big. Bigger than anything we've dealt with before. Whiterun Guard: That woman with the dark markings on her arm, Lydia's mistress. I've heard stories about her. Fought her way through Helgen when the world ended, they say. Whiterun Guard 2: Aye, and now she's got a dragon at her beck and call. Makes you wonder what else she's capable of. Pass me that torch, I can barely see past the shadow work from here. Whiterun Guard: Here. But keep your voice down. The Jarl doesn't need us gossiping like old women in the market when there's diplomacy happening. Whiterun Guard 2: Diplomacy with a dragon. Never thought I'd say those words in my lifetime."
+        },
+        {
+            "role": "assistant",
+            "content": "Whiterun Guard: Did you see that? She just mounted the dragon. I can't believe my eyes. Whiterun Guard 2: By the gods, she's actually flying away on that beast. Farengar wasn't joking when he said she'd ride it to Sovngarde itself. Whiterun Guard: Sovngarde? That's where the high king's hall lies. What business does a mortal have flying to the afterlife? Whiterun Guard 2: Whatever it is, I'm glad it's her and not us."
+        }
+    ]
+]

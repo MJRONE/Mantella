@@ -12,5 +12,27 @@
             "role": "user",
             "content": "(*You are observing the following:* The scene depicts a bright, outdoor settlement on a sunny day. On the left side, a large wooden archway topped with a thatched roof stands prominently; hanging from the wood is a sign that reads \"Froldnar.\" Beneath this structure, there appears to be a covered area with various items. In the center foreground, a wooden two-wheeled cart sits empty on the dirt path. To the right, two figures are standing with their backs to the viewer. The character closest to the camera has long, platinum-blonde hair and is wearing a minimal outfit consisting of leather straps and a bikini bottom, with a sword sheathed on their back. Beside them is another figure with reddish hair, dressed in similarly light and revealing attire. Behind the figures are rustic log buildings with dark, sloping roofs. In the background, a steep, rocky mountain peak rises into the sky. Unusually, a glowing column of cyan light is emanating from the top of the mountain, stretching upwards. Several tall pine trees are scattered around the area. In the bottom left corner of the view, the text \"Grab\" and \"Exit\" is visible.)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(MJR: ...; Esbern: Alduin's Wall... one of the lost secrets of the Blades. Where they recorded all they knew of Alduin and his return. Part history, part prophecy. Its location has been lost for centuries, but I've found it again. Not lost, you see, just forgotten. The Blades archives held so many secrets... I was only able to save a few scraps...) (MJR: So you think Alduin's Wall will tell us how to defeat Alduin?; Esbern: Yes, exactly. Well, I think so. It's certainly our best hope. The ancient Blades remembered much Akaviri dragonlore that has now been forgotten.) (MJR: Where can we find Alduin's Wall?; Esbern: This is what I've been trying to explain. It's in the Sky Haven Temple, an ancient Blades sanctuary, hidden deep in the crags of The Reach. That's where we'll find Alduin's Wall.) (The location is now Riverwood.) (Characters nearby (from nearest to furthest): Daegon, Lydia, esbern, Courier, Embry) (MJR: (Invisible Continues Linked to Self); Courier: Let's see here...) (MJR picked up / took Museum Pamphlet from Courier Items)"
+        },
+        {
+            "role": "assistant",
+            "content": "delphine: Sky Haven Temple. I haven't heard that name spoken aloud in decades. The last time I was there, the Thalmor were already sniffing around the Reach like dogs after a bone. Serana: Sky Haven Temple, Alduin's Wall, a lost Akaviri secret \u2014 sounds like the perfect setup for a trap, a treasure hunt, or both. I'm honestly a little disappointed there's no mention of a ritual sacrifice or a cursed amulet. Those always liven up a journey. Frodnar: A secret temple in the mountains? That sounds way more exciting than anything that ever happens in Riverwood. Can I come? I bet Stump would love to see some old wall covered in carvings."
+        },
+        {
+            "role": "assistant",
+            "content": "delphine: Frodnar, you stay right here. Sky Haven Temple is no place for a boy playing pranks with his dog. The Reach is crawling with Forsworn and worse. Serana: Let the kid come, Delphine. He could be our lookout for chickens and angry innkeepers. Besides, if the Thalmor catch us, they'll never suspect a child with a dagger and a sense of mischief."
+        },
+        {
+            "role": "assistant",
+            "content": "delphine: A museum in Dawnstar? That's an unusual place for such a thing. The whole town sits on a giant mound of mythril and nightmares. Serana: Oh, I love Dawnstar. The nightmares are complimentary with every visit, and the museum curator probably has more skeletons in his closet than I do. I heard he collects something peculiar \u2014 maybe we should pay him a visit before we head to the Reach."
+        },
+        {
+            "role": "user",
+            "content": "(delphine is no longer in combat.) (Serana is no longer in combat.) (Characters nearby (from nearest to furthest): esbern, Daegon, Lydia, Flame Atronach, Embry) (MJR fired an arrow.) (MJR unequipped Daedric Arrow) (MJR dropped/gave Daedric Arrow) (MJR equipped Daedric Arrow) (delphine unequipped Orcish Bow) (delphine equipped Blades Sword) (delphine has entered combat with Blood Dragon) (Blood Dragon was killed by the group) (delphine is no longer in combat) (Serana is no longer in combat) (Frodnar equipped Iron Dagger) (Frodnar unequipped boots) (Frodnar unequipped clothes) (Frodnar equipped clothes) (Frodnar unequipped Iron Dagger) (Frodnar equipped boots)"
+        }
     ]
 ]

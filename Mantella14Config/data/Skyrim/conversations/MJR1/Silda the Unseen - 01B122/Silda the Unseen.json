@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Windhelm.) (Characters nearby (from nearest to furthest): Serana, traveler, Lydia, Hagrad the Unending, Calixto Corrium)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: This city feels like a tomb. Even the stars above look frozen solid. Silda the Unseen: You get used to it, after a while. The cold gets in your bones, but so does the silence. Makes you appreciate a warm body when you find one. Daegon: I appreciate warmth well enough, but I prefer it from a fire I control. Not from some stranger's fleeting charity. Silda the Unseen: Charity? No, girl. Nothing in Windhelm is free. Everything has a price. You learn that quick when you sleep in the shadows. Daegon: I know all about prices."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A nighttime scene unfolds under a vibrant, swirling aurora borealis that paints the sky in brilliant shades of purple, violet, and deep blue, speckled with distant stars. In the foreground, the dark, textured silhouette of a stone building rises on the right, its heavy masonry partially dusted with snow. A warm, golden light glows through a curved, barred window, suggesting a cozy interior amidst the cold. To the left, the dark outlines of other rustic structures and a low stone wall suggest a small settlement nestled in a rugged landscape. In the background, massive, jagged mountain peaks loom darkly against the colorful sky, their silhouettes sharp against the celestial light. The ground appears uneven and cold, covered in patches of white snow that catch the faint light from above.)"
+        }
+    ]
+]

@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Thalmor Embassy.) (Characters nearby (from nearest to furthest): Malborn, Daegon, Serana, Tsavani, Thalmor Soldier)"
+        },
+        {
+            "role": "assistant",
+            "content": "Thalmor Wizard: I must confess, I did not expect to find a Nord warrior such as yourself within the sanctity of the Thalmor Embassy at this hour. Lydia: Dibella's tits, it's cold enough here to freeze a mammoth's balls. What business does a Thalmor wizard have skulking about at this hour? Thalmor Wizard: I could ask you the same question, housecarl. Though I suspect your presence has more to do with that Dragonborn of yours than any diplomatic errand."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this scene, the view is dominated by heavy, weathered architectural elements that suggest an ancient or fortified interior. To the left, a thick wall is constructed from large, irregular slabs of dark, textured stone, held together by thick seams. A massive, ornate pillar or structural support stands prominently in the center. The stone of this pillar is heavily aged, showing deep textures, cracks, and dark staining. It is decorated with intricate, raised carvings and geometric patterns that wrap around its various tiers. The pillar transitions from a wide, stepped base into a thick, blocky section, topped by a heavy, cantilevered cornice that extends toward the ceiling. To the right, in the shadowed background, a dark wooden door with recessed rectangular panels is set into an arched stone doorway. In the lower-left foreground, a small portion of a wooden surface is visible, adorned with a few delicate purple flowers and green leaves, providing a soft contrast to the rugged, imposing stonework that fills the rest of the frame.)"
+        }
+    ]
+]

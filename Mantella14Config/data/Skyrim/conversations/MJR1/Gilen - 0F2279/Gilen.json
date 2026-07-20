@@ -62,5 +62,45 @@
             "role": "user",
             "content": "(Characters nearby (from nearest to furthest): Lydia, Jenassa, Riften Guard, Daegon, Horse)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Riften.) (Characters nearby (from nearest to furthest): Grelka, Daegon, Serana, Edda, Shavari) (MJR: You treat all your customers like this?; Grelka: Look, I've moved all over Skyrim selling these bits of junk and I'm barely scraping by. I'm not out to win friends and I could care less if you're happy about your purchase or not. I just need the coin. The sooner I get out of Skyrim the better.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Riften Guard: Leaving Skyrim, eh? Good riddance to more outlanders who can't handle our northern winters. Lydia: That woman talks like she's too good for this land."
+        },
+        {
+            "role": "assistant",
+            "content": "Gilen: Ah, but her coin spends just as well as any Nord's. I've made a tidy profit from her wares, even if her attitude could curdle milk."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Profit from junk peddled by someone who hates this land. Sounds like Riften's specialty, along with thieves and backstabbers. Riften Guard: Watch your tongue, outlander. I may patrol these streets, but I've got no love for troublemakers stirring pots best left alone."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Burial cairns are for the weak and the unlucky. A true Nord faces dragons and war with steel in hand and Dibella's blessing on their lips. Cowards like her should leave. Gilen: War and chaos are simply market fluctuations to a clever merchant. Dragons burning farms mean more work for smiths and more corpses needing burial cloth. There's always coin to be made, if you know where to look. Riften Guard: She's not wrong about the dragons, though. I've seen what's left of caravans that wandered too far from the hold. But Riften endures. Maven sees to that."
+        },
+        {
+            "role": "assistant",
+            "content": "Riften Guard: Speaking of enduring, I'd best finish my patrol before the night watch captain notices I've been lingering too long."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Riften.) (Characters nearby (from nearest to furthest): Daegon, Serana, chicken, Imperial Soldier, chicken)"
+        },
+        {
+            "role": "assistant",
+            "content": "Gilen: This clear sky reminds me of the nights back in Morrowind, before the Red Year. You could see every star in existence, not like this hazy Riften air. Lydia: Clear sky means good hunting tomorrow. MJR will have an easy time spotting those bandit sluts from a distance with his bow."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene takes place at night, centered around a rustic, dark-timbered building with a steeply pitched, shingled roof. A single, warm yellow light glows from a small window on the upper level, contrasting against the deep shadows of the structure. In the mid-ground, a wooden structure or porch area is bathed in an amber, fiery glow, suggesting the presence of an indoor hearth or lanterns casting light through a doorway. Faint vegetation and vines cling to the side of the building. The foreground consists of a weathered wooden deck or boardwalk made of wide, uneven planks. To the left, there is a dark wooden barrel and a small table or stand. A simple wooden bench sits near a dark timber railing that separates the deck from the glowing area below. To the far right, a thick, textured wooden post or pillar frames the edge of the view. The overall atmosphere is dim, quiet, and atmospheric, with a dark sky visible through the foliage in the background.)"
+        }
     ]
 ]

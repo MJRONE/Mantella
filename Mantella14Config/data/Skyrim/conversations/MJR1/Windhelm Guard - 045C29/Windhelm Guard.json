@@ -100,5 +100,27 @@
             "role": "assistant",
             "content": "Serana: Because nothing spices up a map like plotting bites while everyone's too tired to scream\u2014nice tiara touch, guard, or is that your idea of Stormcloak bling for the Jarl's secret fuck-fests? Windhelm Guard: Bling? This cuirass is soaked in Imperial blood, not some harlot's trinkets like your skimpy skirt parade. Spread that map out all you want, bloodwhore, but eye the wrong move on it and I'll boot you through these stone walls faster than Dibella drops her panties. Serana: Why'd the Stormcloak pick this rug to bleed out on? Because nothing says 'welcome to the palace' like a nice, absorbent shag for all that Imperial spillage\u2014lovely setup for a late-night interrogation, boys, or are those torches just waiting to light up our asses? Windhelm Guard: This is the Jarl's war room, vixen, not your blood-soaked playpen. Two sentries at the door means eyes on every shadow\u2014state your allegiance or get the boot before Dibella's whims turn you into the rug's next stain."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Palace of the Kings.) (Characters nearby (from nearest to furthest): Daegon, Jarl Ulfric Stormcloak, Galmar Stone-Fist, Lydia)"
+        },
+        {
+            "role": "assistant",
+            "content": "Windhelm Guard: Another long night guarding the Palace. At least the snow has let up for a change. I swear, winter here has a personal grudge against my bones. Serana: You know, I find it delightfully ironic that the city that prides itself on tradition and honor is currently hosting a vampire and her lovers. Ulfric must be thrilled. I bet he's polishing his axe and muttering about purity while I stand here in a pharaoh's general bra. Windhelm Guard 2: Watch your tongue, vampire. You're standing in the heart of the Stormcloak rebellion. Jarl Ulfric has bigger concerns than your wardrobe choices. Serana: Oh, I'm sure he does. Like deciding whether to shake hands with General Tullius or gut him on the spot. I've seen more honest negotiations in a Volkihar feeding frenzy. At least there, everyone knows they're going to get stabbed eventually."
+        },
+        {
+            "role": "assistant",
+            "content": "Windhelm Guard: I can't believe the Jarl is actually considering a truce with the Empire. After everything we've sacrificed for Skyrim's freedom, he'd sit down with Tullius? Serana: Ah, politics. The art of stabbing someone in the front instead of the back. I once saw a deal like this fall apart over a cheese wheel in High Rock. At least the Greybeards picked a neutral ground\u2014High Hrothgar is cold enough to freeze even the most heated arguments. Windhelm Guard 2: You find humor in everything, don't you, vampire? This is the fate of our homeland hanging in the balance. Serana: I find humor in everything because I've seen the fate of dozens of homelands hang in the balance."
+        },
+        {
+            "role": "assistant",
+            "content": "Windhelm Guard: I need to speak with you, vampire. Away from the others. This way. Windhelm Guard 2: Mara, what are you doing? We're on duty. Windhelm Guard: I said I need to speak with her. It's personal. Come, Serana. Through this door. Serana: Well, this is either a very private confession or a very elaborate trap. I'm intrigued either way. Lead on, guard."
+        },
+        {
+            "role": "assistant",
+            "content": "Windhelm Guard: I've seen you watching the Jarl. And I've heard your jokes about tradition and honor. You think we're all just blind followers, don't you? Serana: I think you're people trying to survive in a frozen hellhole while pretending that bloodlines and borders matter more than the fact that dragons are literally eating your farmers. But please, prove me wrong. What's your personal business with me?"
+        }
     ]
 ]

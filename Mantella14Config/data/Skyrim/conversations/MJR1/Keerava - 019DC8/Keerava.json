@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Bee and Barb.) (Characters nearby (from nearest to furthest): Vulwulf Snow-Shod, Daegon, Brynjolf, Bolli, Lydia) (MJR: So the guard at the North Gate was your man?; Brynjolf: Aye, that he was. And you sniffed him out because he broke one of the cardinal rules of our business... he got greedy. He was told to run the scam on merchants, but he smelled the gold on you and his judgment went out the window.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You know, Brynjolf, if your guild ran loyalty tests like that more often, you might actually keep a competent thief around instead of ones who drool over the first shiny coin they see. Keerava: Easy with the tongue, vampire. The Guild's got enough trouble without you stirring the pot. Besides, if I had a septim for every time someone in Riften got greedy, I'd own Black-Briar Manor by now."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Framing an innocent merchant for a few days in jail?"
+        }
+    ]
+]

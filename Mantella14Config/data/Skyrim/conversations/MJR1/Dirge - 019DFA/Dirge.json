@@ -8,5 +8,41 @@
             "role": "assistant",
             "content": "Dirge: Keep running that mouth, vampire. One night, you're gonna wake up with my axe buried in your chest and your blood fermenting in a mead barrel. Serana: How quaint. A brutish mortal threatening me with death before dawn. Tell me, did you rehearse that speech while jacking off to Black-Briar propaganda? Run along now, Dirge\u2014go scowl at someone who still finds you intimidating. Dirge: Whatever. Just remember\u2014the shadows down here love making trophies of pretty little things who stay too long."
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Ragged Flagon.) (Characters nearby (from nearest to furthest): esbern, Korpse, Serana, Vex, Lydia)"
+        },
+        {
+            "role": "assistant",
+            "content": "Brynjolf: This place never changes. Same sour faces, same cheap mead. Dirge: You got a problem with the mead, then you can drink elsewhere. Vekel the Man: Easy, Dirge. Brynjolf's just in a mood."
+        },
+        {
+            "role": "assistant",
+            "content": "Brynjolf: A single candle for the whole tavern. Fitting for a place that thrives in shadows. Dirge: Shadows keep our kind safe. You want sunlight, go join the priests of Dibella."
+        },
+        {
+            "role": "assistant",
+            "content": "Brynjolf: Delvin, you look like you've been rolling in a sewer."
+        },
+        {
+            "role": "assistant",
+            "content": "Dirge: Delvin's not here, Brynjolf."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Ragged Flagon.) (Characters nearby (from nearest to furthest): Galathil, Serana, Vex, Daegon, Lydia)"
+        },
+        {
+            "role": "assistant",
+            "content": "Vekel the Man: Late night crowd tonight. Can't say I mind the extra coin, but there's a tension in the air thicker than the smoke. Tonilia: Mercer's shadow still hangs over this place. Empty vault or not, we're all waiting for the other shoe to drop. Dirge: Let him come. I've got my axe ready for whatever walks through that door. Vekel the Man: Easy there, Dirge. We need answers more than blood. Though I won't stop you if he tries anything stupid. Tonilia: The lockbox Gallus used to keep his personal notes is still missing. That's what bothers me most. Mercer knew exactly what he was after. Dirge: Gallus trusted him. We all did."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A scene viewed from a first-person perspective captures a dimly lit, cavernous interior. In the foreground, a character with pale, platinum-blonde hair and pointed ears looks toward the viewer. They have a warm complexion and are dressed in dark, intricate fantasy-style attire with leather elements. The background is shrouded in deep shadows, revealing a rustic, stone-walled structure that resembles an underground chamber or cellar. Faintly visible in the distance are wooden crates and the suggestion of stone architecture. A single, thin rope or chain cuts diagonally across the upper left portion of the frame, adding to the textured, weathered atmosphere of the setting.) (Characters nearby (from nearest to furthest): Delvin Mallory, Daegon, Vex, Serana, Galathil) (Tonilia rested on / used a(n) Wooden Bar Stool)"
+        }
     ]
 ]

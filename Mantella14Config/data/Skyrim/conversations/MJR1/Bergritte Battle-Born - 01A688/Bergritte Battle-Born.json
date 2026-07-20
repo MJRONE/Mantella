@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Whiterun.) (Characters nearby (from nearest to furthest): Lucia, Daegon, Nazeem, Cow, chicken)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: You know, after all that mist and eternal hero nonsense in Sovngarde, a quiet Whiterun evening feels almost... disappointing. No dramatic clouds, no dragon priests, just Nazeem over there looking smug. Lydia: Quiet is good, vampire. Means no raider sluts sneaking up on us for once."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* The scene depicts a quiet, cobblestone village square nestled at the base of a dark, looming mountain under a vast, starlit night sky. The atmosphere is dim, illuminated primarily by the warm, golden glow emanating from the windows and doorways of rustic wooden buildings with steep, thatched roofs. In the foreground, a person stands holding a flickering torch, their silhouette cast against the stone ground. Various structures are scattered throughout the square, including small wooden stalls topped with weathered awnings and a circular stone well. A large, towering evergreen tree dominates the center of the view, its dark needles reaching toward the sky, partially obscuring the stars. The surrounding mountains are shrouded in shadow and mist, creating a sense of isolation and stillness within the settlement.)"
+        }
+    ]
+]

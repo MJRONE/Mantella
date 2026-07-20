@@ -1,0 +1,40 @@
+[
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Thalmor Embassy.) (Characters nearby (from nearest to furthest): Serana, Thalmor Soldier, Daegon, Flame Atronach, Thalmor Wizard) (MJR fired an arrow.) (MJR unequipped Iron Arrow) (MJR equipped Iron Arrow) (Lydia has entered combat with Thalmor Soldier)"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Another Thalmor dog falls to my blade. Their kind has no place in Skyrim. Tsavani: This one hopes the fighting does not disturb the kitchens. The Thalmor pay well for good food, but they are not pleasant masters."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: You serve these pointy-eared bastards, cat? You should be ashamed. Tsavani: This one serves the food, not the politics. But this one does not wish to die tonight. Please, let this one pass."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Damn Thalmor and their fire-spirits! My blade took it down, but my arms burn. Tsavani: The master wizard summons dangerous things. This one prefers a warm stew to lightning bolts. Perhaps you and your Dragonborn could use a meal after all this killing?"
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: By Dibella's tits, we're in the heart of the snake's nest. I see Elenwen herself."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Elenwen herself. The High Elf bitch who thinks she rules Skyrim. My blade thirsts for her blood. Tsavani: Please, do not provoke her. This one has seen what she does to those who defy her. She will have you tortured for days."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: Another soldier down! But now a frost atronach stands in our path. By the Nine, these Thalmor summon everything they can. Tsavani: This one begs you, let me hide in the pantry until the fighting is done. I do not wish to be frozen solid by that ice-beast."
+        },
+        {
+            "role": "assistant",
+            "content": "Lydia: The fighting is done for now. Look at that sky - Dibella herself paints the heavens with her colors tonight. Tsavani: Such beauty after so much blood. This one thanks you for sparing my life. Perhaps the warmth of a fire and some hot stew would be a better use of this night, yes?"
+        },
+        {
+            "role": "user",
+            "content": "(Lydia equipped Pharaoh's General Armlets) (Lydia equipped Leather Boots) (MJR cast the spell / consumed Unrelenting Force - Fus) (Lydia equipped Pharaoh's General Bra) (Lydia equipped Silver Ring) (Lydia equipped Iron Boots) (Lydia picked up/took Silver Ring) (Lydia equipped Pharaoh's General Bracelets) (Lydia unequipped Pharaoh's General Bra) (Lydia dropped/gave Silver Ring) (Lydia equipped Pharaoh's General Pasties) (Lydia equipped Pharaoh's General Harness) (MJR fired an arrow.) (Lydia unequipped Leather Boots) (Lydia equipped Ebony Greatsword) (MJR dropped/gave Daedric Arrow) (MJR equipped Daedric Arrow) (Lydia unequipped Silver Ring) (Lydia equipped Pharaoh's General Skirt A) (Frost Atronach punched MJR .) (MJR unequipped Daedric Arrow) (Frost Atronach hit Lydia with Ice Cloak Freeze) (Frost Atronach hit MJR with Ice Cloak Freeze) (Thalmor Soldier hit MJR with Bound Sword) (MJR cast the spell / consumed Potion of Vigorous Stamina) (MJR dropped/gave Potion of Vigorous Stamina) (MJR equipped Potion of Vigorous Stamina) (MJR dropped/gave Potion of Ultimate Magicka) (MJR equipped Potion of Ultimate Magicka) (MJR cast the spell / consumed Potion of Ultimate Magicka)"
+        }
+    ]
+]

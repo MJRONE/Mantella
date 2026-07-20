@@ -10,7 +10,7 @@
         },
         {
             "role": "assistant",
-            "content": "Lydia: Fuck me, this aurora's lightin' up Riften like Dibella herself is dancin' naked over the canals—makes even this shithole town look half-decent at this witchin' hour. You stumblin' around the stables this late, Redguard, or just admirin' the show? Shadr: Aye, the lights do paint the night pretty, don't they? But I'm no stargazer—got me a debt hangin' over my head like a headsman's axe, keeps me up pacin' these boards till dawn. Marise says it's eatin' at me worse than a skeever in the grain sacks. You look like you've seen your share of troubles, wanderer."
+            "content": "Lydia: Fuck me, this aurora's lightin' up Riften like Dibella herself is dancin' naked over the canals\u2014makes even this shithole town look half-decent at this witchin' hour. You stumblin' around the stables this late, Redguard, or just admirin' the show? Shadr: Aye, the lights do paint the night pretty, don't they? But I'm no stargazer\u2014got me a debt hangin' over my head like a headsman's axe, keeps me up pacin' these boards till dawn. Marise says it's eatin' at me worse than a skeever in the grain sacks. You look like you've seen your share of troubles, wanderer."
         },
         {
             "role": "user",
@@ -18,7 +18,7 @@
         },
         {
             "role": "assistant",
-            "content": "Shadr: Aye, lass, the lights are puttin' on a fine show tonight—makes a man forget the cold creepin' up his arse in this damp Riften fog. Name's Shadr, muckin' out the stables till dawn; debt don't pay itself, and Sapphire's got a sharper tongue than any blade. What brings a fierce-lookin' Nord like you slinkin' down the path at this hour?"
+            "content": "Shadr: Aye, lass, the lights are puttin' on a fine show tonight\u2014makes a man forget the cold creepin' up his arse in this damp Riften fog. Name's Shadr, muckin' out the stables till dawn; debt don't pay itself, and Sapphire's got a sharper tongue than any blade. What brings a fierce-lookin' Nord like you slinkin' down the path at this hour?"
         },
         {
             "role": "user",
@@ -26,7 +26,7 @@
         },
         {
             "role": "assistant",
-            "content": "Shadr: Huntin' trouble or just the view? Lydia: Debts are a bitch, alright—worse than a frost troll with a grudge. Mine's all tied up in blood oaths and keepin' my thane's arse from gettin' jumped by every slutty bandit this side of the Pale. But this aurora's got me thinkin' we could use a drink instead of dwellin' on the shit. Shadr: Ha, wise words from a warrior woman."
+            "content": "Shadr: Huntin' trouble or just the view? Lydia: Debts are a bitch, alright\u2014worse than a frost troll with a grudge. Mine's all tied up in blood oaths and keepin' my thane's arse from gettin' jumped by every slutty bandit this side of the Pale. But this aurora's got me thinkin' we could use a drink instead of dwellin' on the shit. Shadr: Ha, wise words from a warrior woman."
         }
     ],
     [
@@ -36,7 +36,7 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Look at this piss-poor excuse for a dock, Shadr—Riften's floating shithole under the stars, perfect for smuggling skooma or dumping bodies. Bet you've seen more late-night action here than your girlfriend Marise's got in her spice rack, huh?"
+            "content": "Serana: Look at this piss-poor excuse for a dock, Shadr\u2014Riften's floating shithole under the stars, perfect for smuggling skooma or dumping bodies. Bet you've seen more late-night action here than your girlfriend Marise's got in her spice rack, huh?"
         },
         {
             "role": "user",
@@ -52,7 +52,7 @@
         },
         {
             "role": "assistant",
-            "content": "Shadr: Hey, watch it with the cheap shots at Marise—she's got more fire in her than half the whores in this swamp town, unlike you pale bloodsuckers leeching off the night. What the fuck are we even doing crammed in this rotting guts of a warehouse at four in the morning? Smells like wet dog and Maven's dirty dealings..."
+            "content": "Shadr: Hey, watch it with the cheap shots at Marise\u2014she's got more fire in her than half the whores in this swamp town, unlike you pale bloodsuckers leeching off the night. What the fuck are we even doing crammed in this rotting guts of a warehouse at four in the morning? Smells like wet dog and Maven's dirty dealings..."
         }
     ],
     [
@@ -62,7 +62,7 @@
         },
         {
             "role": "assistant",
-            "content": "Gilen: Fuckin' hell, Shadr, this noon sun's beatin' down like Dibella herself is eye-fuckin' the whole damn plaza—clear as a virgin's conscience. You muckin' about with them horses again, or finally payin' off that Sapphire bitch's grip on your balls?"
+            "content": "Gilen: Fuckin' hell, Shadr, this noon sun's beatin' down like Dibella herself is eye-fuckin' the whole damn plaza\u2014clear as a virgin's conscience. You muckin' about with them horses again, or finally payin' off that Sapphire bitch's grip on your balls?"
         },
         {
             "role": "user",
@@ -70,7 +70,7 @@
         },
         {
             "role": "assistant",
-            "content": "Shadr: Aye, Gilen, sun's got me sweatin' like a Thalmor spy in a Dark Elf bathhouse. Just finished groomin' the nags at the stables—Marise says they smell better than my debts now."
+            "content": "Shadr: Aye, Gilen, sun's got me sweatin' like a Thalmor spy in a Dark Elf bathhouse. Just finished groomin' the nags at the stables\u2014Marise says they smell better than my debts now."
         },
         {
             "role": "user",
@@ -78,7 +78,7 @@
         },
         {
             "role": "assistant",
-            "content": "Shadr: Aye, that elf cunt Sapphire's off my back now—thanks to some nosy fucker settlin' the score. But look at this sky, Gilen, aurora twistin' like Dibella's wet dreams over these frostbitten shithouses. What the hell we doin' on this creakin' bridge in the dead of night, miles from Riften's stink? You peddlin' ghost wares to these backwoods pricks?"
+            "content": "Shadr: Aye, that elf cunt Sapphire's off my back now\u2014thanks to some nosy fucker settlin' the score. But look at this sky, Gilen, aurora twistin' like Dibella's wet dreams over these frostbitten shithouses. What the hell we doin' on this creakin' bridge in the dead of night, miles from Riften's stink? You peddlin' ghost wares to these backwoods pricks?"
         },
         {
             "role": "user",
@@ -86,7 +86,7 @@
         },
         {
             "role": "assistant",
-            "content": "Gilen: Ha, debts'll choke ya tighter than a skeever in heat, but look at this fuckin' sky now—aurora's dancin' like Dibella's tits on feast night, paintin' the canal all green and purple. You and Marise plannin' to stargaze from the stables, or what? That longhouse over there's spillin' light like it's beggin' for trouble."
+            "content": "Gilen: Ha, debts'll choke ya tighter than a skeever in heat, but look at this fuckin' sky now\u2014aurora's dancin' like Dibella's tits on feast night, paintin' the canal all green and purple. You and Marise plannin' to stargaze from the stables, or what? That longhouse over there's spillin' light like it's beggin' for trouble."
         },
         {
             "role": "user",
@@ -94,7 +94,43 @@
         },
         {
             "role": "assistant",
-            "content": "Gilen: Peddlin'? Ha, more like chasin' whispers of a fat score in this frost-rimed dump—bandits hoardin' Dwemer trinkets in that glowin' longhouse yonder. But fuck me, Shadr, this aurora's paintin' the whole shithole like Dibella's fever dream;"
+            "content": "Gilen: Peddlin'? Ha, more like chasin' whispers of a fat score in this frost-rimed dump\u2014bandits hoardin' Dwemer trinkets in that glowin' longhouse yonder. But fuck me, Shadr, this aurora's paintin' the whole shithole like Dibella's fever dream;"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): chicken, Lydia, Daegon, Challenger, Courier) (MJR equipped Letter from a Friend) (MJR: Hello.; Challenger: You call yourself a wizard? I challenge you to a duel!) (MJR: Sorry. You'll have to find some other way to stroke your ego.; Challenger: I won't take no for an answer!) (The location is now Riften.) (Characters nearby (from nearest to furthest): Daegon, Lydia, Serana, Cow, Aerin)"
+        },
+        {
+            "role": "assistant",
+            "content": "Imperial Soldier: Fine night for a patrol. Not a cloud to hide in, if trouble decides to show itself. Shadr: Trouble always shows itself in Riften. It's just a matter of when, not if. You get used to the smell of fish and corruption after a while. Imperial Soldier: You've been here long enough to know that smell then. I'm still getting used to it myself."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A scene unfolds at night within a quiet village, viewed from a low perspective as if standing on a cobblestone path. Above, a vast, deep blue sky is densely peppered with countless bright stars, stretching far toward the horizon. To the left, the dark silhouette of a wooden structure rises, featuring a sloping roof and a balcony supported by thick beams. A single lantern hangs from a wire, casting a soft, warm glow downward. In the center of the scene, a small wooden bridge or walkway crosses a darkened area, leading toward a cluster of rustic buildings. These structures are constructed from dark wood and stone, with warm light flickering from within windows and from small lanterns mounted on their walls. Sparse foliage, including some golden-toned leaves, frames the top and right edges of the scene, adding a sense of depth to the quiet, nocturnal atmosphere. The ground is composed of uneven cobblestones that catch the dim, ambient light from the scattered lanterns.)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Riften.) (Characters nearby (from nearest to furthest): Lydia, Imperial Soldier, Daegon, Riften Guard, Imperial Soldier)"
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: What a charming morning in Riften - the scent of fish, corruption, and regret all mingling together like a fine mead. Makes me almost miss Hamelyn's love potion."
+        },
+        {
+            "role": "assistant",
+            "content": "Serana: Maven Black-Briar looks like she swallowed a bee and found it too spicy. That symbol must be quite the party favor to get her knickers in a twist. Bolli: Aye, when Maven gets that look in her eye, someone's about to lose more than just their business."
+        },
+        {
+            "role": "assistant",
+            "content": "Shadr: I heard Sabjorn's mead was going sour months ago. Surprised it took this long for someone to call in the debts. Bolli: Sour mead and sour deals go hand in hand in Riften. That's why I stick to fish - they only smell bad when they're fresh out the water. Serana: Speaking from experience with bad deals, I'd say that symbol looks like it was drawn by someone with trembling hands and a guilty conscience. Or maybe that's just the standard handwriting of people who owe Maven money."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this scene, the viewer's perspective is centered on a young woman with long, flowing blonde hair and striking facial features. She has a calm yet intense expression, looking directly toward the viewer. She is dressed in rugged, weathered leather armor with metal studs and heavy, textured gauntlets that cover her forearms. The setting is an outdoor village or settlement during a bright day. In the background, there are rustic wooden buildings with thatched or shingled roofs, suggesting a medieval or fantasy environment. To the left, a man with short hair is partially visible, wearing heavy orange and brown clothing. In the far distance, massive, jagged mountain peaks rise into a blue sky filled with soft, white clouds, adding a sense of vastness and scale to the environment. The sunlight casts a warm glow over the scene, highlighting the golden leaves of the trees nearby.) (Characters nearby (from nearest to furthest): Daegon, Lydia, Imperial Soldier, Ferrum, Imperial Soldier)"
         }
     ]
 ]

@@ -44,5 +44,19 @@
             "role": "user",
             "content": "(MJR fired an arrow.) (MJR unequipped Daedric Arrow) (MJR dropped/gave Daedric Arrow) (MJR equipped Daedric Arrow)"
         }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now Drunken Huntsman.) (Characters nearby (from nearest to furthest): Lydia, Vignar Gray-Mane, Serana, Amren, Nazeem) (MJR: It's time for us to part ways.; Jenassa: I understand. Come and find me if you decide that you miss my companionship.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Jenassa: A worthy patron leaves. The night grows longer and the mead tastes bitter. Elrindir: Perhaps a fresh Hunt would sweeten that tongue of yours, Jenassa. I've heard tale of a frost troll troubling the western watchtower. Daegon: Frost trolls are tedious."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A dim, indoor scene is captured from a first-person perspective, showing a small room with rustic, textured walls. Two narrow, arched windows with dark frames are set into the walls, letting in a faint, cool light. In the lower portion of the scene, a woman with dark hair sits on a wooden chair; she is wearing light-colored, decorative attire. To the right, a wooden table holds a large, yellowish vegetable resting in a bowl, a smaller dark bowl, and two glowing yellow candles that cast a warm light against the shadows. Floating in the air on the right side of the frame is white text consisting of dialogue lines and a prompt to \"Exit.)"
+        }
     ]
 ]

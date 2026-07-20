@@ -106,7 +106,7 @@
         },
         {
             "role": "assistant",
-            "content": "Tonilia: Should've brought Lydia, we could've tossed her in too. Serana: Darling, this architecture is older than the Guild's pile of rusted lockpicks. That glow? Pure Dawn magic. Burns worse than your insults. Tonilia: Looks like your boytoy's bored with our little chat. Gods, look at you—posing like some tragic heroine in a bard's cheap tale. Though I'll give you credit, that body suit's tighter than a novice thief's grip on their first stolen purse."
+            "content": "Tonilia: Should've brought Lydia, we could've tossed her in too. Serana: Darling, this architecture is older than the Guild's pile of rusted lockpicks. That glow? Pure Dawn magic. Burns worse than your insults. Tonilia: Looks like your boytoy's bored with our little chat. Gods, look at you\u2014posing like some tragic heroine in a bard's cheap tale. Though I'll give you credit, that body suit's tighter than a novice thief's grip on their first stolen purse."
         },
         {
             "role": "user",
@@ -124,7 +124,7 @@
         },
         {
             "role": "assistant",
-            "content": "Tonilia: Oh, please, fang-face. Struttin' around in that skimpy pharaoh shit like you're Dibella's favorite whore—newsflash, down here in the Flagon, we fence real treasure, not some dusty vampire tits flopping for attention. What's your game tonight, 11 bells and you're still breathin' like the dead don't know better?"
+            "content": "Tonilia: Oh, please, fang-face. Struttin' around in that skimpy pharaoh shit like you're Dibella's favorite whore\u2014newsflash, down here in the Flagon, we fence real treasure, not some dusty vampire tits flopping for attention. What's your game tonight, 11 bells and you're still breathin' like the dead don't know better?"
         },
         {
             "role": "user",
@@ -140,7 +140,7 @@
         },
         {
             "role": "assistant",
-            "content": "Serana: Ha, straight to the tits—classic thief envy, Tonilia. At 11 bells in this smoky rat-hole you call the Flagon, I'm just here for the ambiance: flickering lanterns, half-eaten scraps, and that eternal whiff of stale mead and desperation. real treasure"
+            "content": "Serana: Ha, straight to the tits\u2014classic thief envy, Tonilia. At 11 bells in this smoky rat-hole you call the Flagon, I'm just here for the ambiance: flickering lanterns, half-eaten scraps, and that eternal whiff of stale mead and desperation. real treasure"
         }
     ],
     [
@@ -151,6 +151,58 @@
         {
             "role": "assistant",
             "content": "Serana: pharaoh's rags"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Ragged Flagon.) (Characters nearby (from nearest to furthest): Daegon, Lydia, Serana, Vex, Brynjolf) (MJR: What do you want?; Galathil: Hmm, I suppose I can work with your face. After all, the sculptor cannot always choose the finest clay. MJR: What are you talking about?; Galathil: I assumed you were here to see me about your face. To have it sculpted into something more... artful than Nature has bestowed upon you. MJR: What do you do?; Galathil: So are you here as a client? Shall I remake your face? MJR: I'll have to think about it.; Galathil: Indeed. It is no small thing to submit yourself to the flesh sculptor's knife.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Tonilia: That one seemed uncertain about your services, Galathil. Can't say I blame him\u2014there's something unnerving about letting someone carve into your face. Galathil: Most walk away thinking it over. Few return. But those who do understand that beauty is a weapon sharper than any dagger I've seen you carry. Tonilia: Sharp enough to cut through a mark's coin purse, I suppose. Still, at this hour, most of the folks stumbling in here aren't looking for a new nose\u2014they're looking for a drink to forget their troubles. Galathil: Trouble and transformation often go hand in hand. A new face can be a new life, after all."
+        },
+        {
+            "role": "assistant",
+            "content": "Tonilia: That view... reminds me of the passage out to the old Solitude Lighthouse. I always wondered what it'd be like to carve a new life out of stone and sea. Galathil: The Rock may be indifferent to our desires, but a face can be coaxed into anything you wish."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Ragged Flagon.) (Characters nearby (from nearest to furthest): Vex, Dirge, Vekel the Man, Delvin Mallory, Serana) (MJR: Brynjolf sent me.; Tonilia: So, you're the new recruit, huh? Well, looks like you and I are going to have to get very well acquainted. MJR: Why is that?; Tonilia: I'm the fence down here. You come by anything you don't exactly own and I'll pay you some coin for it. Minus a little slice for the Guild, of course. I can also provide a few supplies useful to our trade now and again, for a small fee. MJR: Is there anything you don't charge for?; Tonilia: Sure, how about I get Dirge to knock you over your head and dump you into the cistern? Look, I've been in this business a long time and I've seen all types. You can play it tough, or you can play it smart... whatever. At the end of the day, you'll find that all we care about down here is how much gold you can make us. MJR: Understood.; Tonilia: Good. Then there isn't much more to say. Here's your armor, just make sure you put it to good use. MJR: ...; Tonilia: Well, looks like you're fitting in well down here. I'm supposed to allow you to trade in one of your pieces of Guild armor, so what will it be? MJR: Anything different about it?; Tonilia: Of course... otherwise it wouldn't be much of a reward, now would it? Your new piece will enhance your skill beyond that of the original. Trust me. MJR: I'll trade in my boots.; Tonilia: Are you sure? Once I exchange it for you, I'm not taking it back... unless you want to sell it at a discount of course. MJR: Yes, I'm sure.; Tonilia: Okay, there you go.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Daegon: So this is where the Guild does all its shady business. Smells like wet dog and cheap mead. I like it. Lydia: I still cannot believe we are associating with thieves and cutthroats. In Whiterun, we would have these lot thrown into the Dragonsreach dungeons. Tonilia: And yet here you are, drinking my mead and standing under my lanterns. Funny how necessity changes a Nord's principles, isn't it?"
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* In this scene, the viewer is positioned within a dim, cavernous space characterized by a low, heavy ceiling made of rough, unevenly laid stones and bricks. The warm, amber-toned lighting suggests the glow of a nearby fire or torch, casting deep shadows across the textured masonry. In the foreground, a wooden table holds various rustic items, including what appears to be a small vessel or bowl. A man with short hair sits on a wooden chair facing away from the viewer, looking toward the center of the room. To his left, large wooden crates or structures made of thick planks lean against the wall. In the mid-ground, two large wooden barrels stand against the stone wall, and a low wooden bench or shelf sits nearby. The floor is composed of irregular stone pavers, partially obscured by shadows. The overall atmosphere is one of a secluded, subterranean cellar or a dimly lit tavern interior.) (Lydia stood up from a(n) Chair)"
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(Characters nearby (from nearest to furthest): Daegon, Serana, Sapphire, Vipir the Fleet, Etienne Rarnis) (MJR: What's missing from the vault?; Brynjolf: Better question would be \"what did he leave?\" Mercer took everything. Even all of our plans are gone.) (MJR: Plans for what?; Brynjolf: Before Mercer took over, Gallus started collecting every bit of material he could on locations the Guild could heist. Museums, keeps, estates... you name it. By the time Mercer took over the Guild we must have had a few dozen.) (MJR: How could he have opened the vault door alone?; Brynjolf: I don't have a clue. That door is impenetrable. Without two keys, it's impossible to open. I have a key, Delvin has a key, and Mercer has a key. That's it. There are no other copies.) (MJR: What's the best way to get into Riftweald Manor?; Brynjolf: Good question. I've only set foot inside a few times myself and that was in Mercer's company. If you can get past his trained watchdog, I think your best bet might be the ramp to the second floor balcony in his backyard.) (MJR: I don't suppose the ramp is easy to access.; Brynjolf: No. It's some sort of crazy contraption Mercer commissioned for quick escapes. I'd wager a well-placed shot at the ramp's mechanism would lower it in a hurry.) (MJR: You mentioned a watchdog?; Brynjolf: Hmph. That'd be Vald. A real piece of work, that one. Mercer's holding something over his head, keeping him loyal. Talk to Vex. She used to know him very well... if you catch my meaning.) (The location is now The Ragged Flagon.) (Characters nearby (from nearest to furthest): Vex, Daegon, Serana, Lydia, Galathil) (MJR: I heard you're offering extra work.; Vex: I handle the burglary, shill, sweep, and heist jobs. Most of them involve breaking and entering. If you don't like that kind of work, talk to Delvin. He runs the more up close and personal jobs.) (MJR: Brynjolf sent me.; Tonilia: So, you're the new recruit, huh? Well, looks like you and I are going to have to get very well acquainted. MJR: Why is that?; Tonilia: I'm the fence down here. You come by anything you don't exactly own and I'll pay you some coin for it. Minus a little slice for the Guild, of course. I can also provide a few supplies useful to our trade now and again, for a small fee. MJR: Is there anything you don't charge for?; Tonilia: Sure, how about I get Dirge to knock you over your head and dump you into the cistern? Look, I've been in this business a long time and I've seen all types. You can play it tough, or you can play it smart... whatever. At the end of the day, you'll find that all we care about down here is how much gold you can make us. MJR: Understood.; Tonilia: Good. Then there isn't much more to say. Here's your armor, just make sure you put it to good use. MJR: ...; Tonilia: Well, looks like you're fitting in well down here. I'm supposed to allow you to trade in one of your pieces of Guild armor, so what will it be? MJR: Anything different about it?; Tonilia: Of course... otherwise it wouldn't be much of a reward, now would it? Your new piece will enhance your skill beyond that of the original. Trust me. MJR: I'll trade in my boots.; Tonilia: Are you sure? Once I exchange it for you, I'm not taking it back... unless you want to sell it at a discount of course. MJR: Yes, I'm sure.; Tonilia: Okay, there you go.)"
+        },
+        {
+            "role": "assistant",
+            "content": "Delvin Mallory: Two in the morning and the place is still buzzing like a hive of anxious bees. Mercer's betrayal has everyone on edge. Vekel the Man: Aye, and my mead sales have doubled. Misery loves company, and cheap drink. Tonilia: Vekel, you'd sell your own mother's tears if you could bottle them. But Delvin's right. That vault being empty changes everything for us. Delvin Mallory: Empty isn't quite the word I'd use. Cleaned out like a Nord's plate after a feast. Gallus spent years building those plans, and Mercer just... walked off with them. Vekel the Man: Walked off with a key that was supposed to be impossible to copy. Brynjolf's been pacing for hours trying to figure it out. Tonilia: I've seen Mercer charm his way through plenty of locked doors. That man had more tricks than a mages' college dropout. But this... this is different. He planned this for a long time. Delvin Mallory: The question is whether he planned it alone. Someone had to help him get into that vault without the rest of us knowing."
+        }
+    ],
+    [
+        {
+            "role": "user",
+            "content": "(The location is now The Ragged Flagon.) (Characters nearby (from nearest to furthest): Galathil, Serana, Vex, Daegon, Lydia)"
+        },
+        {
+            "role": "assistant",
+            "content": "Vekel the Man: Late night crowd tonight. Can't say I mind the extra coin, but there's a tension in the air thicker than the smoke. Tonilia: Mercer's shadow still hangs over this place. Empty vault or not, we're all waiting for the other shoe to drop. Dirge: Let him come. I've got my axe ready for whatever walks through that door. Vekel the Man: Easy there, Dirge. We need answers more than blood. Though I won't stop you if he tries anything stupid. Tonilia: The lockbox Gallus used to keep his personal notes is still missing. That's what bothers me most. Mercer knew exactly what he was after. Dirge: Gallus trusted him. We all did."
+        },
+        {
+            "role": "user",
+            "content": "(*You are observing the following:* A scene viewed from a first-person perspective captures a dimly lit, cavernous interior. In the foreground, a character with pale, platinum-blonde hair and pointed ears looks toward the viewer. They have a warm complexion and are dressed in dark, intricate fantasy-style attire with leather elements. The background is shrouded in deep shadows, revealing a rustic, stone-walled structure that resembles an underground chamber or cellar. Faintly visible in the distance are wooden crates and the suggestion of stone architecture. A single, thin rope or chain cuts diagonally across the upper left portion of the frame, adding to the textured, weathered atmosphere of the setting.) (Characters nearby (from nearest to furthest): Delvin Mallory, Daegon, Vex, Serana, Galathil) (Tonilia rested on / used a(n) Wooden Bar Stool)"
         }
     ]
 ]
